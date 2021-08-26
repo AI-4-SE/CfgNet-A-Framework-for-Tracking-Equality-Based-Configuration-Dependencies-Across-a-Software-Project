@@ -1,0 +1,101 @@
+"id","creationdate","score","title","tags"
+42179442,2017-02-11 18:13:16,22,Spring Boot: How to use multiple schemas and dynamically choose which one to use at runtime,<mysql><database><jpa><spring-boot>
+61865206,2020-05-18 08:12:27,17,springboot 2.3.0 while connecting to h2 database,<spring><database><spring-boot><h2>
+27233536,2014-12-01 17:08:38,14,Spring Datasources based on Environment,<java><database><spring><spring-boot>
+48566481,2018-02-01 15:36:12,10,Longvarchar in Hibernate,<java><database><hibernate><spring-boot>
+54714948,2019-02-15 18:15:57,10,Spring Boot JPA - Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set,<java><spring><database><spring-boot><spring-data-jpa>
+41875079,2017-01-26 13:56:12,10,How to generate SQL schema from Spring Boot entities?,<database><spring-boot><flyway>
+49941850,2018-04-20 12:38:46,9,Join more than two tables using Annotations in Spring Data JPA,<java><database><hibernate><spring-boot><spring-data-jpa>
+39246795,2016-08-31 10:14:31,8,Spring boot and Database testing with connection pool,<java><database><spring><spring-boot><connection-pooling>
+51146269,2018-07-03 03:28:10,7,Spring Boot 2 Multiple Datasources initialize schema,<java><database><spring><spring-boot><initialization>
+43644112,2017-04-26 20:39:00,7,How to make Spring Boot application resistant against database connection errors?,<java><database><spring><spring-boot>
+49058563,2018-03-01 20:57:10,7,Spring Boot Unable to determine jdbc url from datasource,<java><database><spring-boot><datasource><application.properties>
+40401471,2016-11-03 12:26:56,7,Try set initial pool size of database connections (spring-boot),<java><database><oracle><spring-boot><connection-pooling>
+39913816,2016-10-07 09:22:58,6,Zero Downtime Deployment for Micro Service architecture,<java><database><docker><spring-boot><microservices>
+55946484,2019-05-02 06:05:35,6,How to use @Transactional annotation in Spring boot,<java><database><spring-boot><annotations><transactional>
+47138617,2017-11-06 13:57:37,5,Initialize multiple databases in Spring,<java><database><spring><hibernate><spring-boot>
+58640023,2019-10-31 09:14:04,5,Validate failed: Detected applied migration not resolved locally | Flyway,<database><spring-boot><migration><database-migration><flyway>
+46934427,2017-10-25 13:58:12,5,Connect to multiple mongo db hosts and authenticate using a different database in spring boot,<java><database><spring><mongodb><spring-boot>
+55373840,2019-03-27 09:32:57,5,"How to fix ""java.sql.SQLSyntaxErrorException: Unknown column 'product0_.return_policy' in 'field list' "" exception?",<java><mysql><database><spring-boot>
+49844477,2018-04-15 16:53:38,5,Failed to bind properties under 'spring.datasource' to javax.sql.DataSource,<java><database><spring><eclipse><spring-boot>
+57070561,2019-07-17 07:22:54,5,ReactiveMongoRepository not saving my data,<database><mongodb><spring-boot><kotlin><reactor>
+41429844,2017-01-02 15:58:10,4,"Spring Boot, Spring security linked with database",<java><mysql><database><spring><spring-boot>
+43370004,2017-04-12 12:48:06,4,Flyway: how to prevent accidentally running migrations from developer on a central database?,<database><spring-boot><flyway>
+48229499,2018-01-12 15:42:13,4,How to automatically generate id from 1 with JPA?,<java><database><spring><spring-boot><jpa>
+56477485,2019-06-06 12:19:58,4,Problem with 'Sort exceeded memory limit' MongoDb in Spring,<java><database><mongodb><spring-boot><criteria>
+52420033,2018-09-20 07:41:59,4,Does max connection pool also limits max connections to database?,<database><spring-boot><hikaricp>
+58859044,2019-11-14 14:25:01,4,SchemaManagementException: Schema-validation: missing table [chk_groups] even when table is present in DB,<java><database><hibernate><spring-boot><spring-data-jpa>
+43963604,2017-05-14 11:58:28,3,Spring boot doesn't read DB configuration from yml file,<java><database><spring-boot>
+53314933,2018-11-15 08:10:51,3,Database credentials in environment variables?,<java><database><spring><spring-boot>
+47532679,2017-11-28 13:23:23,3,Repeatable migrations only within a Release (last update file only) through Spring Boot,<java><database><spring-boot><flyway>
+67121645,2021-04-16 08:23:59,3,Requests from docker container in Google Cloud Run Service to Google Cloud SQL takes up to 2 minutes,<database><spring-boot><docker><google-cloud-sql><google-cloud-run>
+60815886,2020-03-23 14:49:09,3,How to connect multiple databases in JPA?,<java><database><spring-boot><jpa><spring-data-jpa>
+49550523,2018-03-29 07:40:48,3,Java Spring Batch using embedded database for metadata and a second database for other data,<java><database><spring><spring-boot><spring-batch>
+23569418,2014-05-09 16:15:31,3,Spring Boot postgresql embedded tomcat fails to start,<database><postgresql><spring-security><spring-data><spring-boot>
+49918086,2018-04-19 09:56:12,3,Do I realy need Idle Connection in Postgres?,<database><postgresql><spring-boot><postgresql-9.1><pgbouncer>
+36857482,2016-04-26 06:58:43,3,Approach to database to search price,<database><database-design><spring-boot>
+61387510,2020-04-23 12:42:02,3,How to solve liquibase waiting for changelog lock problem in several pods in OpenShift cluster?,<database><spring-boot><kubernetes><openshift><liquibase>
+38168658,2016-07-03 09:40:55,3,Multiple microservices and database associations,<database><rest><spring-boot><microservices>
+40743889,2016-11-22 14:01:58,3,Spring Boot with multiple datasources Oracle and H2,<java><database><spring-boot><database-connection><datasource>
+41102333,2016-12-12 13:47:21,3,"What are admin UIs for spring-boot with mongoDB, providing CRUD operation like django-admin?",<mongodb><user-interface><spring-boot><admin><database>
+42765117,2017-03-13 13:41:51,3,jpa spring boot - hibernate insert slow,<database><hibernate><spring-boot><insert><spring-data-jpa>
+37576411,2016-06-01 18:39:24,2,Spring-boot JPA not generation table automatically,<java><database><hibernate><jpa><spring-boot>
+58806796,2019-11-11 18:29:48,2,Spring boot won't rollback tests if Datasource extends DelegatingDataSource,<java><database><spring-boot><rollback>
+44017860,2017-05-17 07:07:01,2,Alternative to Database Change Notification (DCN),<database><spring-boot><oracle12c>
+58495398,2019-10-21 23:39:42,2,Hibernate duplicate entry with OneToMany relation,<java><database><hibernate><spring-boot><jpa>
+50130200,2018-05-02 08:28:16,2,Spring Boot database initialization only one time,<java><database><spring-boot>
+39808724,2016-10-01 16:05:47,2,Get Spring embeded database content,<java><database><spring-boot><h2><imdb>
+52994874,2018-10-25 17:22:22,2,Spring Boot - Liquibase doesn't create the DATABASECHANGELOG table,<database><spring-boot><liquibase>
+51539117,2018-07-26 12:42:29,2,How do i set properties in DatabaseConfig in spring boot,<database><hibernate><spring-boot>
+56421525,2019-06-03 05:20:37,2,How to fix null pointer exception after applying trigger in database under @Transactional annotation?,<java><database><spring-boot><transactions><acid>
+58989201,2019-11-22 07:09:38,2,How to set schema in datasource for DB2 connection in Spring boot,<database><hibernate><spring-boot><jpa><db2>
+45459598,2017-08-02 11:28:13,2,Multitenancy in Hibernate using both Schema and Database,<java><database><hibernate><spring-boot><multi-tenant>
+53337527,2018-11-16 12:02:45,2,Liquibase : link main yaml changelog from test,<java><database><spring><spring-boot><liquibase>
+55727210,2019-04-17 12:06:38,2,How to ensure that there are no race conditions in a database update statement using spring,<java><database><spring><spring-boot><concurrency>
+40991530,2016-12-06 09:08:00,2,import initial data into spring boot app,<database><hibernate><spring-boot><import><spring-data-jpa>
+66769218,2021-03-23 18:32:19,2,Best Hibernate primary key Generation Type when using multiple databases and Liquidbase,<database><spring-boot><jpa><liquibase>
+44615510,2017-06-18 13:30:37,2,JHipster app with no database,<database><gradle><spring-boot><service><jhipster>
+52051747,2018-08-28 06:51:12,2,Spring - MongoDB,<java><database><spring><mongodb><spring-boot>
+58741561,2019-11-07 03:28:00,2,Weird spring boot datasource error on start,<database><spring-boot><configuration>
+65157408,2020-12-05 13:29:37,2,"Design Pattern using Spring Boot instead of DTO, Dao, Service?",<java><database><spring-boot><hibernate><design-patterns>
+56231401,2019-05-21 05:03:59,2,Where to add the -ifNotExists flag to h2 start command?,<database><spring><spring-boot><h2>
+63823723,2020-09-10 06:08:01,2,Create database programmatically from Spring boot application,<database><spring-boot><hibernate>
+49538178,2018-03-28 15:12:15,2,"Java Spring Batch crash while using datasource, Error creating bean with name jobCompletionNotificationListener",<java><database><spring-boot><spring-batch><datasource>
+42345688,2017-02-20 13:21:09,2,How to make database transactions in scheduled tasks in Spring Boot 1.4.2.RELEASE,<database><spring><spring-boot><transactions><scheduled-tasks>
+64771780,2020-11-10 15:25:39,2,Updating elasticsearch entities with bulk,<java><database><spring-boot><spring-data-elasticsearch><bulkupdate>
+65681662,2021-01-12 10:02:35,2,How to set Schema in mybatis for IRIS databse,<database><spring-boot><mybatis><intersystems-cache><intersystems-iris>
+52660767,2018-10-05 07:48:13,2,Test after DirtiesContext has got no table,<java><database><spring-boot><spring-data-jpa><spring-test>
+43007246,2017-03-24 18:59:34,2,"Hibernate unsuccesfull create table, sql syntax error",<mysql><database><hibernate><jpa><spring-boot>
+48444263,2018-01-25 13:39:59,2,How to connect same entity with different tables (Spring Boot),<database><jpa><spring-boot><spring-data>
+47888653,2017-12-19 14:02:07,2,ManyToMany mapping issue in Spring Boot,<java><database><hibernate><spring-boot>
+35020319,2016-01-26 17:42:32,2,Spring Boot - how to retrieve selected item on drop down?,<database><spring><drop-down-menu><spring-boot>
+56948330,2019-07-09 08:26:03,2,@Transactional annotation doesn't work for method,<java><database><spring-boot>
+53117329,2018-11-02 11:00:39,2,Why is my micrometer gauge only be executed once after application startup?,<database><spring-boot><monitoring><aop><micrometer>
+56641860,2019-06-18 04:40:37,2,Create schema and tables on demand at the runtime,<java><database><spring><hibernate><spring-boot>
+62653349,2020-06-30 08:31:18,2,Why authentication provider when implementing basic auth? Spring Security,<spring><database><spring-boot><spring-security><basic-authentication>
+37550838,2016-05-31 16:15:39,2,Efficient way to get the rows I've updated in Spring/Java/Oracle,<java><database><spring><oracle><spring-boot>
+62241539,2020-06-07 06:07:44,1,Oracle DB Query search using IN operator for 200 000+ search strings,<database><oracle><spring-boot><hibernate><spring-data-jpa>
+62250419,2020-06-07 19:15:59,1,How to run DDL after Spring auto create db?,<java><database><spring-boot><hibernate><spring-autoconfiguration>
+50023085,2018-04-25 13:01:22,1,"liquibase.exception.DatabaseException: ERROR: relation ""container"" already exists",<database><hibernate><spring-boot><jpa><liquibase>
+57482239,2019-08-13 16:55:54,1,How to represent set of java objects as a field of other object in database?,<java><mysql><database><spring-boot><jpa>
+57494424,2019-08-14 12:09:41,1,How to trace if database become inaccessible in Spring-boot application,<java><database><spring-boot>
+52923200,2018-10-22 06:03:47,1,Failed to read results from Spring-boot SQL query,<java><database><hibernate><spring-boot><clob>
+50029506,2018-04-25 18:54:30,1,Creating sequence in Oracle Programmatically using JPA,<java><database><oracle><spring-boot><spring-data-jpa>
+57823609,2019-09-06 14:06:42,1,Spring-boot and Hibernate: How to flush data?,<database><hibernate><spring-boot><jpa>
+67510422,2021-05-12 20:13:49,1,java.sql.SQLException: No data read- jdbcTemplete,<database><oracle><spring-boot><jdbctemplate><data-access>
+67516250,2021-05-13 08:34:07,1,Update/Delete violate foreign key on either side,<database><postgresql><spring-boot><database-design>
+46521352,2017-10-02 07:43:41,1,How to use Microsoft Access database with spring boot and spring data,<database><ms-access><jpa><spring-boot><jdbc>
+53072293,2018-10-30 20:19:19,1,Is there any way in Spring Boot to commit same data to two different data sources without duplicating the repository?,<database><spring-boot><neo4j><spring-data-neo4j>
+62600239,2020-06-26 17:47:19,1,datasource.getConnection() not working in Springboot application,<java><database><spring-boot><nullpointerexception>
+57953262,2019-09-16 08:45:06,1,"I am trying to connect to Oracle ATP database using JDBC thin client in an spring-boot app, but getting error: Authentication lapse",<java><database><oracle><spring-boot><oracle-cloud-infrastructure>
+46266200,2017-09-17 16:14:49,1,How can I achieve multitenancy in MySql by using Java Spring,<java><mysql><database><spring-boot><database-administration>
+34920607,2016-01-21 10:03:26,1,"Create h2 database with Spring Boot if it not exists, then don't delete. Desktop application",<database><spring><spring-boot><desktop-application><h2>
+37281159,2016-05-17 15:58:01,1,Set @Repository to work with specific DataSource Spring-boot,<java><database><jpa><spring-boot><datasource>
+37369542,2016-05-22 01:01:55,1,connecting to mysql datasource in spring boot without xml,<java><mysql><database><spring-boot>
+39084648,2016-08-22 16:40:21,1,How to create a JDBC DB2 database connection URL if your database has no username or password? Getting error when fields are left blank,<database><jdbc><spring-boot><db2><database-connection>
+62734140,2020-07-04 20:30:47,1,Spring boot: RabbitMq and Database management when error occurred in Exchange,<database><spring-boot><transactions><rabbitmq>
+58029938,2019-09-20 14:04:49,1,"Spring Boot JPA, Repository don't delete record",<java><database><spring-boot><jpa><spring-data-jpa>
+48266774,2018-01-15 16:13:33,1,Spring-boot with two EntityManager and abstract dao layer,<java><database><spring><jpa><spring-boot>
+63055393,2020-07-23 13:25:29,1,Springboot 2.3.1 dynamically update Jdbc template's schema in Multi-tenant environment,<java><database><spring-boot><multi-tenant><jdbctemplate>
+41441621,2017-01-03 10:40:20,1,Spring boot with Spring Security and custom database,<java><database><spring-boot><spring-security><spring-data-jpa>
+62861837,2020-07-12 13:45:14,1,Hibernate entities on the same database table for read and write,<java><database><spring-boot><hibernate><jpa>

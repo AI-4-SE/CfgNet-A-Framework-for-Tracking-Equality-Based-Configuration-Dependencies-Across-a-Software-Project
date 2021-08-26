@@ -1,0 +1,28 @@
+# Stack Overflow Analysis
+
+We analyzed Stack Overflow (SO) posts to extract typical real-world configuration dependency.
+To this end, we downloaded the SO dataset from the Stack Exchange Data Dump on June 7, 2021.
+To find cross-technology configuration dependencies in SO posts, we created a vocabulary with technology-specific plugin names and other popular technologies that cover common areas of software development.
+
+- technology-specific plugins: maven, docker, docker-compose, travis
+- popular technologies: spring-boot, database angular
+
+We filtered the data set using each tag pair from our vocabulary, sorted the resulting posts in descending order, and extracted the first hundred posts.
+In total, we obtained 21 tag pairs with up to 100 posts.
+
+To focus on the most relevant tag pair combinations, we calculated for each tag pair a total score value by summing the score value of its posts.
+The table shows the top five tag pair combinations and their total score value.
+
+| Tag Pair               | Total Score |
+|------------------------|-------------|
+| docker, docker-compose |        16632|
+| maven, spring-boot     |         4403|
+| docker, spring boot    |          861|
+| maven, docker          |          859|
+| docker, database       |          824|
+
+We selected the top five tag pairs with the highest total score value, and manually inspected their posts.
+
+In total, manually inspected 500 SO posts and we extracted five meaningful cross-technology configuration dependencies. 
+The extracted configuration dependencies appeared in several SO posts, indicating that we have extracted typical real-world configuration dependency examples that developers indeed encounter in practice.
+The five extracted configuration dependencies and exemplary SO identifiers can be found in ``dependencies.pdf``.

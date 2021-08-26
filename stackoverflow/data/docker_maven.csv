@@ -1,0 +1,101 @@
+"id","creationdate","score","title","tags"
+27767264,2015-01-04 15:48:51,107,How to dockerize maven project? and how many ways to accomplish it?,<java><maven><docker>
+42208442,2017-02-13 16:06:04,50,Maven docker cache dependencies,<java><maven><docker><dockerfile>
+31696439,2015-07-29 09:28:27,50,How to build a docker container for a Java application,<java><maven><gradle><docker><dockerfile>
+27749193,2015-01-02 22:08:43,29,How to build Docker Images with Dockerfile behind HTTP_PROXY by Jenkins?,<git><maven><npm><docker><dockerfile>
+30252532,2015-05-15 05:59:30,27,Correct way to deploy WAR files in docker image,<java><maven><jetty><docker><dockerfile>
+35549854,2016-02-22 09:22:52,19,maven package docker:build - connection refused,<java><maven><docker>
+34748584,2016-01-12 16:15:16,18,What is happening when docker-maven plugin tries to build image?,<maven><plugins><jenkins><permissions><docker>
+36234088,2016-03-26 10:13:59,16,How do I point a docker image to my .m2 directory for running maven in docker on a mac?,<linux><macos><maven><docker><vagrant>
+39487399,2016-09-14 09:49:35,15,DOCKER_HOST environment variable on windows,<java><windows><maven><docker>
+27342154,2014-12-07 11:25:25,15,Using Docker in development for Java EE applications,<java><maven><jakarta-ee><jboss><docker>
+46831762,2017-10-19 14:02:29,15,Maven build and maven-failsafe-plugin - The forked VM terminated without properly saying goodbye,<java><maven><docker><windows-10><maven-surefire-plugin>
+46670582,2017-10-10 15:30:28,14,"Docker->Maven->Failsafe->Surefire starting fork fails with ""The forked VM terminated without properly saying goodbye. VM crash or System.exit called?""",<java><maven><docker><containers><maven-surefire-plugin>
+46052711,2017-09-05 10:25:42,11,extend jenkins image to install maven,<maven><docker><jenkins><dockerfile><docker-container>
+53691781,2018-12-09 11:21:04,11,How to cache maven dependencies in Docker,<java><maven><docker>
+34203179,2015-12-10 13:28:50,11,fetch all maven dependencies including plugin dependencies,<maven><docker>
+49578847,2018-03-30 17:37:41,11,"Maven error occurred in starting fork, check output in log",<maven><docker><spring-boot><windows-10><maven-surefire-plugin>
+46940191,2017-10-25 19:02:54,9,docker.exe: invalid reference format,<windows><maven><docker>
+31079375,2015-06-26 17:58:37,9,"Unable to run docker image - no main manifest attribute, in app.jar",<java><maven><docker>
+35132568,2016-02-01 14:06:42,9,Caching Jar dependencies for Maven-based Docker builds,<maven><docker><dependencies><dockerfile>
+42278216,2017-02-16 15:31:39,8,Run a maven webapp in a docker container,<maven><docker><tomcat7>
+46713288,2017-10-12 15:19:50,8,Maven inside docker container horribly slow,<macos><performance><maven><docker>
+55346431,2019-03-25 21:08:13,8,How to fix JAVAX runtime error on JDK11 Tomcat9 Spring Application,<java><spring><maven><docker><tomcat>
+55353804,2019-03-26 09:35:14,8,How to automate Maven and Java JDK8 installation with groovy for Jenkins?,<java><maven><docker><jenkins><groovy>
+39331665,2016-09-05 13:27:29,8,Permission denied for protoc on maven build in Teamcity,<maven><ubuntu><docker><teamcity><docker-compose>
+44919972,2017-07-05 07:44:29,8,Deploying Spring WAR to Tomcat-based docker,<java><spring><maven><tomcat><docker>
+34815411,2016-01-15 16:19:20,8,Docker maven plugin ClientProtocolException (Windows 10 using Docker Toolbox),<java><maven><docker><spotify><docker-toolbox>
+47708983,2017-12-08 06:37:38,8,Build docker image without docker installed,<maven><docker><build>
+47776984,2017-12-12 16:13:15,7,Error pushing docker hub using spotify/dockerfile-maven-plugin,<java><maven><docker><dockerhub><maven-docker-plugin>
+55104543,2019-03-11 14:50:51,7,How to cache local Maven repository using Docker with Pipelines?,<maven><docker><jenkins><jenkins-pipeline>
+38179626,2016-07-04 08:04:41,7,Cannot (apt-get) install packages inside docker,<maven><docker><apt-get>
+57581943,2019-08-20 21:48:03,7,--mount=type=cache in buildkit,<maven><docker><dockerfile><docker-build>
+39527236,2016-09-16 08:46:41,7,Jenkins pipeline script exit status -1 for docker maven image,<maven><docker><jenkins><jenkins-pipeline>
+50948581,2018-06-20 12:43:48,7,Access to outside of context in Dockerfile,<java><maven><docker>
+33381235,2015-10-28 01:08:34,7,"Download all dependencies, plugin dependencies, compilers, etc. with Maven?",<maven><docker><gatling>
+52120845,2018-08-31 18:16:34,7,Docker-compose - build with maven that re-uses the maven repository,<maven><docker><docker-compose>
+32614762,2015-09-16 17:12:48,7,Installing maven in a docker build overrides JAVA 8 with JAVA 7(!),<maven><docker><dockerfile>
+36389982,2016-04-03 19:18:02,7,Docker Maven Spotify plugin - Possible to switch to non-secure registry,<maven><docker><maven-plugin><spotify><docker-registry>
+39924530,2016-10-07 19:27:56,7,Spotify docker-maven-plugin unauthorized: authentication required public repo,<maven><docker><maven-plugin><spotify><docker-registry>
+49395983,2018-03-20 23:53:05,7,Downloading all dependencies for Maven test,<maven><docker>
+35450248,2016-02-17 07:19:06,6,Can't connect to mySql docker container with JDBC,<java><mysql><maven><jdbc><docker>
+63492180,2020-08-19 17:33:30,6,spring-boot-maven-plugin:build-image fails with 400 Bad Request,<spring-boot><docker><maven>
+47969389,2017-12-25 14:12:27,6,How can I cache Maven dependencies and plugins in a Docker Multi Stage Build Layer?,<maven><docker><build><dockerfile><docker-multi-stage-build>
+28078524,2015-01-21 23:03:47,6,Docker - maven connect to specific repository in runtime,<java><xml><maven><docker>
+37191662,2016-05-12 15:42:21,6,Cannot push to remote repo using the (spotify) Docker maven plugin,<maven><docker><spring-boot>
+56284845,2019-05-24 01:42:29,6,Skip maven deploy for one module,<java><maven><spring-boot><docker><spotify-docker-client>
+58402441,2019-10-15 20:47:59,6,Docker Multimodule Maven Build - Copy All POM Files to Appropriate Directories,<java><maven><docker>
+51801388,2018-08-11 15:54:50,6,How to connect persistent storage to Google Cloud Build?,<maven><docker><google-cloud-storage><google-cloud-build>
+52188457,2018-09-05 15:11:28,6,GitLab-CI get pom version in pipeline,<maven><docker><gitlab><gitlab-ci>
+32015945,2015-08-14 17:49:56,6,How to set maven options to run for release or snapshot,<java><maven><jenkins><docker><maven-release-plugin>
+45660774,2017-08-13 13:18:22,6,Mounting Maven Repository to Docker,<java><maven><docker><dockerfile><docker-build>
+65437831,2020-12-24 11:42:26,6,Multi Module Maven Project and Docker: Cannot find artifact?,<java><docker><maven><dependencies><pom.xml>
+45685232,2017-08-15 01:20:44,5,Dynamically get JAR filename in DockerFile,<maven><docker><jar><dockerfile>
+36842719,2016-04-25 13:57:12,5,Docker Automated build downloading private jars from a Maven Sonatype Nexus repository,<java><maven><docker><nexus><continuous-deployment>
+59747862,2020-01-15 08:54:55,5,"Docker build fails ""COPY failed: no source files were specified""",<maven><docker>
+52933220,2018-10-22 15:49:48,5,Failed to execute goal com.spotify:dockerfile-maven-plugin:1.3.6:build on project 'foo': Could not build image:,<java><maven><docker><spring-boot>
+55956323,2019-05-02 16:06:09,5,How does the Jenkins config file provider plugin work?,<maven><docker><jenkins>
+51714101,2018-08-06 19:04:00,5,Maven skip deploy & push only Docker images,<maven><docker>
+38293073,2016-07-10 14:42:19,5,Do not download all Maven dependencies on a Docker build,<maven><docker>
+44667063,2017-06-21 04:49:23,5,Docker and Eureka with Spring Boot failing to register clients,<java><spring><maven><docker><spring-boot>
+38692481,2016-08-01 06:43:42,5,Write to file in Java App running on Docker,<java><maven><docker>
+54202708,2019-01-15 16:12:52,5,Docker on ARM extremely slow,<maven><docker><arm>
+56269584,2019-05-23 06:54:28,5,Maven build download artefacts connection slow/reset when running inside a Docker Container on Azure,<java><azure><maven><docker>
+40898608,2016-11-30 21:32:01,5,Caching Maven parent in offline build,<java><maven><docker>
+60711034,2020-03-16 18:02:30,5,Read txt file from resources folder on maven Quarkus project From Docker Container,<java><maven><docker><dockerfile><quarkus>
+34713722,2016-01-11 03:21:31,4,Running docker as non-root user OR running jenkins on tomcat as root user,<maven><tomcat><jenkins><docker><devops>
+51679363,2018-08-03 19:57:37,4,multi-module Maven project on Dockers,<java><maven><docker><pom.xml><microservices>
+39977955,2016-10-11 13:06:39,4,How to mount docker volume into my docker project using compose?,<maven><docker><docker-compose>
+40522967,2016-11-10 08:26:46,4,"Maven install-file not effective in GitLab/Docker: ""could not resolve dependencies for project""",<java><maven><docker><gitlab>
+36429949,2016-04-05 14:55:53,4,IntelliJ: use docker jvm or docker maven?,<java><maven><intellij-idea><docker><ide>
+52060884,2018-08-28 14:57:06,4,Build multi maven modules then copy JARs inside a docker image,<maven><docker>
+37963689,2016-06-22 09:19:26,4,maven-release-plugin automatically run a script before commit,<maven><docker><maven-release-plugin>
+52768974,2018-10-11 21:10:07,4,docker-maven-plugin: how do I pass environment variable from `docker run ... -e <value>` to build or run step?,<maven><docker><environment-variables><docker-maven-plugin>
+44589875,2017-06-16 12:59:38,4,I am trying to perform mvn install from Dockerfile but it is not working says mvn not found,<maven><docker><build>
+62291853,2020-06-09 21:06:35,4,Permission denied when executing mvn from inside docker container of official maven image,<linux><docker><maven>
+35905590,2016-03-10 00:49:13,4,Dockerizing a maven app that uses oracle-ojdbc: How do you get the driver in there?,<java><oracle><maven><docker>
+49631630,2018-04-03 13:40:26,4,Dockerfile maven plugin not working,<maven><docker>
+47302658,2017-11-15 08:31:58,4,How can I use Jar produced by mvn package in another Jenkins declarative pipeline stage?,<java><maven><docker><jenkins><devops>
+42903354,2017-03-20 12:15:08,4,Jenkinsfile maven plugin inside a docker container,<java><maven><docker><jenkins><artifactory>
+39240560,2016-08-31 04:06:00,4,Spring boot with docker unable to find valid certification path to requested target error,<spring><maven><docker><spring-boot>
+52892488,2018-10-19 12:37:00,4,Maven/Docker: cache all dependencies,<maven><docker><spring-boot>
+55405383,2019-03-28 19:20:43,4,Jenkins: How to use JUnit plugin when Maven builds occur within Docker container,<maven><docker><jenkins><automated-tests><jenkins-pipeline>
+52798237,2018-10-13 23:31:07,4,"How can I optimize docker builds of multiple, related maven java projects? (caching)",<java><maven><docker>
+60522767,2020-03-04 09:25:18,4,docker build with maven - how to prevent re-downloading dependencies,<java><maven><docker>
+38972644,2016-08-16 10:34:52,4,Spotify docker maven build multiple images,<java><maven><docker><spotify>
+57061970,2019-07-16 16:43:14,3,Maven: No plugin found for prefix 'dockerfile',<maven><docker>
+53471581,2018-11-25 20:25:35,3,How come my Test fails in Docker Maven container 3.5.4-jdk8 when it passes using maven on command line,<maven><spring-boot><docker><gitlab-ci>
+44242091,2017-05-29 12:06:18,3,Docker | How to build and deploy war file in jboss container hosted in Docker,<maven><docker><jboss><docker-compose>
+47139318,2017-11-06 14:35:13,3,How to build docker images in multi-module maven project via spotify plugin?,<java><maven><docker>
+47224781,2017-11-10 14:16:40,3,Share local maven repository to agents in Jenkins Pipeline,<maven><docker><jenkins-pipeline>
+28907975,2015-03-06 21:27:44,3,Docker and Java IDE integration,<java><maven><ide><docker>
+58703508,2019-11-05 02:09:39,3,jib-maven spring boot profile,<maven><spring-boot><docker><environment><jib>
+58681074,2019-11-03 14:23:04,3,Development workflow for Spring Boot + Maven + Docker + IntelliJ,<java><maven><docker><intellij-idea><docker-compose>
+47484175,2017-11-25 08:53:30,3,"When building a Maven project in Docker, all target files are rooted",<java><maven><docker>
+44537781,2017-06-14 07:06:10,3,Resources are missing from JAR file after repackage with spring boot maven plugin,<maven><docker><spring-boot><spring-boot-maven-plugin><docker-maven-plugin>
+56345753,2019-05-28 15:42:02,3,Using fabric8 docker-maven-plugin to build images on a remote docker daemon,<maven><docker><gitlab-ci><docker-maven-plugin>
+23974800,2014-05-31 21:55:10,3,sensitive information required for docker build,<maven><docker>
+41976681,2017-02-01 09:55:09,3,Cannot create docker access object,<spring><maven><docker><fabric8>
+56303459,2019-05-25 09:19:31,3,Gitlab CI for MAVEN project with Docker Image,<java><maven><selenium><docker><gitlab>
+64927482,2020-11-20 10:08:17,3,Dockerizer Maven multimodule project (angular + java) with strong coupling dependency,<java><angular><spring><docker><maven>
+64525899,2020-10-25 16:12:36,3,How can I push the Docker image of a Spring Boot application to DockerHub with Maven?,<java><docker><maven><dockerhub>

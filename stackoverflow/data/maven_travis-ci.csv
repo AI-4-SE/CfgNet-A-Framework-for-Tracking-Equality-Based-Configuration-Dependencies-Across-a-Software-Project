@@ -1,0 +1,101 @@
+"id","creationdate","score","title","tags"
+14825039,2013-02-12 03:43:58,57,Suppressing GPG signing for Maven-based continuous integration builds (Travis CI),<java><maven><continuous-integration><gnupg><travis-ci>
+50104172,2018-04-30 16:01:53,42,Could not find or load main class org.apache.maven.wrapper.MavenWrapperMain,<java><spring><maven><spring-boot><travis-ci>
+45817256,2017-08-22 12:09:15,24,"How to avoid ""The job exceeded the maximum time limit for jobs, and has been terminated."" when accessing mvnsearch.org on Travis CI?",<java><maven><travis-ci><connectivity>
+45612758,2017-08-10 11:41:00,22,"How do I get Sonarcloud to run on pull requests from forks with Travis, Maven & github",<java><maven><github><sonarqube><travis-ci>
+33267878,2015-10-21 19:43:18,15,Example of Travis CI yml file for java,<java><maven><yaml><travis-ci>
+55878548,2019-04-27 08:07:17,14,Travis CI couldn't install openjdk11,<maven><travis-ci><openjdk-11>
+15602738,2013-03-24 19:09:00,12,java generics and annotations not supported in version 1.3 (travis integration),<java><maven><generics><annotations><travis-ci>
+29836823,2015-04-24 00:46:54,10,How to increase timeout in travis-ci for my selenium tests written on java?,<java><maven><selenium><webdriver><travis-ci>
+25860087,2014-09-16 03:12:19,10,Travis CI not using extra Maven repository provided in pom.xml,<java><maven><github><travis-ci><bintray>
+45968353,2017-08-30 19:28:34,9,mvnw permission denied error during travis build,<java><linux><maven><continuous-integration><travis-ci>
+29201549,2015-03-23 00:23:22,8,Travis CI ignoring MAVEN_OPTS?,<scala><maven><travis-ci><scala-maven-plugin>
+50012220,2018-04-24 23:57:33,6,Error using Travis CI with Sonarcloud: Not authorized. Please check the properties sonar.login and sonar.password,<maven><sonarqube><travis-ci><sonarcloud>
+47020226,2017-10-30 16:39:29,6,Maven Site Plugin with Java9,<java><maven><travis-ci><java-9><maven-site-plugin>
+23783657,2014-05-21 12:48:18,5,making travis-ci zip my project after successful build and push it to github,<java><maven><github><travis-ci>
+56210181,2019-05-19 17:11:18,5,"Travis CI SonarCloud error ""Project was never analyzed. A regular analysis is required before a branch analysis""",<maven><sonarqube><code-coverage><travis-ci><sonarcloud>
+38804683,2016-08-06 13:15:25,5,Can I use Travis CI with Java without using ANT or Maven?,<java><maven><github><ant><travis-ci>
+25916249,2014-09-18 15:04:28,5,Deploying a Maven version to Github using Travis CI,<maven><deployment><github><travis-ci>
+29062493,2015-03-15 15:37:02,5,Possible to run bower & npm on Travis-initiated builds?,<javascript><maven><npm><bower><travis-ci>
+44293284,2017-05-31 19:32:22,4,"How to work around ""Java heap space"" during JAR assembly on travis-ci.org?",<java><maven><jar><out-of-memory><travis-ci>
+30332932,2015-05-19 18:03:18,4,"Deploying to Appengine using Travis CI and Maven, without Oauth2",<java><maven><google-app-engine><oauth-2.0><travis-ci>
+56462421,2019-06-05 14:20:04,4,How to analyze Git submodules using SonarCloud?,<maven><github><travis-ci><sonarcloud>
+48129400,2018-01-06 16:30:58,4,Travis CI build failing because my project is one level down from the git repository directory,<maven><travis-ci>
+43647645,2017-04-27 02:27:42,4,Build failing on TravisCI with no logs,<java><maven><travis-ci>
+30463993,2015-05-26 16:23:20,4,Is there a limitation on the log lines in a travis build?,<java><maven><github><travis-ci>
+46243616,2017-09-15 16:03:16,3,Sonar `should be relative to project baseDir` error in travis,<eclipse><maven><github><sonarqube><travis-ci>
+42987224,2017-03-23 21:21:11,3,how parse console on travis-ci and find the number of occured word,<shell><maven><xpath><console><travis-ci>
+39454705,2016-09-12 16:20:51,3,How to use travis ci with rest assured,<java><maven><tomcat><travis-ci><rest-assured>
+47403135,2017-11-21 00:00:07,3,Build does not fail when tests fail,<maven><github><travis-ci>
+52433448,2018-09-20 21:16:59,3,Eval error when publishing to codecov from Travis,<java><maven><travis-ci><java-10><codecov>
+56267295,2019-05-23 02:25:14,3,Conditional Maven build command on Travis CI using Regex,<regex><maven><github><build><travis-ci>
+58027736,2019-09-20 11:44:19,3,How to skip gpg signing for Java Maven project in Travis-CI,<java><maven><travis-ci>
+18297340,2013-08-18 08:46:16,3,"How to package, compress and deploy binaries as zip/tar.gz from a github repo with maven/travis to bintray.com generic repo",<java><maven><github><travis-ci><bintray>
+23322984,2014-04-27 11:45:48,3,How to fix Maven PermGen out of memory error on Travis-ci?,<java><maven><out-of-memory><travis-ci>
+27749942,2015-01-02 23:23:52,3,What's the recipe for running mvn integration-test instead of mvn test with Travis?,<maven><travis-ci>
+28703491,2015-02-24 18:29:29,3,How can I add a 3rd party JAR to my Travis-CI maven build?,<maven><travis-ci>
+29328903,2015-03-29 12:07:51,3,Giving custom settings.xml to Maven Release Plugin,<maven><settings><release><travis-ci>
+35012068,2016-01-26 10:48:32,3,Invoke two separate build scripts as a matrix on Travis CI,<maven><build-process><travis-ci>
+38276762,2016-07-08 23:34:40,3,Travis: gpg: signing failed: secret key not available,<maven><travis-ci><gnupg><openpgp>
+42542380,2017-03-01 21:27:57,2,How do I create a github release on every commit?,<java><git><maven><github><travis-ci>
+56650407,2019-06-18 13:32:54,2,Travis CI build failing with JUnit 5,<java><maven><travis-ci><junit5>
+56660041,2019-06-19 04:24:06,2,How to create a build pipeline so that it can build multiple dependent repositories?,<maven><jenkins><continuous-integration><jenkins-pipeline><travis-ci>
+56715815,2019-06-22 13:19:10,2,Error executing tests in Travis CI with JaCoCo,<java><maven><travis-ci><jacoco>
+38021248,2016-06-24 20:01:39,2,"Multi-module maven dependency using repository, not local on Travis CI",<maven><dependencies><travis-ci><multi-module>
+28402745,2015-02-09 04:17:54,2,Using embedded database with Flyway and jOOQ in Maven for continuous integration,<maven><hsqldb><travis-ci><flyway><jooq>
+19158720,2013-10-03 12:02:16,2,"Why does Travis CI think my code is Java 1.3, and how to fix it?",<java><maven><travis-ci>
+36687335,2016-04-18 07:02:16,2,Maven Checkstyle plugin on Travis CI ignores source directories,<java><maven><travis-ci><checkstyle>
+32400512,2015-09-04 14:27:20,2,Use maven even if gradle is present in travis,<maven><gradle><travis-ci>
+18005506,2013-08-01 22:09:13,2,How can a Github Gradle project built in travis-ci access dependencies normally found in my local Maven repo?,<maven><github><gradle><travis-ci>
+30658579,2015-06-05 04:52:45,2,Usage of environment variable of Travis CI in maven test,<java><maven><github><travis-ci>
+29275609,2015-03-26 10:02:56,2,"In Travis CI, How to run script to build the project with sudo",<linux><maven><travis-ci>
+51123056,2018-07-01 11:55:33,2,Sonarcloud is not authorized using Travis CI and Maven,<java><maven><sonarqube><travis-ci><sonarcloud>
+47129069,2017-11-06 02:54:19,2,Travis CI + Maven + Junit getClass().getResourceAsStream() not working,<java><maven><junit><travis-ci>
+43947856,2017-05-12 23:47:35,2,How to dynamically inject properties into settings.xml in maven,<java><maven><travis-ci>
+28854329,2015-03-04 12:18:22,2,Travis Maven build exits with OutOfMemoryException,<maven><travis-ci><aspectj-maven-plugin><tycho-surefire-plugin>
+45573102,2017-08-08 16:04:44,2,"Sonarcloud failure with Travis, Maven & github",<java><maven><github><sonarqube><travis-ci>
+52628775,2018-10-03 14:00:43,2,How do I Integrate Coveralls to An Open-Source Project?,<java><maven><code-coverage><travis-ci><coveralls>
+53180531,2018-11-06 21:45:36,1,Travis uses ant instead of maven,<java><maven><travis-ci>
+43184018,2017-04-03 11:55:59,1,Failed to execute goal org.sonarsource.scanner.maven:sonar-maven-plugin:3.3.0.603:sonar (default-cli) on project jraft: No license for governance,<java><maven><sonarqube><travis-ci><license-key>
+50540294,2018-05-26 07:13:40,1,Travis CI not linking library for Maven Surefire Plugin,<maven><travis-ci><z3><maven-surefire-plugin>
+51671521,2018-08-03 11:22:32,1,Travis CI doesn't deploy to Azure from GitHub the war file correctly,<java><maven><azure><travis-ci><azure-webapps>
+54274355,2019-01-20 07:14:17,1,Travis CI build running deploy stage on master even though tag condition is not met,<java><maven><github><travis-ci><release>
+43079486,2017-03-28 20:37:39,1,Sonar on Travis: ERROR You must define the following mandatory properties for 'Unknown',<java><maven><sonarqube><travis-ci><sonar-runner>
+56089099,2019-05-11 09:44:12,1,Maven deploy creates two different sonatype repositories,<maven><travis-ci><sonatype><maven-deploy-plugin>
+35842780,2016-03-07 11:40:34,1,Cobertura Checks Fail on Travis CI,<java><maven><travis-ci><cobertura><maven-cobertura-plugin>
+56272161,2019-05-23 09:30:27,1,Why travis doesn't set correct JDK?,<java><maven><travis-ci>
+58968306,2019-11-21 06:08:09,1,Travis CI using the wrong version of Java,<java><spring><maven><spring-boot><travis-ci>
+63719194,2020-09-03 07:54:58,1,How to make travis-ci download jars from a different maven repository?,<java><maven><travis-ci>
+15744015,2013-04-01 13:03:06,1,Java/Maven compilation failure (no suitable constructor found),<java><maven><travis-ci>
+20298954,2013-11-30 10:07:46,1,Maven fails to pull dependencies on travis-ci: Connection timed out,<java><maven><testing><continuous-integration><travis-ci>
+22314453,2014-03-11 01:02:21,1,Unsupported major.minor version 51.0 Error when using 1.6 in pom and openjdk6 for one JUnit,<java><maven><junit><travis-ci>
+37193966,2016-05-12 17:41:15,1,Java + Github + Docker,<java><maven><github><docker><travis-ci>
+23771705,2014-05-20 23:40:10,1,create system metrics with maven java project and Travis CI and github hosted project,<java><maven><build><travis-ci>
+26839405,2014-11-10 08:15:19,1,Releasing Open Source Artifacts to Nexus/Maven Central via Travis CI,<maven><gradle><release><travis-ci>
+27268868,2014-12-03 10:11:19,1,It's possible use travis ci only has a build tool?es,<maven><travis-ci>
+28120891,2015-01-24 00:21:55,1,Maven coveralls plugin,<maven><travis-ci><coveralls>
+41285388,2016-12-22 14:27:34,1,Travis does not compile the project,<maven><travis-ci>
+38845968,2016-08-09 08:43:06,1,travis-ci job with bintray dependencies,<java><maven><travis-ci>
+40796627,2016-11-25 01:49:45,1,Why does maven-enforcer-plugin detect maven 3.2.5 when it's run with 3.1.1 on travis-ci.org?,<java><maven><version><travis-ci><maven-enforcer-plugin>
+31689776,2015-07-29 01:25:51,1,Building with Maven on travis-ci: javadoc plugin won't fail,<java><maven><maven-3><pom.xml><travis-ci>
+60506070,2020-03-03 11:18:24,0,Java Spring boot and Travis CI,<java><spring-boot><maven><travis-ci>
+58289171,2019-10-08 15:07:14,0,Travis CI - Maven build - Tests are skipped by default,<maven><travis-ci>
+45359149,2017-07-27 19:09:34,0,How to avoid issues with Maven builds on Travis CI which don't occur locally?,<maven><travis-ci>
+45140703,2017-07-17 09:37:26,0,Why fails Travis CI to retrieve a SNAPSHOT artifact when retrieval works locally?,<java><maven><travis-ci>
+51840873,2018-08-14 11:57:11,0,Travis build failing java,<java><maven><travis-ci>
+40747770,2016-11-22 17:11:43,0,Travis Ci build failed for a java maven project,<java><maven><travis-ci>
+58490788,2019-10-21 16:47:32,0,Travis build with scope provided (java websockets),<java><maven><servlets><travis-ci>
+41929971,2017-01-30 06:16:29,0,"Using ""secure"" variables in Maven test command in Travis *.yml file",<java><maven><encryption><travis-ci>
+24346893,2014-06-21 23:49:48,0,Package missing on maven build,<java><maven><m2e><travis-ci>
+41433800,2017-01-02 22:01:54,0,travis-CI.org project cannot submit code coverage report to Coveralls.io,<maven><travis-ci><coveralls>
+41336185,2016-12-26 20:52:57,0,Travis max log size & omitting library generated log,<maven><log4j><travis-ci><logback><apache-metamodel>
+46882584,2017-10-23 05:39:23,0,Building Xtext projects on Travis CI,<maven><continuous-integration><travis-ci><xtext><tycho>
+43450077,2017-04-17 10:55:37,0,Travis-CI Java build project with own dependencies,<java><maven><dependencies><travis-ci>
+38002545,2016-06-23 21:55:48,0,"Travis CI Build failure with JDK 1.8.60, Maven 3.1.1 and maven-plugin-plugin",<java><maven><travis-ci>
+43236895,2017-04-05 16:35:42,0,Running tests on travis using mysql,<java><mysql><maven><junit><travis-ci>
+35878729,2016-03-08 21:50:25,0,Appium Maven tests with Travis CI tool,<java><maven><travis-ci>
+56766174,2019-06-26 06:03:13,0,Travis Cli Build fails with message `Failed to execute goal`,<java><maven><spring-boot><travis-ci>
+42840768,2017-03-16 17:19:23,0,How use Oracle ojdbc7 on Github via Travis-CI,<oracle><maven><github><travis-ci><ojdbc>
+47143793,2017-11-06 18:53:25,0,How to setup Travis-CI to consume dependencies from oss.sonatype.org,<maven><github><travis-ci>
+41208804,2016-12-18 13:30:07,0,Setting the path of Travis database for run the tests,<java><maven><heroku><spring-boot><travis-ci>
+53821519,2018-12-17 19:02:12,0,How to point maven-verifier at right version of Maven?,<java><maven><travis-ci>

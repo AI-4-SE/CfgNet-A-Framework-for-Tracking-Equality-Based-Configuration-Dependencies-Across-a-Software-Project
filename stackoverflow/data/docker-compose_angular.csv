@@ -1,0 +1,101 @@
+"id","creationdate","score","title","tags"
+46778868,2017-10-16 20:48:19,32,ng serve not working in Docker container,<angular><docker><docker-compose>
+44176922,2017-05-25 09:26:19,20,Docker container doesn't reload Angular app,<angular><docker><docker-compose><containers>
+55784400,2019-04-21 16:10:24,15,Listen to changes and reload container on code change - docker-compose,<angular><visual-studio><docker><docker-compose><hot-reload>
+42443194,2017-02-24 16:07:31,11,How to configure `ng serve` to catch changes in a dockersized Angular 2 app?,<angular><docker><docker-compose><angular-cli>
+50852535,2018-06-14 08:04:35,8,Docker share node_modules to host,<angular><docker-compose><dockerfile><node-modules><docker-volume>
+61800182,2020-05-14 14:40:26,7,How to route Angular app inside Nginx container?,<angular><docker><nginx><docker-compose><routes>
+62349843,2020-06-12 17:55:37,6,API with dotnet/angular spa app cannot be reached inside docker container but can be reached outside docker container,<c#><angular><docker><.net-core><docker-compose>
+59951355,2020-01-28 14:50:41,5,"Nginx, Django, Docker-Compose CORS Policy Problem",<python><django><angular><nginx><docker-compose>
+48754529,2018-02-12 19:56:09,5,No such file tsconfig.app.json when using docker to set up dev environment on Windows 10,<windows><angular><docker><docker-compose>
+46078460,2017-09-06 14:55:15,4,Angular-CLI proxy not working inside docker,<angular><docker><proxy><docker-compose><angular-cli>
+45708361,2017-08-16 08:10:52,4,Inject env variables from docker-compose into Angular4 app,<angular><docker><environment-variables><docker-compose><angular-cli>
+58222660,2019-10-03 15:44:17,3,"Getting ""The serve command requires to be run in an Angular project, but a project definition could not be found"" running Docker Compose",<angular><docker><docker-compose><dockerfile>
+53431009,2018-11-22 12:26:53,3,Unable to launch host angular app in docker chrome node via selenium grid,<angular><selenium><docker><docker-compose><selenium-grid>
+54639663,2019-02-11 21:47:25,3,"Can't build angular dist, if nginx is running (dockerized)",<angular><docker><nginx><docker-compose>
+54871238,2019-02-25 17:04:50,3,Changing top level routes for multiple Angular apps served from single nginx server?,<angular><docker><nginx><docker-compose><angular6>
+54956038,2019-03-02 06:59:24,3,Improve Docker build speed for Angular app,<javascript><angular><docker><docker-compose><angular-cli>
+60862687,2020-03-26 07:34:41,3,How to create docker-compose.yml file while using jib?,<angular><spring><docker-compose><dockerfile><jib>
+56279992,2019-05-23 17:05:20,3,"Angular Library, Watch, and Docker",<angular><docker><docker-compose><angular-cli>
+58712563,2019-11-05 13:40:10,3,Docker-compose ERR_NAME_NOT_RESOLVED (Java Spring + Angular),<java><angular><docker><http><docker-compose>
+47551264,2017-11-29 11:03:19,3,docker ERR_NAME_NOT_RESOLVED http ajax,<angular><rest><docker><docker-compose>
+64187051,2020-10-03 17:31:25,3,Debug angular inside docker container,<node.js><angular><docker><docker-compose><webstorm>
+48430108,2018-01-24 19:21:13,3,Should I use Docker when developing an Angular application?,<angular><docker><docker-compose>
+58456296,2019-10-18 18:20:36,3,"Can't run image, CMD [""npm"", ""start""] command error",<node.js><angular><docker><npm><docker-compose>
+60192777,2020-02-12 16:20:26,2,Frontend cannot reach backend port in separate docker containers,<angular><docker><docker-compose><containers><nestjs>
+56874725,2019-07-03 16:44:09,2,COPY not working with docker-compose but works find with docker build,<angular><nginx><docker-compose>
+46874804,2017-10-22 13:48:37,2,docker-compose unable to resolve service,<angular><nginx><containers><docker-compose><service-discovery>
+51056400,2018-06-27 06:58:10,2,Getting Forbidden 403 error with nginx docker container when serving static files,<angular><docker><nginx><docker-compose><angular-cli>
+47672479,2017-12-06 10:50:30,2,Docker Angular Node Sass could not find a binding for your current env: Linux 64-bit with Node.js 8.x,<angular><docker><docker-compose><mean-stack>
+52241938,2018-09-09 06:28:04,2,Angular 6 Application hosted by .Net Core in Docker Container throws Npm exception,<angular><docker><.net-core><docker-compose><dockerfile>
+63530776,2020-08-21 22:25:33,2,How to connect to Node API docker container from Angular Nginx container,<node.js><angular><docker><nginx><docker-compose>
+63222181,2020-08-03 00:12:01,2,Docker-compose builds but app does not serve on localhost,<node.js><angular><docker><docker-compose><yaml>
+53996836,2019-01-01 15:52:45,2,Angular cant connect to spring boot endpoints in docker compose,<angular><spring><spring-boot><docker><docker-compose>
+56106551,2019-05-13 06:05:21,1,How can I deploy microservices with angular in front part and flask in back part with docker?,<angular><docker><flask><docker-compose><microservices>
+48669922,2018-02-07 17:29:21,1,Dockerizing Angular 2 application fails,<angular><docker><docker-compose><angular-cli>
+50202048,2018-05-06 16:33:26,1,"How to modify the effect of a Dockerfile RUN command based on an environment variable, passed from docker-compose.yml",<angular><docker><docker-compose><dockerfile>
+50835060,2018-06-13 10:36:25,1,Http failure response for (unknown url) - Angular Universal(SSL) on Docker,<angular><docker><docker-compose><angular5><server-side-rendering>
+51755036,2018-08-08 20:20:43,1,Why is Live Reload Slow for Angular app in Docker?,<angular><docker><webpack><docker-compose>
+52773088,2018-10-12 05:54:19,1,How can I run Angular using docker-compose?,<angular><docker><docker-compose><mean-stack>
+54907790,2019-02-27 14:32:11,1,How to deploy an Angular application and a REST Api in individual docker containers?,<angular><docker><deployment><docker-compose><web-deployment>
+55875840,2019-04-26 23:01:49,1,Angular and Docker: Unable to Access App from Host,<angular><docker><docker-compose><angular7>
+56332223,2019-05-27 20:39:24,1,"Configure Nginx to serve Angular front end, Django Rest Framework backend on same server?",<django><angular><nginx><docker-compose><gunicorn>
+57516636,2019-08-15 21:47:10,1,Nginx container does not send requests to back-end,<angular><nginx><docker-compose>
+57561928,2019-08-19 18:08:52,1,How do I allocate more memory to node.js when running ng build in docker?,<node.js><angular><docker><docker-compose>
+57931643,2019-09-14 00:48:21,1,How to properly make a Docker Compose that is placed in a different path from the project/dockerfile?,<angular><docker><docker-compose>
+58111742,2019-09-26 07:35:51,1,Reaching an Angular application served on a docker proxied through nginx,<angular><docker><nginx><docker-compose>
+58208540,2019-10-02 19:56:50,1,Using environment variables from docker-compose.yml in Angular app,<angular><docker-compose><environment-variables>
+58504062,2019-10-22 12:14:58,1,docker-compose Error: ENOENT: no such file or directory /index.html,<node.js><angular><docker><express><docker-compose>
+58781405,2019-11-09 16:46:39,1,How to configure the url of a rest api container into another container which has Angular cli proxy,<angular><rest><docker><.net-core><docker-compose>
+58815191,2019-11-12 09:01:12,1,How to build Angular app in docker container using process.env variables,<node.js><angular><docker><docker-compose>
+59350343,2019-12-16 03:51:42,1,What should I add as api-address when within a multi-container docker-compose setup?,<angular><docker><docker-compose>
+59583086,2020-01-03 17:49:40,1,Call from docker ui container to api container,<angular><docker><docker-compose>
+60074174,2020-02-05 10:52:15,1,How can I run an npm command in a docker container?,<node.js><angular><docker><npm><docker-compose>
+60649639,2020-03-12 07:48:23,1,Unable to communicate between docker containers on localhost,<angular><docker><docker-compose><docker-networking><core-api>
+60823166,2020-03-23 23:53:31,1,Why a angular container needs a exposed port to connect?,<angular><docker><nginx><docker-compose><containers>
+62024322,2020-05-26 14:21:19,1,Frontend and backend in docker container,<angular><spring-boot><docker><docker-compose>
+62052860,2020-05-27 21:05:45,1,This side can't be reached - angular in docker on Windows 10,<angular><windows><docker><docker-compose>
+62569340,2020-06-25 06:43:20,1,Angular web-app can't reach the API of my NodeJs server places both on Azure domain,<angular><docker-compose><azure-appservice>
+62945837,2020-07-17 01:42:05,1,How do I access my docker host machine's IP from within an angular app that is containerized,<angular><docker><user-interface><docker-compose><frontend>
+64485502,2020-10-22 15:25:38,1,how to pass urls from some file through docker-compose to vuejs/angular apps?,<angular><docker><vue.js><docker-compose><environment-variables>
+64599750,2020-10-29 21:54:39,1,Docker compose with angular 502 Bad Gateway,<angular><docker><docker-compose><dockerfile><http-status-code-502>
+64785285,2020-11-11 11:10:54,1,Angular Docker compose depending on env,<angular><docker><docker-compose><environment-variables><dockerfile>
+66935830,2021-04-03 21:01:39,1,Serving an NX monorepo of angular apps in Docker-compose,<angular><docker><docker-compose><docker-volume><nrwl-nx>
+47001530,2017-10-29 14:46:47,1,Can't seem to get my .Net Core App to work with SQL Server in Docker Container,<sql-server><angular><docker><asp.net-core-mvc><docker-compose>
+48446886,2018-01-25 15:49:30,1,Hot Reload with docker compose,<angular><docker><docker-compose>
+60030164,2020-02-02 20:14:58,0,"An unhandled exception occurred: Could not find module ""@angular-devkit/build-angular"" from ""/ang-frontend"". with docker and docker-compose",<node.js><angular><docker><docker-compose><angular-cli>
+60102873,2020-02-06 20:17:34,0,docker-compose up not running app correctly,<node.js><angular><docker><docker-compose>
+55050924,2019-03-07 18:54:22,0,node_module doesnt syncronize with host,<angular><docker-compose><dockerfile>
+52092969,2018-08-30 08:58:08,0,DockerCompose for ASP.NET Core API App and Angular6 App,<angular><docker><asp.net-web-api><docker-compose><dockerfile>
+44253014,2017-05-30 03:36:51,0,Getting 404 for all compiled Angular files when serving from nginx + uwsgi using docker-compose,<angular><nginx><flask><docker-compose><uwsgi>
+55046584,2019-03-07 14:47:54,0,Nextcloud internal server error Remote Address: 172.18.0.1 Request ID,<angular><postgresql><docker><docker-compose><nextcloud>
+60906430,2020-03-28 20:12:41,0,Gitlab CI/CD Pipeline Running Issue,<angular><docker-compose><dockerfile><gitlab-ci-runner>
+61540947,2020-05-01 10:43:45,0,Can't access Api from angular container,<angular><spring-boot><docker><docker-compose>
+61577120,2020-05-03 15:36:42,0,docker containers endpoints names in the production environment,<angular><spring-boot><docker><google-cloud-platform><docker-compose>
+61797514,2020-05-14 12:35:37,0,Docker container not hot-reloading Angular,<angular><docker><docker-compose><containers>
+54679809,2019-02-13 21:35:14,0,"using Docker to get letsencrypt ssl for Angular, Spring Boot API with Mysql stack",<angular><docker><docker-compose><lets-encrypt>
+61965885,2020-05-23 00:28:40,0,"An unhandled exception occurred: Could not find module ""@angular-devkit/build-angular"" from ""/project into a docker",<angular><docker><docker-compose>
+51750914,2018-08-08 15:53:37,0,How to containerize a Angular service in a full-stack app?,<angular><docker><docker-compose><angular-cli><dockerfile>
+51355142,2018-07-16 05:35:26,0,How to pass variables in .env file to angular6 environment.ts file,<angular><docker><docker-compose><angular-cli><angular-cli-v6>
+62174076,2020-06-03 13:30:47,0,"Docker Compose with Angular, Express.js and Nginx - 502 response",<angular><mongodb><express><nginx><docker-compose>
+66957673,2021-04-05 18:13:22,0,How can i run Angular Dockerfile project?,<node.js><angular><docker><docker-compose><dockerfile>
+67498743,2021-05-12 07:04:50,0,How to reach the application Backend & Admin - Laravel 5 Backend + Angular JS Admin,<angular><nginx><docker-compose><dockerfile><laravel-6>
+59529188,2019-12-30 10:20:19,0,Build falling using docker,<django><angular><docker><docker-compose>
+59565088,2020-01-02 14:33:57,0,Configuring Docker to create a container for an Angular App,<c#><angular><docker><docker-compose><dockerfile>
+52867966,2018-10-18 06:11:34,0,Unable to compose muliticontainer docker app (Angular-Node-MongoDB) with single npm command,<javascript><node.js><angular><docker><docker-compose>
+59769534,2020-01-16 12:16:50,0,"In multi container setup, failing to call service from another container while using Docker-Compose",<angular><docker><docker-compose>
+48516182,2018-01-30 07:35:03,0,How to fetch variables.env variables in Angular and assign it to environment.ts or environment.prod.ts,<angular><docker><docker-compose>
+60026731,2020-02-02 13:49:18,0,Angular + Docker: trouble with docker-compose,<angular><docker><docker-compose>
+44006620,2017-05-16 16:15:15,0,Calling a service running in a docker container from an angular2 app,<angular><docker><docker-compose><angular2-services>
+62348592,2020-06-12 16:33:06,0,Docker / docker-compose workflow: angular changes not being reflected,<node.js><angular><docker><nginx><docker-compose>
+54144255,2019-01-11 10:04:06,0,Docker angular app containers hosted by a Nginx container ideas,<angular><docker><nginx><docker-compose><jwilder-nginx-proxy>
+46536138,2017-10-03 01:59:09,0,Build docker image with nginx,<angular><docker><nginx><docker-compose>
+62580293,2020-06-25 16:44:54,0,Why is nodemon ignoring my /src file in angular,<angular><docker><docker-compose><windows-subsystem-for-linux>
+62637389,2020-06-29 11:45:00,0,Calling another docker container from within an app,<angular><docker><flask><docker-compose>
+62715589,2020-07-03 12:36:14,0,Deploying Angular Project in Docker - Why is my Frontend not appearing?,<angular><docker><docker-compose><dockerfile>
+51318165,2018-07-13 05:27:16,0,docker-compose up command hangs on Windows CMD,<angular><docker><asp.net-core><docker-compose><dockerfile>
+63226100,2020-08-03 08:28:25,0,docker-compose: error while trying to install MDBoostrap Pro with oauth authentication,<angular><docker><npm><docker-compose><mdbootstrap>
+63298996,2020-08-07 09:30:10,0,Docker network live reload node/angular app,<angular><docker><express><docker-compose><docker-network>
+52952987,2018-10-23 15:41:01,0,Nginx docker container on host network don't serve angular app,<angular><docker><nginx><docker-compose>
+63572588,2020-08-25 05:32:29,0,Angular replacing .scss using docker-compose does not affect,<angular><docker><sass><docker-compose><styles>
+63736096,2020-09-04 06:41:52,0,Docker & Angular - Can not connect to backend container from a angular based frontend container,<angular><docker><docker-compose><docker-network>

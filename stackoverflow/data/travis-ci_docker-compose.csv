@@ -1,0 +1,31 @@
+"id","creationdate","score","title","tags"
+38398135,2016-07-15 14:05:04,6,Error starting docker postgres on travis-,<docker><travis-ci><docker-compose>
+34662371,2016-01-07 18:20:59,5,AWS: CodeDeploy for a Docker Compose project?,<django><amazon-web-services><amazon-ec2><travis-ci><docker-compose>
+49640201,2018-04-03 22:49:48,2,Rails 5 rake db:schema:load doesn't create tables or run initialize_schema_migrations_table() on postgres database,<ruby-on-rails><postgresql><docker-compose><rake><travis-ci>
+40308123,2016-10-28 15:14:43,2,"How to CI with Travis, Codedeploy and dockerized Database",<git><mongodb><docker-compose><travis-ci><aws-code-deploy>
+30894408,2015-06-17 14:22:16,2,how to run Docker in Travis hosted in travis-ci.com,<docker><travis-ci><docker-compose>
+62942937,2020-07-16 20:24:42,2,SQLSTATE[HY000] [2002] Connection refused with docker-compose on travis only for symfony phpunit test,<docker><symfony><docker-compose><phpunit><travis-ci>
+39719827,2016-09-27 08:31:38,1,When using docker-compose to fire up containers how do I programatically get their ips?,<docker><travis-ci><docker-compose>
+52897605,2018-10-19 17:49:49,1,Elasticsearch docker on travis fails with folder access denied,<elasticsearch><docker-compose><travis-ci>
+55646181,2019-04-12 07:02:23,1,(Django) How to run test suite in Travis CI,<python><django><docker><docker-compose><travis-ci>
+56406842,2019-06-01 12:40:37,1,Travis CI connection error accessing docker container running REST API on port 8080,<docker><docker-compose><postman><travis-ci><newman>
+56938496,2019-07-08 15:48:52,1,Coveralls: Error- No source for in my application using Docker container,<django><docker><docker-compose><travis-ci><coverage.py>
+58519737,2019-10-23 09:31:13,1,Coveralls is not being submitted on a Django app with Docker,<django><docker><docker-compose><travis-ci><coveralls>
+60516104,2020-03-03 21:56:03,1,Why is Docker image is not appearing on Docker Hub after being pushed from Travis CI,<docker><github><docker-compose><travis-ci>
+65161292,2020-12-05 19:51:24,1,curl request to docker-compose port hangs in travis-ci,<docker-compose><travis-ci>
+66975472,2021-04-06 19:41:38,0,How to deploy only docker-compose.yml file to AWS Elastic Beanstalk using Travis CI,<amazon-web-services><docker-compose><amazon-elastic-beanstalk><travis-ci>
+57295747,2019-07-31 16:58:13,0,docker-compose 'ports' mapping in development vs travisCI,<docker-compose><port><travis-ci>
+57871628,2019-09-10 13:14:31,0,Unexpected token in build output,<docker><docker-compose><travis-ci>
+58367923,2019-10-13 21:25:08,0,How do i run a shell script inside docker-compose,<django><docker><docker-compose><travis-ci>
+41620055,2017-01-12 18:06:59,0,Travis ci in docker failing,<docker><continuous-integration><yaml><docker-compose><travis-ci>
+41178315,2016-12-16 06:15:23,0,Test docker containers using travis-ci,<docker><docker-compose><travis-ci><dockerfile>
+61948914,2020-05-22 06:16:40,0,Optimise Docker build time on Travis CI with Parallel builds,<docker><optimization><docker-compose><travis-ci><docker-container>
+45523847,2017-08-05 16:00:45,0,Docker essentials: Why is `docker-compose pull` not enough? Why do I need `git pull` too?,<docker><nginx><docker-compose><travis-ci>
+63440076,2020-08-16 17:40:11,0,Why is my first test in Postman/Newman hanging in Travis-CI?,<docker><docker-compose><postman><travis-ci><newman>
+48018935,2017-12-29 07:15:19,0,"""file not found"" on travis-ci when running pytest from tox using docker",<docker><docker-compose><travis-ci><pytest><tox>
+51725273,2018-08-07 11:06:46,0,Docker-compose cache of build images in Travis CI for Cypress,<docker><caching><docker-compose><travis-ci>
+51809536,2018-08-12 14:03:12,0,Can't connect to local MySQL server through socket on Travis CI,<mysql><sql><docker><docker-compose><travis-ci>
+63913275,2020-09-16 04:44:44,0,How can I configure my docker tests to run on Travis CI correctly?,<python><docker><unix><docker-compose><travis-ci>
+64700670,2020-11-05 15:51:55,0,spring boot+mysql+docker+travis when building in travis getting mysql connection failre,<mysql><spring-boot><docker><docker-compose><travis-ci>
+39739196,2016-09-28 06:06:26,0,What goes on behind the scenes in travis causing jobs that are essentially the same to behave so differently?,<docker><travis-ci><docker-compose>
+56603640,2019-06-14 18:43:58,0,Docker and travis ci faling on build,<docker><docker-compose><continuous-integration><travis-ci>

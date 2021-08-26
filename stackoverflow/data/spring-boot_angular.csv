@@ -1,0 +1,101 @@
+"id","creationdate","score","title","tags"
+38516667,2016-07-22 01:05:22,46,Springboot/Angular2 - How to handle HTML5 urls?,<spring><angular><spring-boot>
+44301334,2017-06-01 07:36:40,45,Choosing between Thymeleaf and Angular for a new Spring MVC project,<java><spring><angular><spring-boot><thymeleaf>
+43913753,2017-05-11 11:12:06,25,Spring Boot with redirecting with single page angular2,<java><spring><angular><spring-mvc><spring-boot>
+24837715,2014-07-19 07:05:44,17,Spring Boot with AngularJS html5Mode,<html><angularjs><angular><spring><spring-boot>
+46148843,2017-09-11 05:38:54,16,Spring Boot/Angular 4 - Routing in app hits the server,<java><angular><spring-boot><routing><angular4-router>
+40987560,2016-12-06 03:55:46,15,Angular 2 spring boot server side events,<java><angular><events><spring-boot><server-sent-events>
+56479150,2019-06-06 13:57:20,15,Access blocked by CORS policy: Response to preflight request doesn't pass access control check,<angular><spring><rest><spring-boot><http>
+56293624,2019-05-24 13:25:19,13,Google Sign-In with Backend Verification Flow Clarification,<angular><spring-boot><jwt><single-page-application><google-signin>
+46469288,2017-09-28 12:33:24,13,Spring Boot + Angular 4 with i18n,<angular><spring-boot><internationalization>
+42593975,2017-03-04 08:44:44,13,Make front- and backend (Angular 2 and Spring) Maven Multimodule Project,<spring><maven><angular><spring-boot><angular-cli>
+45146201,2017-07-17 13:55:21,12,How to add static files to jar using Gradle build in Spring Boot + Angular 2 project,<java><angular><spring-boot><heroku><gradle>
+59925804,2020-01-27 06:02:28,12,Blocked because of a disallowed MIME type (“text/html”) : Angular 8 deployed on tomcat 9.0.30 fails to serve the assets,<angular><spring><spring-boot><angular8><tomcat9>
+51509190,2018-07-25 00:11:59,12,Angular 6 ResponseContentType,<angular><rest><api><spring-boot><xls>
+43851499,2017-05-08 15:24:50,12,HTML5 History API auto routing refresh error,<javascript><html><angular><spring-boot><angular2-routing>
+48082023,2018-01-03 17:11:25,12,Angular PUT request is Forbidden over SSL,<angular><ssl><spring-boot><cas>
+44139831,2017-05-23 16:03:16,11,Required request part 'file' is not present - Angular2 Post request,<spring><angular><http><file-upload><spring-boot>
+38386595,2016-07-15 01:32:31,11,How to setup structure with SpringBoot and Angular2?,<javascript><java><angularjs><angular><spring-boot>
+53054442,2018-10-29 21:56:51,11,Angular 6 Spring Boot POST Issue,<java><angular><spring><spring-boot>
+41407237,2016-12-31 09:52:26,11,Spring Boot + Angular 2 structure,<angular><spring-boot><angular-cli>
+49065527,2018-03-02 08:45:18,10,how to handle json stream issued by spring boot 2 in angular 5,<angular><spring-boot><jsonstream>
+46256465,2017-09-16 17:16:35,10,Can we add a feature module to an Angular app after AOT,<angular><spring-mvc><spring-boot>
+55736723,2019-04-17 22:20:33,10,Set-Cookie Header Not Appearing In Google Chrome,<angular><google-chrome><spring-boot><http>
+49620597,2018-04-03 00:33:04,10,CORS Angular and SpringBoot - request blocked,<spring><angular><spring-boot>
+41923274,2017-01-29 16:40:06,9,Angular2 and Spring Boot. How to serve front-end?,<node.js><angular><heroku><spring-boot><npm>
+42164938,2017-02-10 17:08:32,9,Step by step guide on how to create a webjar for Front-End Application?,<maven><angular><spring-boot><webjars>
+45405983,2017-07-31 00:19:33,8,HTTP status code 401 even though I’m sending credentials in the request,<javascript><angular><spring-boot><cors><httprequest>
+54058890,2019-01-06 05:28:03,8,"""Refused to set unsafe header 'Cookie' "" while sending cookies with GET request in angular 6",<java><angular><spring-boot><cookies><spring-security>
+51380166,2018-07-17 11:24:11,8,Angular 6 - browser-crypto.js:3 Uncaught ReferenceError: global is not defined,<angular><spring-boot><angular6>
+49471172,2018-03-24 23:54:00,7,Springboot endpoint 403 OPTIONS when doing a POST request,<spring><angular><spring-boot>
+55076997,2019-03-09 11:42:40,7,Handling CORS and CSRF between Spring Boot and Angular,<javascript><java><angular><spring><spring-boot>
+55243391,2019-03-19 14:30:07,7,Passing error messages from SSE (Webflux) Spring Boot app to Angular 7 frontend,<java><angular><spring-boot><spring-webflux><server-sent-events>
+41436732,2017-01-03 05:04:55,7,How to use angular2 with spring boot,<maven><angular><spring-boot>
+49373385,2018-03-19 22:23:00,7,JWT authentication using httponly cookie with Spring Boot and Angular 5,<java><spring><angular><spring-boot><jwt>
+47881785,2017-12-19 07:18:19,6,how to solve Circular dependency detected using Angular 4?,<angular><spring-boot><angular4-forms><angular4-httpclient>
+64331552,2020-10-13 08:33:51,6,Deploy WAR file on Tomcat of Spring boot and Angular App,<java><angular><spring><spring-boot><tomcat>
+53605255,2018-12-04 03:26:19,6,Spring Boot JWT CORS with Angular 6,<java><angular><spring-boot><cors><jwt>
+36163672,2016-03-22 19:40:22,6,CORS issue with Spring Boot,<spring><firefox><spring-boot><cors><angular>
+50001285,2018-04-24 12:07:33,6,Angular routing doesn't work after deploy into a Springboot Application,<angular><spring-boot><angular4-router>
+39877413,2016-10-05 14:56:38,6,"Angular 2, Spring boot , spring security , login form",<spring><angular><spring-boot><spring-security>
+48524932,2018-01-30 15:24:48,6,"Incompatibile SockJS! Main site uses: ""1.1.4"", the iframe: ""1.0.0"". How to deal with that?",<angular><spring-boot><iframe><websocket>
+64892592,2020-11-18 11:54:50,6,"Cors enabled in Spring Boot with Angular, still cors errors",<angular><spring-boot><cors>
+38609621,2016-07-27 09:55:41,6,Problems with URL handling with Spring Boot and Angular 2,<url><angular><spring-boot><routing>
+48168074,2018-01-09 12:17:18,6,TypeScript Map to Java Map,<java><angular><typescript><spring-boot><angular2-template>
+33349664,2015-10-26 15:34:28,6,"Spring boot, maven, AngularJS 2, typescript and live reload",<maven><typescript><spring-boot><angular><livereload>
+53241079,2018-11-10 16:38:56,5,Could not find acceptable representation for file download,<spring><angular><spring-boot><spring-data-jpa><angular6>
+50972107,2018-06-21 15:19:58,5,Angular5 - Set cookies returned from spring form login,<spring><angular><spring-boot><spring-security>
+53964475,2018-12-28 21:30:05,5,Implementing websockets in microservices application,<node.js><angular><spring-boot><websocket>
+43514324,2017-04-20 08:36:36,5,Google OAuth2 authentication with Spring Boot and Angular 2 CLI,<angular><spring-boot><oauth-2.0><angular-cli><google-login>
+46024913,2017-09-03 15:21:41,5,maven - Spring Boot/Angular 2/4 project war build,<angular><maven><spring-boot><war>
+51537394,2018-07-26 11:08:25,5,How To Add SelfSigned Certificate to Chrome / Mozilla,<angular><spring-boot><ssl><tls1.2>
+54858192,2019-02-25 01:02:19,5,Kubernetes: ERR_NAME_NOT_RESOLVED,<angular><spring-boot><kubernetes><google-kubernetes-engine><kube-dns>
+55825639,2019-04-24 08:31:12,5,Spring boot with Spring Security (+ Angular) returns 401 error,<angular><spring><spring-boot><spring-security><basic-authentication>
+47564695,2017-11-30 01:56:20,5,Spring Boot-Angular - Entering Url in Address Bar results in 404,<java><angular><spring-boot>
+58587692,2019-10-28 08:30:16,5,How to remove defer nomodule from the index.html on angular build,<angular><typescript><spring-boot><spring-mvc>
+56560927,2019-06-12 11:18:10,5,"Angular 6 + Spring Boot: Error: ""from origin 'http://localhost:4200' has been blocked by CORS policy""",<java><angular><maven><spring-boot><cors>
+44246710,2017-05-29 16:13:30,5,Spring Boot + Angular2 on same server,<java><spring><angular><spring-boot>
+60983538,2020-04-02 02:52:01,5,Property 'finally' does not exist on type 'Observable<Object>',<angularjs><angular><spring><spring-boot><spring-security>
+53978113,2018-12-30 13:44:23,5,Spring boot with Angular. Access to XMLHttpRequest at 'http://localhost:8080/' from origin 'http://localhost:4200' has been blocked by CORS policy,<java><angular><spring-boot>
+54069488,2019-01-07 06:33:13,5,How to redirect/forward angular page from spring boot?,<java><angular><spring-boot>
+38914264,2016-08-12 09:15:01,4,Whitelabel Error Page after refresh,<java><angular><spring-boot><angular2-routing>
+53427156,2018-11-22 08:58:43,4,Credential is not supported if the CORS header ‘Access-Control-Allow-Origin’ is ‘*’,<angular><google-chrome><spring-boot><firefox><xmlhttprequest>
+63111877,2020-07-27 08:55:05,4,Keycloak with Angular and Spring error: GET http://localhost:8180/auth/realms/Storage/protocol/openid-connect/3p-cookies/step1.html 404 (Not Found),<angular><spring><spring-boot><spring-security><keycloak>
+44292660,2017-05-31 18:55:17,4,Cross-origin request filters out most of my API response headers,<angular><spring-boot><http-headers><cors><spring-data-rest>
+53294357,2018-11-14 06:34:22,4,using spring boot app as resource server and google oauth2 as authorization server,<angular><spring-boot><google-oauth>
+49159013,2018-03-07 18:35:26,4,Google OAuth using Angular 5 with Spring boot,<angular><spring-boot><oauth-2.0><google-oauth>
+53239615,2018-11-10 13:48:06,4,Cannot download file: cannot be resolved to URL because it does not exist,<java><spring><angular><spring-boot><angular6>
+46093464,2017-09-07 09:59:54,4,Angular + Websockets + Spring-Boot receiving duplicate entries on the client,<angular><spring-boot><websocket><stomp><sockjs>
+55351303,2019-03-26 06:51:05,4,Deploy spring-boot and angular 7 application using war into tomcat 8.5,<java><angular><spring><spring-boot>
+39946536,2016-10-09 17:37:56,4,angular2 spring-boot project structure,<javascript><java><spring><angular><spring-boot>
+46913909,2017-10-24 15:02:28,4,Angular and Spring Boot : configuration to make them work together efficiently,<angular><maven><spring-boot>
+52074763,2018-08-29 10:04:36,4,How to get my resource data from a HAL response?,<angular><spring-boot><spring-hateoas>
+47756044,2017-12-11 15:22:35,4,Send JSON and Image with single request. Angular + Spring Boot,<spring><angular><typescript><spring-boot>
+48740997,2018-02-12 06:56:32,4,whitelabel error page 404 spring boot angular 5,<java><angular><spring-mvc><spring-boot>
+55866035,2019-04-26 10:49:52,4,Angular 6 and spring boot remember me with session based login,<java><angular><spring-boot>
+60058609,2020-02-04 13:36:00,4,Springboot hot reload angular 8 during development,<angular><spring><spring-boot>
+59346421,2019-12-15 17:34:57,4,Angular error message from service pass to component,<java><angular><typescript><spring-boot>
+65492071,2020-12-29 12:22:39,4,Implement Byte serving for Spring Boot,<java><angular><spring><spring-boot><spring-mvc>
+38243402,2016-07-07 10:41:35,4,Angular get image from Spring RestController and cache it,<java><spring><typescript><angular><spring-boot>
+51546229,2018-07-26 19:27:49,4,Spring Boot 2 index.html not loaded automatically from subdirectory mapped as static resource,<java><angular><spring-boot>
+44115754,2017-05-22 14:39:09,4,How can I deploy a spring-boot webapp with angular 2 frontend (angular-cli build) to Tomcat?,<spring><angular><tomcat><spring-boot><angular-cli>
+39441655,2016-09-11 23:34:30,4,JHipster non-angular landing page,<angular><spring-boot><jhipster>
+54023783,2019-01-03 13:59:49,4,Angular Frontend with Spring Boot Security and Keycloak,<angular><spring-boot><spring-security><keycloak>
+42119385,2017-02-08 17:06:47,4,Spring Boot video chat,<java><angular><spring-boot><udp><video-streaming>
+45448772,2017-08-01 22:45:21,4,spring bootRun and Angular buildWatch using Gradle,<angular><spring-boot><gradle><build><watch>
+45549493,2017-08-07 14:34:35,4,Remote Spring boot app still connect to my local mysql,<mysql><spring><angular><spring-boot>
+62239591,2020-06-07 00:34:00,4,Angular Cannot read property 'navigate' of undefined,<javascript><angular><spring-boot><okta>
+53846135,2018-12-19 07:03:11,4,Angular using angular-oauth2-oidc: Valid Token is not stored in Storage,<angular><spring-boot><angular-oauth2-oidc>
+51649992,2018-08-02 09:21:21,3,Unable to connect angular project with spring boot web application,<java><angular><spring-boot>
+52246651,2018-09-09 16:47:28,3,why getting _csrf null error with spring security and angular,<java><angular><spring-boot><csrf><x-xsrf-token>
+38478011,2016-07-20 09:55:35,3,Exclude Angluar2 route from Spring Web MVC application,<java><spring><spring-mvc><angular><spring-boot>
+63707827,2020-09-02 14:34:37,3,Keycloak : Get notified via API when a new user registers,<java><angular><spring><spring-boot><keycloak>
+49783521,2018-04-11 19:57:37,3,"JWT authentication with email/password, facebook and google with seperate API and client service (Java Spring Boot, Angular)",<angular><rest><authentication><spring-boot><jwt>
+60181477,2020-02-12 05:06:51,3,How to hide Authorization headers using Spring boot and Angular app,<angular><spring-boot><jwt>
+55133059,2019-03-13 01:31:10,3,How pass params to custom error message in JHipster?,<angular><spring-boot><jhipster>
+39080370,2016-08-22 13:05:30,3,SockJS over stomp using angular2 and spring boot,<angular><spring-boot><websocket><sockjs>
+52079379,2018-08-29 14:05:28,3,How to integrate angular with spring boot to see angular web interface on spring boot port?,<java><angular><spring-boot><angular-cli><angular4-router>
+53615472,2018-12-04 14:46:08,3,Do I have to configure Angular 4 when Spring Boot is configured for oAuth2?,<angular><spring-boot><spring-security-oauth2><keycloak>
+46272827,2017-09-18 06:25:53,3,Deserialization of File type from Angular to Java using Jackson,<java><angular><spring-boot><jackson><deserialization>
+52784756,2018-10-12 17:54:37,3,Cannot logout using spring security 5,<angular><spring-mvc><spring-boot><spring-security><spring-web>
+60538846,2020-03-05 05:42:40,3,Deploy WAR to Tomcat (Spring Boot + Angular),<java><angular><spring><spring-boot><tomcat>

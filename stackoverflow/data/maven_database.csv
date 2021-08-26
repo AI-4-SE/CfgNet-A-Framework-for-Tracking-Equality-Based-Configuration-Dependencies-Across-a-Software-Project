@@ -1,0 +1,92 @@
+"id","creationdate","score","title","tags"
+3779369,2010-09-23 14:21:57,106,Run a single Maven plugin execution?,<database><maven><testing><maven-3><maven-plugin>
+23501244,2014-05-06 17:30:22,17,FlywayException: Unable to scan for SQL migrations in location: classpath:db/migration,<java><database><maven><flyway>
+23545657,2014-05-08 15:08:26,14,How to use Flyway configuration to handle multiple databases,<java><database><maven><database-migration><flyway>
+32166653,2015-08-23 12:28:32,9,No inverse to liquibase.change.core.RawSQLChange created,<java><database><eclipse><maven><liquibase>
+33012776,2015-10-08 10:11:47,7,createDatabaseIfNotExist=true not working in .properties file in maven project,<java><database><hibernate><maven><jdbc>
+27546313,2014-12-18 12:10:36,6,Flyway database migration to multiple schemas,<java><database><maven><migration><flyway>
+60029540,2020-02-02 19:02:26,5,How to export and deploy a JavaFX application with H2 embedded database?,<java><database><maven><javafx><module>
+31547146,2015-07-21 18:42:58,5,JUnit test starts before H2´s RUNSCRIPT finishes,<java><database><maven><junit><h2>
+27640808,2014-12-24 18:16:25,3,Liquibase - Update changelog XML file from database changes,<java><database><maven><version-control><liquibase>
+22201482,2014-03-05 15:04:56,3,Keep Derby Network Server running after build,<database><maven><derby>
+42033408,2017-02-03 21:38:16,3,Liquibase always generating changesets for creating/dropping index,<java><database><maven><indexing><liquibase>
+13492070,2012-11-21 11:15:04,3,Flyway - not copy sql resources,<java><database><maven><data-migration><flyway>
+60772511,2020-03-20 10:37:18,2,Liquibase diff functionality,<database><oracle><maven><devops><liquibase>
+4995341,2011-02-14 17:40:59,2,problem running liquibase with maven and postgres-db,<database><postgresql><maven><liquibase>
+29933979,2015-04-29 03:47:53,2,Liquibase Maven & Command line working differently,<database><maven><liquibase>
+31965222,2015-08-12 12:27:02,2,How insert data to database using Maven,<database><maven><maven-plugin>
+14489287,2013-01-23 21:00:20,2,looking fo the proper handling of config and database schema files in subversion project structure,<java><database><svn><maven><database-migration>
+36757126,2016-04-20 23:42:29,2,Importing a new cassandra related POM dependency in project resulting in run time errors,<java><database><maven><cassandra>
+17099653,2013-06-14 01:11:38,2,Installing Sonar without database in Spring Boot,<database><maven><sonarqube>
+64882558,2020-11-17 20:05:44,2,Error on setting ConnectionInitSql with Hikari Version : 3.4.5,<java><database><maven><junit><hikaricp>
+24168293,2014-06-11 16:45:57,1,How can I setup my environment to use h2 for tests and mysql for development?,<database><maven><spring-data><h2><jhipster>
+37177959,2016-05-12 05:25:55,1,Different data being save to the database,<java><database><hibernate><maven><oracle-sqldeveloper>
+47532600,2017-11-28 13:19:23,1,anonymous user in spring database,<database><spring><maven>
+40391578,2016-11-02 23:37:50,1,"H2 In-Memory DB, How can I see tables structure?",<database><eclipse><maven><jboss><h2>
+61725653,2020-05-11 08:46:05,1,Cant initialize spring-boot Database,<spring><database><spring-boot><maven>
+40586646,2016-11-14 10:33:20,1,Maven and Hsqldb: org.hsqldb.HsqlException: Client driver version greater than '2.1.0.0' is required. HSQLDB server version is '2.3.4' (on mac),<java><database><eclipse><maven><hsqldb>
+59343951,2019-12-15 12:37:30,1,"Get params from request body, but cannot be used in mybatis annotation join query",<java><database><spring-boot><maven><mybatis>
+41099313,2016-12-12 10:58:09,1,How to run derby ij interactive SQL scripting tool with maven,<java><database><maven><derby>
+9213264,2012-02-09 15:03:34,1,Maven projects versions stored in a database managed by a version server and a web interface?,<database><maven><release><versions>
+29928334,2015-04-28 19:34:48,1,Why IntelliJ IDEA doesn't connect oracle database with java code in maven project?,<java><database><maven><jdbc><intellij-idea>
+56378764,2019-05-30 12:55:57,1,How to correctly join tables in Spring Boot,<java><database><maven><spring-boot>
+54461836,2019-01-31 13:36:55,1,How can I connect to databese (workbench) with the new STS? (3.9.7),<mysql><database><spring><maven><database-connection>
+48162657,2018-01-09 06:41:00,1,Spring : Cannot determine embedded database driver class for database type NONE,<mysql><database><maven><spring-boot><configuration>
+14065729,2012-12-28 06:45:41,1,Reusing constants and properties in a maven project?,<java><database><maven><jpa><pom.xml>
+48761614,2018-02-13 07:34:15,1,Run same liquibase migration on different schemas,<java><database><maven><database-migration><liquibase>
+13515107,2012-11-22 14:45:14,1,MyEclipse + Maven + ActiveJDBC how to auto run instrumentation,<java><database><maven><myeclipse><activejdbc>
+58247895,2019-10-05 11:29:21,1,"Database ""mem:"" not found, and IFEXISTS=true when I am trying to connect ht2 database",<java><database><maven><spring-boot><h2>
+31695239,2015-07-29 08:31:26,0,Hibernate Maven Project Find Entity by id,<database><hibernate><maven>
+32011215,2015-08-14 13:24:51,0,How to automatically run a program when I connect a phone to my computer?,<java><database><eclipse><maven><csv>
+33058360,2015-10-10 19:55:57,0,How to configure Liquibase plugin for two DB?,<java><database><maven><database-migration><liquibase>
+35764618,2016-03-03 06:20:32,0,Automated database table creation via Jenkins,<database><maven><jenkins><build><continuous-integration>
+35827775,2016-03-06 14:01:04,0,Maven Project after deploy won't establish a connection to the Database file,<java><database><sqlite><maven><javafx>
+36733484,2016-04-20 03:49:09,0,I can't get the Sqlite database to communicate properly with my JavaFX application IDE - Eclipse packaging with Maven,<java><database><eclipse><sqlite><maven>
+38320325,2016-07-12 04:58:14,0,"Cannot log into my remote mongoDB, Modulus, Maven project",<java><mongodb><maven><connection><database>
+40561393,2016-11-12 09:20:56,0,What is the best strategy to externalise database properties in a multi-module maven project?,<database><maven><spring-boot><flyway>
+40890598,2016-11-30 14:14:32,0,"Exception in thread ""main"" java.lang.NoClassDefFoundError: org/apache/commons/dbcp2/BasicDataSource",<java><database><maven><terminal><pool>
+42840253,2017-03-16 16:54:12,0,SQLite Class Not Found Exception - Maven Project using Tomcat,<java><database><sqlite><maven><tomcat>
+43988857,2017-05-15 21:09:34,0,Not able to integrate and run liquibase through my spring maven project,<java><database><spring><maven><liquibase>
+44660245,2017-06-20 18:12:14,0,Having an error org.hibernate.HibernateException. The error is in the init method (while running the application as java app.),<java><database><spring><hibernate><maven>
+46876306,2017-10-22 16:10:51,0,Import H2 Database Engine into IntelliJ IDEA local server,<java><database><maven><intellij-idea><h2>
+47407886,2017-11-21 07:53:10,0,Jenkins Build - Can't find Java class,<java><database><oracle><maven><jenkins>
+48006657,2017-12-28 11:29:30,0,Java Derby DB in embedded server mode Change Listener,<java><database><maven><vaadin><derby>
+48341579,2018-01-19 12:52:31,0,Can I integrate a MySQL and a PostgreSQL database into a Spring MVC Maven Project?,<mysql><database><spring><postgresql><maven>
+49555916,2018-03-29 12:19:59,0,Build Failure error when Maven dependency for sql jdbc driver is added in pom.xml,<java><database><eclipse><maven>
+52092038,2018-08-30 08:03:51,0,Java SQLite - Unable to access .db-file inside executable jar,<java><database><maven><sqlite>
+52160709,2018-09-04 07:09:44,0,JPA datasorce ignores username in properties file,<java><database><spring><maven><jpa>
+52708762,2018-10-08 19:19:05,0,"HTTPS Status 500 after deploy on Heroku - Java, Maven",<java><database><maven><heroku><http-status-code-500>
+53119005,2018-11-02 12:54:46,0,How to auto-connect interactively to Embedded Derby Database,<java><database><maven><jdbc><derby>
+53270199,2018-11-12 21:13:33,0,No suitable driver found for jdbc:derby,<java><database><spring><maven><derby>
+54448625,2019-01-30 19:59:48,0,How can I fix this pom.xml problem? (coonection to the database),<mysql><database><maven><jpa><java-11>
+54983129,2019-03-04 12:18:50,0,Unable to create embedded h2 database,<java><database><maven><h2>
+56533665,2019-06-10 21:18:11,0,How to keep Maven integration tests isolated from each other?,<java><database><maven><integration-testing>
+57394364,2019-08-07 12:19:26,0,Transaction error: Error while committing the transaction,<java><database><hibernate><maven><transactions>
+60084064,2020-02-05 21:02:06,0,java.sql.SQLException: No suitable driver found for jdbc:mysql://localhost:3306/database,<java><mysql><database><maven><tomcat9>
+60238703,2020-02-15 12:20:33,0,How to determine MySQL / MariaDB version for Maven dependency?,<java><mysql><database><maven><mariadb>
+60805460,2020-03-22 22:00:26,0,Storing data in text files with Java/Maven,<java><database><maven><properties><store>
+62024393,2020-05-26 14:24:48,0,Hibernate connection failed,<java><database><hibernate><spring-boot><maven>
+62122711,2020-05-31 21:26:41,0,How to give a third-party application to run mvn commands in ubuntu?,<java><database><maven><tomcat><ubuntu-20.04>
+62372612,2020-06-14 12:36:29,0,How to generate persistence mapping by database schema during build of the project?,<java><database><hibernate><maven>
+62740105,2020-07-05 11:32:58,0,Java cannot connect to mySQL by JPA,<java><mysql><database><hibernate><maven>
+63565186,2020-08-24 16:39:47,0,Liquibase: 'dropForeignKeyConstrant' is not a valid element of a ChangeSet,<database><postgresql><maven><groovy><liquibase>
+63894636,2020-09-15 03:29:00,0,Importing the database into MySQL workbench,<java><mysql><database><maven><velocity>
+64160336,2020-10-01 17:21:49,0,Java+Requery:Unable to do a basic query with this ORM,<java><database><maven>
+64264932,2020-10-08 14:40:05,0,Cryptic Databasenames for PostgreSQL using Spring Boot Maven,<java><database><postgresql><spring-boot><maven>
+64470347,2020-10-21 19:22:15,0,"Error:(47,52) java: cannot access com.mongodb.ConnectionString - Trying to connecting MongoDB to a Java Maven project",<java><database><mongodb><maven><connection-string>
+65438474,2020-12-24 12:43:20,0,Changelog path resolving in Liquibase maven plugin,<java><database><maven><migration><liquibase>
+67363905,2021-05-03 05:32:36,0,How to get list's itself while RowMapping with Maven in java,<java><database><list><maven><rowmapper>
+16356278,2013-05-03 09:59:47,0,sql-maven-plugin: clean multiple databases?,<java><sql><database><maven><sql-maven-plugin>
+16453787,2013-05-09 03:20:37,0,Generate Unique schema name for Testing,<database><maven><testing><jenkins><continuous-integration>
+17806999,2013-07-23 09:59:09,0,Create several jar files from single project using maven,<java><database><maven>
+18686157,2013-09-08 16:45:25,0,Storing structured Maven derived information in a Database,<database><maven><build><regression>
+19606734,2013-10-26 12:31:32,0,org.hibernate.InvalidMappingException: Could not parse mapping document from resource com,<mysql><xml><database><hibernate><maven>
+20461114,2013-12-09 00:28:23,0,The database path for Neo4j,<java><database><maven><path><neo4j>
+20593738,2013-12-15 10:58:52,0,Derby SQL Script Bulk Import,<java><database><maven><derby><bulk>
+21149913,2014-01-15 22:48:00,0,How to create and drop database in DB2 using maven script,<database><maven><db2><maven-plugin>
+22876460,2014-04-05 04:09:28,0,Easiest Way to Use Database in Sample Java Project?,<java><database><maven><sample>
+28565074,2015-02-17 15:33:19,0,Liquibase generating changelog of SQL Server,<java><sql-server><database><maven><liquibase>
+29921622,2015-04-28 13:56:10,0,Liquibase Error,<database><maven><liquibase>
+29935696,2015-04-29 06:12:56,0,Liquibase : Cannot find base path 'src/main/resources/com/example/database/changelog/v000/master.xml',<database><maven><liquibase>
+44947706,2017-07-06 11:32:35,-1,JDBC can't pull data rows while using MYSQL query with WHERE statement,<java><mysql><database><maven><jdbc>
+65886721,2021-01-25 14:30:31,-1,SQLlte [SQLITE_BUSY] The database file is locked (database is locked) error in JAVA Eclipse,<java><database><eclipse><sqlite><maven>

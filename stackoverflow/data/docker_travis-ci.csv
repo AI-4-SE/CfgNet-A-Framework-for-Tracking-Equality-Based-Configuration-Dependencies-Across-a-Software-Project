@@ -1,0 +1,101 @@
+"id","creationdate","score","title","tags"
+62246824,2020-06-07 14:29:05,21,"Error [ERR_PACKAGE_PATH_NOT_EXPORTED]: No ""exports"" main resolved in /app/node_modules/@babel/helper-compilation-targets/package.json",<node.js><docker><travis-ci><nuxt.js>
+26098531,2014-09-29 11:11:16,20,Can travis-ci run docker?,<docker><travis-ci>
+32866599,2015-09-30 12:51:51,19,Can Travis CI cache docker images?,<caching><docker><travis-ci>
+35305492,2016-02-10 01:45:29,13,Cache docker images on Travis CI,<performance><caching><docker><continuous-integration><travis-ci>
+35837905,2016-03-07 06:58:58,13,Running Travis locally using docker,<docker><containers><travis-ci>
+34710513,2016-01-10 20:39:08,12,How can I update full description on Docker Hub automatically?,<docker><travis-ci><docker-registry><dockerhub>
+55361762,2019-03-26 16:17:29,12,apt-get update fails with 404 in a previously working build,<docker><travis-ci><debian-jessie>
+62114945,2020-05-31 10:38:31,10,AttributeError: 'ParsedRequirement' object has no attribute 'req',<python><docker><travis-ci>
+32535195,2015-09-12 04:36:35,9,How to run tests on CentOS 7 with Travis-CI?,<docker><travis-ci>
+56029398,2019-05-07 19:37:00,8,Zef fails to install JSON::Fast when running in Travis with Docker,<docker><travis-ci><raku><zef>
+27254312,2014-12-02 16:32:27,7,Download Github build artifact (release) using wget/curl,<curl><github><docker><wget><travis-ci>
+38398135,2016-07-15 14:05:04,6,Error starting docker postgres on travis-,<docker><travis-ci><docker-compose>
+43760865,2017-05-03 13:02:57,6,What is the optimal way to store data-files for testing using travis-ci + Docker?,<testing><docker><automated-tests><travis-ci>
+50551277,2018-05-27 10:36:03,6,Could not parse .travis.yml,<docker><travis-ci><aws-ecs>
+47994152,2017-12-27 14:47:33,5,How to automate Multi-Arch-Docker Image builds,<docker><github><travis-ci><dockerhub>
+33132868,2015-10-14 18:24:48,5,Continuous Deployment Using Travis CI and Docker,<docker><travis-ci><continuous-deployment>
+38133107,2016-06-30 20:56:10,5,Travis-CI: docker image as build environment,<docker><travis-ci><gitlab-ci>
+37335910,2016-05-19 23:57:57,5,How to speed up CI build times when using docker?,<node.js><jenkins><docker><continuous-integration><travis-ci>
+35203169,2016-02-04 14:06:37,4,Caching a single file on Travis CI,<docker><travis-ci>
+33068097,2015-10-11 17:41:39,4,How to get Docker host IP on Travis CI?,<ruby-on-rails><docker><chef-infra><travis-ci>
+55240542,2019-03-19 11:58:17,4,Run coverage test in a docker container,<django><docker><dockerfile><travis-ci><coverage.py>
+36683647,2016-04-18 00:16:39,4,How to upload docker container logs from TRAVIS CI to remote machine?,<docker><travis-ci><logfile>
+61546515,2020-05-01 16:27:15,4,AWS Elastic Beanstalk with docker incorrect version,<amazon-web-services><docker><amazon-elastic-beanstalk><travis-ci>
+61462646,2020-04-27 15:40:30,4,unable to deploy docker application in elasticbeanstalk using travis ci,<amazon-web-services><docker><github><amazon-elastic-beanstalk><travis-ci>
+38998245,2016-08-17 13:36:54,4,"How to get all Travis CI environment variables, excluding the system defaults?",<docker><travis-ci>
+40280924,2016-10-27 09:26:42,4,How to build my docker (nodejs) container in travis and run in production,<node.js><docker><travis-ci>
+35222589,2016-02-05 11:06:41,4,Install package on Travis-ci with sudo:false,<docker><travis-ci>
+48304204,2018-01-17 15:09:14,4,using docker image in travis ci (w/o Dockerfile or building a container),<docker><travis-ci><gitlab-ci>
+30105976,2015-05-07 15:49:36,3,Deploy Docker from Travis to AWS (or any other SSH able server),<amazon-web-services><docker><travis-ci>
+40441477,2016-11-05 18:00:18,3,TravisCI Docker Permissions,<php><docker><file-permissions><travis-ci>
+44546320,2017-06-14 13:31:55,3,Error while changing hostname inside docker container,<docker><centos><ansible><travis-ci>
+61315231,2020-04-20 04:39:55,3,Is it possible to use Access Tokens to login & push images to Docker Hub from Travis CI?,<docker><github><travis-ci><dockerhub>
+57178788,2019-07-24 08:44:43,3,Docker build fails for ARM images,<linux><docker><travis-ci><multiarch>
+39432668,2016-09-11 03:48:32,3,Travis Multi-Architecture Buiilds,<docker><travis-ci>
+41635824,2017-01-13 13:33:09,3,Travis Docker Image missing Python 3.5,<python><docker><travis-ci>
+41958888,2017-01-31 13:30:36,3,"No executable found matching command ""dotnet-/../.dll"" when running dotnet core docker image in Azure Web App on Linux",<c#><azure><docker><travis-ci><.net-core>
+37721572,2016-06-09 09:11:19,3,Using a Docker image to build and deploy as part of a build matrix,<docker><travis-ci>
+45679844,2017-08-14 17:28:58,2,Travis CI running on Docker Image - Switch to last comited branch,<git><docker><branch><travis-ci>
+49932954,2018-04-20 02:23:59,2,Why is the COPY instruction causing a cache miss in my Docker build,<docker><haskell><travis-ci><haskell-stack>
+50527400,2018-05-25 10:44:42,2,How to save immediately dockers images created in multi-stage docker?,<docker><travis-ci>
+57439102,2019-08-10 03:35:53,2,Travis conditional build - How to skip deploy stage except master branch,<docker><github><build><travis-ci>
+65241546,2020-12-10 20:05:09,2,Mounted Docker volume has different ownership when using Travis,<docker><travis-ci>
+33066467,2015-10-11 15:02:27,2,Travis rebooting pretty often during runs with Docker involved,<docker><travis-ci>
+57201909,2019-07-25 12:24:18,2,Travis-ci installs packages from requirements.txt file automatically,<python><docker><travis-ci>
+32846800,2015-09-29 14:35:13,2,Travis fails to stop Docker containers,<docker><travis-ci>
+45435019,2017-08-01 10:11:58,2,Pipeline GitHub -> Travis CI -> Docker,<docker><automated-tests><travis-ci>
+62996384,2020-07-20 13:23:23,2,Failed to deploy multi-container app to Heroku via Travis CI,<docker><heroku><containers><travis-ci><heroku-cli>
+62942937,2020-07-16 20:24:42,2,SQLSTATE[HY000] [2002] Connection refused with docker-compose on travis only for symfony phpunit test,<docker><symfony><docker-compose><phpunit><travis-ci>
+43236590,2017-04-05 16:18:50,2,"What causes this intermittent nix-build failure with error ""Too many levels of symbolic links""?",<python><docker><travis-ci><nix>
+36186848,2016-03-23 19:16:08,2,Install later version of docker-engine stuck on Travis build,<docker><installation><automated-tests><build-automation><travis-ci>
+56109647,2019-05-13 09:40:05,2,Local testing of Perl repository using Travis CI (with docker),<perl><docker><travis-ci><travis-ci-cli>
+30894408,2015-06-17 14:22:16,2,how to run Docker in Travis hosted in travis-ci.com,<docker><travis-ci><docker-compose>
+62344636,2020-06-12 12:49:57,2,Deploy to Digital Ocean Droplet from travis,<docker><travis-ci><digital-ocean>
+55825185,2019-04-24 08:06:19,2,Permission denied during pytest --cov execution on docker in travis-ci,<python><docker><travis-ci><coveralls>
+55690941,2019-04-15 14:03:39,2,Travis docker build to AWS ec2 docker,<amazon-web-services><spring-boot><docker><amazon-ec2><travis-ci>
+36684631,2016-04-18 02:38:37,2,How to do a custom deploy using ssh with Travis CI?,<linux><ssh><docker><continuous-integration><travis-ci>
+34503744,2015-12-29 02:54:59,2,Unable to compile cpp via docker in Travis-CI: /usr/bin/ld: cannot open output file a.out: Permission denied,<docker><travis-ci>
+38509742,2016-07-21 16:34:57,2,How do I find the network ip using docker and travis?,<networking><docker><travis-ci>
+48379244,2018-01-22 10:19:06,2,"How to execute Travis CI of a C++ program locally with a ""trusty"" image?",<c++><docker><github><continuous-integration><travis-ci>
+55086850,2019-03-10 10:42:01,2,Kubectl: command not found on travis ci,<docker><kubernetes><travis-ci><gcloud>
+53816359,2018-12-17 13:35:08,1,Can't connect to SQL Server database inside docker in travis,<sql-server><docker><travis-ci>
+41501251,2017-01-06 07:48:28,1,Docker caching for travis builds,<docker><travis-ci>
+43896250,2017-05-10 15:02:07,1,Docker cannot establish connection with postgresql in Travis CI,<ruby-on-rails><postgresql><docker><travis-ci>
+44207714,2017-05-26 18:05:40,1,Where does Travis CI put my source files?,<git><docker><travis-ci>
+45577597,2017-08-08 20:36:11,1,Docker Push Error with Invalid Tag or Reference,<docker><travis-ci><treescale>
+47422990,2017-11-21 21:24:18,1,Docker container created inside the travis-ci does not serve NGINX port for test,<docker><travis-ci>
+48968254,2018-02-24 22:24:37,1,How to use travis with multiple OS's + docker in a Matrix config,<docker><deployment><travis-ci><continuous-deployment><travis-ci-cli>
+49520000,2018-03-27 18:25:03,1,Google Cloud App engine after Travis building,<google-app-engine><docker><spring-boot><google-cloud-platform><travis-ci>
+50677153,2018-06-04 09:16:41,1,writing file from docker container to host instance on AWS,<amazon-web-services><docker><nginx><amazon-elastic-beanstalk><travis-ci>
+51888984,2018-08-17 05:36:35,1,"Docker build fails in Travis CI - ""Error checking context: 'syntax error in pattern'""",<docker><asp.net-core><dockerfile><travis-ci>
+52913448,2018-10-21 08:35:03,1,Travis-CI: An image does not exist locally with the tag,<docker><travis-ci>
+53253207,2018-11-11 21:02:52,1,travis tests fail due to permission denied on .sh file in docker,<bash><docker><flask><travis-ci>
+53335190,2018-11-16 09:45:42,1,How to deploy multi container application to heroku via travis ci,<docker><heroku><containers><travis-ci>
+39719827,2016-09-27 08:31:38,1,When using docker-compose to fire up containers how do I programatically get their ips?,<docker><travis-ci><docker-compose>
+54966792,2019-03-03 08:08:33,1,"Dockerized Angular E2E tests pass on local machine, but timeout in Travis CI",<angular><selenium><docker><protractor><travis-ci>
+55279735,2019-03-21 11:44:50,1,connecting to Docker Hub in travis CI,<docker><login><travis-ci>
+55615968,2019-04-10 15:11:11,1,Set .travis.yml to automatically deploy docker image,<docker><heroku><deployment><travis-ci>
+55646181,2019-04-12 07:02:23,1,(Django) How to run test suite in Travis CI,<python><django><docker><docker-compose><travis-ci>
+56121809,2019-05-14 01:23:58,1,How to build a program inside Debian docker image on Travis-CI,<docker><travis-ci>
+56298531,2019-05-24 19:24:19,1,How to I configure my .travis.yml file to run the script for building image which is already included as a .sh file in the repositiry,<bash><docker><travis-ci><devops>
+56406842,2019-06-01 12:40:37,1,Travis CI connection error accessing docker container running REST API on port 8080,<docker><docker-compose><postman><travis-ci><newman>
+56607385,2019-06-15 04:39:50,1,How to solve build timeout when using travis,<docker><travis-ci>
+56924927,2019-07-07 18:24:04,1,How can I ensure that a travis build is triggered for a particular script only when changes are made to the folder containing that script,<bash><docker><travis-ci><devops>
+56938496,2019-07-08 15:48:52,1,Coveralls: Error- No source for in my application using Docker container,<django><docker><docker-compose><travis-ci><coverage.py>
+58020986,2019-09-20 02:24:17,1,How to update docker image in elastic--beanstalk instance,<amazon-web-services><docker><deployment><travis-ci><amazon-elastic-beanstalk>
+58519737,2019-10-23 09:31:13,1,Coveralls is not being submitted on a Django app with Docker,<django><docker><docker-compose><travis-ci><coveralls>
+58969123,2019-11-21 07:07:38,1,"Error at setup on Travis with django-pytest, docker",<django><docker><pytest><travis-ci><pytest-django>
+59315364,2019-12-13 02:33:52,1,Speed up flutter build on Travis CI,<docker><flutter><travis-ci>
+60412394,2020-02-26 10:59:09,1,Travis CI submodules and multiple .travis.yml files,<git><docker><travis-ci>
+60516104,2020-03-03 21:56:03,1,Why is Docker image is not appearing on Docker Hub after being pushed from Travis CI,<docker><github><docker-compose><travis-ci>
+60768366,2020-03-20 04:00:33,1,Travis CI Deploy to AWS ElasticBeanstalk,<ruby><amazon-web-services><docker><amazon-elastic-beanstalk><travis-ci>
+60793287,2020-03-21 21:07:33,1,Docker Build Failing on Travis --> can't find app/build,<docker><nginx><travis-ci><dockerhub>
+61430414,2020-04-25 18:17:17,1,"coveralls doesn't recognize token when dockerized django app is run in TravisCI, but only from pull requests",<django><docker><travis-ci><pull-request><coveralls>
+61888357,2020-05-19 10:04:58,1,GitHub pages test build fails with exit code 15,<docker><jekyll><travis-ci><github-pages>
+61999387,2020-05-25 09:18:29,1,A Docker container silently killed by Travis CI,<docker><github><travis-ci>
+62175734,2020-06-03 14:44:29,1,How to run pytest with mysql docker container?,<python><docker><dockerfile><travis-ci>
+64614213,2020-10-30 18:53:44,1,Is there a way to get information about a failed deploy on Travis-ci,<docker><dockerfile><travis-ci>
+64670750,2020-11-03 21:10:57,1,Docker buildx on Travis CI,<docker><travis-ci><docker-buildkit><ppc64le>
+64937330,2020-11-20 21:44:04,1,Connection to mongodb on travis refused,<mongodb><docker><travis-ci>
+64945392,2020-11-21 16:27:48,1,Travis variables not available in node.js,<node.js><docker><travis-ci>

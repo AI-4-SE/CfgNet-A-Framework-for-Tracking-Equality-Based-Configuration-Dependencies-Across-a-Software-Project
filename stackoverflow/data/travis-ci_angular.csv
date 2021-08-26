@@ -1,0 +1,35 @@
+"id","creationdate","score","title","tags"
+44965071,2017-07-07 07:33:45,23,Error: TSError: ⨯ Unable to compile TypeScript,<node.js><angular><typescript><protractor><travis-ci>
+48101519,2018-01-04 18:34:30,17,Karma Start Fails - HeadlessChrome - ERROR Uncaught [object Object],<angular><karma-runner><travis-ci>
+43974531,2017-05-15 08:20:30,6,Why does Chrome 59-Beta with real Headless option fail in use with Protractor?,<node.js><angular><google-chrome><protractor><travis-ci>
+65826615,2021-01-21 11:38:29,5,"Angular unit tests fail, but not locally",<angular><unit-testing><travis-ci>
+36426062,2016-04-05 12:11:45,5,Karma won't run (socket.io throwing error),<node.js><angular><karma-runner><travis-ci>
+53128059,2018-11-03 03:09:53,3,What is a project definition in Angular?,<angular><travis-ci>
+56363203,2019-05-29 14:42:59,3,Travis build is hanging waiting for user input (To install angular),<angular><travis-ci>
+57057594,2019-07-16 12:45:46,3,baseUrl not being found when running cypress tests through Travis CI,<javascript><angular><travis-ci><package.json><cypress>
+50971120,2018-06-21 14:33:19,2,flatpickr typescript error TS2349: Cannot invoke an expression whose type lacks a call signature,<angular><typescript><travis-ci><flatpickr>
+37391851,2016-05-23 13:06:52,2,Angular 2 end to end tests with Protractor ci,<angular><protractor><travis-ci>
+48191967,2018-01-10 16:29:34,2,Running Angular cli e2e tests in headless Chrome with travis ci,<angular><google-chrome><protractor><angular-cli><travis-ci>
+53577985,2018-12-02 06:33:22,2,Can you add a build step for github pages deployment?,<angular><deployment><continuous-integration><travis-ci><github-pages>
+62967308,2020-07-18 10:13:58,1,"My Angular app is blank on gh-pages, can't load js from travis",<angular><github><travis-ci><github-pages>
+44784445,2017-06-27 15:37:49,1,Travis CI: Test build is not finishing after successfull tests,<angular><karma-runner><travis-ci>
+44562144,2017-06-15 08:11:21,1,"Travis Ci, throws error on ng build",<angular><travis-ci>
+50337420,2018-05-14 19:10:11,1,Build on travis failing for git submodule,<angular><express><travis-ci><git-submodules>
+59282262,2019-12-11 09:13:45,1,Best Practice testing angular on C/I like travis,<angular><google-chrome><continuous-integration><travis-ci><e2e-testing>
+54966792,2019-03-03 08:08:33,1,"Dockerized Angular E2E tests pass on local machine, but timeout in Travis CI",<angular><selenium><docker><protractor><travis-ci>
+44912749,2017-07-04 19:10:14,1,Travis ci deploy angular 2 app on firebase,<angular><firebase><travis-ci>
+42207456,2017-02-13 15:18:09,1,Travis+Protractor Error: Angular could not be found on the page,<angular><protractor><travis-ci>
+61437973,2020-04-26 08:40:30,1,Cache Angular module compilation in Travis-CI,<angular><travis-ci>
+61397188,2020-04-23 21:20:57,0,Use Travis CI to build CI/CD pipeline,<angular><spring-boot><continuous-integration><travis-ci><continuous-deployment>
+50270881,2018-05-10 10:32:36,0,"Failed build on Travis, version incompatibilities",<angular><travis-ci>
+50887774,2018-06-16 12:09:37,0,"Project based , angular cli + firebase + travis ci configuration error",<node.js><angular><firebase><travis-ci>
+51935566,2018-08-20 17:11:03,0,How to put Angular unit tests with Travis (No captured browser)?,<angular><unit-testing><travis-ci>
+53374818,2018-11-19 12:36:46,0,"Travis build failing on ""The SUID sandbox helper binary was found, but...""",<angular><karma-runner><travis-ci><google-chrome-headless><angular-test>
+55918104,2019-04-30 09:41:19,0,Rendering angular page fails on deployment with travis,<angular><travis-ci>
+56048585,2019-05-08 20:28:23,0,How to store variable environment in a Angular project whose code is on GitHub?,<angular><github><travis-ci>
+56921917,2019-07-07 11:52:13,0,How to set up coveralls in an Angular GitHub + TravisCI project,<angular><travis-ci><istanbul><karma-coverage><coveralls>
+58774215,2019-11-08 21:51:58,0,Travis CI build failed - (Aws::S3::Errors::SignatureDoesNotMatch),<angular><amazon-web-services><amazon-s3><travis-ci>
+49992895,2018-04-24 03:14:31,0,Travis CI failing on with Angular Material,<angular><angular5><travis-ci><angular-material2>
+64060271,2020-09-25 08:08:42,0,Angular app is not deploying after tests pass in Travis CI,<angular><heroku><travis-ci>
+42488512,2017-02-27 14:41:36,0,Angular2 CLI rc0 failing on Travis CI and not local,<javascript><angular><travis-ci><angular-cli>
+44012576,2017-05-16 22:24:14,0,Travis-ci don't update my firebase hosting website after successful build I use angular (2-4),<angular><firebase><github><travis-ci><firebase-hosting>
