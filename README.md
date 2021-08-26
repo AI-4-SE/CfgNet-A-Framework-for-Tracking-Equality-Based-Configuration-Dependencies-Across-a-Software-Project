@@ -18,6 +18,7 @@ You can find the tag pairs [here](data/).
 
 We filtered the data set using each tag pair from our vocabulary, sorted the resulting posts in descending order, and extracted the first hundred posts.
 In total, we obtained 21 tag pairs with up to 100 posts.
+You can find the tag pairs in [`data/`](data/).
 
 To focus on the most relevant tag pair combinations, we calculated for each tag pair a total score value by summing the score value of its posts.
 The table shows the top five tag pair combinations and their total score value.
@@ -38,7 +39,9 @@ The five extracted configuration dependencies and exemplary SO identifiers can b
 
 ## Evaluation
 
-Important: Our evaluation script assumes that it's run on our Slurm cluster if the hostname is `tesla` or starts with `brown`.
+**Important**: Our evaluation script assumes that it's run on our Slurm cluster if the hostname is `tesla` or starts with `brown`.
+
+You can find our evaluation script in [`evaluation/`](evaluation).
 
 You can start the evaluation by running `run.sh`.
 It takes an optional parameter which is a Git tree-ish (e.g. `master`) that can be used to get a certain version of CfgNet. 
