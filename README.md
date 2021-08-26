@@ -37,7 +37,9 @@ In total, we manually inspected 500 SO posts and extracted five meaningful cross
 The extracted configuration dependencies appeared in several SO posts, indicating that we have extracted typical real-world configuration dependency examples that developers indeed encounter in practice.
 The five extracted configuration dependencies and exemplary SO identifiers can be found [here](dependencies.pdf).
 
-## Evaluation
+## Dependency Violation
+
+### Evaluation Script
 
 **Important**: Our evaluation script assumes that it's run on our Slurm cluster if the hostname is `tesla` or starts with `brown`.
 
