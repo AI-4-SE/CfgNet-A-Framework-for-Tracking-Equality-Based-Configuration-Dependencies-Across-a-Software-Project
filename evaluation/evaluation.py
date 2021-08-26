@@ -1,11 +1,13 @@
 #!/bin/env/python3
 """Analysis for our paper on CfgNet."""
 
+import multiprocessing
 import os
 import os.path
 import subprocess
 
 from git import Repo
+from joblib import Parallel, delayed
 
 EVALUATION_FOLDER = "out"
 
@@ -66,14 +68,14 @@ TEST_REPOS = [
         [
             ("pom.xml", "13", "<version>0.0.2</version>"),
             (
-                "Dockerfile", 
-                "2", 
-                "ADD target/inventory-system-0.0.1-SNAPSHOT.jar inventory-system.jar"
+                "Dockerfile",
+                "2",
+                "ADD target/inventory-system-0.0.1-SNAPSHOT.jar inventory-system.jar",
             ),
             (
                 "src/main/resources/application.properties",
                 "5",
-                "server.port=8000"
+                "server.port=8000",
             ),
         ],
     ),
@@ -120,7 +122,6 @@ def create_ignore_file(ignorelist, repo_folder):
     os.mkdir(repo_folder + "/.cfgnet")
     file = open(repo_folder + "/.cfgnet/ignore", "w")
     for item in ignorelist:
-        print("$ echo " + item + "> " + ".cfgnet/ignore")
         file.write(item + "\n")
     file.close()
 
@@ -129,7 +130,6 @@ def inject_dependency_violation(violation, repo_folder):
     filename = violation[0]
     linenumber = violation[1]
     newline = violation[2]
-    print('$ sed -i "' + linenumber + " c " + newline + '" ' + filename)
     subprocess.run(
         ['sed -i "' + linenumber + " c " + newline + '" ' + filename],
         shell=True,
@@ -151,27 +151,31 @@ def process_repo(url, commit, ignorelist, violations):
     repo_folder = EVALUATION_FOLDER + "/" + repo_name
     results_folder = EVALUATION_FOLDER + "/results/" + repo_name
 
-    print("$ git clone", url, repo_folder)
-    print("$ cd", repo_folder)
     repo = Repo.clone_from(url, repo_folder)
 
-    print("$ git checkout", commit)
     repo.git.checkout(commit)
 
     create_ignore_file(ignorelist, repo_folder)
 
-    print("$ cfgnet init .")
-    subprocess.run("cfgnet init .", shell=True, cwd=repo_folder, check=True)
+    with open(results_folder + ".init", "w") as outfile:
+        subprocess.run(
+            "cfgnet init .",
+            shell=True,
+            cwd=repo_folder,
+            check=True,
+            stdout=outfile,
+            stderr=subprocess.STDOUT,
+        )
 
     for violation in violations:
         inject_dependency_violation(violation, repo_folder)
 
-    print("$ cfgnet validate .")
     with open(results_folder + ".result", "w") as outfile:
         subprocess.run(
             "cfgnet validate . ",
             shell=True,
             stdout=outfile,
+            stderr=subprocess.STDOUT,
             cwd=repo_folder,
             check=False,
         )
@@ -179,9 +183,6 @@ def process_repo(url, commit, ignorelist, violations):
     subprocess.run(
         ["cp", "-r", repo_folder + "/.cfgnet", results_folder], check=True
     )
-
-    print("Finished evaluation for", url)
-    print()
 
 
 def main():
@@ -193,13 +194,11 @@ def main():
     #     subprocess.run(["rm", "-rf", EVALUATION_FOLDER])
     subprocess.run(["mkdir", "-p", EVALUATION_FOLDER + "/results"], check=True)
 
-    print()
-    print("+------------+")
-    print("| EVALUATION |")
-    print("+------------+")
-    print()
-    for repo in TEST_REPOS:
-        process_repo(repo[0], repo[1], repo[2], repo[3])
+    num_cores = multiprocessing.cpu_count()
+    Parallel(n_jobs=num_cores)(
+        delayed(process_repo)(url, commit, ignorelist, violations)
+        for url, commit, ignorelist, violations in TEST_REPOS
+    )
 
 
 if __name__ == "__main__":
