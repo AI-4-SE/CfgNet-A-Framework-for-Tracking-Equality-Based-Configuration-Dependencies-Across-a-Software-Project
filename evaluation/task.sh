@@ -24,7 +24,7 @@ rm -rf "$EVALUATION"
 
 python $1/evaluation.py
 
-cp -r out/results/*.result $1/results
+cp -r out/results/*.result* $1/results
 
 deactivate
 

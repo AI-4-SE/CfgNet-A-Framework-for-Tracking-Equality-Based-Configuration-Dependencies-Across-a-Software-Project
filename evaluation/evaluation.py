@@ -66,14 +66,14 @@ TEST_REPOS = [
         [
             ("pom.xml", "13", "<version>0.0.2</version>"),
             (
-                "Dockerfile", 
-                "2", 
-                "ADD target/inventory-system-0.0.1-SNAPSHOT.jar inventory-system.jar"
+                "Dockerfile",
+                "2",
+                "ADD target/inventory-system-0.0.1-SNAPSHOT.jar inventory-system.jar",
             ),
             (
                 "src/main/resources/application.properties",
                 "5",
-                "server.port=8000"
+                "server.port=8000",
             ),
         ],
     ),
@@ -126,6 +126,9 @@ def create_ignore_file(ignorelist, repo_folder):
 
 
 def inject_dependency_violation(violation, repo_folder):
+    """
+    Inject the dependency violation in a repository.
+    """
     filename = violation[0]
     linenumber = violation[1]
     newline = violation[2]
@@ -143,9 +146,13 @@ def process_repo(url, commit, ignorelist, violations):
     """
     Analyze a repository with CfgNet.
 
+    We run `cfgnet validate` after every violation.
+
     :param url: URL to the repository
     :param commit: Hash of the lastest commit that should be analyzed
     :param ignorelist: List of file paths to ignore in the analysis
+    :param violations: Dependency violations to be introduced. Since we run
+        cfgnet after every violation the order of the violations matters.
     """
     repo_name = get_repo_name_from_url(url)
     repo_folder = EVALUATION_FOLDER + "/" + repo_name
@@ -163,18 +170,18 @@ def process_repo(url, commit, ignorelist, violations):
     print("$ cfgnet init .")
     subprocess.run("cfgnet init .", shell=True, cwd=repo_folder, check=True)
 
-    for violation in violations:
+    for index, violation in enumerate(violations):
         inject_dependency_violation(violation, repo_folder)
 
-    print("$ cfgnet validate .")
-    with open(results_folder + ".result", "w") as outfile:
-        subprocess.run(
-            "cfgnet validate . ",
-            shell=True,
-            stdout=outfile,
-            cwd=repo_folder,
-            check=False,
-        )
+        print("$ cfgnet validate .")
+        with open(results_folder + ".result" + str(index), "w") as outfile:
+            subprocess.run(
+                "cfgnet validate . ",
+                shell=True,
+                stdout=outfile,
+                cwd=repo_folder,
+                check=False,
+            )
 
     subprocess.run(
         ["cp", "-r", repo_folder + "/.cfgnet", results_folder], check=True
