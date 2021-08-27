@@ -27,12 +27,12 @@ TEST_REPOS = [
         "a476761baea430bed325fc1e4e6b0473aae96a57",
         [],
         [
-            ("pom.xml", "13", "<version>0.0.2-SNAPSHOT</version>"),
             (
                 "Dockerfile",
                 "2",
-                "COPY /target/taskManager.jar taskManager.jar",
+                "COPY /target/taskManager-0.0.1-SNAPSHOT.jar taskManager.jar",
             ),
+            ("pom.xml", "13", "<version>0.0.2-SNAPSHOT</version>"),
             (
                 "src/main/resources/application-dev.yml",
                 "4",
@@ -53,9 +53,9 @@ TEST_REPOS = [
         [
             ("docker-compose.dev.yml", "10", "\ \ \ \ \ \ - 8080:8888"),
             (
-                "account-service/pom.xml",
+                "config/pom.xml",
                 "6",
-                "<artifactId>acc-service</artifactId>",
+                "<artifactId>configuration</artifactId>",
             ),
         ],
     ),
@@ -64,6 +64,11 @@ TEST_REPOS = [
         "ad754f162b0140cc1f81bea8c8cc9e8a35ce4001",
         [],
         [
+            (
+                "Dockerfile",
+                "2",
+                "ADD target/inventory-system-0.0.1-SNAPSHOT.jar inventory-system.jar",
+            ),
             ("pom.xml", "8", "<version>0.0.2</version>"),
             (
                 "src/main/resources/application.properties",
