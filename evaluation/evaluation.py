@@ -60,16 +60,11 @@ TEST_REPOS = [
         ],
     ),
     (
-        "https://github.com/Emmanuelraj/inventory-system",
-        "3c36dbe416fc824d4a41c0db3887d1d6416447cf",
+        "https://github.com/reljicd/spring-boot-blog",
+        "ad754f162b0140cc1f81bea8c8cc9e8a35ce4001",
         [],
         [
-            ("pom.xml", "13", "<version>0.0.2</version>"),
-            (
-                "Dockerfile",
-                "2",
-                "ADD target/inventory-system-0.0.1-SNAPSHOT.jar inventory-system.jar",
-            ),
+            ("pom.xml", "8", "<version>0.0.2</version>"),
             (
                 "src/main/resources/application.properties",
                 "5",
