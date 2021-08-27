@@ -64,11 +64,6 @@ TEST_REPOS = [
         "ad754f162b0140cc1f81bea8c8cc9e8a35ce4001",
         [],
         [
-            (
-                "Dockerfile",
-                "2",
-                "ADD target/inventory-system-0.0.1-SNAPSHOT.jar inventory-system.jar",
-            ),
             ("pom.xml", "8", "<version>0.0.2</version>"),
             (
                 "src/main/resources/application.properties",
