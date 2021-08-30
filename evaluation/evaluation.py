@@ -51,7 +51,7 @@ TEST_REPOS = [
         "fd5ee3c555ea9cd6067eacf3f2a3e8b85fe4fe77",
         [],
         [
-            ("docker-compose.dev.yml", "10", "\ \ \ \ \ \ - 8080:8888"),
+            ("config/Dockerfile", "9", "EXPOSE 8080"),
             (
                 "config/pom.xml",
                 "6",
