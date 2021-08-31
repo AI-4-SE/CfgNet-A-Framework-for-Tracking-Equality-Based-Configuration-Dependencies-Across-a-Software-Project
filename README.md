@@ -10,11 +10,10 @@ Nicolai Ruckel, Sebastian Simon, and Norbert Siegmund. CfgNet: A Technology-agno
 
 We analyzed Stack Overflow (SO) posts to extract typical real-world configuration dependency.
 To this end, we downloaded the SO dataset from the Stack Exchange Data Dump on June 7, 2021.
-To find relateded SO posts about cross-technology configuration dependencies, we followed previous SO analyses by creating a vocabulary using technology-specific plugin names and other popular technologies that cover common areas of software development.
+To find related SO posts about cross-technology configuration dependencies, we followed previous SO analyses by creating a vocabulary using technology-specific plugin names and other popular technologies that cover common areas of software development.
 
 - technology-specific plugins: maven, docker, docker-compose, travis
 - popular technologies: spring-boot, database angular
-You can find the tag pairs [here](data/).
 
 We filtered the data set using each tag pair from our vocabulary, sorted the resulting posts in descending order, and extracted the first hundred posts.
 In total, we obtained 21 tag pairs with up to 100 posts.
