@@ -42,27 +42,27 @@ To evaluate CfgNet's ability to model the configuration landscape of a software 
 
 ## spring-boot-blog
 
-| ID  | Configuration Artifact                                       |Line  |Configuration Option        | Old Configuration Value        | New Configuration Value |
+| ID  | Configuration Artifact                                       | Line | Option                     | Old Value                      | New Value               |
 |:----|:-------------------------------------------------------------|:-----|:---------------------------|:-------------------------------|:------------------------|
 |  1  | pom.xml                                                      |   8  | version                    | 0.0.1-SNAPSHOT                 | 0.0.2                   |
 |  3  | src/main/resources/application.properties                    |   3  | server.port                | 8090                           | 8000                    |
 
 ## Ward
 
-| ID  | Configuration Artifact                                       |Line  |Configuration Option        | Old Configuration Value        | New Configuration Value |
+| ID  | Configuration Artifact                                       | Line | Option                     | Old Value                      | New Value               |
 |:----|:-------------------------------------------------------------|:-----|:---------------------------|:-------------------------------|:------------------------|
 |  5  | Dockerfile                                                   |  21  | COPY                       | pom.xml                        | app/pom.xml             |
 
 ## piggymetrics
 
-| ID  | Configuration Artifact                                       |Line  |Configuration Option        | Old Configuration Value        | New Configuration Value |
+| ID  | Configuration Artifact                                       | Line | Option                     | Old Value                      | New Value               |
 |:----|:-------------------------------------------------------------|:-----|:---------------------------|:-------------------------------|:------------------------|
 |  1  | config/pom.xml                                               |   6  | artifactID                 | config                         | configuration           |
 |  3  | docker-compose.dev.yml                                       |  10  | config:ports               | 8888:8888                      | 8080:888                |
 
 ## mentorship-platform
 
-| ID  | Configuration Artifact                                       |Line  |Configuration Option        | Old Configuration Value        | New Configuration Value |
+| ID  | Configuration Artifact                                       | Line | Option                     | Old Value                      | New Value               |
 |:----|:-------------------------------------------------------------|:-----|:---------------------------|:-------------------------------|:------------------------|
 |  2  | mentorship-backend/Dockerfile                                |   9  | COPY                       | app.jar                        | backend.jar             |
 |  3  | mentorship-backend/Dockerfile                                |  10  | EXPOSE                     | 8080                           | 8000                    |
@@ -70,7 +70,7 @@ To evaluate CfgNet's ability to model the configuration landscape of a software 
 
 ## taskManagement
 
-| ID  | Configuration Artifact                                       |Line  |Configuration Option        | Old Configuration Value        | New Configuration Value |
+| ID  | Configuration Artifact                                       | Line| Option                     | Old Value                      | New Value               |
 |:----|:-------------------------------------------------------------|:-----|:---------------------------|:-------------------------------|:------------------------|
 |  1  | pom.xml                                                      |  13  | version                    | 0.0.1-SNAPSHOT                 | 0.0.2-SNAPSHOT          |
 |  2  | Dockerfile                                                   |   2  | COPY                       | taskManager-0.0.1-SNAPSHOT.jar | taskManager.jar         |
