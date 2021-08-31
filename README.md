@@ -8,8 +8,8 @@ Nicolai Ruckel, Sebastian Simon, and Norbert Siegmund. CfgNet: A Technology-agno
 
 ## Stack Overflow Analysis
 
-We analyzed Stack Overflow (SO) posts to extract typical real-world configuration dependency.
-To this end, we downloaded the SO dataset from the Stack Exchange Data Dump on June 7, 2021.
+We analyzed Stack Overflow (SO) posts to extract typical real-world configuration dependencies across various technologies.
+To this end, we downloaded the SO dataset from the [Stack Exchange Data Dump](https://archive.org/details/stackexchange) on June 7, 2021.
 To find related SO posts about cross-technology configuration dependencies, we followed previous SO analyses by creating a vocabulary using technology-specific plugin names and other popular technologies that cover common areas of software development.
 
 - technology-specific plugins: maven, docker, docker-compose, travis
@@ -40,27 +40,27 @@ The five extracted configuration dependencies and exemplary SO identifiers can b
 
 To evaluate CfgNet's ability to model the configuration landscape of a software project and detect dependency conflicts in it, we followed state of the art practice by violating the extracted [configuration dependencies](dependencies.pdf) in five software projects. The following table shows the software projects, their configuration dependencies, and the changes (i.e., the file, line number, old value, and new value) we made to inject the dependency violations.
 
-## spring-boot-blog
+### spring-boot-blog
 
 | ID  | Configuration Artifact                                       | Line | Option                     | Old Value                      | New Value               |
 |:----|:-------------------------------------------------------------|-----:|:---------------------------|:-------------------------------|:------------------------|
 |  1  | pom.xml                                                      |   8  | version                    | 0.0.1-SNAPSHOT                 | 0.0.2                   |
 |  3  | src/main/resources/application.properties                    |   3  | server.port                | 8090                           | 8000                    |
 
-## Ward
+### Ward
 
 | ID  | Configuration Artifact                                       | Line | Option                     | Old Value                      | New Value               |
 |:----|:-------------------------------------------------------------|-----:|:---------------------------|:-------------------------------|:------------------------|
 |  5  | Dockerfile                                                   |  21  | COPY                       | pom.xml                        | app/pom.xml             |
 
-## piggymetrics
+### piggymetrics
 
 | ID  | Configuration Artifact                                       | Line | Option                     | Old Value                      | New Value               |
 |:----|:-------------------------------------------------------------|-----:|:---------------------------|:-------------------------------|:------------------------|
 |  1  | config/pom.xml                                               |   6  | artifactID                 | config                         | configuration           |
 |  3  | docker-compose.dev.yml                                       |  10  | config:ports               | 8888:8888                      | 8080:888                |
 
-## mentorship-platform
+### mentorship-platform
 
 | ID  | Configuration Artifact                                       | Line | Option                     | Old Value                      | New Value               |
 |:----|:-------------------------------------------------------------|-----:|:---------------------------|:-------------------------------|:------------------------|
@@ -68,7 +68,7 @@ To evaluate CfgNet's ability to model the configuration landscape of a software 
 |  3  | mentorship-backend/Dockerfile                                |  10  | EXPOSE                     | 8080                           | 8000                    |
 |  4  | mentorship-backend/src/main/resources/application.properties |   4  | spring.datasource.password | password                       | 1234567                 |
 
-## taskManagement
+### taskManagement
 
 | ID  | Configuration Artifact                                       | Line| Option                     | Old Value                      | New Value               |
 |:----|:-------------------------------------------------------------|-----:|:---------------------------|:-------------------------------|:------------------------|
@@ -76,7 +76,7 @@ To evaluate CfgNet's ability to model the configuration landscape of a software 
 |  2  | Dockerfile                                                   |   2  | COPY                       | taskManager-0.0.1-SNAPSHOT.jar | taskManager.jar         |
 |  4  | src/main/resources/application-dev.yml                       |   4  | spring.datasource.username | dev_user                       | prod_user               |
 
-### Evaluation Script
+## Evaluation Script
 
 **Important**: Our evaluation script assumes that it's run on our Slurm cluster if the hostname is `tesla` or starts with `brown`.
 
