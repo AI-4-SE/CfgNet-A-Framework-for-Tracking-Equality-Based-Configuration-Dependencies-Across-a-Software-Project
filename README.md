@@ -39,6 +39,23 @@ The five extracted configuration dependencies and exemplary SO identifiers can b
 
 ## Dependency Violation
 
+To evaluate CfgNet's ability to model the configuration landscape of a software project and detect dependency conflicts in it, we followed state of the art practice by violating the extracted [configuration dependencies](dependencies.pdf) in five software projects. The following table shows the software projects, their configuration dependencies, and the changes (i.e., the file, line number, old value, and new value) we made to inject the dependency violations.  
+
+| Software Project    | ID  | Configuration Artifact                                       |Line  |Configuration Option        | Old Configuration Value        | New Configuration Value |
+|---------------------|-----|--------------------------------------------------------------|------|----------------------------|--------------------------------|-------------------------|
+| spring-boot-blog    |  1  | pom.xml                                                      |   8  | version                    | 0.0.1-SNAPSHOT                 | 0.0.2                   |
+|                     |  3  | src/main/resources/application.properties                    |   3  | server.port                | 8090                           | 8000                    |
+| Ward                |  5  | Dockerfile                                                   |  21  | COPY                       | pom.xml                        | app/pom.xml             |
+| piggymetrics        |  1  | config/pom.xml                                               |   6  | artifactID                 | config                         | configuration           |
+|                     |  3  | docker-compose.dev.yml                                       |  10  | config:ports               | 8888:8888                      | 8080:888                |
+| mentorship-platfrom |  2  | mentorship-backend/Dockerfile                                |   9  | COPY                       | app.jar                        | backend.jar             |
+|                     |  3  | mentorship-backend/Dockerfile                                |  10  | EXPOSE                     | 8080                           | 8000                    |
+|                     |  4  | mentorship-backend/src/main/resources/application.properties |   4  | spring.datasource.password | password                       | 1234567                 |
+| taskManagement      |  1  | pom.xml                                                      |  13  | version                    | 0.0.1-SNAPSHOT                 | 0.0.2-SNAPSHOT          |
+|                     |  2  | Dockerfile                                                   |   2  | COPY                       | taskManager-0.0.1-SNAPSHOT.jar | taskManager.jar         |
+|                     |  4  | src/main/resources/application-dev.yml                       |   4  | spring.datasource.username | dev_user                       | prod_user               |
+
+
 ### Evaluation Script
 
 **Important**: Our evaluation script assumes that it's run on our Slurm cluster if the hostname is `tesla` or starts with `brown`.
