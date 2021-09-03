@@ -1,10 +1,7 @@
-# CfgNet: A Technology-agnostic Framework for Tracking Configuration Dependencies
+# CfgNet: A Framework for Tracking Configuration Dependencies Across a Software Project
 
-Additional material for our paper *CfgNet: A Technology-agnostic Framework for Tracking Configuration Dependencies*.
-You can find the pre-print of the paper here.
 
-Please cite our paper when using the data set:
-Nicolai Ruckel, Sebastian Simon, and Norbert Siegmund. CfgNet: A Technology-agnostic Framework for Tracking Configuration Dependencies. In *Proceedings of the ...*
+Additional material for our paper *CfgNet: A Framework for Tracking Configuration Dependencies Across a Software Projects*.
 
 ## Stack Overflow Analysis
 
