@@ -1,7 +1,7 @@
 #!/bin/bash
 
 build_wheel() {
-    git clone git@github.com:digital-bauhaus/configuration-network.git cfgnet
+    git clone git@github.com:AI-4-SE/CfgNet.git cfgnet
     cd cfgnet
     git checkout "$2"
     poetry build
