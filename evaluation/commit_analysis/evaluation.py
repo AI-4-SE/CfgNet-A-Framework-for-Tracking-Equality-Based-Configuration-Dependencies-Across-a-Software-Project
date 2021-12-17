@@ -15,18 +15,20 @@ EVALUATION_FOLDER = "out"
 # Every item is a tuple which consists of:
 #
 #   * An URL to the repository that should be analyzed.
-#   * A commit hash of the latest commit of the repository to analyzed to
-#     ensure reproducability.
 #   * A list of files that should be ignored during the analysis. The files we
 #     added to the ignore list are from test runs and are large files that are
 #     not configuration but other data.
 #
 # If you change the number of repositories (e.g. the length of this list), you
 # have to adjust the array range in `array.sbatch`.
+
 TEST_REPOS = [
     (
         "https://github.com/simisimon/maven_repo",
-        "e1a4febe400099e155635e1ef2d63ede746c38ab",
+        [],
+    ),
+    (
+        "https://github.com/sqshq/piggymetrics",
         [],
     ),
 ]
@@ -43,7 +45,7 @@ def get_repo_name_from_url(url):
     return repo_name
 
 
-def process_repo(url, commit, ignorelist):
+def process_repo(url, ignorelist):
     """
     Analyze a repository with CfgNet.
     :param url: URL to the repository
@@ -54,13 +56,11 @@ def process_repo(url, commit, ignorelist):
     repo_folder = EVALUATION_FOLDER + "/" + repo_name
     results_folder = EVALUATION_FOLDER + "/results/" + repo_name
 
-    print("Cloning repository", repo_name)
-    repo = Repo.clone_from(url, repo_folder)
+    print("=" * 80)
+    # Cloning repository
+    Repo.clone_from(url, repo_folder)
 
-    print("Checkout commit", commit)
-    repo.git.checkout(commit)
-
-    print("Create ignore file")
+    # Create ignore file
     create_ignore_file(ignorelist, repo_folder)
 
     print("Starting evaluation for", url)
@@ -68,11 +68,17 @@ def process_repo(url, commit, ignorelist):
         "cfgnet analyze .", shell=True, cwd=repo_folder, executable="/bin/bash"
     )
 
-    print("Clean up log file")
-    clean_up_log(repo_name, repo_folder)
+    # Clean up log file
+    # clean_up_log(repo_name, repo_folder)
 
+    # Copy results into result folder
     subprocess.run(["cp", "-r", repo_folder + "/.cfgnet", results_folder])
+
+    # Remove repo folder
+    remove_repo_folder(repo_folder)
+
     print("Finished evaluation for", url)
+    print("=" * 80)
 
 
 def create_ignore_file(ignorelist, repo_folder):
@@ -94,32 +100,30 @@ def clean_up_log(repo_name, repo_folder):
     subprocess.run(["sed", "-i.bak", "'/DEBUG/d'", log_file])
 
 
+def remove_repo_folder(repo_name):
+    """Remove the cloned repository."""
+    if os.path.exists(repo_name):
+        subprocess.run(["rm", "-rf", repo_name ])
+
+
 def main():
-    """
-    Run the analysis.
-    There are two ways to run this. Either, you pass an integer and then the
-    corresponding repository of `TEST_REPOS` will be analyzed or you don't pass
-    anything which will analyze all the repositories.
-    """
+    """Run the analysis."""
+
     # create evaluation folder
-    # if os.path.exists(EVALUATION_FOLDER):
-    #     subprocess.run(["rm", "-rf", EVALUATION_FOLDER])
+    if os.path.exists(EVALUATION_FOLDER):
+         subprocess.run(["rm", "-rf", EVALUATION_FOLDER])
     subprocess.run(["mkdir", "-p", EVALUATION_FOLDER + "/results"])
 
-    # If only one argument is provided we run the evaluation for all
-    # repositories. This is done in parallel.
-    # Otherwise we just run the n-th job, where n is passed as an argument.
-    if len(sys.argv) == 1:
-        num_cores = multiprocessing.cpu_count()
-        Parallel(n_jobs=num_cores)(
-            delayed(process_repo)(url, commit, ignorelist)
-            for url, commit, ignorelist in TEST_REPOS
-        )
-    else:
-        index = int(sys.argv[1])
-        process_repo(
-            TEST_REPOS[index][0], TEST_REPOS[index][1], TEST_REPOS[index][2]
-        )
+    # analyze all repositories in parallel
+    #num_cores = multiprocessing.cpu_count()
+    #Parallel(n_jobs=num_cores)(
+    #    delayed(process_repo)(url, ignorelist)
+    #    for url, ignorelist in TEST_REPOS
+    #)
+
+    # analyze all repositories one by one
+    for url, ignorelist in TEST_REPOS:
+        process_repo(url=url, ignorelist=ignorelist)
 
 
 if __name__ == "__main__":

@@ -1,18 +1,7 @@
 #!/bin/bash
 
-rm -rf results error output
-mkdir results
-mkdir error
-mkdir output
-
 build_wheel() {
-    if [ "$#" -ne 2 ]; then
-        echo "Illegal number of parameters"
-        echo "Usage:"
-        echo -e "\t$0 PATH BRANCH"
-    fi
-
-    git clone git@github.com:digital-bauhaus/configuration-network.git cfgnet
+    git clone git@github.com:digital-bauhaus/CfgNet.git cfgnet
     cd cfgnet
     git checkout "$2"
     poetry build
@@ -22,14 +11,10 @@ build_wheel() {
     rm -rf cfgnet
 }
 
-tables() {
-    poetry run generate_tables.py
-}
-
-plots() {
-    poetry add pandas
-    poetry run ./plot_results.sh
-}
+rm -rf error output results
+mkdir error
+mkdir output
+mkdir results
 
 if ! command -v poetry &> /dev/null
 then
@@ -39,10 +24,19 @@ then
 fi
 
 if [ "$#" -ne 1 ]; then
-    branch=master
+    branch=main
 else
     branch="$1"
 fi
 
-build_wheel $PWD "$branch"
-sbatch array.sbatch
+if ! command -v cfgnet &> /dev/null
+then
+    build_wheel "$PWD" "$branch"
+fi
+
+
+if [ "$HOSTNAME" = "tesla" ]; then
+    sbatch array.sbatch
+else
+    bash ./task.sh $(pwd)
+fi
