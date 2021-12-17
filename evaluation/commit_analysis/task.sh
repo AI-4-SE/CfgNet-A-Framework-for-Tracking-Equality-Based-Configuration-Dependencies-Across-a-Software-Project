@@ -1,59 +1,35 @@
-#!/bin/bash
+EVALUATION=out
 
-# This script is called with two parameters. The first one is the job ID which
-# is passed to the python script. The second one is the current folder so we
-# know where we have to copy the results.
+if [[ $(hostname -s) = brown* ]]; then
+    LOCALPATH=/tmp/$USER/stackoverflow
+    rm -rf "$LOCALPATH"
+    mkdir "$LOCALPATH"
+else
+    LOCALPATH=.
+    rm -rf "$LOCALPATH"/venv
+fi
 
-PROJECTNAME=cfgnet
-LOCALPATH=/tmp/$USER/$PROJECTNAME/$1
-
-# ----------------------------------------------------------------------------
-# Prepare file system
-# ----------------------------------------------------------------------------
-# We create the folder structure the node where the job runs to save some
-# network bandwidth.
-
-# Clean up leftovers from previous failed runs
-rm -rf $LOCALPATH/
-
-# Create results folder
-mkdir -p $LOCALPATH
-
-# ----------------------------------------------------------------------------
-# Prepare environment
-# ----------------------------------------------------------------------------
-
-# Create and source virtual environment
 python3 -m venv $LOCALPATH/venv
 source $LOCALPATH/venv/bin/activate
 
-# Install dependencies
-pip install gitpython joblib
+wheel="$(find $1 -type f -iname "*.whl")"
 
-# Install CfgNet
-wheel="$(find $2 -type f -iname "*.whl")"; \
 pip install $wheel
 
-cd $LOCALPATH
+pip install gitpython joblib
 
-# Get evaluation script
-cp $2/evaluation.py $LOCALPATH
+cd "$LOCALPATH"
 
-# ----------------------------------------------------------------------------
-# Run evaluation
-# ----------------------------------------------------------------------------
+rm -rf "$EVALUATION"
 
-python3 evaluation.py $1
+python3 $1/evaluation.py
 
-# ----------------------------------------------------------------------------
-# Copy results
-# ----------------------------------------------------------------------------
-
-cp -r $LOCALPATH/out/results/* $2/results/
-
-# ----------------------------------------------------------------------------
-# Clean up
-# ----------------------------------------------------------------------------
+cp -r out/results/* $1/results
 
 deactivate
-rm -rf $LOCALPATH
+
+if [[ $(hostname -s) = brown* ]]; then
+    rm -rf "$LOCALPATH"
+else
+    rm "$wheel"
+fi
