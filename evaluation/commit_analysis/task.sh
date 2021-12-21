@@ -1,7 +1,5 @@
 EVALUATION=out
 
-echo $1
-
 if [[ $(hostname -s) = brown* ]]; then
     LOCALPATH=/tmp/$USER/stackoverflow
     rm -rf "$LOCALPATH"

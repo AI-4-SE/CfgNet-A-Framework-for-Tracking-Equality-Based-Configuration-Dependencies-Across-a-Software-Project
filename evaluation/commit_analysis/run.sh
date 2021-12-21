@@ -29,7 +29,10 @@ else
     branch="$1"
 fi
 
-build_wheel "$PWD" "$branch"
+if ! command -v cfgnet &> /dev/null
+then
+    build_wheel "$PWD" "$branch"
+fi
 
 
 if [ "$HOSTNAME" = "tesla" ]; then
