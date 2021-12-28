@@ -5,6 +5,7 @@ import os
 import os.path
 import subprocess
 import sys
+import pandas as pd
 
 from git import Repo
 from joblib import Parallel, delayed
@@ -22,17 +23,6 @@ EVALUATION_FOLDER = "out"
 # If you change the number of repositories (e.g. the length of this list), you
 # have to adjust the array range in `array.sbatch`.
 
-TEST_REPOS = [
-    (
-        "https://github.com/simisimon/maven_repo",
-        [],
-    ),
-    (
-        "https://github.com/sqshq/piggymetrics",
-        [],
-    ),
-]
-
 
 def get_repo_name_from_url(url):
     """
@@ -45,7 +35,7 @@ def get_repo_name_from_url(url):
     return repo_name
 
 
-def process_repo(url, ignorelist):
+def process_repo(url):
     """
     Analyze a repository with CfgNet.
     :param url: URL to the repository
@@ -61,9 +51,9 @@ def process_repo(url, ignorelist):
     Repo.clone_from(url, repo_folder)
 
     # Create ignore file
-    create_ignore_file(ignorelist, repo_folder)
+    # create_ignore_file(ignorelist, repo_folder)
 
-    print("Starting evaluation for", url)
+    print("Starting evaluation for", repo_name)
     subprocess.run(
         "cfgnet analyze .", shell=True, cwd=repo_folder, executable="/bin/bash"
     )
@@ -77,7 +67,7 @@ def process_repo(url, ignorelist):
     # Remove repo folder
     remove_repo_folder(repo_folder)
 
-    print("Finished evaluation for", url)
+    print("Finished evaluation for", repo_name)
     print("=" * 80)
 
 
@@ -109,21 +99,25 @@ def remove_repo_folder(repo_name):
 def main():
     """Run the analysis."""
 
+    df = pd.read_csv("final_repos.csv")
+    df_repos = df["html_url"]
+
     # create evaluation folder
     if os.path.exists(EVALUATION_FOLDER):
          subprocess.run(["rm", "-rf", EVALUATION_FOLDER])
     subprocess.run(["mkdir", "-p", EVALUATION_FOLDER + "/results"])
 
     # analyze all repositories in parallel
-    #num_cores = multiprocessing.cpu_count()
-    #Parallel(n_jobs=num_cores)(
-    #    delayed(process_repo)(url, ignorelist)
-    #    for url, ignorelist in TEST_REPOS
-    #)
+    num_cores = multiprocessing.cpu_count()
+    print("num_cores: ", num_cores)
+    Parallel(n_jobs=num_cores)(
+        delayed(process_repo)(url)
+        for url in df_repos
+    )
 
     # analyze all repositories one by one
-    for url, ignorelist in TEST_REPOS:
-        process_repo(url=url, ignorelist=ignorelist)
+    #for url, ignorelist in TEST_REPOS:
+    #    process_repo(url=url, ignorelist=ignorelist)
 
 
 if __name__ == "__main__":
