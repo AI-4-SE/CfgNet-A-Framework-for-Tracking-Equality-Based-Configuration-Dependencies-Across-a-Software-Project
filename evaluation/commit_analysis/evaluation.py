@@ -5,10 +5,10 @@ import os
 import os.path
 import subprocess
 import sys
-import pandas as pd
 
 from git import Repo
 from joblib import Parallel, delayed
+from pathlib import Path
 
 # The folder where we store our results.
 EVALUATION_FOLDER = "out"
@@ -99,9 +99,14 @@ def remove_repo_folder(repo_name):
 def main():
     """Run the analysis."""
 
-    df = pd.read_csv("final_repos.csv")
-    df_repos = df["html_url"]
+    root_dir = Path(__file__).parent.parent.parent
+    repo_path = os.path.join(root_dir, "data/commit_analysis/final_repos.csv")
 
+    repos = []
+    with open(repo_path, "r") as file:
+        for line in file:
+            repos.append(line.split(",")[3])
+            
     # create evaluation folder
     if os.path.exists(EVALUATION_FOLDER):
          subprocess.run(["rm", "-rf", EVALUATION_FOLDER])
@@ -112,7 +117,7 @@ def main():
     print("num_cores: ", num_cores)
     Parallel(n_jobs=num_cores)(
         delayed(process_repo)(url)
-        for url in df_repos
+        for url in repos[1:11]
     )
 
     # analyze all repositories one by one
