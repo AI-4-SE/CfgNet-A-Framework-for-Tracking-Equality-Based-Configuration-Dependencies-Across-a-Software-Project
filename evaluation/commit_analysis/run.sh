@@ -11,7 +11,7 @@ build_wheel() {
     rm -rf cfgnet
 }
 
-rm -rf error output results
+rm -rf error output results out
 mkdir error
 mkdir output
 mkdir results
@@ -40,3 +40,6 @@ if [ "$HOSTNAME" = "tesla" ]; then
 else
     bash ./task.sh $(pwd)
 fi
+
+echo "======================="
+echo "Done!"
