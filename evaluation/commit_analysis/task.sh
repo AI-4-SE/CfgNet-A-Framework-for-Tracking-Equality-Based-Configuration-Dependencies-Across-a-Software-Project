@@ -1,7 +1,7 @@
 EVALUATION=out
 
 if [[ $(hostname -s) = brown* ]]; then
-    LOCALPATH=/tmp/$USER/stackoverflow
+    LOCALPATH=/tmp/$USER/analysis
     rm -rf "$LOCALPATH"
     mkdir "$LOCALPATH"
 else

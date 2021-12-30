@@ -5,10 +5,12 @@ import os
 import os.path
 import subprocess
 import sys
+import time
 
 from git import Repo
 from joblib import Parallel, delayed
 from pathlib import Path
+
 
 # The folder where we store our results.
 EVALUATION_FOLDER = "out"
@@ -23,6 +25,12 @@ EVALUATION_FOLDER = "out"
 # If you change the number of repositories (e.g. the length of this list), you
 # have to adjust the array range in `array.sbatch`.
 
+TEST_REPOS = [
+    "https://github.com/kamranahmedse/developer-roadmap",
+    "https://github.com/CyC2018/CS-Notes",
+    "https://github.com/ohmyzsh/ohmyzsh",
+    "https://github.com/github/gitignore",
+]
 
 def get_repo_name_from_url(url):
     """
@@ -45,17 +53,15 @@ def process_repo(url):
     repo_name = get_repo_name_from_url(url)
     repo_folder = EVALUATION_FOLDER + "/" + repo_name
     results_folder = EVALUATION_FOLDER + "/results/" + repo_name
+    abs_repo_path = os.path.abspath(repo_folder)
 
-    print("=" * 80)
     # Cloning repository
     Repo.clone_from(url, repo_folder)
 
     # Create ignore file
     # create_ignore_file(ignorelist, repo_folder)
-
-    print("Starting evaluation for", repo_name)
     subprocess.run(
-        "cfgnet analyze .", shell=True, cwd=repo_folder, executable="/bin/bash"
+        f"cfgnet analyze  {abs_repo_path}", shell=True, cwd=repo_folder, executable="/bin/bash"
     )
 
     # Clean up log file
@@ -66,9 +72,6 @@ def process_repo(url):
 
     # Remove repo folder
     remove_repo_folder(repo_folder)
-
-    print("Finished evaluation for", repo_name)
-    print("=" * 80)
 
 
 def create_ignore_file(ignorelist, repo_folder):
@@ -99,31 +102,31 @@ def remove_repo_folder(repo_name):
 def main():
     """Run the analysis."""
 
-    root_dir = Path(__file__).parent.parent.parent
-    repo_path = os.path.join(root_dir, "data/commit_analysis/final_repos.csv")
+    #root_dir = Path(__file__).parent.parent.parent
+    #repo_path = os.path.join(root_dir, "data/commit_analysis/final_repos.csv")
 
-    repos = []
-    with open(repo_path, "r") as file:
-        for line in file:
-            repos.append(line.split(",")[3])
+    #repos = []
+    #with open(repo_path, "r") as file:
+    #    for line in file:
+    #        repos.append(line.split(",")[3])
             
     # create evaluation folder
     if os.path.exists(EVALUATION_FOLDER):
          subprocess.run(["rm", "-rf", EVALUATION_FOLDER])
     subprocess.run(["mkdir", "-p", EVALUATION_FOLDER + "/results"])
+    
+    start = time.time()
 
     # analyze all repositories in parallel
     num_cores = multiprocessing.cpu_count()
-    print("num_cores: ", num_cores)
     Parallel(n_jobs=num_cores)(
         delayed(process_repo)(url)
-        for url in repos[1:11]
+        for url in TEST_REPOS
     )
 
-    # analyze all repositories one by one
-    #for url, ignorelist in TEST_REPOS:
-    #    process_repo(url=url, ignorelist=ignorelist)
+    completion_time = round((time.time() - start), 2)
 
+    print(f"Done in {completion_time}s")
 
 if __name__ == "__main__":
     main()
