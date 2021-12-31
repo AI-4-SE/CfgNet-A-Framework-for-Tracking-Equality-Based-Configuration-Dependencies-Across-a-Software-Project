@@ -11,10 +11,9 @@ build_wheel() {
     rm -rf cfgnet
 }
 
-rm -rf error output results out
+rm -rf error output out
 mkdir error
 mkdir output
-mkdir results
 
 if ! command -v poetry &> /dev/null
 then
@@ -34,12 +33,8 @@ then
     build_wheel "$PWD" "$branch"
 fi
 
-
 if [ "$HOSTNAME" = "tesla" ]; then
     sbatch array.sbatch
 else
     bash ./task.sh $(pwd)
 fi
-
-echo "======================="
-echo "Done!"
