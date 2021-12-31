@@ -26,10 +26,15 @@ EVALUATION_FOLDER = "out"
 # have to adjust the array range in `array.sbatch`.
 
 TEST_REPOS = [
+    "https://github.com/vuejs/vue",
     "https://github.com/kamranahmedse/developer-roadmap",
+    "https://github.com/facebook/react",
+    "https://github.com/twbs/bootstrap",
     "https://github.com/CyC2018/CS-Notes",
     "https://github.com/ohmyzsh/ohmyzsh",
+    "https://github.com/trekhleb/javascript-algorithms",
     "https://github.com/github/gitignore",
+    "https://github.com/TheAlgorithms/Python",
 ]
 
 def get_repo_name_from_url(url):

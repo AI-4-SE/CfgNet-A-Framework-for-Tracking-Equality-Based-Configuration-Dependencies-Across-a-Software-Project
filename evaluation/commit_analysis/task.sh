@@ -22,7 +22,13 @@ cd "$LOCALPATH"
 
 rm -rf "$EVALUATION"
 
+echo "======================="
+echo "Start commit history analysis!"
+
 python3 $1/evaluation.py
+
+echo "======================="
+echo "Commit History Analysis done!"
 
 cp -r out/results/* $1/results
 
