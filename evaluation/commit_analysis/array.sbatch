@@ -6,4 +6,4 @@
 #SBATCH --output=output/cfgnet-%a.out
 #SBATCH --error=error/cfgnet-%a.err
 
-task.sh $(pwd)
+task.sh $SLURM_ARRAY_TASK_ID $(pwd)
