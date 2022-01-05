@@ -26,16 +26,35 @@ EVALUATION_FOLDER = "out"
 # have to adjust the array range in `array.sbatch`.
 
 TEST_REPOS = [
-    "https://github.com/vuejs/vue",
-    "https://github.com/kamranahmedse/developer-roadmap",
-    "https://github.com/facebook/react",
-    "https://github.com/twbs/bootstrap",
-    "https://github.com/CyC2018/CS-Notes",
-    "https://github.com/ohmyzsh/ohmyzsh",
-    "https://github.com/trekhleb/javascript-algorithms",
-    "https://github.com/github/gitignore",
-    "https://github.com/TheAlgorithms/Python",
+    # "https://github.com/flutter/flutter", TimeoutError
+    # "https://github.com/angular/angular", yaml.ComposeError
+    "https://github.com/tensorflow/models",
+    "https://github.com/mui-org/material-ui",
+    "https://github.com/vercel/next.js",
+    "https://github.com/ant-design/ant-design",
+    "https://github.com/opencv/opencv",
+    "https://github.com/django/django",
+    "https://github.com/tensorflow/tensorflow",
+    "https://github.com/microsoft/vscode",
+    "https://github.com/torvalds/linux",
+    "https://github.com/golang/go",
+    "https://github.com/nodejs/node",
+    "https://github.com/kubernetes/kubernetes",
+    "https://github.com/mrdoob/three.js",
+    "https://github.com/microsoft/TypeScript",
+    "https://github.com/storybookjs/storybook",
+    "https://github.com/moby/moby",
+    "https://github.com/rust-lang/rust",
+    "https://github.com/bitcoin/bitcoin",
+    "https://github.com/spring-projects/spring-boot",
+    "https://github.com/apple/swift",
+    "https://github.com/webpack/webpack",
+    "https://github.com/elastic/elasticsearch"
+    "https://github.com/atom/atom",
 ]
+
+
+
 
 def get_repo_name_from_url(url):
     """
@@ -106,21 +125,11 @@ def remove_repo_folder(repo_name):
 
 def main():
     """Run the analysis."""
-
-    #root_dir = Path(__file__).parent.parent.parent
-    #repo_path = os.path.join(root_dir, "data/commit_analysis/final_repos.csv")
-
-    #repos = []
-    #with open(repo_path, "r") as file:
-    #    for line in file:
-    #        repos.append(line.split(",")[3])
             
     # create evaluation folder
     if os.path.exists(EVALUATION_FOLDER):
          subprocess.run(["rm", "-rf", EVALUATION_FOLDER])
     subprocess.run(["mkdir", "-p", EVALUATION_FOLDER + "/results"])
-    
-    start = time.time()
 
     # analyze all repositories in parallel
     num_cores = multiprocessing.cpu_count()
@@ -128,10 +137,6 @@ def main():
         delayed(process_repo)(url)
         for url in TEST_REPOS
     )
-
-    completion_time = round((time.time() - start), 2)
-
-    print(f"Done in {completion_time}s")
 
 if __name__ == "__main__":
     main()
