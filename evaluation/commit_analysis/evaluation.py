@@ -6,11 +6,10 @@ import os.path
 import subprocess
 import sys
 import time
+from pathlib import Path
 
 from git import Repo
 from joblib import Parallel, delayed
-from pathlib import Path
-
 
 # The folder where we store our results.
 EVALUATION_FOLDER = "out"
@@ -125,18 +124,13 @@ def remove_repo_folder(repo_name):
 
 def main():
     """Run the analysis."""
-            
     # create evaluation folder
     if os.path.exists(EVALUATION_FOLDER):
          subprocess.run(["rm", "-rf", EVALUATION_FOLDER])
     subprocess.run(["mkdir", "-p", EVALUATION_FOLDER + "/results"])
 
-    # analyze all repositories in parallel
-    num_cores = multiprocessing.cpu_count()
-    Parallel(n_jobs=num_cores)(
-        delayed(process_repo)(url)
-        for url in TEST_REPOS
-    )
+    index = int(sys.argv[1])
+    process_repo(TEST_REPOS[index])
 
 if __name__ == "__main__":
     main()
