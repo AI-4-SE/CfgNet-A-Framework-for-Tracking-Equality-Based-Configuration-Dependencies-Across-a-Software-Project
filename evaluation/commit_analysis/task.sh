@@ -1,7 +1,7 @@
 EVALUATION=out
 
 if [[ $(hostname -s) = brown* ]]; then
-    LOCALPATH=/tmp/$USER/analysis
+    LOCALPATH=/tmp/$USER/analysis/$1
     rm -rf "$LOCALPATH"
     mkdir "$LOCALPATH"
 else
@@ -12,7 +12,7 @@ fi
 python3 -m venv $LOCALPATH/venv
 source $LOCALPATH/venv/bin/activate
 
-wheel="$(find $1 -type f -iname "*.whl")"
+wheel="$(find $2 -type f -iname "*.whl")"
 
 pip install $wheel
 
@@ -30,7 +30,7 @@ python3 $1/evaluation.py
 echo "======================="
 echo "Commit History Analysis done!"
 
-cp -r out/results/* $1/results
+cp -r out/results/* $2/results
 
 deactivate
 
