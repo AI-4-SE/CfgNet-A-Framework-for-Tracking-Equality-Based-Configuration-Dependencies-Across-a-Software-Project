@@ -25,7 +25,7 @@ rm -rf "$EVALUATION"
 echo "======================="
 echo "Start commit history analysis!"
 
-python3 $1/evaluation.py
+python3 $2/evaluation.py
 
 echo "======================="
 echo "Commit History Analysis done!"
