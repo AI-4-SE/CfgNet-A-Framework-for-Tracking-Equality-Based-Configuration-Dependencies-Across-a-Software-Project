@@ -1,0 +1,4 @@
+occurred_at,conflict_type,conflict_id,link
+08625b0ca54e96090f8e231bcaa3a5d23f871f34,MultiValueConflict,6f9e7bff93c6ef2be1e9f017fe01b262,mall::::docker-compose-app.yml::::services::::mall-admin::::external_links::::redis:redis <-> mall::::docker-compose-app.yml::::services::::mall-portal::::external_links::::redis:redis
+a5974a20bfcb8faf684048e816147d4a82129d0d,MissingArtifactConflict,72a08f618f584b386fca732d5a0f32e4,mall::::application-https.yml::::spring::::rabbitmq::::port::::5672 <-> mall::::docker-compose-env.yml::::services::::rabbitmq::::ports::::out::::5672
+a5974a20bfcb8faf684048e816147d4a82129d0d,MissingArtifactConflict,fcefbc1e49309e2a7148a9fedec4394d,mall::::application.yml::::http::::port::::8085 <-> mall::::docker-compose-app.yml::::services::::mall-portal::::ports::::out::::8085

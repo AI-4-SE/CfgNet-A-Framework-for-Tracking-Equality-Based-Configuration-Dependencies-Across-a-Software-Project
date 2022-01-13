@@ -1,0 +1,2 @@
+occurred_at,conflict_type,conflict_id,link
+6bf3854628f8fd0450cb65a141350b991cdd3ed3,MissingOptionConflict,cf2362eef6d65169ea2d0d59ba6c713b,FiraCode::::build.yml::::jobs::::build::::steps::::steps_3::::with::::path::::distr <-> FiraCode::::package.json::::files::::files/distr::::distr

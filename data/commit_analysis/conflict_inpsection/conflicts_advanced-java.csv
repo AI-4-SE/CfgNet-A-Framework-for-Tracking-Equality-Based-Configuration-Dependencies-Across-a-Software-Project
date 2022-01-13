@@ -1,0 +1,4 @@
+occurred_at,conflict_type,conflict_id,link
+b4137403e7702a641481966bb5126d5b51eb7195,MissingOptionConflict,f9b39a4c19881e3840b3c343b034695d,advanced-java::::sync.yml::::jobs::::build::::steps::::steps_2::::with::::branch::::master <-> advanced-java::::sync.yml::::on::::push::::branches::::master
+7a70e53fcfe866084ca0727610dfd5b037fdaf64,MissingOptionConflict,9aaa7fffc4ed44b1886bf9a1f9f97494,advanced-java::::sync.yml::::jobs::::build::::steps::::steps_1::::with::::branch::::master <-> advanced-java::::sync.yml::::on::::push::::branches::::master
+8cf657ffe3b71f4971f548914797ce9d695f0644,MissingArtifactConflict,ab2d5d2046450236cb5a7f6e48e4c7d4,advanced-java::::branch-merge.yml::::jobs::::merge-branch::::if::::github.repository == 'doocs/advanced-java' <-> advanced-java::::sync.yml::::jobs::::build::::if::::github.repository == 'doocs/advanced-java'

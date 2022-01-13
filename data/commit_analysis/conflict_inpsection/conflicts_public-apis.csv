@@ -1,0 +1,5 @@
+occurred_at,conflict_type,conflict_id,link
+d620ed539c9471bbaf70c3f5940ea87e3fd2bf9f,MissingArtifactConflict,b76dacb88caabfaa1623ba3cd489bf9d,public-apis::::test.yml::::jobs::::test::::runs-on::::ubuntu-latest <-> public-apis::::validate_links.yml::::jobs::::test::::runs-on::::ubuntu-latest
+f647d4000e593e27f9e469fbdf765241beda9f16,MissingOptionConflict,0384513f76bbf71bdb604b24e6ea8e56,public-apis::::test.yml::::on::::pull_request::::branches::::master <-> public-apis::::validate_links.yml::::on::::push::::branches::::master
+2f2d3d0d780ad3e60442326a39ad9774a911bdb4,ModifiedOptionConflict,152a5fea2f234c54a6239a4818225e4d,public-apis::::test.yml::::jobs::::test::::name::::Validate README.md <-> public-apis::::validate_links.yml::::jobs::::test::::name::::Validate README.md
+2f2d3d0d780ad3e60442326a39ad9774a911bdb4,ModifiedOptionConflict,44ce4c074282a81c615f94dc455677b7,public-apis::::test.yml::::on::::schedule::::schedule_0::::cron::::0 0 * * * <-> public-apis::::validate_links.yml::::on::::schedule::::schedule_0::::cron::::0 0 * * *
