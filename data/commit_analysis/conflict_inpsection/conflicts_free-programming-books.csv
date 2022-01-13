@@ -1,0 +1,2 @@
+occurred_at,conflict_type,conflict_id,link
+ba8ce09c2534e7986380cae1378b9b114d6707ed,MissingArtifactConflict,df1f4d7b80a0fbc5e800b963c33e0acf,free-programming-books::::.travis.yml::::jobs::::include::::language/node_js::::script::::fpb-lint ./casts/ <-> free-programming-books::::fpb-lint.yml::::jobs::::build::::steps::::steps_4::::run::::fpb-lint ./casts/

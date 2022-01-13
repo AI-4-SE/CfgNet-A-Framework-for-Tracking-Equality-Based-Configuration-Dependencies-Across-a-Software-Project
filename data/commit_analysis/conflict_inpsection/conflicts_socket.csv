@@ -1,0 +1,8 @@
+occurred_at,conflict_type,conflict_id,link
+6d4128750bd47d7f16aee3d098916af8106642d4,MissingOptionConflict,5939d9480668330b7e4707c37aa6846e,socket::::.travis.yml::::matrix::::include::::node_js/0.10::::node_js::::0.10 <-> socket::::.travis.yml::::node_js::::0.10
+6d4128750bd47d7f16aee3d098916af8106642d4,MissingOptionConflict,c4dd82b5fbc464a1c4ef45e955190e46,socket::::.travis.yml::::matrix::::include::::node_js/4::::node_js::::4 <-> socket::::.travis.yml::::node_js::::4
+3bd5455b1aaff56edeb7f2c0e5c52d5ccb91fa46,ModifiedOptionConflict,29a64cc4c67a59ea155f5463c9fccb6d,socket::::package.json::::dependencies::::socket.io-client::::1.0.0 <-> socket::::package.json::::version::::1.0.0
+6d4128750bd47d7f16aee3d098916af8106642d4,MissingOptionConflict,c1ecda6e4f3145e98a310099bf1f334e,socket::::.travis.yml::::matrix::::include::::node_js/0.12::::node_js::::0.12 <-> socket::::.travis.yml::::node_js::::0.12
+d17f5ce914a65169f7c86b6c61812d578d8b8423,ModifiedOptionConflict,0d4cbcbc33142bffb6ee21c18ed87fb1,socket::::package.json::::dependencies::::debug::::* <-> socket::::package.json::::devDependencies::::supertest::::*
+8901efd085e91223ade3fbdc121b4fe258cbac86,MissingOptionConflict,b6abbea4168e867befdb8e933af7a5e7,socket::::package.json::::dependencies::::debug::::* <-> socket::::package.json::::devDependencies::::superagent::::*
+ff2476c7a5e1890fd048cf76b71e091e72389388,MissingOptionConflict,708dac1ffbf8c1ecb8cabd2bd443c7d8,socket::::.travis.yml::::matrix::::allow_failures::::node_js/0.11::::node_js::::0.11 <-> socket::::.travis.yml::::node_js::::0.11
