@@ -17,7 +17,6 @@ def select_conflicts_randomly(target, name, modified_option, df):
 
 def main():
     	
-    print("Number of systems: ", len(glob.glob("all/*")))
 
     for full_name in glob.glob("all/*"):
         #print("===========================")
@@ -42,10 +41,10 @@ def main():
         #print("Total Conflict: ", total)
         
         # Select conflicts
-        #select_conflicts_randomly(target, name, modified_option, df)
+        # select_conflicts_randomly(target, name, modified_option, df)
 
-
-    print("Final Systems to inspect: ", len(glob.glob(os.path.join(target, "*"))))
+    print("Number of systems: ", len(glob.glob("all/*")))
+    print("Final Systems: ", len(glob.glob(os.path.join(target, "*"))))
 
 
 

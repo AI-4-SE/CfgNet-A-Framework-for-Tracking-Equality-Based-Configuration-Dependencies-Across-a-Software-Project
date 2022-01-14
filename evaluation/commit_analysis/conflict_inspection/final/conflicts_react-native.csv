@@ -1,25 +1,43 @@
 occurred_at,conflict_type,conflict_id,link
-8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,3a63ad0c88bb9b6a21fe9b2eb28fd062,"react-native::::config.yml::::aliases::::aliases_29::::command::::if [[ ! -e /opt/ndk ]]; then
+6af3b161c0697ef0b1dac7466c411455674fccd0,ModifiedOptionConflict,96a9ad99a62a7265bf16ab68da9422e4,react-native::::config.yml::::aliases::::aliases_51::::name::::Boot iPhone Simulator <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_1::::run::::name::::Boot iPhone Simulator
+1ff1e573f1dd46ee987bb5a444c85c46c7abf34a,ModifiedOptionConflict,769731605858ba92b30b3d0bdab63f59,"react-native::::config.yml::::aliases::::aliases_16::::command::::if [[ ! -e /opt/ndk ]]; then
   sudo mkdir /opt/ndk
 fi
 sudo chown ${USER:=$(/usr/bin/id -run)}:$USER /opt/ndk
- <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_11::::run::::command::::if [[ ! -e /opt/ndk ]]; then
+ <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_5::::run::::command::::if [[ ! -e /opt/ndk ]]; then
   sudo mkdir /opt/ndk
 fi
 sudo chown ${USER:=$(/usr/bin/id -run)}:$USER /opt/ndk
 "
-99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,327dddf30d0ec6f24094c9790f58d30d,react-native::::config.yml::::aliases::::aliases_35::::name::::Sanity checks <-> react-native::::config.yml::::jobs::::checkout_code::::steps::::steps_4::::run::::name::::Sanity checks
-17bd6c8e84d9f5d42767a6f42a9a2cf812aa778b,ModifiedOptionConflict,c07c8d6ecfda50f3354dd855d6797662,react-native::::config.yml::::aliases::::aliases_20::::name::::Unit Tests <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_29::::run::::name::::Unit Tests
-fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,4bb8dee809153b3c8163d7943ab94b44,"react-native::::config.yml::::aliases::::aliases_19::::command::::buck build ReactAndroid/src/main/java/com/facebook/react
+365a4d4b4315d4ca7a0e1236012b763d7e5bb1fd,ModifiedOptionConflict,bc652b2d56fefa9c9ac28f1e0d97cf2d,react-native::::config.yml::::aliases::::aliases_22::::command::::./gradlew :ReactAndroid:packageReactNdkLibsForBuck -Pjobs=$BUILD_THREADS -Pcom.android.build.threadPoolSize=1 <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_22::::run::::command::::./gradlew :ReactAndroid:packageReactNdkLibsForBuck -Pjobs=$BUILD_THREADS -Pcom.android.build.threadPoolSize=1
+cc6d0937c37d2dc7e97a903f5fbf4fa40404e767,ModifiedOptionConflict,9e9cbbf511d0f501b47576f4b9d99a46,react-native::::config.yml::::aliases::::aliases_34::::name::::Objective-C iOS End-to-End Test Suite <-> react-native::::config.yml::::jobs::::test_objc_ios_e2e::::steps::::steps_1::::run::::name::::Objective-C iOS End-to-End Test Suite
+6da5779eb74edace6f741f54f8c85f05fbefe0b8,ModifiedOptionConflict,7630bdd86dd9bc7cbc3ad2853e510ca7,react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_1::::run::::name::::Install Android Build Dependencies <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_3::::run::::name::::Install Android Build Dependencies
+b181b7797f67a4b0e227ca7138fad121105bcb74,ModifiedOptionConflict,ec39669f10a24cc07ed8b1c604aff610,"react-native::::config.yml::::aliases::::aliases_22::::command::::buck build ReactAndroid/src/main/java/com/facebook/react
 buck build ReactAndroid/src/main/java/com/facebook/react/shell
- <-> react-native::::config.yml::::jobs::::android::::steps::::steps_21::::run::::command::::buck build ReactAndroid/src/main/java/com/facebook/react
+ <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_21::::run::::command::::buck build ReactAndroid/src/main/java/com/facebook/react
 buck build ReactAndroid/src/main/java/com/facebook/react/shell
 "
-cc6d0937c37d2dc7e97a903f5fbf4fa40404e767,ModifiedOptionConflict,f973873e3148e0bc3cf47d1f31d3a612,react-native::::config.yml::::aliases::::aliases_33::::command::::./scripts/objc-test-tvos.sh <-> react-native::::config.yml::::jobs::::test_objc_tvos::::steps::::steps_1::::run::::command::::./scripts/objc-test-tvos.sh
+8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,6a176a0488c5bacd78f9588198e7d20f,react-native::::config.yml::::aliases::::aliases_29::::name::::Create Android NDK Directory <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_5::::run::::name::::Create Android NDK Directory
+15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,26466e9d24448c116f2dea26a32c9e38,react-native::::config.yml::::aliases::::aliases_23::::name::::Install Node <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_29::::run::::name::::Install Node
+365a4d4b4315d4ca7a0e1236012b763d7e5bb1fd,ModifiedOptionConflict,07e02ecd4520e0450dad067a2ba553be,react-native::::config.yml::::aliases::::aliases_24::::command::::source scripts/circle-ci-android-setup.sh && NO_BUCKD=1 retry3 buck install ReactAndroid/src/androidTest/buck-runner:instrumentation-tests --config build.threads=$BUILD_THREADS <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_31::::run::::command::::source scripts/circle-ci-android-setup.sh && NO_BUCKD=1 retry3 buck install ReactAndroid/src/androidTest/buck-runner:instrumentation-tests --config build.threads=$BUILD_THREADS
+fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,3f34b50b5224e16eeb112e84399f579d,react-native::::config.yml::::aliases::::aliases_29::::command::::./scripts/objc-test-ios.sh <-> react-native::::config.yml::::jobs::::objc-ios::::steps::::steps_4::::run::::command::::./scripts/objc-test-ios.sh
 fb223e76758ee9bbbc694a95d12d5cdb697c4f50,ModifiedOptionConflict,1d79cbf31247554dc87231f11c1904cf,react-native::::config.yml::::aliases::::aliases_42::::command::::source scripts/android-setup.sh && waitForAVD <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_24::::run::::command::::source scripts/android-setup.sh && waitForAVD
-8200c98029782579de3c38e98c733e7d57534b56,ModifiedOptionConflict,09ebaed10bdd69ac7b895d66d2fddd5a,react-native::::config.yml::::aliases::::aliases_47::::name::::Collect Test Results <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_33::::run::::name::::Collect Test Results
-6da5779eb74edace6f741f54f8c85f05fbefe0b8,ModifiedOptionConflict,cb2617f5b8e18a4bf32290c99a300c1c,"react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_10::::run::::command::::if [[ ! -e ~/buck ]]; then
-  git clone https://github.com/facebook/buck.git ~/buck --branch v2018.06.25.01 --depth=1
+1ff1e573f1dd46ee987bb5a444c85c46c7abf34a,ModifiedOptionConflict,65ac75968e693a463b62e75a89b912be,react-native::::config.yml::::aliases::::aliases_35::::name::::iOS End-to-End Test Suite <-> react-native::::config.yml::::jobs::::test_ios_e2e::::steps::::steps_2::::run::::name::::iOS End-to-End Test Suite
+b181b7797f67a4b0e227ca7138fad121105bcb74,ModifiedOptionConflict,4fa724bd495f87ac9f342d479af8c26a,react-native::::config.yml::::aliases::::aliases_28::::name::::Run Unit Tests <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_26::::run::::name::::Run Unit Tests
+fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,95f8757fc2e5d25fe65dc7fa2da1b3fe,react-native::::config.yml::::aliases::::aliases_27::::name::::Collect Test Results <-> react-native::::config.yml::::jobs::::android::::steps::::steps_32::::run::::name::::Collect Test Results
+8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,50f3eeb05b813b8483a9a875b7bbde8d,react-native::::config.yml::::aliases::::aliases_39::::name::::Download Dependencies Using Gradle <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_12::::run::::name::::Download Dependencies Using Gradle
+1ff1e573f1dd46ee987bb5a444c85c46c7abf34a,ModifiedOptionConflict,6914f31fcdf1cbe3dd0cbd1b3d0c3d6d,react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_5::::run::::name::::Create Android NDK Directory <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_8::::run::::name::::Create Android NDK Directory
+6da5779eb74edace6f741f54f8c85f05fbefe0b8,ModifiedOptionConflict,bf2ef8f146b14f0784faef60215a24c6,react-native::::config.yml::::aliases::::aliases_49::::name::::Initial Setup <-> react-native::::config.yml::::jobs::::checkout_code::::steps::::steps_0::::run::::name::::Initial Setup
+7f0a4f72b445f45a317ccff9a90cfe53ffa4493e,ModifiedOptionConflict,d05a234890189c9578b0da4cde6d01a9,"react-native::::config.yml::::aliases::::aliases_51::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  xcrun simctl boot ""Apple TV"" || true
+fi
+ <-> react-native::::config.yml::::jobs::::test_end_to_end::::steps::::steps_2::::run::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  xcrun simctl boot ""Apple TV"" || true
+fi
+"
+17bd6c8e84d9f5d42767a6f42a9a2cf812aa778b,ModifiedOptionConflict,65488618fccd20276c905aa40ad2e385,react-native::::config.yml::::aliases::::aliases_21::::command::::source scripts/circle-ci-android-setup.sh && NO_BUCKD=1 retry3 buck install ReactAndroid/src/androidTest/buck-runner:instrumentation-tests --config build.threads=$BUILD_THREADS <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_30::::run::::command::::source scripts/circle-ci-android-setup.sh && NO_BUCKD=1 retry3 buck install ReactAndroid/src/androidTest/buck-runner:instrumentation-tests --config build.threads=$BUILD_THREADS
+1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,7eb75be174ccc31e9b8e2725a721a7f1,"react-native::::config.yml::::aliases::::aliases_24::::command::::if [[ ! -e ~/buck ]]; then
+  git clone https://github.com/facebook/buck.git ~/buck --branch v2018.02.16.01 --depth=1
 fi
 cd ~/buck && ant
 buck --version
@@ -30,7 +48,7 @@ fi
 mkdir -p ~/react-native/tooling/junit
 cp -R ~/okbuck/tooling/junit/* ~/react-native/tooling/junit/.
  <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_16::::run::::command::::if [[ ! -e ~/buck ]]; then
-  git clone https://github.com/facebook/buck.git ~/buck --branch v2018.06.25.01 --depth=1
+  git clone https://github.com/facebook/buck.git ~/buck --branch v2018.02.16.01 --depth=1
 fi
 cd ~/buck && ant
 buck --version
@@ -41,102 +59,34 @@ fi
 mkdir -p ~/react-native/tooling/junit
 cp -R ~/okbuck/tooling/junit/* ~/react-native/tooling/junit/.
 "
-de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,7091e16359a53c436dc8f40b384d4bb2,react-native::::config.yml::::aliases::::aliases_23::::name::::JavaScript Test Suite <-> react-native::::config.yml::::jobs::::test_javascript::::steps::::steps_1::::run::::name::::JavaScript Test Suite
-6af3b161c0697ef0b1dac7466c411455674fccd0,ModifiedOptionConflict,8b85c76abd555b907c4d4d6a604422fe,"react-native::::config.yml::::aliases::::aliases_54::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
-  ./scripts/objc-test-tvos.sh test
+99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,e59c7bc72c94c031f808db756b304ef1,react-native::::config.yml::::aliases::::aliases_41::::name::::Wait for Android Virtual Device <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_24::::run::::name::::Wait for Android Virtual Device
+fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,95801bbcec3ae112e37a67d5e2fa245e,react-native::::config.yml::::aliases::::aliases_28::::name::::Initial Setup <-> react-native::::config.yml::::jobs::::test-podspec::::steps::::steps_0::::run::::name::::Initial Setup
+f7729a5933fe34c0ca3b3ea5a3407ff1701c7d10,ModifiedOptionConflict,6dac60a88298a27c5678d3feec8157cf,react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_14::::run::::buck fetch ReactAndroid/src/main/java/com/facebook/react <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_16::::run::::buck fetch ReactAndroid/src/main/java/com/facebook/react
+f7729a5933fe34c0ca3b3ea5a3407ff1701c7d10,ModifiedOptionConflict,f3762a79e379896506af6f8bd8f07b65,"react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_19::::run::::curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+ <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_23::::run::::curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+"
+8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,69d54a58ce432c07b4657b03cedf4692,"react-native::::config.yml::::aliases::::aliases_37::::command::::if [ $((0 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  yarn flow check
 fi
- <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_5::::run::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
-  ./scripts/objc-test-tvos.sh test
+ <-> react-native::::config.yml::::jobs::::analyze::::steps::::steps_2::::run::::command::::if [ $((0 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  yarn flow check
 fi
 "
-6da5779eb74edace6f741f54f8c85f05fbefe0b8,ModifiedOptionConflict,ce245cc4b5751d03a65908bcf2247490,"react-native::::config.yml::::aliases::::aliases_53::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
-  ./scripts/objc-test-tvos.sh test
-fi
- <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_5::::run::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
-  ./scripts/objc-test-tvos.sh test
-fi
-"
-8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,851181c2d550688e905e00d3f73653cb,react-native::::config.yml::::aliases::::aliases_27::::name::::Install BUCK <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_9::::run::::name::::Install BUCK
-de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,5f31e8f73b7a7ce5fc2ed561b63af814,react-native::::config.yml::::aliases::::aliases_34::::name::::Run Instrumentation Tests <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_29::::run::::name::::Run Instrumentation Tests
-8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,f85dcca858b745d94110355a67b8a761,react-native::::config.yml::::aliases::::aliases_36::::name::::Lint code <-> react-native::::config.yml::::jobs::::analyze::::steps::::steps_1::::run::::name::::Lint code
-69e9c9d37199642fec8e98ae684d9ee29f053bc7,ModifiedOptionConflict,5d720f96617f6c24023dd607b04c4e33,"react-native::::config.yml::::aliases::::aliases_55::::command::::echo 'The following steps are known to be failing on master.'
-echo 'They will no-op for most users.'
-echo 'PRs that bring these back to green are appreciated.'
- <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_6::::run::::command::::echo 'The following steps are known to be failing on master.'
-echo 'They will no-op for most users.'
-echo 'PRs that bring these back to green are appreciated.'
-"
-99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,8ab5614e2313f69893a9255f6ada99aa,react-native::::config.yml::::aliases::::aliases_40::::name::::Launch Android Virtual Device in Background <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_8::::run::::name::::Launch Android Virtual Device in Background
-17bd6c8e84d9f5d42767a6f42a9a2cf812aa778b,ModifiedOptionConflict,5b844e0f7da7d3208bc0d5c8a0bb0a1b,react-native::::config.yml::::aliases::::aliases_17::::name::::Wait for Android Virtual Device <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_28::::run::::name::::Wait for Android Virtual Device
-3f29d2c4403f272264b829b5ecb2d8b49177b01e,ModifiedOptionConflict,4f10fa95ca1a1dbba71c55b63b75012f,react-native::::config.yml::::aliases::::aliases_52::::name::::tvOS Test Suite <-> react-native::::config.yml::::jobs::::test_tvos::::steps::::steps_3::::run::::name::::tvOS Test Suite
-de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,10f7f703ecf8f101959e13d1db1a64a7,react-native::::config.yml::::aliases::::aliases_30::::command::::source scripts/circle-ci-android-setup.sh && waitForAVD <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_27::::run::::command::::source scripts/circle-ci-android-setup.sh && waitForAVD
-15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,be48de099dfff8daa9fc321a71c7b9f2,react-native::::config.yml::::aliases::::aliases_32::::name::::Check for errors in code using Flow <-> react-native::::config.yml::::jobs::::analyze::::steps::::steps_2::::run::::name::::Check for errors in code using Flow
-3f29d2c4403f272264b829b5ecb2d8b49177b01e,ModifiedOptionConflict,6e3d4f336e4f83f74b520023e6ba9880,react-native::::config.yml::::aliases::::aliases_44::::name::::Compile Native Libs for Unit and Integration Tests <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_28::::run::::name::::Compile Native Libs for Unit and Integration Tests
-69e9c9d37199642fec8e98ae684d9ee29f053bc7,ModifiedOptionConflict,a8730233de3e291c77cb60572f0e6f70,"react-native::::config.yml::::aliases::::aliases_52::::command::::xcrun simctl boot ""Apple TV"" || true <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_2::::run::::command::::xcrun simctl boot ""Apple TV"" || true"
-69e9c9d37199642fec8e98ae684d9ee29f053bc7,ModifiedOptionConflict,c0da48940a8e5af2093a412e241b75a2,react-native::::config.yml::::aliases::::aliases_60::::command::::./scripts/circleci/exec_author_check.sh node ./scripts/run-ci-e2e-tests.js --android --retries 3; <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_29::::run::::command::::./scripts/circleci/exec_author_check.sh node ./scripts/run-ci-e2e-tests.js --android --retries 3;
-cc6d0937c37d2dc7e97a903f5fbf4fa40404e767,ModifiedOptionConflict,9e9cbbf511d0f501b47576f4b9d99a46,react-native::::config.yml::::aliases::::aliases_34::::name::::Objective-C iOS End-to-End Test Suite <-> react-native::::config.yml::::jobs::::test_objc_ios_e2e::::steps::::steps_1::::run::::name::::Objective-C iOS End-to-End Test Suite
-99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,ce34da093833b12591214347d2985f2a,react-native::::config.yml::::aliases::::aliases_57::::name::::iOS End-to-End Test Suite (Disabled) <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_8::::run::::name::::iOS End-to-End Test Suite (Disabled)
-fb223e76758ee9bbbc694a95d12d5cdb697c4f50,ModifiedOptionConflict,1577d45030fefe55b45d4d6c88b44f82,react-native::::config.yml::::aliases::::aliases_51::::name::::Boot Apple TV Simulator <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_2::::run::::name::::Boot Apple TV Simulator
-6af3b161c0697ef0b1dac7466c411455674fccd0,ModifiedOptionConflict,a507fcc0a3501ce4cea321f5d0308a5e,react-native::::config.yml::::aliases::::aliases_59::::name::::Build iOS App for Simulator <-> react-native::::config.yml::::jobs::::test_detox_end_to_end::::steps::::steps_4::::run::::name::::Build iOS App for Simulator
-69e9c9d37199642fec8e98ae684d9ee29f053bc7,ModifiedOptionConflict,749397d86c37cfd1a4916c10a52556ba,react-native::::config.yml::::aliases::::aliases_55::::name::::Running broken tests (Ignore any failures past this point) <-> react-native::::config.yml::::jobs::::test_objc_xcode10::::steps::::steps_7::::run::::name::::Running broken tests (Ignore any failures past this point)
-cc6d0937c37d2dc7e97a903f5fbf4fa40404e767,ModifiedOptionConflict,15e80fde613b5d9d6c6118facaca71cf,react-native::::config.yml::::aliases::::aliases_32::::name::::Objective-C iOS Test Suite <-> react-native::::config.yml::::jobs::::test_objc_ios::::steps::::steps_1::::run::::name::::Objective-C iOS Test Suite
-15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,d89b7bac945ae200eab44a860166f461,react-native::::config.yml::::aliases::::aliases_39::::command::::./gradlew :ReactAndroid:packageReactNdkLibsForBuck -Pjobs=$BUILD_THREADS -Pcom.android.build.threadPoolSize=1 <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_28::::run::::command::::./gradlew :ReactAndroid:packageReactNdkLibsForBuck -Pjobs=$BUILD_THREADS -Pcom.android.build.threadPoolSize=1
-99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,d16cb82a65373ca5f7ad7ea9bd8ee868,react-native::::config.yml::::aliases::::aliases_53::::command::::./scripts/objc-test-tvos.sh test <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_5::::run::::command::::./scripts/objc-test-tvos.sh test
-fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,b99b42b0e7d50de9d06d2ec35956fee7,react-native::::config.yml::::aliases::::aliases_22::::command::::source scripts/circle-ci-android-setup.sh && waitForAVD <-> react-native::::config.yml::::jobs::::android::::steps::::steps_29::::run::::command::::source scripts/circle-ci-android-setup.sh && waitForAVD
-6da5779eb74edace6f741f54f8c85f05fbefe0b8,ModifiedOptionConflict,2f49e5d0b288904eeb1817c2e61c4c94,react-native::::config.yml::::aliases::::aliases_50::::name::::Boot iPhone Simulator <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_1::::run::::name::::Boot iPhone Simulator
-15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,2ed2e4aaa3e86e07b76ce31d620647c2,react-native::::config.yml::::aliases::::aliases_24::::name::::Create Android NDK Directory <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_5::::run::::name::::Create Android NDK Directory
-da8bec9f8b62b46e58e0e98413aa915ece05b71b,ModifiedOptionConflict,646afd089492d1bfce67c9512356b4b1,react-native::::config.yml::::aliases::::aliases_22::::command::::buck test ReactAndroid/src/test/... --config build.threads=$BUILD_THREADS <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_28::::run::::command::::buck test ReactAndroid/src/test/... --config build.threads=$BUILD_THREADS
-b181b7797f67a4b0e227ca7138fad121105bcb74,ModifiedOptionConflict,767e5e417834d3d59ec1815a51d55e40,react-native::::config.yml::::aliases::::aliases_35::::name::::Objective-C tvOS Test Suite <-> react-native::::config.yml::::jobs::::test_objc_tvos::::steps::::steps_1::::run::::name::::Objective-C tvOS Test Suite
-1ff1e573f1dd46ee987bb5a444c85c46c7abf34a,ModifiedOptionConflict,b7922f87905afd05a016c65bb55a0af7,react-native::::config.yml::::aliases::::aliases_25::::command::::source scripts/circle-ci-android-setup.sh && launchAVD <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_7::::run::::command::::source scripts/circle-ci-android-setup.sh && launchAVD
-fb223e76758ee9bbbc694a95d12d5cdb697c4f50,ModifiedOptionConflict,4b67a9eaaf1758ac3308234f90629fd9,react-native::::config.yml::::aliases::::aliases_28::::name::::Configure Environment Variables <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_1::::run::::name::::Configure Environment Variables
-3f29d2c4403f272264b829b5ecb2d8b49177b01e,ModifiedOptionConflict,9b7a2f4ebeb58347a2d3873a499dde0a,react-native::::config.yml::::aliases::::aliases_26::::name::::Install BUCK <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_16::::run::::name::::Install BUCK
-fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,95f8757fc2e5d25fe65dc7fa2da1b3fe,react-native::::config.yml::::aliases::::aliases_27::::name::::Collect Test Results <-> react-native::::config.yml::::jobs::::android::::steps::::steps_32::::run::::name::::Collect Test Results
-8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,b57403d9f3ffa584ad0fa947ebf25248,react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_4::::run::::command::::source scripts/android-setup.sh && getAndroidPackages <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_6::::run::::command::::source scripts/android-setup.sh && getAndroidPackages
-1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,280105485be1a195f1d9a39f9f624412,"react-native::::config.yml::::aliases::::aliases_3::::key::::v1-analysis-dependencies-{{ arch }}-{{ checksum ""package.json"" }}{{ checksum ""bots/package.json"" }} <-> react-native::::config.yml::::jobs::::analyze_pr::::steps::::steps_4::::save-cache::::key::::v1-analysis-dependencies-{{ arch }}-{{ checksum ""package.json"" }}{{ checksum ""bots/package.json"" }}"
-cc6d0937c37d2dc7e97a903f5fbf4fa40404e767,ModifiedOptionConflict,6e03f463d26c72e462dcd3c4ff426a3b,react-native::::config.yml::::aliases::::aliases_32::::command::::./scripts/objc-test-ios.sh <-> react-native::::config.yml::::jobs::::test_objc_ios::::steps::::steps_1::::run::::command::::./scripts/objc-test-ios.sh
-fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,3f34b50b5224e16eeb112e84399f579d,react-native::::config.yml::::aliases::::aliases_29::::command::::./scripts/objc-test-ios.sh <-> react-native::::config.yml::::jobs::::objc-ios::::steps::::steps_4::::run::::command::::./scripts/objc-test-ios.sh
-1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,f1eb42311bec6443640055d60fd5664f,"react-native::::config.yml::::aliases::::aliases_26::::command::::if [[ ! -e /opt/ndk ]]; then
-  sudo mkdir /opt/ndk
-fi
-sudo chown ${USER:=$(/usr/bin/id -run)}:$USER /opt/ndk
- <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_5::::run::::command::::if [[ ! -e /opt/ndk ]]; then
-  sudo mkdir /opt/ndk
-fi
-sudo chown ${USER:=$(/usr/bin/id -run)}:$USER /opt/ndk
-"
-1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,95cc58814b06df4f81a1b2b9b681eb5c,react-native::::config.yml::::aliases::::aliases_9::::paths::::~/vendor/apt <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_4::::save-cache::::paths::::~/vendor/apt
-1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,62eb84a5ade0c945afc54ca6fdbde7ec,react-native::::config.yml::::aliases::::aliases_46::::name::::Initial Setup <-> react-native::::config.yml::::jobs::::checkout_code::::steps::::steps_0::::run::::name::::Initial Setup
-de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,479a34dabfcf15643f5b5d57f7d7dcf4,react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_7::::run::::name::::Install Android NDK <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_11::::run::::name::::Install Android NDK
-c9d756285ac536af978ad150ff12fe3f16a8af28,ModifiedOptionConflict,27ac7a1cf95caf5cb2715cfffe7044be,react-native::::config.yml::::aliases::::aliases_36::::name::::tvOS Test Suite <-> react-native::::config.yml::::jobs::::test_tvos::::steps::::steps_3::::run::::name::::tvOS Test Suite
-3f29d2c4403f272264b829b5ecb2d8b49177b01e,ModifiedOptionConflict,37d3359dfa809ec1d49facdd30308188,"react-native::::config.yml::::aliases::::aliases_37::::command::::./scripts/circleci/check_license.sh
+da8bec9f8b62b46e58e0e98413aa915ece05b71b,ModifiedOptionConflict,aabe452be23c034baf5082b3ff66def5,react-native::::config.yml::::aliases::::aliases_19::::command::::source scripts/circle-ci-android-setup.sh && waitForAVD <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_27::::run::::command::::source scripts/circle-ci-android-setup.sh && waitForAVD
+1ff1e573f1dd46ee987bb5a444c85c46c7abf34a,ModifiedOptionConflict,61898be04fe839230a9479f31c89ba64,"react-native::::config.yml::::aliases::::aliases_22::::command::::./scripts/circleci/check_license.sh
 ./scripts/circleci/check_cache.sh
  <-> react-native::::config.yml::::jobs::::checkout_code::::steps::::steps_4::::run::::command::::./scripts/circleci/check_license.sh
 ./scripts/circleci/check_cache.sh
 "
-1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,7664366a4402e16488f302aeac3ec50f,"react-native::::config.yml::::aliases::::aliases_9::::key::::v1-apt-{{ .Branch }}-{{ checksum ""scripts/circleci/apt-get-android-deps.sh"" }} <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_4::::save-cache::::key::::v1-apt-{{ .Branch }}-{{ checksum ""scripts/circleci/apt-get-android-deps.sh"" }}"
-fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,cd1df16c1110845677cc226ffac2517a,react-native::::config.yml::::jobs::::android::::steps::::steps_16::::run::::buck fetch ReactAndroid/src/main/java/com/facebook/react <-> react-native::::config.yml::::jobs::::deploy::::steps::::steps_19::::run::::buck fetch ReactAndroid/src/main/java/com/facebook/react
-6af3b161c0697ef0b1dac7466c411455674fccd0,ModifiedOptionConflict,4698f0c229f2ce64c57aac21a33c574b,react-native::::config.yml::::aliases::::aliases_52::::name::::Boot Apple TV Simulator <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_2::::run::::name::::Boot Apple TV Simulator
-8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,14229204f1c7bc1caff3ad54d18cf938,react-native::::config.yml::::aliases::::aliases_39::::command::::./scripts/circleci/gradle_download_deps.sh <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_12::::run::::command::::./scripts/circleci/gradle_download_deps.sh
-15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,f1e67fe35e6e31eb7a07f47ba6032c6f,react-native::::config.yml::::aliases::::aliases_26::::command::::source scripts/circle-ci-android-setup.sh && getAndroidSDK <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_3::::run::::command::::source scripts/circle-ci-android-setup.sh && getAndroidSDK
-d0f0e8e248dfc7ecee91aaf83ac411e10a160579,ModifiedOptionConflict,4758f07956c7b817f0e631c07190b3ff,react-native::::config.yml::::aliases::::aliases_58::::name::::Android End-to-End Test Suite (Ignoring failures) <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_28::::run::::name::::Android End-to-End Test Suite (Ignoring failures)
-1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,4c830935a25bba43aeaaab1cbaa9e117,react-native::::config.yml::::aliases::::aliases_42::::command::::./gradlew :ReactAndroid:packageReactNdkLibsForBuck -Pjobs=$BUILD_THREADS -Pcom.android.build.threadPoolSize=1 <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_28::::run::::command::::./gradlew :ReactAndroid:packageReactNdkLibsForBuck -Pjobs=$BUILD_THREADS -Pcom.android.build.threadPoolSize=1
-fb223e76758ee9bbbc694a95d12d5cdb697c4f50,ModifiedOptionConflict,52e212099e5e328d5216b82327c6fa96,react-native::::config.yml::::aliases::::aliases_48::::name::::Collect Test Results <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_28::::run::::name::::Collect Test Results
-3f29d2c4403f272264b829b5ecb2d8b49177b01e,ModifiedOptionConflict,cc072662aa9fc709144e8821262b8c79,react-native::::config.yml::::aliases::::aliases_31::::command::::./scripts/circleci/apt-get-android-deps.sh <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_3::::run::::command::::./scripts/circleci/apt-get-android-deps.sh
-8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,d002582ada69d9d6b157504b70e5eba4,react-native::::config.yml::::aliases::::aliases_33::::name::::Validate Android SDK Install <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_8::::run::::name::::Validate Android SDK Install
-fb223e76758ee9bbbc694a95d12d5cdb697c4f50,ModifiedOptionConflict,e3336aaebd2b08fa7924333768f0c41f,"react-native::::config.yml::::aliases::::aliases_51::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
-  xcrun simctl boot ""Apple TV"" || true
-fi
- <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_2::::run::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
-  xcrun simctl boot ""Apple TV"" || true
-fi
-"
-15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,e3f782ab9976c071b031b88dd39b4d59,react-native::::config.yml::::aliases::::aliases_28::::command::::./scripts/validate-android-sdk.sh <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_8::::run::::command::::./scripts/validate-android-sdk.sh
-fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,ec8b0ee2e3e47b725e8bc9ec4aea6105,react-native::::config.yml::::aliases::::aliases_22::::name::::Wait for Android Virtual Device <-> react-native::::config.yml::::jobs::::android::::steps::::steps_29::::run::::name::::Wait for Android Virtual Device
-8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,0c44ec07957b8ed7ab75fd6f06a63e1a,react-native::::config.yml::::aliases::::aliases_46::::command::::./gradlew :ReactAndroid:packageReactNdkLibsForBuck -Pjobs=$BUILD_THREADS -Pcom.android.build.threadPoolSize=1 <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_24::::run::::command::::./gradlew :ReactAndroid:packageReactNdkLibsForBuck -Pjobs=$BUILD_THREADS -Pcom.android.build.threadPoolSize=1
-1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,59d5e78534391b5a6afa0e21c8d5b612,"react-native::::config.yml::::aliases::::aliases_5::::key::::v1-android-sdkmanager-packages-api-26-alpha-{{ checksum ""scripts/.tests.env"" }} <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_2::::restore-cache::::keys::::v1-android-sdkmanager-packages-api-26-alpha-{{ checksum ""scripts/.tests.env"" }}"
-99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,0556375ee3176e13d3334ad39ffad62b,react-native::::config.yml::::aliases::::aliases_58::::command::::./scripts/circleci/exec_author_check.sh node ./scripts/run-ci-e2e-tests.js --tvos --js --retries 3; <-> react-native::::config.yml::::jobs::::test_objc_xcode10::::steps::::steps_10::::run::::command::::./scripts/circleci/exec_author_check.sh node ./scripts/run-ci-e2e-tests.js --tvos --js --retries 3;
-15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,68671c8fd5fcfd912476622f2806c585,react-native::::config.yml::::aliases::::aliases_32::::command::::yarn flow check <-> react-native::::config.yml::::jobs::::analyze::::steps::::steps_2::::run::::command::::yarn flow check
-b181b7797f67a4b0e227ca7138fad121105bcb74,ModifiedOptionConflict,b9e55b10dd6b15d59bb64f17e4120428,react-native::::config.yml::::aliases::::aliases_27::::command::::./gradlew :ReactAndroid:packageReactNdkLibsForBuck -Pjobs=$BUILD_THREADS -Pcom.android.build.threadPoolSize=1 <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_22::::run::::command::::./gradlew :ReactAndroid:packageReactNdkLibsForBuck -Pjobs=$BUILD_THREADS -Pcom.android.build.threadPoolSize=1
+fb223e76758ee9bbbc694a95d12d5cdb697c4f50,ModifiedOptionConflict,810ae50bcfbe2d4d795d3981aef0831f,react-native::::config.yml::::aliases::::aliases_36::::name::::Sanity checks <-> react-native::::config.yml::::jobs::::checkout_code::::steps::::steps_4::::run::::name::::Sanity checks
+1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,95cc58814b06df4f81a1b2b9b681eb5c,react-native::::config.yml::::aliases::::aliases_9::::paths::::~/vendor/apt <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_4::::save-cache::::paths::::~/vendor/apt
+1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,b3bfe222c5b6f48c1da717fd7f3616d3,react-native::::config.yml::::aliases::::aliases_34::::name::::Check for errors in code using Flow <-> react-native::::config.yml::::jobs::::analyze::::steps::::steps_2::::run::::name::::Check for errors in code using Flow
+b181b7797f67a4b0e227ca7138fad121105bcb74,ModifiedOptionConflict,2f344d170b76ce7716c69b5b926c4c2d,react-native::::config.yml::::aliases::::aliases_32::::name::::Build Objective-C iOS Test App <-> react-native::::config.yml::::jobs::::build_objc_ios_test_app::::steps::::steps_1::::run::::name::::Build Objective-C iOS Test App
+3f29d2c4403f272264b829b5ecb2d8b49177b01e,ModifiedOptionConflict,f9dea0e4e8772bf4fad8069cf10520b3,"react-native::::config.yml::::aliases::::aliases_49::::command::::xcrun simctl boot ""iPhone 5s"" || true <-> react-native::::config.yml::::jobs::::test_ios::::steps::::steps_1::::run::::command::::xcrun simctl boot ""iPhone 5s"" || true"
+8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,4d66e7cfbc818017125fe086dcfcaf08,react-native::::config.yml::::aliases::::aliases_44::::name::::Wait for Android Virtual Device <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_26::::run::::name::::Wait for Android Virtual Device
+69e9c9d37199642fec8e98ae684d9ee29f053bc7,ModifiedOptionConflict,80280ff3902b4c2d572213c600166c73,react-native::::config.yml::::aliases::::aliases_58::::name::::iOS End-to-End Test Suite (Disabled) <-> react-native::::config.yml::::jobs::::test_objc_xcode10::::steps::::steps_9::::run::::name::::iOS End-to-End Test Suite (Disabled)
 99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,c0d47bbcb7f69e455a5afac5de867a88,"react-native::::config.yml::::aliases::::aliases_47::::command::::find . -type f -regex "".*/build/test-results/debug/.*xml"" -exec cp {} ~/react-native/reports/build/ \;
 find . -type f -regex "".*/outputs/androidTest-results/connected/.*xml"" -exec cp {} ~/react-native/reports/outputs/ \;
 find . -type f -regex "".*/buck-out/gen/ReactAndroid/src/test/.*/.*xml"" -exec cp {} ~/react-native/reports/buck/ \;
@@ -146,66 +96,188 @@ find . -type f -regex "".*/outputs/androidTest-results/connected/.*xml"" -exec c
 find . -type f -regex "".*/buck-out/gen/ReactAndroid/src/test/.*/.*xml"" -exec cp {} ~/react-native/reports/buck/ \;
 ./tooling/junit/buck_to_junit.sh ~/react-native/reports/buck/all-results-raw.xml ~/react-native/reports/junit/all-results-junit.xml
 "
-15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,b187c8aceb9b907156f7b84ad4a10f15,react-native::::config.yml::::aliases::::aliases_36::::command::::source scripts/circle-ci-android-setup.sh && launchAVD <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_10::::run::::command::::source scripts/circle-ci-android-setup.sh && launchAVD
-b181b7797f67a4b0e227ca7138fad121105bcb74,ModifiedOptionConflict,ec39669f10a24cc07ed8b1c604aff610,"react-native::::config.yml::::aliases::::aliases_22::::command::::buck build ReactAndroid/src/main/java/com/facebook/react
-buck build ReactAndroid/src/main/java/com/facebook/react/shell
- <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_21::::run::::command::::buck build ReactAndroid/src/main/java/com/facebook/react
-buck build ReactAndroid/src/main/java/com/facebook/react/shell
+17bd6c8e84d9f5d42767a6f42a9a2cf812aa778b,ModifiedOptionConflict,7926a6c658c3fcc3c7947bb2bade66f9,react-native::::config.yml::::jobs::::deploy::::steps::::steps_20::::run::::buck fetch ReactAndroid/src/androidTest/... <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_22::::run::::buck fetch ReactAndroid/src/androidTest/...
+365a4d4b4315d4ca7a0e1236012b763d7e5bb1fd,ModifiedOptionConflict,5836f59f5428f42393c536b5757fbc70,react-native::::config.yml::::aliases::::aliases_26::::name::::Initial Setup <-> react-native::::config.yml::::jobs::::test-objc-ios::::steps::::steps_0::::run::::name::::Initial Setup
+fb223e76758ee9bbbc694a95d12d5cdb697c4f50,ModifiedOptionConflict,de241c3a34948b30e6343b62b6ef696c,react-native::::config.yml::::aliases::::aliases_54::::name::::Test CocoaPods <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_6::::run::::name::::Test CocoaPods
+fb223e76758ee9bbbc694a95d12d5cdb697c4f50,ModifiedOptionConflict,4b67a9eaaf1758ac3308234f90629fd9,react-native::::config.yml::::aliases::::aliases_28::::name::::Configure Environment Variables <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_1::::run::::name::::Configure Environment Variables
+99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,34ea06df9540776ecaa9e8adfd96c01b,react-native::::config.yml::::aliases::::aliases_49::::name::::Install Watchman <-> react-native::::config.yml::::jobs::::test_objc_xcode10::::steps::::steps_4::::run::::name::::Install Watchman
+8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,9ca7fad7c537d360c35ce8b5201070a6,"react-native::::config.yml::::aliases::::aliases_53::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  xcrun simctl boot ""Apple TV"" || true
+fi
+ <-> react-native::::config.yml::::jobs::::test_end_to_end::::steps::::steps_2::::run::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  xcrun simctl boot ""Apple TV"" || true
+fi
 "
-8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,238fb29d4f12733216d687df71ad6eee,react-native::::config.yml::::aliases::::aliases_35::::command::::yarn test-ci <-> react-native::::config.yml::::jobs::::test_javascript::::steps::::steps_1::::run::::command::::yarn test-ci
-15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,d0c36abd90d43b83f97d0fada673ebb2,react-native::::config.yml::::aliases::::aliases_44::::name::::iOS Test Suite <-> react-native::::config.yml::::jobs::::test_ios::::steps::::steps_3::::run::::name::::iOS Test Suite
-8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,4d0448d6f54e37621715de3395d8a2e2,react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_9::::run::::name::::Install BUCK <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_16::::run::::name::::Install BUCK
-8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,1b1b4bae40736f2b59562a9e3f06770e,react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_12::::run::::name::::Download Dependencies Using Gradle <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_21::::run::::name::::Download Dependencies Using Gradle
-fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,95801bbcec3ae112e37a67d5e2fa245e,react-native::::config.yml::::aliases::::aliases_28::::name::::Initial Setup <-> react-native::::config.yml::::jobs::::test-podspec::::steps::::steps_0::::run::::name::::Initial Setup
-1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,11488ed10e83abd960522b75c51737c4,react-native::::config.yml::::aliases::::aliases_40::::command::::source scripts/android-setup.sh && waitForAVD <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_30::::run::::command::::source scripts/android-setup.sh && waitForAVD
-1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,4c3f9c3fdd44d8b601733fe12a430742,react-native::::config.yml::::aliases::::aliases_29::::name::::Install Android Build Dependencies <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_3::::run::::name::::Install Android Build Dependencies
-8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,8bf912549c45e2a9be9bfdeea77574d8,react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_12::::run::::command::::./scripts/circleci/gradle_download_deps.sh <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_21::::run::::command::::./scripts/circleci/gradle_download_deps.sh
-da8bec9f8b62b46e58e0e98413aa915ece05b71b,ModifiedOptionConflict,761626048a912aae79a2cb50136024bc,react-native::::config.yml::::jobs::::deploy::::steps::::steps_18::::run::::buck fetch ReactAndroid/src/main/java/com/facebook/react/shell <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_16::::run::::buck fetch ReactAndroid/src/main/java/com/facebook/react/shell
-de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,5659567b248844d6ae844e07881b7fac,"react-native::::config.yml::::aliases::::aliases_7::::key::::v2-android-ndk-{{ arch }}-r10e-32-64-{{ checksum ""scripts/circle-ci-android-setup.sh"" }} <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_8::::save-cache::::key::::v2-android-ndk-{{ arch }}-r10e-32-64-{{ checksum ""scripts/circle-ci-android-setup.sh"" }}"
-8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,2eff4146810663585f638db063417c8c,"react-native::::config.yml::::aliases::::aliases_27::::command::::if [[ ! -e ~/buck ]]; then
-  git clone https://github.com/facebook/buck.git ~/buck --branch v2018.06.25.01 --depth=1
-fi
-cd ~/buck && ant
-buck --version
-# Install related tooling
-if [[ ! -e ~/okbuck ]]; then
-  git clone https://github.com/uber/okbuck.git ~/okbuck --depth=1
-fi
-mkdir -p ~/react-native/tooling/junit
-cp -R ~/okbuck/tooling/junit/* ~/react-native/tooling/junit/.
- <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_9::::run::::command::::if [[ ! -e ~/buck ]]; then
-  git clone https://github.com/facebook/buck.git ~/buck --branch v2018.06.25.01 --depth=1
-fi
-cd ~/buck && ant
-buck --version
-# Install related tooling
-if [[ ! -e ~/okbuck ]]; then
-  git clone https://github.com/uber/okbuck.git ~/okbuck --depth=1
-fi
-mkdir -p ~/react-native/tooling/junit
-cp -R ~/okbuck/tooling/junit/* ~/react-native/tooling/junit/.
-"
-1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,a7b894f5d23f92c6676baa12a8373203,react-native::::config.yml::::aliases::::aliases_36::::name::::Download C++ Dependencies <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_18::::run::::name::::Download C++ Dependencies
-3f29d2c4403f272264b829b5ecb2d8b49177b01e,ModifiedOptionConflict,0360fc54c27f18472672cf6f44e4565d,react-native::::config.yml::::aliases::::aliases_46::::name::::Run Instrumentation Tests <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_32::::run::::name::::Run Instrumentation Tests
-fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,29668f48e7b34fe62b19cd0e37ce5eed,react-native::::config.yml::::aliases::::aliases_25::::command::::buck test ReactAndroid/src/test/... --config build.threads=$BUILD_THREADS <-> react-native::::config.yml::::jobs::::android::::steps::::steps_30::::run::::command::::buck test ReactAndroid/src/test/... --config build.threads=$BUILD_THREADS
-15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,735281d88af598f15aeca2aa9a590b23,react-native::::config.yml::::aliases::::aliases_26::::name::::Install Android SDK Packages <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_6::::run::::name::::Install Android SDK Packages
-69e9c9d37199642fec8e98ae684d9ee29f053bc7,ModifiedOptionConflict,546a9c38ae342590a679919b7f0b65fe,react-native::::config.yml::::aliases::::aliases_53::::name::::iOS Test Suite <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_4::::run::::name::::iOS Test Suite
-de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,aebce67e2e1652f62c752aa69805dff6,"react-native::::config.yml::::aliases::::aliases_35::::command::::find . -type f -regex "".*/build/test-results/debug/.*xml"" -exec cp {} ~/react-native/reports/junit/ \;
-find . -type f -regex "".*/outputs/androidTest-results/connected/.*xml"" -exec cp {} ~/react-native/reports/junit/ \;
-find . -type f -regex "".*/buck-out/gen/ReactAndroid/src/test/.*/.*xml"" -exec cp {} ~/react-native/reports/junit/ \;
- <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_30::::run::::command::::find . -type f -regex "".*/build/test-results/debug/.*xml"" -exec cp {} ~/react-native/reports/junit/ \;
-find . -type f -regex "".*/outputs/androidTest-results/connected/.*xml"" -exec cp {} ~/react-native/reports/junit/ \;
-find . -type f -regex "".*/buck-out/gen/ReactAndroid/src/test/.*/.*xml"" -exec cp {} ~/react-native/reports/junit/ \;
-"
-365a4d4b4315d4ca7a0e1236012b763d7e5bb1fd,ModifiedOptionConflict,04efacf3f626ef0b9fa1ff7b448ee6dd,react-native::::config.yml::::aliases::::aliases_19::::name::::Launch Android Virtual Device in Background <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_7::::run::::name::::Launch Android Virtual Device in Background
-de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,336b03343fd27303dd83700aacddbf98,react-native::::config.yml::::aliases::::aliases_37::::name::::iOS Test Suite <-> react-native::::config.yml::::jobs::::test_ios::::steps::::steps_3::::run::::name::::iOS Test Suite
 b531612b2c917e1f2bd6bb37bf854fe51e658b36,ModifiedOptionConflict,e8a88fab8a0fe3b4c752f586ab18f4bc,react-native::::config.yml::::aliases::::aliases_40::::command::::source scripts/circle-ci-android-setup.sh && waitForAVD <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_31::::run::::command::::source scripts/circle-ci-android-setup.sh && waitForAVD
-de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,486f915b0b1f44375176f23e96c8a6ab,react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_15::::run::::buck fetch ReactAndroid/src/test/... <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_20::::run::::buck fetch ReactAndroid/src/test/...
-15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,be6deed70cf81140f0ef202420163930,react-native::::config.yml::::aliases::::aliases_36::::name::::Launch Android Virtual Device in Background <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_10::::run::::name::::Launch Android Virtual Device in Background
+6af3b161c0697ef0b1dac7466c411455674fccd0,ModifiedOptionConflict,8b85c76abd555b907c4d4d6a604422fe,"react-native::::config.yml::::aliases::::aliases_54::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  ./scripts/objc-test-tvos.sh test
+fi
+ <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_5::::run::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  ./scripts/objc-test-tvos.sh test
+fi
+"
+6af3b161c0697ef0b1dac7466c411455674fccd0,ModifiedOptionConflict,95806b8da1c6cfc0047abdc0263cff5a,"react-native::::config.yml::::aliases::::aliases_58::::command::::brew tap wix/brew
+brew install applesimutils
+ <-> react-native::::config.yml::::jobs::::test_detox_end_to_end::::steps::::steps_3::::run::::command::::brew tap wix/brew
+brew install applesimutils
+"
+6da5779eb74edace6f741f54f8c85f05fbefe0b8,ModifiedOptionConflict,8f4e88437f8071585eacfc8e27f01a22,"react-native::::config.yml::::aliases::::aliases_50::::command::::if [ $((0 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  xcrun simctl boot ""iPhone 5s"" || true
+fi
+ <-> react-native::::config.yml::::jobs::::test_end_to_end::::steps::::steps_1::::run::::command::::if [ $((0 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  xcrun simctl boot ""iPhone 5s"" || true
+fi
+"
+fb223e76758ee9bbbc694a95d12d5cdb697c4f50,ModifiedOptionConflict,35730bcde9274c58e0f216107f706251,"react-native::::config.yml::::aliases::::aliases_52::::command::::if [ $((0 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  ./scripts/objc-test-ios.sh test
+fi
+ <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_4::::run::::command::::if [ $((0 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  ./scripts/objc-test-ios.sh test
+fi
+"
+de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,065c84bac066084b9a269635b5336780,"react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_5::::run::::command::::if [[ ! -e /opt/ndk ]]; then
+  sudo mkdir /opt/ndk
+fi
+sudo chown ${USER:=$(/usr/bin/id -run)}:$USER /opt/ndk
+ <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_9::::run::::command::::if [[ ! -e /opt/ndk ]]; then
+  sudo mkdir /opt/ndk
+fi
+sudo chown ${USER:=$(/usr/bin/id -run)}:$USER /opt/ndk
+"
+fb223e76758ee9bbbc694a95d12d5cdb697c4f50,ModifiedOptionConflict,8bf855ffc5286221dc15c0cf129c22c9,react-native::::config.yml::::aliases::::aliases_53::::name::::tvOS Test Suite <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_5::::run::::name::::tvOS Test Suite
+da8bec9f8b62b46e58e0e98413aa915ece05b71b,ModifiedOptionConflict,4f1898b78090a4312039d4061ce21cdc,react-native::::config.yml::::jobs::::deploy::::steps::::steps_21::::run::::./gradlew :ReactAndroid:downloadBoost :ReactAndroid:downloadDoubleConversion :ReactAndroid:downloadFolly :ReactAndroid:downloadGlog :ReactAndroid:downloadJSCHeaders <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_19::::run::::./gradlew :ReactAndroid:downloadBoost :ReactAndroid:downloadDoubleConversion :ReactAndroid:downloadFolly :ReactAndroid:downloadGlog :ReactAndroid:downloadJSCHeaders
+b181b7797f67a4b0e227ca7138fad121105bcb74,ModifiedOptionConflict,767e5e417834d3d59ec1815a51d55e40,react-native::::config.yml::::aliases::::aliases_35::::name::::Objective-C tvOS Test Suite <-> react-native::::config.yml::::jobs::::test_objc_tvos::::steps::::steps_1::::run::::name::::Objective-C tvOS Test Suite
+1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,bf096b4ab8adc3fe4f30ddabfb7766ce,"react-native::::config.yml::::aliases::::aliases_11::::key::::v3-android-ndk-{{ arch }}-r10e-{{ checksum ""scripts/android-setup.sh"" }} <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_14::::save-cache::::key::::v3-android-ndk-{{ arch }}-r10e-{{ checksum ""scripts/android-setup.sh"" }}"
+7f0a4f72b445f45a317ccff9a90cfe53ffa4493e,ModifiedOptionConflict,8244f8168596e874b54180d33d2de44f,react-native::::config.yml::::jobs::::test_android::::steps::::steps_1::::run::::name::::Configure Environment Variables <-> react-native::::config.yml::::jobs::::test_end_to_end::::steps::::steps_3::::run::::name::::Configure Environment Variables
+99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,540f14e9a30161183acdc65cb28090b4,react-native::::config.yml::::aliases::::aliases_54::::name::::Running broken tests (Ignore any failures past this point) <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_28::::run::::name::::Running broken tests (Ignore any failures past this point)
+1ff1e573f1dd46ee987bb5a444c85c46c7abf34a,ModifiedOptionConflict,c57e4629a0b8a57a4c96e8fca880f886,"react-native::::config.yml::::aliases::::aliases_18::::command::::sudo apt-get update -y
+sudo apt-get install ant autoconf automake g++ gcc libqt5widgets5 lib32z1 lib32stdc++6  make maven python-dev python3-dev qml-module-qtquick-controls qtdeclarative5-dev file -y
+ <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_1::::run::::command::::sudo apt-get update -y
+sudo apt-get install ant autoconf automake g++ gcc libqt5widgets5 lib32z1 lib32stdc++6  make maven python-dev python3-dev qml-module-qtquick-controls qtdeclarative5-dev file -y
+"
+4e767013ed73fb89f69f2e59626d6dcf3bb77684,ModifiedOptionConflict,677806bcb80e01abac651820a132bd73,react-native::::config.yml::::aliases::::aliases_11::::key::::v1-buck-{{ arch }}-v2017.11.16.01 <-> react-native::::config.yml::::jobs::::deploy::::steps::::steps_9::::restore-cache::::keys::::v1-buck-{{ arch }}-v2017.11.16.01
+3f29d2c4403f272264b829b5ecb2d8b49177b01e,ModifiedOptionConflict,9e886aefb261a4af1488f3876169e0e0,react-native::::config.yml::::aliases::::aliases_38::::name::::Download C++ Dependencies <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_25::::run::::name::::Download C++ Dependencies
+fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,b99b42b0e7d50de9d06d2ec35956fee7,react-native::::config.yml::::aliases::::aliases_22::::command::::source scripts/circle-ci-android-setup.sh && waitForAVD <-> react-native::::config.yml::::jobs::::android::::steps::::steps_29::::run::::command::::source scripts/circle-ci-android-setup.sh && waitForAVD
+99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,116f485b5c0b92175b6f642481e46c44,react-native::::config.yml::::aliases::::aliases_50::::name::::Boot iPhone Simulator <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_1::::run::::name::::Boot iPhone Simulator
+17bd6c8e84d9f5d42767a6f42a9a2cf812aa778b,ModifiedOptionConflict,c07c8d6ecfda50f3354dd855d6797662,react-native::::config.yml::::aliases::::aliases_20::::name::::Unit Tests <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_29::::run::::name::::Unit Tests
+1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,338a0b17d88e1fe1dec84f14a368ccc7,react-native::::config.yml::::aliases::::aliases_30::::name::::Validate Android SDK Install <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_8::::run::::name::::Validate Android SDK Install
+3362da421ce919fc6f4f1bda29b59e2e3bfe02de,ModifiedOptionConflict,64dde7ce1aae84d174c9737c9712a998,react-native::::config.yml::::aliases::::aliases_9::::key::::v1-android-ndk-{{ arch }}-r10e-32-64 <-> react-native::::config.yml::::jobs::::deploy::::steps::::steps_8::::save-cache::::key::::v1-android-ndk-{{ arch }}-r10e-32-64
+d0f0e8e248dfc7ecee91aaf83ac411e10a160579,ModifiedOptionConflict,1fa2a640bdd657c05993b8ccb932ba7b,"react-native::::config.yml::::aliases::::aliases_56::::command::::echo 'The following step is known to be failing in master, and any failures will be ignored.'
+scripts/circleci/exec_swallow_error.sh node ./scripts/run-ci-e2e-tests.js --ios --retries 3;
+ <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_7::::run::::command::::echo 'The following step is known to be failing in master, and any failures will be ignored.'
+scripts/circleci/exec_swallow_error.sh node ./scripts/run-ci-e2e-tests.js --ios --retries 3;
+"
+99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,c3a9ab8ff3f5978d6b52d850a536ecb0,react-native::::config.yml::::aliases::::aliases_36::::command::::./scripts/circleci/gradle_download_deps.sh <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_13::::run::::command::::./scripts/circleci/gradle_download_deps.sh
+15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,50168121be15e3422b52408b318659d9,"react-native::::config.yml::::aliases::::aliases_33::::command::::./scripts/circleci/check_license.sh
+./scripts/circleci/check_cache.sh
+ <-> react-native::::config.yml::::jobs::::checkout_code::::steps::::steps_4::::run::::command::::./scripts/circleci/check_license.sh
+./scripts/circleci/check_cache.sh
+"
+15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,e3f782ab9976c071b031b88dd39b4d59,react-native::::config.yml::::aliases::::aliases_28::::command::::./scripts/validate-android-sdk.sh <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_8::::run::::command::::./scripts/validate-android-sdk.sh
+fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,160b16ff54eb6d0b75e3820ed6b54737,react-native::::config.yml::::aliases::::aliases_18::::name::::Check for errors in code using Flow <-> react-native::::config.yml::::jobs::::js-checks::::steps::::steps_5::::run::::name::::Check for errors in code using Flow
+3f29d2c4403f272264b829b5ecb2d8b49177b01e,ModifiedOptionConflict,4237103e868768484b2ec47dea246464,"react-native::::config.yml::::aliases::::aliases_26::::command::::if [[ ! -e ~/buck ]]; then
+  git clone https://github.com/facebook/buck.git ~/buck --branch v2018.03.26.01 --depth=1
+fi
+cd ~/buck && ant
+buck --version
+# Install related tooling
+if [[ ! -e ~/okbuck ]]; then
+  git clone https://github.com/uber/okbuck.git ~/okbuck --depth=1
+fi
+mkdir -p ~/react-native/tooling/junit
+cp -R ~/okbuck/tooling/junit/* ~/react-native/tooling/junit/.
+ <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_10::::run::::command::::if [[ ! -e ~/buck ]]; then
+  git clone https://github.com/facebook/buck.git ~/buck --branch v2018.03.26.01 --depth=1
+fi
+cd ~/buck && ant
+buck --version
+# Install related tooling
+if [[ ! -e ~/okbuck ]]; then
+  git clone https://github.com/uber/okbuck.git ~/okbuck --depth=1
+fi
+mkdir -p ~/react-native/tooling/junit
+cp -R ~/okbuck/tooling/junit/* ~/react-native/tooling/junit/.
+"
+15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,deda610830f52640954f38251e788b71,react-native::::config.yml::::aliases::::aliases_42::::name::::Collect Test Results <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_34::::run::::name::::Collect Test Results
+99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,309f08e6f2b0e3f73372b6984e22c137,"react-native::::config.yml::::aliases::::aliases_49::::command::::brew install watchman
+touch .watchmanconfig
+ <-> react-native::::config.yml::::jobs::::test_objc_xcode10::::steps::::steps_4::::run::::command::::brew install watchman
+touch .watchmanconfig
+"
+8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,d5e1d1fa7a53223159bde746c55a9d36,react-native::::config.yml::::aliases::::aliases_24::::command::::source scripts/android-setup.sh && getAndroidNDK <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_7::::run::::command::::source scripts/android-setup.sh && getAndroidNDK
+17bd6c8e84d9f5d42767a6f42a9a2cf812aa778b,ModifiedOptionConflict,58daacca8081fbc1ec86a82e2a8c2f5c,react-native::::config.yml::::aliases::::aliases_21::::name::::Build and Install Test APK <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_30::::run::::name::::Build and Install Test APK
+fb223e76758ee9bbbc694a95d12d5cdb697c4f50,ModifiedOptionConflict,e3336aaebd2b08fa7924333768f0c41f,"react-native::::config.yml::::aliases::::aliases_51::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  xcrun simctl boot ""Apple TV"" || true
+fi
+ <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_2::::run::::command::::if [ $((1 % CIRCLE_NODE_TOTAL)) -eq ""$CIRCLE_NODE_INDEX"" ]; then
+  xcrun simctl boot ""Apple TV"" || true
+fi
+"
+6af3b161c0697ef0b1dac7466c411455674fccd0,ModifiedOptionConflict,3a3d52bd62937d08e85400d4218501f5,react-native::::config.yml::::aliases::::aliases_57::::name::::Install Node 8 <-> react-native::::config.yml::::jobs::::test_detox_end_to_end::::steps::::steps_2::::run::::name::::Install Node 8
+de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,7091e16359a53c436dc8f40b384d4bb2,react-native::::config.yml::::aliases::::aliases_23::::name::::JavaScript Test Suite <-> react-native::::config.yml::::jobs::::test_javascript::::steps::::steps_1::::run::::name::::JavaScript Test Suite
+1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,ec78e849ea489bba16be7570cebb0a13,react-native::::config.yml::::aliases::::aliases_44::::name::::Run Instrumentation Tests <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_32::::run::::name::::Run Instrumentation Tests
+365a4d4b4315d4ca7a0e1236012b763d7e5bb1fd,ModifiedOptionConflict,eb13acb39a076cbb6598a90b2abe42d8,react-native::::config.yml::::aliases::::aliases_17::::name::::Build Android App <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_21::::run::::name::::Build Android App
+6da5779eb74edace6f741f54f8c85f05fbefe0b8,ModifiedOptionConflict,de5c6dd7cb981914f47c91c32e66e24f,react-native::::config.yml::::aliases::::aliases_42::::name::::Launch Android Virtual Device in Background <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_10::::run::::name::::Launch Android Virtual Device in Background
+99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,b519337cfeb6efd4f07c74ed83560acb,react-native::::config.yml::::aliases::::aliases_55::::name::::Test CocoaPods (Disabled) <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_7::::run::::name::::Test CocoaPods (Disabled)
+a2f3ba864ed17ca32e71f15724a8ebf2b1e640c1,ModifiedOptionConflict,8df803cf29fd579614f37efcefa8271a,react-native::::config.yml::::aliases::::aliases_22::::command::::buck test ReactAndroid/src/test/... --config build.threads=$BUILD_THREADS <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_29::::run::::command::::buck test ReactAndroid/src/test/... --config build.threads=$BUILD_THREADS
+6af3b161c0697ef0b1dac7466c411455674fccd0,ModifiedOptionConflict,8c259299668ac777c57fded63d56ea4b,"react-native::::config.yml::::aliases::::aliases_47::::command::::find . -type f -regex "".*/build/test-results/debug/.*xml"" -exec cp {} ~/react-native/reports/build/ \;
+find . -type f -regex "".*/outputs/androidTest-results/connected/.*xml"" -exec cp {} ~/react-native/reports/outputs/ \;
+find . -type f -regex "".*/buck-out/gen/ReactAndroid/src/test/.*/.*xml"" -exec cp {} ~/react-native/reports/buck/ \;
+./tooling/junit/buck_to_junit.sh ~/react-native/reports/buck/all-results-raw.xml ~/react-native/reports/junit/all-results-junit.xml
+ <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_28::::run::::command::::find . -type f -regex "".*/build/test-results/debug/.*xml"" -exec cp {} ~/react-native/reports/build/ \;
+find . -type f -regex "".*/outputs/androidTest-results/connected/.*xml"" -exec cp {} ~/react-native/reports/outputs/ \;
+find . -type f -regex "".*/buck-out/gen/ReactAndroid/src/test/.*/.*xml"" -exec cp {} ~/react-native/reports/buck/ \;
+./tooling/junit/buck_to_junit.sh ~/react-native/reports/buck/all-results-raw.xml ~/react-native/reports/junit/all-results-junit.xml
+"
+de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,8298d165d3ded88edec8ce0aa170478d,react-native::::config.yml::::aliases::::aliases_33::::command::::buck test ReactAndroid/src/test/... --config build.threads=$BUILD_THREADS <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_28::::run::::command::::buck test ReactAndroid/src/test/... --config build.threads=$BUILD_THREADS
+aae3a7816ebe6e8e92a7797be0b2eea8acafe5a4,ModifiedOptionConflict,e6265d7383a20f3cd62520e6eab5bc2b,"react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_5::::run::::command::::if [[ ! -e /opt/ndk ]]; then
+  sudo mkdir /opt/ndk
+fi
+sudo chown ${USER:=$(/usr/bin/id -run)}:$USER /opt/ndk
+ <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_9::::run::::command::::if [[ ! -e /opt/ndk ]]; then
+  sudo mkdir /opt/ndk
+fi
+sudo chown ${USER:=$(/usr/bin/id -run)}:$USER /opt/ndk
+"
+15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,7b5c940fe3b762f8c9f6bf19e575169b,react-native::::config.yml::::aliases::::aliases_44::::command::::./scripts/objc-test-ios.sh test <-> react-native::::config.yml::::jobs::::test_ios::::steps::::steps_3::::run::::command::::./scripts/objc-test-ios.sh test
+99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,7ae23f33dbd9b247a5e987b8944771b1,react-native::::config.yml::::aliases::::aliases_44::::name::::Run Unit Tests <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_25::::run::::name::::Run Unit Tests
+da8bec9f8b62b46e58e0e98413aa915ece05b71b,ModifiedOptionConflict,4f6c7a5417eaf0f2d366eaa87810abcd,"react-native::::config.yml::::aliases::::aliases_24::::command::::mkdir -p ~/junit/
+find . -type f -regex "".*/build/test-results/debug/.*xml"" -exec cp {} ~/junit/ \;
+find . -type f -regex "".*/outputs/androidTest-results/connected/.*xml"" -exec cp {} ~/junit/ \;
+ <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_30::::run::::command::::mkdir -p ~/junit/
+find . -type f -regex "".*/build/test-results/debug/.*xml"" -exec cp {} ~/junit/ \;
+find . -type f -regex "".*/outputs/androidTest-results/connected/.*xml"" -exec cp {} ~/junit/ \;
+"
+de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,1461586d016356b716c071c8a583656e,"react-native::::config.yml::::aliases::::aliases_36::::command::::mkdir -p ~/react-native/reports/junit/
+ <-> react-native::::config.yml::::jobs::::checkout_code::::steps::::steps_0::::run::::command::::mkdir -p ~/react-native/reports/junit/
+"
 aae3a7816ebe6e8e92a7797be0b2eea8acafe5a4,ModifiedOptionConflict,a35208db6d578dfc2ce252ed4745d9f6,react-native::::config.yml::::aliases::::aliases_37::::name::::Download Dependencies Using Buck <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_10::::run::::name::::Download Dependencies Using Buck
-2f02dd4c8cfa3ac9f3805b2c85a71f405560d25c,ModifiedOptionConflict,8ece839d01002ff7578e2e19a1d9d002,react-native::::config.yml::::jobs::::android::::steps::::steps_16::::run::::./gradlew :ReactAndroid:downloadBoost :ReactAndroid:downloadDoubleConversion :ReactAndroid:downloadFolly :ReactAndroid:downloadGlog :ReactAndroid:downloadJSCHeaders <-> react-native::::config.yml::::jobs::::deploy::::steps::::steps_23::::run::::./gradlew :ReactAndroid:downloadBoost :ReactAndroid:downloadDoubleConversion :ReactAndroid:downloadFolly :ReactAndroid:downloadGlog :ReactAndroid:downloadJSCHeaders
-365a4d4b4315d4ca7a0e1236012b763d7e5bb1fd,ModifiedOptionConflict,4b1f33edfa01686dbcbc702eecb6bde2,react-native::::config.yml::::aliases::::aliases_18::::name::::Create Android Virtual Device <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_6::::run::::name::::Create Android Virtual Device
-3f29d2c4403f272264b829b5ecb2d8b49177b01e,ModifiedOptionConflict,1782eddcb8a349a0988cd69593bb245d,react-native::::config.yml::::aliases::::aliases_33::::command::::./scripts/validate-android-test-env.sh <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_18::::run::::command::::./scripts/validate-android-test-env.sh
-3f29d2c4403f272264b829b5ecb2d8b49177b01e,ModifiedOptionConflict,631c3756eccf960da5e545d66da479ea,react-native::::config.yml::::aliases::::aliases_28::::name::::Create Android NDK Directory <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_11::::run::::name::::Create Android NDK Directory
-15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,2437936dba12aeb2038c24cf0cfaaae9,react-native::::config.yml::::aliases::::aliases_30::::command::::yarn test-ci <-> react-native::::config.yml::::jobs::::test_javascript_node6_compatibility::::steps::::steps_4::::run::::command::::yarn test-ci
-3f29d2c4403f272264b829b5ecb2d8b49177b01e,ModifiedOptionConflict,e68dabbbf7950d4402b340d46c16ea64,react-native::::config.yml::::aliases::::aliases_35::::name::::Lint code <-> react-native::::config.yml::::jobs::::analyze::::steps::::steps_1::::run::::name::::Lint code
+b181b7797f67a4b0e227ca7138fad121105bcb74,ModifiedOptionConflict,cb887cf5d8f4e8e863d93a562224fc3d,react-native::::config.yml::::aliases::::aliases_28::::command::::buck test ReactAndroid/src/test/... --config build.threads=$BUILD_THREADS <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_26::::run::::command::::buck test ReactAndroid/src/test/... --config build.threads=$BUILD_THREADS
+c9d756285ac536af978ad150ff12fe3f16a8af28,ModifiedOptionConflict,0e2034f4313e739f5e41599a7e91906a,react-native::::config.yml::::aliases::::aliases_34::::command::::./scripts/objc-test-ios.sh test <-> react-native::::config.yml::::jobs::::test_ios::::steps::::steps_3::::run::::command::::./scripts/objc-test-ios.sh test
+1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,c31762b5517788687c9166d58e55d892,"react-native::::config.yml::::aliases::::aliases_46::::command::::mkdir -p ~/react-native/reports/buck/
+mkdir -p ~/react-native/reports/build/
+mkdir -p ~/react-native/reports/junit/
+mkdir -p ~/react-native/reports/outputs/
+ <-> react-native::::config.yml::::jobs::::checkout_code::::steps::::steps_0::::run::::command::::mkdir -p ~/react-native/reports/buck/
+mkdir -p ~/react-native/reports/build/
+mkdir -p ~/react-native/reports/junit/
+mkdir -p ~/react-native/reports/outputs/
+"
+15b25d854a01642530c1e5f7a2016f6dba41a714,ModifiedOptionConflict,8104198fa317ecf2deb812ad29a0c853,react-native::::config.yml::::aliases::::aliases_22::::name::::Install BUCK <-> react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_10::::run::::name::::Install BUCK
+1e8a45f2067766f5c797d9b3d530b7a10ad88e17,ModifiedOptionConflict,980720b553dc3807497d60314c0ea294,"react-native::::config.yml::::aliases::::aliases_44::::command::::if [[ ! -e ReactAndroid/src/androidTest/assets/AndroidTestBundle.js ]]; then
+  echo ""JavaScript bundle missing, cannot run instrumentation tests. Verify build-js-bundle step completed successfully.""; exit 1;
+fi
+source scripts/android-setup.sh && NO_BUCKD=1 retry3 timeout 300 buck install ReactAndroid/src/androidTest/buck-runner:instrumentation-tests --config build.threads=$BUILD_THREADS
+ <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_32::::run::::command::::if [[ ! -e ReactAndroid/src/androidTest/assets/AndroidTestBundle.js ]]; then
+  echo ""JavaScript bundle missing, cannot run instrumentation tests. Verify build-js-bundle step completed successfully.""; exit 1;
+fi
+source scripts/android-setup.sh && NO_BUCKD=1 retry3 timeout 300 buck install ReactAndroid/src/androidTest/buck-runner:instrumentation-tests --config build.threads=$BUILD_THREADS
+"
+17bd6c8e84d9f5d42767a6f42a9a2cf812aa778b,ModifiedOptionConflict,fc93d37c1d1f0839796813a95e0cdcae,react-native::::config.yml::::jobs::::deploy::::steps::::steps_16::::run::::buck fetch ReactAndroid/src/test/java/com/facebook/react/modules <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_18::::run::::buck fetch ReactAndroid/src/test/java/com/facebook/react/modules
+99cacf4830caef093dac7c90ba5c8a819729055e,ModifiedOptionConflict,8cf4691614eeb987b60132b58c6f3921,react-native::::config.yml::::aliases::::aliases_42::::name::::Build JavaScript Bundle <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_23::::run::::name::::Build JavaScript Bundle
+6da5779eb74edace6f741f54f8c85f05fbefe0b8,ModifiedOptionConflict,1013f35931855061b9ce3cde95e637c8,react-native::::config.yml::::jobs::::publish_npm_package::::steps::::steps_10::::run::::name::::Install BUCK <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_16::::run::::name::::Install BUCK
+de1040fcff558a58e2a616efebaf55d9bf5332b0,ModifiedOptionConflict,2a68516d888f7f8225369036508e3de2,react-native::::config.yml::::aliases::::aliases_35::::name::::Collect Test Results <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_30::::run::::name::::Collect Test Results
+8116c3f91a6cffe35d3aeb4837c08a5e65f3c04e,ModifiedOptionConflict,904ebc464f072ce88cf3e1483b85f12a,react-native::::config.yml::::aliases::::aliases_46::::name::::Compile Native Libs for Unit and Integration Tests <-> react-native::::config.yml::::jobs::::test_android::::steps::::steps_24::::run::::name::::Compile Native Libs for Unit and Integration Tests
+fb223e76758ee9bbbc694a95d12d5cdb697c4f50,ModifiedOptionConflict,1577d45030fefe55b45d4d6c88b44f82,react-native::::config.yml::::aliases::::aliases_51::::name::::Boot Apple TV Simulator <-> react-native::::config.yml::::jobs::::test_objc::::steps::::steps_2::::run::::name::::Boot Apple TV Simulator
+da8bec9f8b62b46e58e0e98413aa915ece05b71b,ModifiedOptionConflict,b4bc1a7399645a574040d9d7c203b881,react-native::::config.yml::::aliases::::aliases_23::::name::::Run Instrumentation Tests <-> react-native::::config.yml::::jobs::::test-android::::steps::::steps_29::::run::::name::::Run Instrumentation Tests
+fa11faecb69f385a5c0aba60f4039612e46b87f3,ModifiedOptionConflict,5446f8bdaabd29c47cb4630198610892,react-native::::config.yml::::aliases::::aliases_23::::name::::Build JavaScript Bundle <-> react-native::::config.yml::::jobs::::android::::steps::::steps_28::::run::::name::::Build JavaScript Bundle
