@@ -1,0 +1,207 @@
+occurred_at,conflict_type,conflict_id,link
+f1299f50381b81fc10f9c40360b901b38859f9e4,ModifiedOptionConflict,99bb752f2de81abb62380f635d37049e,"transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_7::::run::::source .env/bin/activate
+TF_CPP_MIN_LOG_LEVEL=3 python -c ""import tensorflow as tf; print('TF GPUs available:', bool(tf.config.list_physical_devices('GPU')))""
+TF_CPP_MIN_LOG_LEVEL=3 python -c ""import tensorflow as tf; print('Number of TF GPUs available:', len(tf.config.list_physical_devices('GPU')))""
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_multi_gpu::::steps::::steps_7::::run::::source .env/bin/activate
+TF_CPP_MIN_LOG_LEVEL=3 python -c ""import tensorflow as tf; print('TF GPUs available:', bool(tf.config.list_physical_devices('GPU')))""
+TF_CPP_MIN_LOG_LEVEL=3 python -c ""import tensorflow as tf; print('Number of TF GPUs available:', len(tf.config.list_physical_devices('GPU')))""
+"
+1bb4bba53cbb6daacfcfaeb416e586d416025edf,ModifiedOptionConflict,16624fc3b09af6b33cbae2cd75f4445a,"transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_8::::run::::source .env/bin/activate
+python -m pytest -n 2 --dist=loadfile -s ./tests/
+ <-> transformers::::self-push.yml::::jobs::::run_tests_torch_multiple_gpu::::steps::::steps_8::::run::::source .env/bin/activate
+python -m pytest -n 2 --dist=loadfile -s ./tests/
+"
+be323d5152baa342871386d748a1374e5141c351,ModifiedOptionConflict,e0c3b86182a75d9950d7aafce68f5cd5,transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_1::::name::::NVIDIA-SMI <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_cuda_extensions_gpu::::steps::::steps_1::::name::::NVIDIA-SMI
+4c19f3baabba02140aea7bc4f8fe9b344621e3b4,ModifiedOptionConflict,8c6b019ecd9acb70f53335b2bc0eb1d7,transformers::::config.yml::::jobs::::run_tests_torch::::steps::::steps_2::::run::::pip install git+https://github.com/huggingface/datasets <-> transformers::::config.yml::::jobs::::run_tests_torch_and_tf::::steps::::steps_2::::run::::pip install git+https://github.com/huggingface/datasets
+d3eacbb8299161d21e007e7e3d42505dae741282,ModifiedOptionConflict,f8317efde683f6aa9300f5b0c0f393be,"transformers::::config.yml::::jobs::::run_tests_pipelines_torch::::steps::::steps_3::::run::::pip install .[sklearn,torch,testing,sentencepiece,speech,vision] <-> transformers::::config.yml::::jobs::::run_tests_torch::::steps::::steps_3::::run::::pip install .[sklearn,torch,testing,sentencepiece,speech,vision]"
+76a1417f2af9bfad3ad7cd2a5d3ad5de9d5f5f13,ModifiedOptionConflict,87e42dedbf8a778048f7205edea402ef,transformers::::config.yml::::jobs::::run_tests_torch::::steps::::steps_2::::run::::sudo pip install pytest codecov pytest-cov pytest-xdist <-> transformers::::config.yml::::jobs::::run_tests_torch_and_tf::::steps::::steps_3::::run::::sudo pip install pytest codecov pytest-cov pytest-xdist
+937f67074d6728f145d54d6ea87221a46303363d,ModifiedOptionConflict,b585c47b5f690d37b8701232e9035ead,"transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_6::::run::::source .env/bin/activate
+pip install --upgrade pip
+pip install .[torch,sklearn,testing,onnxruntime,sentencepiece]
+pip install git+https://github.com/huggingface/datasets
+pip list
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_multi_gpu::::steps::::steps_6::::run::::source .env/bin/activate
+pip install --upgrade pip
+pip install .[torch,sklearn,testing,onnxruntime,sentencepiece]
+pip install git+https://github.com/huggingface/datasets
+pip list
+"
+4c19f3baabba02140aea7bc4f8fe9b344621e3b4,ModifiedOptionConflict,874c2ef92390f5c3701766e4789a3dde,transformers::::config.yml::::jobs::::run_tests_pipelines_tf::::steps::::steps_2::::run::::pip install git+https://github.com/huggingface/datasets <-> transformers::::config.yml::::jobs::::run_tests_pipelines_torch::::steps::::steps_2::::run::::pip install git+https://github.com/huggingface/datasets
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,b2593fa9736b59575028d8b2142b6130,transformers::::github-torch-hub.yml::::jobs::::torch_hub_integration::::steps::::steps_4::::name::::Install dependencies <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_7::::name::::Install dependencies
+826f04576f86284d6117cffc583ca32afd9a97f0,ModifiedOptionConflict,8b39d44349299180a381740d52950972,transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_9::::name::::Failure short reports <-> transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_9::::name::::Failure short reports
+3c8d401cf67a61ef1010ababd131c7c5e4c57af9,ModifiedOptionConflict,4c8d6bd3d881f808d75cd096954d8d14,"transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_10::::run::::source .env/bin/activate
+pip install -r examples/requirements.txt
+python -m pytest -n 1 --dist=loadfile -s --make_reports=examples_torch examples
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_multiple_gpu::::steps::::steps_10::::run::::source .env/bin/activate
+pip install -r examples/requirements.txt
+python -m pytest -n 1 --dist=loadfile -s --make_reports=examples_torch examples
+"
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,fa3f1fab0b58b3058787361212f7f27c,transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_3::::run::::nvidia-smi <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_gpu::::steps::::steps_4::::run::::nvidia-smi
+084873b0258d45ad4b1882d12976b694e03c5c7c,ModifiedOptionConflict,7963e536cc12478406d98999245c8092,transformers::::config.yml::::jobs::::run_tests_custom_tokenizers::::steps::::steps_6::::store_artifacts::::path::::~/transformers/tests_output.txt <-> transformers::::config.yml::::jobs::::run_tests_torch::::steps::::steps_7::::store_artifacts::::path::::~/transformers/tests_output.txt
+961732c276241620e80a81ec28e95374963a166e,ModifiedOptionConflict,5d34d35a99397d8ec47fc00ad151bfb6,transformers::::config.yml::::jobs::::run_examples_torch::::steps::::steps_10::::store_artifacts::::path::::~/transformers/reports <-> transformers::::config.yml::::jobs::::run_tests_torch_and_tf::::steps::::steps_11::::store_artifacts::::path::::~/transformers/reports
+9f8619c6aa1f991dacbd8aba4f82b5f52f690f1f,ModifiedOptionConflict,44d7ac130e7fe130acb5792f7ce28da5,transformers::::config.yml::::jobs::::run_tests_flax::::steps::::steps_6::::store_artifacts::::path::::~/transformers/tests_output.txt <-> transformers::::config.yml::::jobs::::run_tests_tf::::steps::::steps_5::::store_artifacts::::path::::~/transformers/tests_output.txt
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,da0c4dca66f0b3d63999ee12795afe6e,"transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_1::::run::::which python
+python --version
+pip --version
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_gpu::::steps::::steps_2::::run::::which python
+python --version
+pip --version
+"
+be323d5152baa342871386d748a1374e5141c351,ModifiedOptionConflict,0771a6364583765d95c207064408b23e,transformers::::doctests.yml::::jobs::::run_doctests::::steps::::steps_0::::name::::Launcher docker <-> transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_0::::name::::Launcher docker
+619200cc42d1f55fb07b0d6e9c3fff79e30a2e06,ModifiedOptionConflict,5a67d4a0ae3fdafc33e79954a0ae6fb9,"transformers::::self-push.yml::::jobs::::run_tests_torch_cuda_extensions_gpu::::steps::::steps_2::::run::::pip install --upgrade pip
+pip install .[testing,deepspeed]
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_cuda_extensions_gpu::::steps::::steps_2::::run::::pip install --upgrade pip
+pip install .[testing,deepspeed]
+"
+961732c276241620e80a81ec28e95374963a166e,ModifiedOptionConflict,783fe5da8d008a8cfbf423cae9ee702f,transformers::::config.yml::::jobs::::run_examples_flax::::steps::::steps_9::::store_artifacts::::path::::~/transformers/reports <-> transformers::::config.yml::::jobs::::run_tests_torch_and_flax::::steps::::steps_10::::store_artifacts::::path::::~/transformers/reports
+9f8619c6aa1f991dacbd8aba4f82b5f52f690f1f,ModifiedOptionConflict,10e73ebfbbe1d4d212654c48897407f4,transformers::::config.yml::::jobs::::run_tests_flax::::steps::::steps_1::::run::::sudo apt-get -y update && sudo apt-get install -y libsndfile1-dev <-> transformers::::config.yml::::jobs::::run_tests_pipelines_torch::::steps::::steps_1::::run::::sudo apt-get -y update && sudo apt-get install -y libsndfile1-dev
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,50699e67131dbabffd887dc34260ea04,transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_2::::run::::pwd <-> transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_2::::run::::pwd
+bfd5e370a73ed5a3f06f2e485cc6b94442f62f31,ModifiedOptionConflict,f56ac47fe28d1e1909d1326cbf0f2e7b,"transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_and_tf_gpu::::steps::::steps_10::::run::::source .env/bin/activate
+python -m pytest -n 1 --dist=loadfile -s ./tests/ -m is_pipeline_test --durations=50
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_and_tf_multiple_gpu::::steps::::steps_10::::run::::source .env/bin/activate
+python -m pytest -n 1 --dist=loadfile -s ./tests/ -m is_pipeline_test --durations=50
+"
+f1299f50381b81fc10f9c40360b901b38859f9e4,ModifiedOptionConflict,abe67f983c6eb193423b79ba734805b7,transformers::::model-templates.yml::::jobs::::run_tests_templates::::steps::::steps_8::::name::::Test suite reports artifacts <-> transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_10::::name::::Test suite reports artifacts
+1b8a7ffcfdfe37f5440ac0eafb58089ff5aef00a,ModifiedOptionConflict,b67fecf1a6e27d72e4113076d0e0bb97,transformers::::config.yml::::version::::2 <-> transformers::::config.yml::::workflows::::version::::2
+f1299f50381b81fc10f9c40360b901b38859f9e4,ModifiedOptionConflict,f730772f6551644dc036b56388911e1a,transformers::::github-torch-hub.yml::::jobs::::torch_hub_integration::::steps::::steps_4::::name::::Install dependencies <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_gpu::::steps::::steps_6::::name::::Install dependencies
+826f04576f86284d6117cffc583ca32afd9a97f0,ModifiedOptionConflict,8a1ae38e57b7d13df5b2f642c6b0cf6f,transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_9::::name::::Failure short reports <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_gpu::::steps::::steps_11::::name::::Failure short reports
+a8ec002926518a996b02cb705b8b4e0d4e99c72e,ModifiedOptionConflict,f07ec894fbedc54bc8c1bd76ba933a3a,transformers::::config.yml::::jobs::::run_examples_torch_all::::steps::::steps_1::::run::::pip install --upgrade pip <-> transformers::::config.yml::::jobs::::run_tests_tf_all::::steps::::steps_1::::run::::pip install --upgrade pip
+3a960c4857d6b1550acaae34c9561de0e1f975be,ModifiedOptionConflict,1e7f7557f486b4652bb502883dec97ff,transformers::::config.yml::::jobs::::run_tests_pipelines_torch::::steps::::steps_8::::store_artifacts::::path::::~/transformers/tests_output.txt <-> transformers::::config.yml::::jobs::::run_tests_tf::::steps::::steps_5::::store_artifacts::::path::::~/transformers/tests_output.txt
+dc9aaa3848c886b4e15447ec986ff11867fb9d53,ModifiedOptionConflict,61c8ec58a8384bca19ce7380f23e0863,transformers::::config.yml::::jobs::::run_tests_custom_tokenizers::::steps::::steps_7::::store_artifacts::::path::::~/transformers/reports <-> transformers::::config.yml::::jobs::::run_tests_pipelines_torch::::steps::::steps_7::::store_artifacts::::path::::~/transformers/reports
+961732c276241620e80a81ec28e95374963a166e,ModifiedOptionConflict,c1d0d0632ec29a8b08366da0a668c83e,transformers::::config.yml::::jobs::::run_tests_hub::::steps::::steps_6::::run::::python utils/tests_fetcher.py | tee test_preparation.txt <-> transformers::::config.yml::::jobs::::run_tests_tf::::steps::::steps_5::::run::::python utils/tests_fetcher.py | tee test_preparation.txt
+f1299f50381b81fc10f9c40360b901b38859f9e4,ModifiedOptionConflict,5981cc9aa92d3b1782f0309a45f7a6e1,transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_4::::name::::Loading cache. <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_multi_gpu::::steps::::steps_1::::name::::Loading cache.
+826f04576f86284d6117cffc583ca32afd9a97f0,ModifiedOptionConflict,b8c7423556154e0f38fa0f028225e87b,transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_9::::run::::cat reports/tests_tf_gpu_failures_short.txt <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_gpu::::steps::::steps_9::::run::::cat reports/tests_tf_gpu_failures_short.txt
+bfd5e370a73ed5a3f06f2e485cc6b94442f62f31,ModifiedOptionConflict,7650126523d76dfc0f11f827a44eb27f,transformers::::config.yml::::jobs::::run_examples_torch::::steps::::steps_6::::store_artifacts::::path::::~/transformers/output.txt <-> transformers::::config.yml::::jobs::::run_tests_torch::::steps::::steps_6::::store_artifacts::::path::::~/transformers/output.txt
+961732c276241620e80a81ec28e95374963a166e,ModifiedOptionConflict,d041c133eae200be2383c9ba6f569391,transformers::::config.yml::::jobs::::run_examples_flax_all::::steps::::steps_7::::store_artifacts::::path::::~/transformers/reports <-> transformers::::config.yml::::jobs::::run_tests_torch_all::::steps::::steps_8::::store_artifacts::::path::::~/transformers/reports
+961732c276241620e80a81ec28e95374963a166e,ModifiedOptionConflict,50fff38965436ae2875031ee97aa6cf6,transformers::::config.yml::::jobs::::run_tests_tf_all::::steps::::steps_3::::run::::pip install tensorflow_probability <-> transformers::::config.yml::::jobs::::run_tests_torch_and_tf::::steps::::steps_5::::run::::pip install tensorflow_probability
+961732c276241620e80a81ec28e95374963a166e,ModifiedOptionConflict,394c6f7caf9297496927e6a9ffff8f31,transformers::::config.yml::::jobs::::run_examples_flax::::steps::::steps_1::::run::::pip install --upgrade pip <-> transformers::::config.yml::::jobs::::run_tests_flax_all::::steps::::steps_1::::run::::pip install --upgrade pip
+1bb4bba53cbb6daacfcfaeb416e586d416025edf,ModifiedOptionConflict,abbc3f2d04e6209c728dde9bf8835033,"transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_gpu::::steps::::steps_10::::run::::source .env/bin/activate
+python -m pytest -n 1 --dist=loadfile -s tests -m is_pipeline_test --make_reports=tests_tf_pipelines tests
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_multiple_gpu::::steps::::steps_10::::run::::source .env/bin/activate
+python -m pytest -n 1 --dist=loadfile -s tests -m is_pipeline_test --make_reports=tests_tf_pipelines tests
+"
+269c9638dfefa8936103234200e1286b42fee834,ModifiedOptionConflict,ef6946c8da3d242990c2df9f05f5a825,"transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_2::::run::::apt -y update && apt install -y libsndfile1-dev
+pip install --upgrade pip
+pip install .[sklearn,testing,onnxruntime,sentencepiece,speech]
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_multi_gpu::::steps::::steps_2::::run::::apt -y update && apt install -y libsndfile1-dev
+pip install --upgrade pip
+pip install .[sklearn,testing,onnxruntime,sentencepiece,speech]
+"
+9e9b8f1d99fa898bbcb5f270e1bedcd9012cd7fc,ModifiedOptionConflict,904680e1b934ca47fb9bdccb569d94cd,transformers::::self-push.yml::::jobs::::run_tests_torch_cuda_extensions_multi_gpu::::steps::::steps_4::::name::::Run all tests on GPU <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_4::::name::::Run all tests on GPU
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,a2edc733a57d965752914ef1acf36d76,transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_5::::name::::Loading cache. <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_gpu::::steps::::steps_1::::name::::Loading cache.
+edbff1fd0075dc85b1431f8aa7d26dee2d618e05,ModifiedOptionConflict,ab9b797cb5c7f9fa1722405ac9d08994,"transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_8::::run::::source .env/bin/activate
+transformers-cli add-new-model --testing --testing_file=templates/adding_a_new_model/tests/encoder-bert-tokenizer.json --path=templates/adding_a_new_model
+transformers-cli add-new-model --testing --testing_file=templates/adding_a_new_model/tests/pt-encoder-bert-tokenizer.json --path=templates/adding_a_new_model
+transformers-cli add-new-model --testing --testing_file=templates/adding_a_new_model/tests/standalone.json --path=templates/adding_a_new_model
+transformers-cli add-new-model --testing --testing_file=templates/adding_a_new_model/tests/tf-encoder-bert-tokenizer.json --path=templates/adding_a_new_model
+ <-> transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_8::::run::::source .env/bin/activate
+transformers-cli add-new-model --testing --testing_file=templates/adding_a_new_model/tests/encoder-bert-tokenizer.json --path=templates/adding_a_new_model
+transformers-cli add-new-model --testing --testing_file=templates/adding_a_new_model/tests/pt-encoder-bert-tokenizer.json --path=templates/adding_a_new_model
+transformers-cli add-new-model --testing --testing_file=templates/adding_a_new_model/tests/standalone.json --path=templates/adding_a_new_model
+transformers-cli add-new-model --testing --testing_file=templates/adding_a_new_model/tests/tf-encoder-bert-tokenizer.json --path=templates/adding_a_new_model
+"
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,4fd2de46cbcc5e30d884ad2700cdc7ac,transformers::::github-torch-hub.yml::::jobs::::torch_hub_integration::::steps::::steps_4::::name::::Install dependencies <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_multi_gpu::::steps::::steps_7::::name::::Install dependencies
+d740351f7dfd6176e40efaeca694aca5622a55cd,ModifiedOptionConflict,eeea5fa988fde0070bafcf486fb16cc4,transformers::::config.yml::::jobs::::run_tests_tf::::steps::::steps_1::::run::::python -m pytest -n 8 --dist=loadfile -s ./tests/ | tee output.txt <-> transformers::::config.yml::::jobs::::run_tests_torch::::steps::::steps_1::::run::::python -m pytest -n 8 --dist=loadfile -s ./tests/ | tee output.txt
+3a960c4857d6b1550acaae34c9561de0e1f975be,ModifiedOptionConflict,82c2c7dfa2c6e059090057d00ab03311,transformers::::config.yml::::jobs::::run_tests_tf::::steps::::steps_5::::store_artifacts::::path::::~/transformers/tests_output.txt <-> transformers::::config.yml::::jobs::::run_tests_torch::::steps::::steps_8::::store_artifacts::::path::::~/transformers/tests_output.txt
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,6918584218e3e968f129e9d648932cbc,transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_2::::name::::Current dir <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_multi_gpu::::steps::::steps_3::::name::::Current dir
+d31c7b104ee19b1572044c416191f451e8f74ddd,ModifiedOptionConflict,0ed50436cb6ea221f1dd7e748cf1c7a7,"transformers::::config.yml::::jobs::::build_doc::::steps::::steps_3::::run::::pip install .""[docs]"" <-> transformers::::config.yml::::jobs::::deploy_doc::::steps::::steps_2::::run::::pip install .""[docs]"""
+bfd5e370a73ed5a3f06f2e485cc6b94442f62f31,ModifiedOptionConflict,fcfddf903252e7f8f1bcfdc6751d51f9,"transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_and_tf_gpu::::steps::::steps_8::::run::::source .env/bin/activate
+python -m pytest -n 1 --dist=loadfile -s ./tests/ --durations=50
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_and_tf_multiple_gpu::::steps::::steps_8::::run::::source .env/bin/activate
+python -m pytest -n 1 --dist=loadfile -s ./tests/ --durations=50
+"
+bd5593b6c4362500d9d17f9e3563202b6b5e9e0a,ModifiedOptionConflict,95856260ac576b2799c415aa431a9ca4,transformers::::self-push.yml::::jobs::::run_tests_torch_cuda_extensions_multi_gpu::::steps::::steps_6::::name::::Run all tests on GPU <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_4::::name::::Run all tests on GPU
+c4a96cecbc3a7ec1794c4f4c3b4359887afb6bce,ModifiedOptionConflict,5f688bbbd75950cbc21640e44703530f,transformers::::config.yml::::jobs::::run_examples_torch_all::::steps::::steps_1::::run::::sudo apt-get -y update && sudo apt-get install -y libsndfile1-dev <-> transformers::::config.yml::::jobs::::run_tests_layoutlmv2::::steps::::steps_1::::run::::sudo apt-get -y update && sudo apt-get install -y libsndfile1-dev
+3c8d401cf67a61ef1010ababd131c7c5e4c57af9,ModifiedOptionConflict,eb7bfbbcef528fb9ec7afb9d3895172c,transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_12::::name::::Run all pipeline tests on GPU <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_multiple_gpu::::steps::::steps_12::::name::::Run all pipeline tests on GPU
+8362d07d63c6af1dd25ae85cd41f2b8bbc19c6fa,ModifiedOptionConflict,0fc2a5e649615fe6bcecf4a85c51b626,transformers::::self-nightly-scheduled.yml::::jobs::::run_all_tests_torch_multi_gpu::::container::::image::::pytorch/pytorch:1.9.0-cuda11.1-cudnn8-runtime <-> transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::container::::image::::pytorch/pytorch:1.9.0-cuda11.1-cudnn8-runtime
+f1299f50381b81fc10f9c40360b901b38859f9e4,ModifiedOptionConflict,0b37c59f0f8910090c86f8d1bd79e189,transformers::::model-templates.yml::::jobs::::run_tests_templates::::steps::::steps_8::::name::::Test suite reports artifacts <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_14::::name::::Test suite reports artifacts
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,a8e337fd865bbabd3b180f11e4eb381d,transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_6::::name::::Create new python env (on self-hosted runners we have to handle isolation ourselves) <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_gpu::::steps::::steps_6::::name::::Create new python env (on self-hosted runners we have to handle isolation ourselves)
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,5f8d8cd4dd30de4d2ffae2af87a936f2,"transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_gpu::::steps::::steps_6::::run::::python -m venv .env
+source .env/bin/activate
+which python
+python --version
+pip --version
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_6::::run::::python -m venv .env
+source .env/bin/activate
+which python
+python --version
+pip --version
+"
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,c0e0489855fcf12ab4415259e848ec80,transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_1::::name::::Python version <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_gpu::::steps::::steps_2::::name::::Python version
+c468a87a69754b865575f115a2c8efa024c82cb5,ModifiedOptionConflict,1ae2ed427c242d0bd8283ce2a105403e,transformers::::config.yml::::jobs::::deploy_doc::::docker::::docker_0::::image::::circleci/python:3.6 <-> transformers::::config.yml::::jobs::::run_tests_torch_and_tf::::docker::::docker_0::::image::::circleci/python:3.6
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,a86faa751da018f4c730e43de8db02de,transformers::::self-push.yml::::jobs::::run_tests_tf_multi_gpu::::steps::::steps_3::::run::::nvidia-smi <-> transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_3::::run::::nvidia-smi
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,56717b884092920a59ad67013392ee3f,transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_2::::run::::pwd <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_multi_gpu::::steps::::steps_3::::run::::pwd
+83f025125d636ec9907535b986c9373541ba578e,ModifiedOptionConflict,e82ce90441f6800d035b7f7148c801ac,"transformers::::self-push.yml::::jobs::::run_tests_torch_cuda_extensions_multi_gpu::::steps::::steps_4::::run::::python -m pytest -n 1 --dist=loadfile --make-reports=tests_torch_cuda_extensions_multi_gpu tests/deepspeed tests/extended
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_cuda_extensions_multi_gpu::::steps::::steps_4::::run::::python -m pytest -n 1 --dist=loadfile --make-reports=tests_torch_cuda_extensions_multi_gpu tests/deepspeed tests/extended
+"
+c4a96cecbc3a7ec1794c4f4c3b4359887afb6bce,ModifiedOptionConflict,6a421c367e4818a516169c54f60041b9,transformers::::config.yml::::jobs::::run_tests_layoutlmv2::::steps::::steps_1::::run::::sudo apt-get -y update && sudo apt-get install -y libsndfile1-dev <-> transformers::::config.yml::::jobs::::run_tests_tf::::steps::::steps_1::::run::::sudo apt-get -y update && sudo apt-get install -y libsndfile1-dev
+bd5593b6c4362500d9d17f9e3563202b6b5e9e0a,ModifiedOptionConflict,7e05a6a177d87f4dcaf92a4806705356,"transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_4::::run::::python utils/tests_fetcher.py | tee test_preparation.txt
+ <-> transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_4::::run::::python utils/tests_fetcher.py | tee test_preparation.txt
+"
+826f04576f86284d6117cffc583ca32afd9a97f0,ModifiedOptionConflict,be5cb60a6406df1ba322394a47adb27e,transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_10::::name::::Test suite reports artifacts <-> transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_10::::name::::Test suite reports artifacts
+52c7ca04888a85f1178271b543853254299f2cf8,ModifiedOptionConflict,1b65ca8573b7bd8fe0911eaf25ceb4bf,transformers::::config.yml::::jobs::::run_tests_flax::::steps::::steps_6::::store_artifacts::::path::::~/transformers/reports <-> transformers::::config.yml::::jobs::::run_tests_torch_and_tf::::steps::::steps_8::::store_artifacts::::path::::~/transformers/reports
+d26b37e744ea980977e266adf48736451b73c583,ModifiedOptionConflict,0c47fc620953993bd713c85faeb405bd,transformers::::config.yml::::jobs::::run_tests_flax::::steps::::steps_6::::store_artifacts::::path::::~/transformers/reports <-> transformers::::config.yml::::jobs::::run_tests_pipelines_tf::::steps::::steps_6::::store_artifacts::::path::::~/transformers/reports
+f1299f50381b81fc10f9c40360b901b38859f9e4,ModifiedOptionConflict,db2222155a69338aefd4fac391ffb6d4,transformers::::model-templates.yml::::jobs::::run_tests_templates::::steps::::steps_8::::name::::Test suite reports artifacts <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_multi_gpu::::steps::::steps_14::::name::::Test suite reports artifacts
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,969dc64176f9bde7fd62b1bafb08bd22,transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_2::::name::::Current dir <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_3::::name::::Current dir
+1bb4bba53cbb6daacfcfaeb416e586d416025edf,ModifiedOptionConflict,90c55029987c14039bba3a20d63577ed,transformers::::config.yml::::jobs::::run_tests_pipelines_tf::::steps::::steps_4::::run::::RUN_PIPELINE_TESTS=1 python -m pytest -n 8 --dist=loadfile -rA -s ./tests/ -m is_pipeline_test | tee output.txt <-> transformers::::config.yml::::jobs::::run_tests_pipelines_torch::::steps::::steps_4::::run::::RUN_PIPELINE_TESTS=1 python -m pytest -n 8 --dist=loadfile -rA -s ./tests/ -m is_pipeline_test | tee output.txt
+8197eb9f1049f25e650291ed6e141a9fa9c62df3,ModifiedOptionConflict,8439c1534fbeef31a6b019bfac9eb610,transformers::::config.yml::::jobs::::build_py2::::steps::::steps_3::::run::::python -m pytest -sv tests/ <-> transformers::::config.yml::::jobs::::build_py3::::steps::::steps_3::::run::::python -m pytest -sv tests/
+f1299f50381b81fc10f9c40360b901b38859f9e4,ModifiedOptionConflict,d9b2b49871d025442b2881fc6c9499f1,transformers::::model-templates.yml::::jobs::::run_tests_templates::::steps::::steps_4::::name::::Create model files <-> transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_8::::name::::Create model files
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,1795a9df0b6b4bbefe3a8b55443b8509,"transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_gpu::::steps::::steps_5::::run::::(pkill -f tests; pkill -f examples) || echo ""no zombies"" <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_multi_gpu::::steps::::steps_5::::run::::(pkill -f tests; pkill -f examples) || echo ""no zombies"""
+1b75d7238cd68719f8350bc8014135b8aef6e41b,ModifiedOptionConflict,355603398407954bf849f9518863903a,transformers::::build_doc_test.yml::::jobs::::build_and_package::::steps::::steps_2::::name::::Setup environment <-> transformers::::build_documentation.yml::::jobs::::build_and_package::::steps::::steps_3::::name::::Setup environment
+d26b37e744ea980977e266adf48736451b73c583,ModifiedOptionConflict,8c5a230a510a3aa91f32c3334af467b1,transformers::::config.yml::::jobs::::run_tests_tf::::steps::::steps_1::::run::::pip install --upgrade pip <-> transformers::::config.yml::::jobs::::run_tests_torch::::steps::::steps_1::::run::::pip install --upgrade pip
+c4a96cecbc3a7ec1794c4f4c3b4359887afb6bce,ModifiedOptionConflict,aca3b50b44748187f5eb1353d0126888,"transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_0::::run::::apt -y update && apt install -y software-properties-common && apt -y update && add-apt-repository -y ppa:git-core/ppa && apt -y update && apt install -y git
+apt install -y libsndfile1-dev
+pip install --upgrade pip
+pip install .[sklearn,testing,onnxruntime,sentencepiece,torch-speech,vision,timm]
+pip install https://github.com/kpu/kenlm/archive/master.zip
+ <-> transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_0::::run::::apt -y update && apt install -y software-properties-common && apt -y update && add-apt-repository -y ppa:git-core/ppa && apt -y update && apt install -y git
+apt install -y libsndfile1-dev
+pip install --upgrade pip
+pip install .[sklearn,testing,onnxruntime,sentencepiece,torch-speech,vision,timm]
+pip install https://github.com/kpu/kenlm/archive/master.zip
+"
+597ba7feb384316081c96955196fcb7abb2edf06,ModifiedOptionConflict,6ae188bbe289e23e8ef9187b5913030e,transformers::::config.yml::::jobs::::build_py2_torch::::steps::::steps_4::::run::::codecov <-> transformers::::config.yml::::jobs::::build_py3_tf::::steps::::steps_5::::run::::codecov
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,3cb4d94b95c1084309571fc3b6864db5,transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_6::::name::::Create new python env (on self-hosted runners we have to handle isolation ourselves) <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_multi_gpu::::steps::::steps_6::::name::::Create new python env (on self-hosted runners we have to handle isolation ourselves)
+c4a96cecbc3a7ec1794c4f4c3b4359887afb6bce,ModifiedOptionConflict,60aeb3318b65b8755787795d7a377a6b,transformers::::config.yml::::jobs::::run_tests_layoutlmv2::::steps::::steps_1::::run::::sudo apt-get -y update && sudo apt-get install -y libsndfile1-dev <-> transformers::::config.yml::::jobs::::run_tests_torch_and_tf::::steps::::steps_1::::run::::sudo apt-get -y update && sudo apt-get install -y libsndfile1-dev
+d26b37e744ea980977e266adf48736451b73c583,ModifiedOptionConflict,387df3929cc73806b62c7f0fe5049d97,transformers::::config.yml::::jobs::::run_tests_pipelines_tf::::steps::::steps_1::::run::::pip install --upgrade pip <-> transformers::::config.yml::::jobs::::run_tests_torch_and_tf::::steps::::steps_1::::run::::pip install --upgrade pip
+619200cc42d1f55fb07b0d6e9c3fff79e30a2e06,ModifiedOptionConflict,a1983fcd9c8224beb89153b98468fecb,"transformers::::self-push.yml::::jobs::::run_tests_torch_cuda_extensions_multi_gpu::::steps::::steps_2::::run::::pip install --upgrade pip
+pip install .[testing,deepspeed,fairscale]
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_cuda_extensions_multi_gpu::::steps::::steps_2::::run::::pip install --upgrade pip
+pip install .[testing,deepspeed,fairscale]
+"
+9f8619c6aa1f991dacbd8aba4f82b5f52f690f1f,ModifiedOptionConflict,6782421dddf7db862f8d060457254156,transformers::::config.yml::::jobs::::run_tests_flax::::steps::::steps_2::::run::::pip install --upgrade pip <-> transformers::::config.yml::::jobs::::run_tests_tf::::steps::::steps_1::::run::::pip install --upgrade pip
+f1299f50381b81fc10f9c40360b901b38859f9e4,ModifiedOptionConflict,76c1e546780f4f307f5b52138c055665,transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_10::::name::::Failure short reports <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_multi_gpu::::steps::::steps_9::::name::::Failure short reports
+961732c276241620e80a81ec28e95374963a166e,ModifiedOptionConflict,ff3dc0c0fe4027ffcaed9635be503fbd,transformers::::config.yml::::jobs::::run_tests_pipelines_tf::::steps::::steps_3::::run::::pip install tensorflow_probability <-> transformers::::config.yml::::jobs::::run_tests_tf::::steps::::steps_3::::run::::pip install tensorflow_probability
+b9962b865643452b155a8000e6a421016e678b6a,ModifiedOptionConflict,ecde78ab2be8f63d35427b68985689da,transformers::::self-push.yml::::jobs::::run_tests_torch_cuda_extensions_gpu::::steps::::steps_7::::if::::${{ always() }} <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_6::::if::::${{ always() }}
+edbff1fd0075dc85b1431f8aa7d26dee2d618e05,ModifiedOptionConflict,0a685971454c12a8a73dbd03b71d9354,transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_8::::name::::Create model files <-> transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_8::::name::::Create model files
+3c8d401cf67a61ef1010ababd131c7c5e4c57af9,ModifiedOptionConflict,d59c6ba56eee5e7c74b9a4847373b6b2,transformers::::self-scheduled.yml::::jobs::::run_all_tests_tf_multiple_gpu::::steps::::steps_10::::name::::Failure short reports <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_11::::name::::Failure short reports
+9e80fc7b2fe4ae0dd1778c37149afd5b629adbde,ModifiedOptionConflict,202e034f2a3db94922632cd290976c96,transformers::::config.yml::::jobs::::check_code_quality::::resource_class::::small <-> transformers::::config.yml::::jobs::::check_repository_consistency::::resource_class::::small
+79588e6fdb5af8add092fc27dd695ea1ebc68b18,ModifiedOptionConflict,8ea61ef054195c9722849dc17470d0ee,transformers::::self-push.yml::::jobs::::run_tests_torch_and_tf_gpu::::steps::::steps_3::::run::::nvidia-smi <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_and_tf_gpu::::steps::::steps_3::::run::::nvidia-smi
+826f04576f86284d6117cffc583ca32afd9a97f0,ModifiedOptionConflict,223fc310879db660ce1f8b1d96940bf0,transformers::::self-push.yml::::jobs::::run_tests_tf_multi_gpu::::steps::::steps_8::::name::::Run all non-slow tests on GPU <-> transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_8::::name::::Run all non-slow tests on GPU
+b9d66f4c4b2c0c2c2b3befce66ef49bc7feba512,ModifiedOptionConflict,6a60c600d0ed04a2af9b73f221eff0a1,"transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_2::::run::::apt -y update && apt install -y libsndfile1-dev
+pip install --upgrade pip
+pip install .[sklearn,testing,onnxruntime,sentencepiece,speech,vision,timm]
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_multi_gpu::::steps::::steps_2::::run::::apt -y update && apt install -y libsndfile1-dev
+pip install --upgrade pip
+pip install .[sklearn,testing,onnxruntime,sentencepiece,speech,vision,timm]
+"
+f1299f50381b81fc10f9c40360b901b38859f9e4,ModifiedOptionConflict,37fb43bfa0de1d9bb254844c1c24e606,transformers::::model-templates.yml::::jobs::::run_tests_templates::::steps::::steps_7::::name::::Failure short reports <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_multi_gpu::::steps::::steps_13::::name::::Failure short reports
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,dd93ace9c0b3fd18511dfee63a6d701e,transformers::::self-push.yml::::jobs::::run_tests_tf_gpu::::steps::::steps_5::::name::::Loading cache. <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_1::::name::::Loading cache.
+f1299f50381b81fc10f9c40360b901b38859f9e4,ModifiedOptionConflict,ce2fc586cbae4b020dc4ecdb07f77eab,transformers::::model-templates.yml::::jobs::::run_tests_templates::::steps::::steps_7::::name::::Failure short reports <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_11::::name::::Failure short reports
+35e94c68df40c7e951512cdf21c0b0d84b3591ad,ModifiedOptionConflict,f2d2a99e798b4c8a20f254116f8118e2,"transformers::::self-push.yml::::jobs::::run_tests_torch_and_tf_gpu::::steps::::steps_7::::run::::source .env/bin/activate
+python -c ""import torch; print(torch.cuda.is_available())""
+ <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_and_tf_multiple_gpu::::steps::::steps_7::::run::::source .env/bin/activate
+python -c ""import torch; print(torch.cuda.is_available())""
+"
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,1701e8a6bf8861f601dc9a6eb351fd6a,transformers::::self-push.yml::::jobs::::run_tests_tf_multi_gpu::::steps::::steps_3::::run::::nvidia-smi <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_multi_gpu::::steps::::steps_4::::run::::nvidia-smi
+1bb4bba53cbb6daacfcfaeb416e586d416025edf,ModifiedOptionConflict,00fc1e9348ebc68384d288b4c9549f12,"transformers::::self-push.yml::::jobs::::run_tests_tf_multiple_gpu::::steps::::steps_8::::run::::source .env/bin/activate
+python -m pytest -n 2 --dist=loadfile -s ./tests/
+ <-> transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_8::::run::::source .env/bin/activate
+python -m pytest -n 2 --dist=loadfile -s ./tests/
+"
+c468a87a69754b865575f115a2c8efa024c82cb5,ModifiedOptionConflict,c7327f3bfae3e9f6e263eef8d9478e68,transformers::::config.yml::::jobs::::run_tests_pipelines_torch_all::::steps::::steps_8::::store_artifacts::::path::::~/transformers/reports <-> transformers::::config.yml::::jobs::::run_tests_torch_and_tf::::steps::::steps_10::::store_artifacts::::path::::~/transformers/reports
+b9962b865643452b155a8000e6a421016e678b6a,ModifiedOptionConflict,937066076bea1cf64d5c4860a8ee6dc3,transformers::::self-push.yml::::jobs::::run_tests_torch_gpu::::steps::::steps_7::::if::::${{ always() }} <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_gpu::::steps::::steps_6::::if::::${{ always() }}
+58f672e65ca6e2efe8c8ed7abcb5392429309af7,ModifiedOptionConflict,0990d188f836bf9e69c597cf78bcdccb,transformers::::model-templates.yml::::jobs::::run_tests_templates::::steps::::steps_2::::name::::Loading cache. <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_multi_gpu::::steps::::steps_1::::name::::Loading cache.
+8a6881822a14bfffe7f30f900a067024736ca612,ModifiedOptionConflict,2f614998a1f54825066810fa5dcc7e89,transformers::::config.yml::::jobs::::run_examples_torch::::docker::::docker_0::::image::::circleci/python:3.5 <-> transformers::::config.yml::::jobs::::run_tests_tf::::docker::::docker_0::::image::::circleci/python:3.5
+60be4bf8ac4ff5899196243141b8251f4a2e7bfe,ModifiedOptionConflict,d1fa42def2561a90624493f037717853,transformers::::_toctree.yml::::_toctree.yml_4::::sections::::sections_1::::sections::::sections_31::::title::::FlauBERT <-> transformers::::_toctree.yml::::_toctree.yml_4::::sections::::sections_1::::sections::::sections_32::::title::::FlauBERT
+9e9b8f1d99fa898bbcb5f270e1bedcd9012cd7fc,ModifiedOptionConflict,45a66defb374861408c638410fb8dd08,transformers::::self-push.yml::::jobs::::run_tests_torch_multi_gpu::::steps::::steps_5::::name::::Failure short reports <-> transformers::::self-scheduled.yml::::jobs::::run_all_tests_torch_cuda_extensions_gpu::::steps::::steps_5::::name::::Failure short reports

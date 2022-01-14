@@ -1,0 +1,3 @@
+occurred_at,conflict_type,conflict_id,link
+9cb6a2b614c01e83611d704501d9a3ba5af7b8a3,ModifiedOptionConflict,f765b304b9a8c5821716b520000f604a,nvm::::lint.yml::::jobs::::dockerfile_lint::::steps::::steps_1::::name::::npm install && npm run dockerfile_lint <-> nvm::::lint.yml::::jobs::::doctoc::::steps::::steps_1::::name::::npm install && npm run dockerfile_lint
+8e1e5df059d4bb7b186dd8f10f7ac8537acf1d88,ModifiedOptionConflict,2fab18cecc4a709202bf19cb20cfb83c,nvm::::rebase.yml::::jobs::::_::::steps::::steps_1::::uses::::ljharb/rebase@master <-> nvm::::toc.yml::::jobs::::_::::steps::::steps_5::::uses::::ljharb/rebase@master

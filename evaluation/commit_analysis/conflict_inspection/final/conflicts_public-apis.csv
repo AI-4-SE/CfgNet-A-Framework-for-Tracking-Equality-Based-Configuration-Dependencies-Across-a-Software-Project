@@ -1,0 +1,3 @@
+occurred_at,conflict_type,conflict_id,link
+2f2d3d0d780ad3e60442326a39ad9774a911bdb4,ModifiedOptionConflict,152a5fea2f234c54a6239a4818225e4d,public-apis::::test.yml::::jobs::::test::::name::::Validate README.md <-> public-apis::::validate_links.yml::::jobs::::test::::name::::Validate README.md
+2f2d3d0d780ad3e60442326a39ad9774a911bdb4,ModifiedOptionConflict,44ce4c074282a81c615f94dc455677b7,public-apis::::test.yml::::on::::schedule::::schedule_0::::cron::::0 0 * * * <-> public-apis::::validate_links.yml::::on::::schedule::::schedule_0::::cron::::0 0 * * *

@@ -1,0 +1,6 @@
+occurred_at,conflict_type,conflict_id,link
+1c1d74c5ec49e5ab7e2d664e557c61745d1995e6,ModifiedOptionConflict,db864a26c20de5145f84e012ed27ef69,ohmyzsh::::bug_report.yml::::body::::body_9::::attributes::::label::::Additional context <-> ohmyzsh::::feature_request.yml::::body::::body_4::::attributes::::label::::Additional context
+1c1d74c5ec49e5ab7e2d664e557c61745d1995e6,ModifiedOptionConflict,3b9d2ea4dae816edcac167d1233adac6,ohmyzsh::::bug_report.yml::::body::::body_6::::type::::input <-> ohmyzsh::::feature_request.yml::::body::::body_0::::type::::input
+44d8edea05d940ceb593a025e27466e7c8727f03,ModifiedOptionConflict,e01d83e551678f83b1afcb18bba10b2e,ohmyzsh::::spelling.yml::::jobs::::spelling::::steps::::steps_2::::name::::check-spelling <-> ohmyzsh::::spelling.yml::::jobs::::update::::steps::::steps_1::::name::::check-spelling
+1c1d74c5ec49e5ab7e2d664e557c61745d1995e6,ModifiedOptionConflict,63f08938fdd07ec213f63718336a2a2c,ohmyzsh::::bug_report.yml::::body::::body_9::::type::::textarea <-> ohmyzsh::::feature_request.yml::::body::::body_1::::type::::textarea
+95a66532d17181693b828bda95f4261e5421b409,ModifiedOptionConflict,4831be26560ed997e949b33793758aee,ohmyzsh::::project.yml::::jobs::::add-to-project::::name::::Add to project <-> ohmyzsh::::project.yml::::jobs::::add-to-project::::steps::::steps_2::::name::::Add to project

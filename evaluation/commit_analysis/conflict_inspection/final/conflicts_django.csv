@@ -1,0 +1,4 @@
+occurred_at,conflict_type,conflict_id,link
+99cefea360435b1f1d3497127253ae504069fc69,ModifiedOptionConflict,348c33798d734bd03b1f368804a29d25,django::::package.json::::devDependencies::::grunt-cli::::^1.2.0 <-> django::::package.json::::devDependencies::::grunt-contrib-qunit::::^1.2.0
+447b6c866f0741bb68c92dc925a65fb15bfe7995,ModifiedOptionConflict,14ffb7cc9581f9f5c08be4e240ae6eb9,django::::.readthedocs.yml::::build::::tools::::python::::3.10 <-> django::::linters.yml::::jobs::::flake8::::steps::::steps_1::::with::::python-version::::3.10
+01eed041555e92ec15b8041ee552932119265464,ModifiedOptionConflict,82ce4d952bd2360d36d022137beb2f31,django::::docs.yml::::jobs::::docs::::runs-on::::ubuntu-latest <-> django::::linters.yml::::jobs::::isort::::runs-on::::ubuntu-latest

@@ -32,16 +32,15 @@ TEST_REPOS = [
     # "https://github.com/nodejs/node", TimeoutError
     # "https://github.com/kubernetes/kubernetes", TimeoutError
     # "https://github.com/vercel/next.js", IndexError
-    # "https://github.com/opencv/opencv",
     # "https://github.com/moby/moby", IndexError 
     # "https://github.com/rust-lang/rust", TomlDecodeError 
     # "https://github.com/spring-projects/spring-boot", TimeoutError
-    # "https://github.com/apple/swift", still running
+    # "https://github.com/apple/swift", TimeoutError
     # "https://github.com/elastic/elasticsearch", TimeoutError
-    # "react", Backslashes
-    # "react-native", Backslashes
-    # "deno", duplicate keys
-    # "material-ui", Backslashes
+    "https://github.com/denoland/deno",
+    "https://github.com/facebook/react-native",
+    "https://github.com/facebook/react",
+    "https://github.com/mui-org/material-ui",
 ]
 
 

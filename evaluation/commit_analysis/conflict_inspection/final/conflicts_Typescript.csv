@@ -1,0 +1,4 @@
+occurred_at,conflict_type,conflict_id,link
+15f505e6aa0a3ec3e701b9e2c30cc40a478b88d0,ModifiedOptionConflict,5995025bd07ed9748bccaa7e40f730ec,TypeScript::::package.json::::devDependencies::::mocha-fivemat-progress-reporter::::latest <-> TypeScript::::package.json::::devDependencies::::tslint::::latest
+5282cad1007113b495c70c4114a19ec25bdd6954,ModifiedOptionConflict,c098359fcd52c7205fb709a3d9e29c84,TypeScript::::package.json::::devDependencies::::mocha::::latest <-> TypeScript::::package.json::::devDependencies::::tsd::::latest
+62c3bfb1fb6714fc383379caae8b55d81bf62fbe,ModifiedOptionConflict,22319b31fc32ba7b29dced52144f7deb,TypeScript::::package.json::::devDependencies::::tslint::::next <-> TypeScript::::package.json::::devDependencies::::typescript::::next
