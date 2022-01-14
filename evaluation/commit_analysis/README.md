@@ -38,3 +38,8 @@
     - yes - we believe that the conflict is a real issue
     - no - we believe that the conflict is not a real issue
     - maybe - we are not sure if the conflict really leads to a configuration conflict
+
+## How to get final results/conflicts to inspect
+- copy csv from `evaluation/commit_analysis/results/*` to `evaluation/commit_analysis/conflict_inspection/all`
+- run `select_conflicts_randomly.py` to get the conflicts to inspect
+- the script automatically identifies the repositories for which ModifiedOptionConflicts have been detected and selects randomly 100 of them (if more were detected) or just copies the csv file to `evaluation/commit_analysis/conflict_inspection/final` (if less than 100 were detected)

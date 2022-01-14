@@ -1,0 +1,209 @@
+occurred_at,conflict_type,conflict_id,link
+63843de19353099ca63a2a7ebe2c7aade6be0def,ModifiedOptionConflict,0740b6252be7ed3b1c95ffcc2542421b,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_26::::summary::::Don't make `:hover` sticky on touch-friendly webpages
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_44::::summary::::Don't make `:hover` sticky on touch-friendly webpages
+"
+16ee64baf4dfeaa865388880ae262b6382c1f22e,ModifiedOptionConflict,942078ab6e18ece31b075ac8b647a6fd,"bootstrap::::browser-features.yml::::browser-features.yml_11::::origin::::Bootstrap#19984
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_1::::origin::::Bootstrap#19984
+"
+35caac013cef010da4c1b287dcfcd7ff23ffe541,ModifiedOptionConflict,7690f460f6530b77bb1824652a024df3,bootstrap::::package.json::::devDependencies::::@babel/cli::::^7.2.0 <-> bootstrap::::package.json::::devDependencies::::@babel/core::::^7.2.0
+2133dbd718c1fe7976514970706d02d2ffe381b9,ModifiedOptionConflict,99c85954217134d3952a59624579729a,"bootstrap::::browser-features.yml::::browser-features.yml_10::::summary::::Fire a [`transitioncancel` event](https://developer.mozilla.org/en-US/docs/Web/Events/transitioncancel) when a CSS transition is canceled
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_7::::summary::::Fire a [`transitioncancel` event](https://developer.mozilla.org/en-US/docs/Web/Events/transitioncancel) when a CSS transition is canceled
+"
+2fb6dc26c8ef0750475201d5677b60f3b686a1a1,ModifiedOptionConflict,fdd0e19441c0941a24220ebbb8b8ad91,bootstrap::::nav.yml::::nav.yml_2::::pages::::pages_0::::sections::::sections_6::::title::::Forms <-> bootstrap::::nav.yml::::nav.yml_2::::pages::::pages_10::::title::::Forms
+d62c3e3f8061fd2ed1ba397a673c9a2b9b72bc30,ModifiedOptionConflict,7443dc1957533890a93084f60208220d,"bootstrap::::browser-features.yml::::browser-features.yml_2::::origin::::Bootstrap#20175
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_6::::origin::::Bootstrap#20175
+"
+3e2f9ab237e0e338fbe497213ad2353e59fbee9c,ModifiedOptionConflict,5f09ccc78e74972114edd3f55c794943,bootstrap::::sidebar.yml::::sidebar.yml_2::::title::::Layout <-> bootstrap::::sidebar.yml::::sidebar.yml_4::::pages::::pages_7::::title::::Layout
+f618aa7c015e22869b27a25f1234a475b0b27437,ModifiedOptionConflict,2d8753d23407fd13449af8fb64a996bc,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_31::::browser::::Safari (iOS)
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_35::::browser::::Safari (iOS)
+"
+71a37425c90853c17022042f11f39643a53ccb8d,ModifiedOptionConflict,d0e9cc496eae8c3be6ea7a8826448654,bootstrap::::package.json::::devDependencies::::eslint-plugin-compat::::^2.2.0 <-> bootstrap::::package.json::::devDependencies::::karma-chrome-launcher::::^2.2.0
+9c8eb788ac7f79bcbc3b92d39e1408dd4c30ea83,ModifiedOptionConflict,ba2344fc7d9811caa12e430d77cc6e9e,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_21::::browser::::Safari
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_22::::browser::::Safari
+"
+6844745db5bdddca62fe7caf5c88dfda744babbe,ModifiedOptionConflict,cffd007aa00da78719ee01674338363b,"bootstrap::::browser-features.yml::::browser-features.yml_6::::origin::::Bootstrap#19984
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_8::::origin::::Bootstrap#19984
+"
+2a999c6c2c21e0d791d1817331398a1b636413c2,ModifiedOptionConflict,98fa6ee534a73ca35e4ec5018c2fde79,bootstrap::::package.json::::devDependencies::::grunt-contrib-compress::::~1.0.0 <-> bootstrap::::package.json::::devDependencies::::grunt-contrib-concat::::~1.0.0
+5a3f1a90ba37a4d1c090dc1fa59b9f4501481adb,ModifiedOptionConflict,326dc9065946f58313db4462d1c615c3,bootstrap::::package.json::::devDependencies::::grunt-contrib-uglify::::~0.3.0 <-> bootstrap::::package.json::::devDependencies::::load-grunt-tasks::::~0.3.0
+4b243de2c0af9325516cd435bd7e9cd4f6da313a,ModifiedOptionConflict,c0dfb37fe1cbfed11ba28b89b5d63ff3,"bootstrap::::browser-features.yml::::browser-features.yml_3::::summary::::Fire a [`transitioncancel` event](https://developer.mozilla.org/en-US/docs/Web/Events/transitioncancel) when a CSS transition is canceled
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_8::::summary::::Fire a [`transitioncancel` event](https://developer.mozilla.org/en-US/docs/Web/Events/transitioncancel) when a CSS transition is canceled
+"
+8be957b32b9ccc345cea65ea3025b6ed300d4ac5,ModifiedOptionConflict,032aadcefbf4f5eab45e2a077d579284,bootstrap::::package.json::::devDependencies::::@babel/cli::::^7.14.5 <-> bootstrap::::package.json::::devDependencies::::@babel/preset-env::::^7.14.5
+58aca2823404d6dc18fd44ae15f7ff2f34f64705,ModifiedOptionConflict,bcd59fb5bb43ac45ce56e9e600b8a642,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_15::::summary::::Implement the `of <selector-list>` clause of the `:nth-child()` pseudo-class
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_27::::summary::::Implement the `of <selector-list>` clause of the `:nth-child()` pseudo-class
+"
+2fb6dc26c8ef0750475201d5677b60f3b686a1a1,ModifiedOptionConflict,e8b470ad4b871871e4f0dc89aea3b56c,bootstrap::::nav.yml::::nav.yml_2::::pages::::pages_31::::title::::Carousel <-> bootstrap::::nav.yml::::nav.yml_3::::pages::::pages_10::::title::::Carousel
+d381771f6a9260a0c8c584bd3ef3ab57f8a59fed,ModifiedOptionConflict,17d98523371c5c2f2584253babdf6a32,bootstrap::::package.json::::devDependencies::::grunt-contrib-clean::::~0.5.0 <-> bootstrap::::package.json::::devDependencies::::grunt-contrib-copy::::~0.5.0
+e2770d2f8efe6691f77ba5b0ef04f6399676a8ce,ModifiedOptionConflict,99092dc5a2ea3acf64504bcf0598de78,bootstrap::::package.json::::devDependencies::::@babel/plugin-proposal-object-rest-spread::::^7.9.5 <-> bootstrap::::package.json::::devDependencies::::@babel/preset-env::::^7.9.5
+c0eff6a61a19249778fbee3b908d8f0614e4393d,ModifiedOptionConflict,69b155288db54b8a8b27d7110b2707a2,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_25::::browser::::Chrome
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_12::::browser::::Chrome
+"
+a8b66e17b08e17859d10987560c1ae9b8034403d,ModifiedOptionConflict,e481d9eda1c36f46361e4513cff697a2,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_16::::summary::::`width: 1%` on nested table cell causes its table to hog horizontal space.
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_19::::summary::::`width: 1%` on nested table cell causes its table to hog horizontal space.
+"
+3dc4b3647ce2b27b0216fe8103253ffe9633fde9,ModifiedOptionConflict,83b04a94b7a2280fc7d9ead879e00baf,"bootstrap::::browser-features.yml::::browser-features.yml_2::::summary::::Implement the HTML5 [`<dialog>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_7::::summary::::Implement the HTML5 [`<dialog>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
+"
+edf1e4b99e6e002ebe91059e9d0fe0dc4f74c405,ModifiedOptionConflict,d2df476d7afaa080371c6660f542b54d,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_38::::browser::::Safari (iOS)
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_47::::browser::::Safari (iOS)
+"
+a24112e85027b406fc1a82fa5bab5bbed165dd48,ModifiedOptionConflict,108510c9a2111544a708dac6e2e01aae,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_11::::browser::::Chrome (OS X)
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_12::::browser::::Chrome (OS X)
+"
+4ed95f5fa298d861c5fa53ae2a3a0dcb4901bd69,ModifiedOptionConflict,8142956c1e713575df74eeb613cc8904,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_11::::browser::::Chrome
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_8::::browser::::Chrome
+"
+e12361483ad1225e7533dbf66f9ab4eca6014251,ModifiedOptionConflict,aaa8d2789009270652f53653ca073fb5,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_12::::browser::::Firefox
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_1::::browser::::Firefox
+"
+d71c7c09588dd432bb4ca31bd93b677c10d892c2,ModifiedOptionConflict,7685d7497a85a73bfc606efcaae8e94b,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_13::::browser::::Firefox
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_5::::browser::::Firefox
+"
+ff60b40c56bc3b6e9d8d3d3dadfe1a14540166b3,ModifiedOptionConflict,f907fe60927cf76d881c217573001129,bootstrap::::package.json::::devDependencies::::@babel/core::::^7.14.2 <-> bootstrap::::package.json::::devDependencies::::@babel/preset-env::::^7.14.2
+6717f642bb8dca8fb78dbe17c07209ba98091e2d,ModifiedOptionConflict,240d78f1f3d462f500ee4871a175d0fe,bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_2::::browserName::::internet explorer <-> bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_3::::browserName::::internet explorer
+81fb03406e33bb6001d6c3232f89d05ce979fd36,ModifiedOptionConflict,648ac424e50e5af1d6f8a9e9a6ed26a6,bootstrap::::nav.yml::::nav.yml_2::::pages::::pages_16::::title::::Buttons <-> bootstrap::::nav.yml::::nav.yml_2::::pages::::pages_6::::title::::Buttons
+34291cc5cef1cf56d762eb6860dca92b3b9154c5,ModifiedOptionConflict,1f5b1aad6719627b00adbe19461c6284,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_26::::origin::::Bootstrap#17403
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_27::::origin::::Bootstrap#17403
+"
+157007b48f7247b22817b4d1a219e037786855a8,ModifiedOptionConflict,0aa9e4ccc66d4e86054267c284edfcef,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_28::::browser::::Safari (iOS)
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_37::::browser::::Safari (iOS)
+"
+a89bfc65252f648469e84242289b8a45a49d08e9,ModifiedOptionConflict,a103a8eca2ecee5c158d5a500bbdec79,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_10::::browser::::Chrome
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_14::::browser::::Chrome
+"
+ab54151ed3faa9b27c6a9227a9bcb667719e1c5c,ModifiedOptionConflict,903bbfa450004e93f1e3301b9abd7376,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_29::::browser::::Safari
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_14::::browser::::Safari
+"
+d5b57c3c4d69dc9afd2036d9d4c0e10e52121391,ModifiedOptionConflict,2018edcd98508ba53f2538407f372bc8,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_3::::browser::::Firefox
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_7::::browser::::Firefox
+"
+d1f69d4a7e23abbe8cdbc6ff7e642c0f8d51e624,ModifiedOptionConflict,356d9892ce0e8b14f5b2594811a50b0e,bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_2::::browserName::::chrome <-> bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_5::::browserName::::chrome
+86376e89cdaec9cae81606ad6c064d0ea433532b,ModifiedOptionConflict,ce4ca2a27df2727b24b57ebcc1411580,bootstrap::::package.json::::devDependencies::::grunt-contrib-copy::::~0.8.0 <-> bootstrap::::package.json::::devDependencies::::grunt-contrib-uglify::::~0.8.0
+58aca2823404d6dc18fd44ae15f7ff2f34f64705,ModifiedOptionConflict,6b752458d0c81a9c5cc62ad014513460,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_15::::origin::::Bootstrap#20143
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_27::::origin::::Bootstrap#20143
+"
+63031a3ca5a44d828122226c26232c00f4463f98,ModifiedOptionConflict,bbc3ec68cbd5c31056ea4c4f28f068e3,bootstrap::::package.json::::devDependencies::::css-flip::::~0.3.0 <-> bootstrap::::package.json::::devDependencies::::grunt-jscs-checker::::~0.3.0
+35caac013cef010da4c1b287dcfcd7ff23ffe541,ModifiedOptionConflict,22d252df197d58799914c793bb54bbf3,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_12::::origin::::Bootstrap#19670
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_6::::origin::::Bootstrap#19670
+"
+9e82276b6975d0399000b9722f5ad30db342bd06,ModifiedOptionConflict,582dd49422c81dcfb77608c908af088f,bootstrap::::package.json::::devDependencies::::grunt-csscomb::::~3.0.0 <-> bootstrap::::package.json::::devDependencies::::grunt-html::::~3.0.0
+a45d572407268e04003dd5352a51449d3dd3e3d5,ModifiedOptionConflict,17756a0add5e308e7d53a051698c024e,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_14::::summary::::`width: 1%` on nested table cell causes its table to hog horizontal space.
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_16::::summary::::`width: 1%` on nested table cell causes its table to hog horizontal space.
+"
+d57d5a606b7a7b26b04e9315cca35287758b66c0,ModifiedOptionConflict,ff4db85626002e30710e7f5401e84ea7,bootstrap::::package.json::::devDependencies::::grunt-contrib-connect::::^1.0.0 <-> bootstrap::::package.json::::devDependencies::::grunt-contrib-watch::::^1.0.0
+183b57b504db56c8b6a889d86d19b6251d23bcb3,ModifiedOptionConflict,717e698a58cff868e0e916cb532d526a,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_18::::origin::::Bootstrap#16372
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_21::::origin::::Bootstrap#16372
+"
+0e56cbb0d60d6ee9e8c6af457585ade563919dac,ModifiedOptionConflict,5585e2afe755576180791dbe0d239da1,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_23::::browser::::Safari (OS X)
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_24::::browser::::Safari (OS X)
+"
+2133dbd718c1fe7976514970706d02d2ffe381b9,ModifiedOptionConflict,8aa31db7b67888b050057944ec46dcc0,"bootstrap::::browser-features.yml::::browser-features.yml_12::::origin::::Bootstrap#19984
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_2::::origin::::Bootstrap#19984
+"
+eb18554b9ed8830534a87a2c71d3d57452137656,ModifiedOptionConflict,b11af632ae87db83de5d7b9e93c777b5,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_25::::browser::::Chrome
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_7::::browser::::Chrome
+"
+932ac796116c8f6db5b56470d974c390bc4b31bc,ModifiedOptionConflict,7be70d22b006aebff460e37ef8df1038,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_14::::browser::::Chrome
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_15::::browser::::Chrome
+"
+49df4c89c5bb644f89a197b1ac2006bc1d20b246,ModifiedOptionConflict,45c27c2f857a7eb4c530eb6159068ce6,bootstrap::::package.json::::devDependencies::::@babel/cli::::^7.13.14 <-> bootstrap::::package.json::::devDependencies::::@babel/core::::^7.13.14
+eb18554b9ed8830534a87a2c71d3d57452137656,ModifiedOptionConflict,e5e4cc84620fb9ff7c44a2a0b000ddea,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_14::::browser::::Firefox
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_4::::browser::::Firefox
+"
+a3ad7327f233cac4bf1c9431bf99e47ab8d5f551,ModifiedOptionConflict,58535c683c43c688956f9d1dc0f57709,bootstrap::::examples.yml::::examples.yml_3::::category::::RTL <-> bootstrap::::sidebar.yml::::sidebar.yml_0::::pages::::pages_10::::title::::RTL
+a45d572407268e04003dd5352a51449d3dd3e3d5,ModifiedOptionConflict,19b144b842b9070027169a77ad242399,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_2::::browser::::Firefox
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_5::::browser::::Firefox
+"
+5a3f1a90ba37a4d1c090dc1fa59b9f4501481adb,ModifiedOptionConflict,1b912879154e521245ed1b715db94179,bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_3::::browserName::::internet explorer <-> bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_4::::browserName::::internet explorer
+e123cdda16894cf4ccfd206f6397a93533654de9,ModifiedOptionConflict,93a427b3e1c9903d3e67dc7a79e1bd84,"bootstrap::::browser-features.yml::::browser-features.yml_14::::summary::::Implement the HTML5 [`<dialog>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_2::::summary::::Implement the HTML5 [`<dialog>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
+"
+63843de19353099ca63a2a7ebe2c7aade6be0def,ModifiedOptionConflict,3f8c71ba3143a34a849cc7edb400c442,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_26::::origin::::Bootstrap#12832
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_44::::origin::::Bootstrap#12832
+"
+d5b57c3c4d69dc9afd2036d9d4c0e10e52121391,ModifiedOptionConflict,202996ee59afaf6de48b95a43871cbb0,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_15::::summary::::`width: 1%` on nested table cell causes its table to hog horizontal space.
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_18::::summary::::`width: 1%` on nested table cell causes its table to hog horizontal space.
+"
+3ed0d586b7091e96745cf9a6ec10f3d20bb67d40,ModifiedOptionConflict,f175eefd635c9e54f8bcb2cce64d5b56,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_11::::browser::::Chrome
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_12::::browser::::Chrome
+"
+332c39b690a081d91a70002811b1361dbca025a2,ModifiedOptionConflict,db33207cd789daf298be68c801a255bc,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_17::::summary::::`width: 1%` on nested table cell causes its table to hog horizontal space.
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_20::::summary::::`width: 1%` on nested table cell causes its table to hog horizontal space.
+"
+54fdb45fa507ca0c3ddafdf1434df61abd82ed8a,ModifiedOptionConflict,82fa025f0f4d6fd8ff214526ac50a207,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_4::::browser::::Firefox
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_8::::browser::::Firefox
+"
+88be1ce5021229ba9615413fceaed1902c8d693e,ModifiedOptionConflict,19c08e296c95c78e8e043285efa0c8b4,bootstrap::::sidebar.yml::::sidebar.yml_6::::pages::::pages_3::::title::::Position <-> bootstrap::::sidebar.yml::::sidebar.yml_7::::pages::::pages_8::::title::::Position
+99edff6dda4563af225245bb66e8f943652dfba2,ModifiedOptionConflict,b22a9ec79d6bcaf1f76984abf976895a,bootstrap::::nav.yml::::nav.yml_2::::pages::::pages_6::::title::::Buttons <-> bootstrap::::nav.yml::::nav.yml_3::::pages::::pages_9::::title::::Buttons
+1354a929f911bfb8bf3a9b22c0f79fc0277c3a74,ModifiedOptionConflict,9d2f9ed1da6d3e5e5d0092e734ac934b,bootstrap::::package.json::::devDependencies::::eslint-plugin-compat::::^2.0.1 <-> bootstrap::::package.json::::devDependencies::::workbox-build::::^2.0.1
+e0c768b6671b5c79736a3267d6363d6f51b4333c,ModifiedOptionConflict,c50ad9715d4e6a37f3c70f17e192b6c4,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_24::::origin::::Bootstrap#12832
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_44::::origin::::Bootstrap#12832
+"
+96b5b14103dce52799364dfb6ae11a6ed23a1a18,ModifiedOptionConflict,ee7eed381d547dc6d1aa90e94d96365f,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_18::::browser::::Safari (OS X)
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_23::::browser::::Safari (OS X)
+"
+6c867667a19dcb1243153855d00e36e5ecd599d0,ModifiedOptionConflict,6319c1030a30bbda0e47f38364e5bfed,bootstrap::::_config.yml::::url::::http://getbootstrap.com <-> bootstrap::::package.json::::homepage::::http://getbootstrap.com
+152c491898bfbcaed93d0c69e6e4dcca9e4e07cd,ModifiedOptionConflict,88fe842cffee68f53c4744e5dc9ffb47,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_15::::origin::::Bootstrap#17913
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_20::::origin::::Bootstrap#17913
+"
+6844745db5bdddca62fe7caf5c88dfda744babbe,ModifiedOptionConflict,71b9e34f9f2169c4698c28dcf120e202,"bootstrap::::browser-features.yml::::browser-features.yml_4::::summary::::Implement the HTML5 [`<dialog>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_9::::summary::::Implement the HTML5 [`<dialog>` element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dialog)
+"
+db9fca23ff30ca464483f67391e95a898e7ada63,ModifiedOptionConflict,10d51066c359c50ae944008d63c0818b,bootstrap::::package.json::::devDependencies::::css-flip::::~0.3.0 <-> bootstrap::::package.json::::devDependencies::::load-grunt-tasks::::~0.3.0
+898328655f1978656fa2eba49bb0d2b43557e712,ModifiedOptionConflict,4157bf80f8a64062e7e0fcec6136aee2,bootstrap::::package.json::::devDependencies::::grunt-contrib-uglify::::~0.5.0 <-> bootstrap::::package.json::::devDependencies::::load-grunt-tasks::::~0.5.0
+10f703f3b0ed5890d2a7114e49f2b816548e7d4c,ModifiedOptionConflict,dff4247df17555a0326554ac4d760ee1,bootstrap::::nav.yml::::nav.yml_4::::pages::::pages_0::::title::::Overview <-> bootstrap::::nav.yml::::nav.yml_5::::pages::::pages_0::::title::::Overview
+f8dfb8a2e77c8d791699955145246c1bad67d5c4,ModifiedOptionConflict,c3e1147cb0af152693296bb58ff9e5d1,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_21::::browser::::Chrome
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_11::::browser::::Chrome
+"
+e444c2c58fa9be22d4c71ca45aab2fa8e1f67e02,ModifiedOptionConflict,b4a996622af91d6ed0f72472774002b7,bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_2::::browserName::::firefox <-> bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_8::::browserName::::firefox
+1585e4629215aedff92efe737a90a75c523ddcef,ModifiedOptionConflict,2b80979f1bb1ded4e373420bda58bfe0,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_7::::browser::::Firefox
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_9::::browser::::Firefox
+"
+4e1fb4fe1a4e968d83d8f62007b9354e2811eb63,ModifiedOptionConflict,48bcd627decec8536b8be14d72a58b23,bootstrap::::package.json::::devDependencies::::@rollup/plugin-node-resolve::::^7.0.0 <-> bootstrap::::package.json::::devDependencies::::postcss-cli::::^7.0.0
+edc43a4ea63312d95bd0779832c534cd3c14895b,ModifiedOptionConflict,96758c204fdd52aff14e7d88b4a81b2d,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_39::::origin::::Bootstrap#14839
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_40::::origin::::Bootstrap#14839
+"
+82d19a41ba80386e4049371a17eb5fb9d3d44ee8,ModifiedOptionConflict,1fd66c00aad6b89a28f26100a3134942,bootstrap::::package.json::::devDependencies::::grunt-contrib-concat::::~0.3.0 <-> bootstrap::::package.json::::devDependencies::::grunt-contrib-connect::::~0.3.0
+25e85a2882d9412e405cdfccc358f8886d54ee5b,ModifiedOptionConflict,35963bcf69cf7b2dc970227e2b840bac,bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_4::::platform::::Windows 8.1 <-> bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_7::::platform::::Windows 8.1
+19b05505f71c80fdd8452281f5fa6048401ced64,ModifiedOptionConflict,3634244a7e0a1620bdc5a1fc32d9bd63,bootstrap::::nav.yml::::nav.yml_2::::pages::::pages_20::::title::::Navbar <-> bootstrap::::nav.yml::::nav.yml_3::::pages::::pages_5::::title::::Navbar
+874fa88870a9418c8aca8ab2d3139096700ec347,ModifiedOptionConflict,f5691e9a6c22d52619cdc01c49bcca26,bootstrap::::package.json::::devDependencies::::@babel/cli::::^7.8.3 <-> bootstrap::::package.json::::devDependencies::::@babel/plugin-proposal-object-rest-spread::::^7.8.3
+70f4be6124cd3676e8b19f59004f672a5019fb44,ModifiedOptionConflict,4c1358a0d82657d007a950aecc797423,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_20::::browser::::Safari (iOS)
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_22::::browser::::Safari (iOS)
+"
+6b184763f01e00ce7fde88f432eec34bbddd32eb,ModifiedOptionConflict,c0217f0e8556a502a798bfa748f49c14,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_21::::browser::::Chrome
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_10::::browser::::Chrome
+"
+33a4e8ff9b7ef7ec00e769d7a70d3634c19b08df,ModifiedOptionConflict,fc16b0d63c2778b5f1df7efa9a89c91e,bootstrap::::examples.yml::::examples.yml_1::::examples::::examples_1::::name::::Grid <-> bootstrap::::sidebar.yml::::sidebar.yml_1::::pages::::pages_1::::title::::Grid
+c8dab8ed9f6593e0b1425a44079b37df4e004d42,ModifiedOptionConflict,9e67cde87356bbab5ccb7b8b02877a0d,bootstrap::::package.json::::devDependencies::::@rollup/plugin-node-resolve::::^6.0.0 <-> bootstrap::::package.json::::devDependencies::::babel-plugin-istanbul::::^6.0.0
+b648a77ed36d2d3a38842a7ab5a19ba50c52bae6,ModifiedOptionConflict,c82049e212f5863dd154cfcd16247466,bootstrap::::_config.yml::::current_version::::3.3.1 <-> bootstrap::::package.json::::version::::3.3.1
+5db281d7c41c29f3bec46757c47fb8d4c6439b06,ModifiedOptionConflict,ad30d69484f1ed8347fc60f8718ace96,bootstrap::::examples.yml::::examples.yml_1::::examples::::examples_2::::name::::Jumbotron <-> bootstrap::::nav.yml::::nav.yml_3::::pages::::pages_11::::title::::Jumbotron
+7164d84953b86e3f896f74bf117abc699cdd0496,ModifiedOptionConflict,593f397bdcaf94ca281ba8e1e4662d05,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_11::::browser::::Safari (OS X)
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_13::::browser::::Safari (OS X)
+"
+f7a55a9763bc74b53ee606257ef9832378473d20,ModifiedOptionConflict,3e466580a8ea6b67c5b4810b1007f9d3,bootstrap::::package.json::::devDependencies::::@babel/core::::^7.8.3 <-> bootstrap::::package.json::::devDependencies::::@babel/preset-env::::^7.8.3
+d79ffeceeaef6c829dee1bd4bc87bd8febae243a,ModifiedOptionConflict,bcbaacc5afa4794b1cdb1f708fad0f7c,bootstrap::::package.json::::devDependencies::::@rollup/plugin-babel::::^5.2.0 <-> bootstrap::::package.json::::devDependencies::::karma::::^5.2.0
+e123cdda16894cf4ccfd206f6397a93533654de9,ModifiedOptionConflict,c4f188d6e48fdfd3de59f3026f089ff6,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_28::::browser::::Safari
+ <-> bootstrap::::browser-features.yml::::browser-features.yml_13::::browser::::Safari
+"
+35caac013cef010da4c1b287dcfcd7ff23ffe541,ModifiedOptionConflict,5de0bd6495add739e58d60703e748882,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_25::::browser::::Safari (macOS)
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_27::::browser::::Safari (macOS)
+"
+39c313bb1f590f54f8bdf4624f914ea192a375bc,ModifiedOptionConflict,82bbe8f8fb62d61fce4012f72969419a,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_24::::origin::::Bootstrap#19984
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_7::::origin::::Bootstrap#19984
+"
+183b57b504db56c8b6a889d86d19b6251d23bcb3,ModifiedOptionConflict,7176945dd841b776f145eb38afce49f4,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_24::::browser::::Safari (OS X)
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_25::::browser::::Safari (OS X)
+"
+372361387584061b2632796647e9529a51bdee25,ModifiedOptionConflict,f9060af7f9be448bc0c3003c8468b278,bootstrap::::package.json::::devDependencies::::karma-firefox-launcher::::^1.1.0 <-> bootstrap::::package.json::::devDependencies::::rollup::::^1.1.0
+c88b3e1fd73c4c798a648e864b008c3669e6e27d,ModifiedOptionConflict,a7d5e3ef9515be6cd61221a6603725c9,bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_2::::browserName::::firefox <-> bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_7::::browserName::::firefox
+edf1e4b99e6e002ebe91059e9d0fe0dc4f74c405,ModifiedOptionConflict,0fb968f751a2f9760b1b99d4e5241378,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_32::::browser::::Safari (OS X)
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_33::::browser::::Safari (OS X)
+"
+a2e120bc04359c0ef8995503546f321f8f96fc6c,ModifiedOptionConflict,ab8b4ee52ad0a4b2f1321df4ad948843,"bootstrap::::browser-bugs.yml::::browser-bugs.yml_23::::origin::::Bootstrap#16180
+ <-> bootstrap::::browser-bugs.yml::::browser-bugs.yml_9::::origin::::Bootstrap#16180
+"
+b401184bffef807b3e5e0ae9a6083b63bd911973,ModifiedOptionConflict,839eecb4e64206d48b7a67a28a8b656a,bootstrap::::package.json::::devDependencies::::@babel/core::::^7.13.15 <-> bootstrap::::package.json::::devDependencies::::@babel/preset-env::::^7.13.15
+f59c2d946c276ccc247a34ccfe6f5063c847306b,ModifiedOptionConflict,dda00a19eaf02f4ff2e920288640b8ea,bootstrap::::package.json::::devDependencies::::@babel/cli::::^7.0.0 <-> bootstrap::::package.json::::devDependencies::::@babel/preset-env::::^7.0.0
+5566c935f201b8af2ca7e1ba45a3beeb836d746d,ModifiedOptionConflict,11b932b77996bf48ab1f8faa2cc67464,bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_3::::browserName::::internet explorer <-> bootstrap::::sauce_browsers.yml::::sauce_browsers.yml_4::::browserName::::internet explorer
+094e42883acae475c0a863de1231cd965744eae1,ModifiedOptionConflict,35c52a725b22641305b5be9c0dd1cbcb,bootstrap::::package.json::::devDependencies::::grunt-contrib-concat::::~0.4.0 <-> bootstrap::::package.json::::devDependencies::::grunt-contrib-qunit::::~0.4.0

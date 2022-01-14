@@ -1,0 +1,2 @@
+occurred_at,conflict_type,conflict_id,link
+40f3bb563855da0765c6752934b013a1397955ec,ModifiedOptionConflict,0a43d67442129b93967acfc0d343c90e,angular::::tmpl-package.json::::dependencies::::@octokit/graphql::::<from-root> <-> angular::::tmpl-package.json::::peerDependencies::::json5::::<from-root>

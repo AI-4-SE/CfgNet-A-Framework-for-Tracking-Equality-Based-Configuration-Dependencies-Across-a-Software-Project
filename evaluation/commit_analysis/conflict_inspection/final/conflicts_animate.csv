@@ -1,0 +1,3 @@
+occurred_at,conflict_type,conflict_id,link
+5a1c6b185b5567999645f3a20b875365b9068ef4,ModifiedOptionConflict,a78e9d8bcf47a0f1c7de403a422a042f,animate::::.travis.yml::::script::::gulp <-> animate::::package.json::::scripts::::start::::gulp
+0b1a1fd97ab17aa2b73c9067830cb86af5210cc3,ModifiedOptionConflict,7b8ae426db5f2a39398aa562fb4a2bc2,animate::::package.json::::devDependencies::::postcss-prefixer::::^2.1.2 <-> animate::::package.json::::devDependencies::::prettier::::^2.1.2

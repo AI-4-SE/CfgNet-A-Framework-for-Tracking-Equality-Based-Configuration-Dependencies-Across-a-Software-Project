@@ -1,0 +1,7 @@
+occurred_at,conflict_type,conflict_id,link
+88c6b47d01933c8b40c8188e0adcd732d9d14846,ModifiedOptionConflict,74ef3a7e4d21c42d9e8fa02440993cd7,developer-roadmap::::package.json::::dependencies::::framer-motion::::^5.3.3 <-> developer-roadmap::::package.json::::dependencies::::styled-components::::^5.3.3
+f246b065a1b921ffd841d05ec68f964fc4ce13f4,ModifiedOptionConflict,18ab00267c2c42db9ec9de04d2abbb9f,developer-roadmap::::package.json::::dependencies::::next::::^12.0.1 <-> developer-roadmap::::package.json::::devDependencies::::serve::::^12.0.1
+06d72599d92a6b25c16515915e82b6ebe99c3f7c,ModifiedOptionConflict,a49934425ae38f1acd4e07ec2e5bfc67,developer-roadmap::::package.json::::dependencies::::bootstrap::::^4.4.1 <-> developer-roadmap::::package.json::::dependencies::::styled-components::::^4.4.1
+1fbdf6857388731850bbbd77a44c9b81a9b6dbe0,ModifiedOptionConflict,d873d6043cc77fe4aa36db5f2e787db1,developer-roadmap::::package.json::::dependencies::::@emotion/react::::^11.6.0 <-> developer-roadmap::::package.json::::dependencies::::@emotion/styled::::^11.6.0
+ef25a14af10ceb0e2783fbcdb82af18c4517a52b,ModifiedOptionConflict,9f8560d85fee66461b7a2b64834ee5dc,developer-roadmap::::package.json::::dependencies::::react::::17.0.2 <-> developer-roadmap::::package.json::::devDependencies::::@types/react-dom::::17.0.2
+8902100baa6eaf384e337f2ead73ab1773ab0dd2,ModifiedOptionConflict,51dc3912e25ed6814c7fc081205c6578,developer-roadmap::::package.json::::dependencies::::next::::11.0.1 <-> developer-roadmap::::package.json::::devDependencies::::eslint-config-next::::11.0.1
