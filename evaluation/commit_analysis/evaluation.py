@@ -37,10 +37,8 @@ TEST_REPOS = [
     # "https://github.com/spring-projects/spring-boot", TimeoutError
     # "https://github.com/apple/swift", TimeoutError
     # "https://github.com/elastic/elasticsearch", TimeoutError
-    "https://github.com/denoland/deno",
-    "https://github.com/facebook/react-native",
-    "https://github.com/facebook/react",
-    "https://github.com/mui-org/material-ui",
+    "https://github.com/angular/angular",
+    "https://github.com/angular/angular.js",
 ]
 
 
