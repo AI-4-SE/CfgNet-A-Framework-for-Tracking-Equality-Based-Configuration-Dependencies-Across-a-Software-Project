@@ -25,34 +25,24 @@ EVALUATION_FOLDER = "out"
 # have to adjust the array range in `array.sbatch`.
 
 TEST_REPOS = [
+    # "https://github.com/torvalds/linux", AttributeError in configparser library
+    # "https://github.com/FortAwesome/Font-Awesome", TimeoutError
     # "https://github.com/flutter/flutter", TimeoutError
-    # "https://github.com/angular/angular", yaml.ComposeError
-    "https://github.com/tensorflow/models",
-    "https://github.com/mui-org/material-ui",
-    "https://github.com/vercel/next.js",
-    "https://github.com/ant-design/ant-design",
-    "https://github.com/opencv/opencv",
-    "https://github.com/django/django",
-    "https://github.com/tensorflow/tensorflow",
-    "https://github.com/microsoft/vscode",
-    "https://github.com/torvalds/linux",
-    "https://github.com/golang/go",
-    "https://github.com/nodejs/node",
-    "https://github.com/kubernetes/kubernetes",
-    "https://github.com/mrdoob/three.js",
-    "https://github.com/microsoft/TypeScript",
-    "https://github.com/storybookjs/storybook",
-    "https://github.com/moby/moby",
-    "https://github.com/rust-lang/rust",
-    "https://github.com/bitcoin/bitcoin",
-    "https://github.com/spring-projects/spring-boot",
-    "https://github.com/apple/swift",
-    "https://github.com/webpack/webpack",
-    "https://github.com/elastic/elasticsearch"
-    "https://github.com/atom/atom",
+    # "https://github.com/microsoft/vscode", TimeoutError
+    # "https://github.com/nodejs/node", TimeoutError
+    # "https://github.com/kubernetes/kubernetes", TimeoutError
+    # "https://github.com/vercel/next.js", IndexError
+    # "https://github.com/opencv/opencv",
+    # "https://github.com/moby/moby", IndexError 
+    # "https://github.com/rust-lang/rust", TomlDecodeError 
+    # "https://github.com/spring-projects/spring-boot", TimeoutError
+    # "https://github.com/apple/swift", still running
+    # "https://github.com/elastic/elasticsearch", TimeoutError
+    # "react", Backslashes
+    # "react-native", Backslashes
+    # "deno", duplicate keys
+    # "material-ui", Backslashes
 ]
-
-
 
 
 def get_repo_name_from_url(url):
