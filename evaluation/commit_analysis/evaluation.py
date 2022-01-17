@@ -25,18 +25,18 @@ EVALUATION_FOLDER = "out"
 # have to adjust the array range in `array.sbatch`.
 
 TEST_REPOS = [
-    # "https://github.com/torvalds/linux", AttributeError in configparser library
-    # "https://github.com/FortAwesome/Font-Awesome", TimeoutError
-    # "https://github.com/flutter/flutter", TimeoutError
-    # "https://github.com/microsoft/vscode", TimeoutError
-    # "https://github.com/nodejs/node", TimeoutError
-    # "https://github.com/kubernetes/kubernetes", TimeoutError
-    # "https://github.com/vercel/next.js", IndexError
-    # "https://github.com/moby/moby", IndexError 
-    # "https://github.com/rust-lang/rust", TomlDecodeError 
-    # "https://github.com/spring-projects/spring-boot", TimeoutError
-    # "https://github.com/apple/swift", TimeoutError
-    # "https://github.com/elastic/elasticsearch", TimeoutError
+    "https://github.com/FortAwesome/Font-Awesome", 
+    "https://github.com/flutter/flutter",
+    "https://github.com/rust-lang/rust",
+    "https://github.com/microsoft/vscode",
+    "https://github.com/nodejs/node", 
+    "https://github.com/spring-projects/spring-boot",
+    "https://github.com/vercel/next.js",
+    "https://github.com/kubernetes/kubernetes",
+    "https://github.com/moby/moby",
+    "https://github.com/elastic/elasticsearch",
+    "https://github.com/apple/swift", 
+    "https://github.com/torvalds/linux",
 ]
 
 

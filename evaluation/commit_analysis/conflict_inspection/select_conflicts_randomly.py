@@ -41,12 +41,12 @@ def main():
         #print("Total Conflict: ", total)
         
         # Select conflicts
-        # select_conflicts_randomly(target, name, modified_option, df)
+        #select_conflicts_randomly(target, name, modified_option, df)
 
     print("Number of systems: ", len(glob.glob("all/*")))
     print("Final Systems: ", len(glob.glob(os.path.join(target, "*"))))
 
 
-
 if __name__ == "__main__":
     main()
+    
