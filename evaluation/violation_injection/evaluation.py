@@ -73,20 +73,24 @@ TEST_REPOS = [
         ],
     ),
     (
-        "https://github.com/tayfurunal/mentorship-platform",
-        "9b0ab62f28c71c57575bdb2caac153e0201dbacd",
-        ["mentorship-client/package-lock.json"],
+        "https://github.com/Oreste-Luci/netflix-oss-example",
+        "ec4dc71bbff8ed6be8b03c36eb0a473518dbd5b5",
+        [],
         [
             (
-                "mentorship-backend/src/main/resources/application.properties",
-                "4",
-                "spring.datasource.password=1234567",
+                "config-service/pom.xml",
+                "6",
+                "<artifactId>config</artifactId>",
             ),
-            ("mentorship-backend/Dockerfile", "10", "EXPOSE 8000"),
             (
-                "mentorship-backend/Dockerfile",
-                "9",
-                "COPY --from=build /workspace/target/*.jar backend.jar",
+                "eureka-server/Dockerfile", 
+                "16", 
+                "ADD target/eureka-service.jar eureka-service.jar"
+            ),
+            (
+                "hystrix-dashboard/Dockerfile",
+                "20",
+                "EXPOSE 7777",
             ),
         ],
     ),
