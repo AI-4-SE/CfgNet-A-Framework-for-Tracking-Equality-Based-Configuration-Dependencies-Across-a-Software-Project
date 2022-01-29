@@ -21,6 +21,7 @@ EVALUATION_FOLDER = "out"
 #       * The file name
 #       * The line number to be changed
 #       * The new value of the line
+#       * none or option to enable internal links
 TEST_REPOS = [
     (
         "https://github.com/msk41/taskManagement",
@@ -32,45 +33,67 @@ TEST_REPOS = [
                 "2",
                 "COPY /target/taskManager-0.0.1-SNAPSHOT.jar taskManager.jar",
             ),
-            ("pom.xml", "13", "<version>0.0.2-SNAPSHOT</version>"),
+            (
+                "pom.xml", 
+                "13", 
+                "<version>0.0.2-SNAPSHOT</version>",
+            ),
             (
                 "src/main/resources/application-dev.yml",
                 "4",
                 "\ \ \ \ username: prod_user",
             ),
         ],
+        "--enable-internal-links"
     ),
     (
         "https://github.com/B-Software/Ward",
         "f9848747933bf2910ae163da9808bf7ea092796e",
         [],
-        [("Dockerfile", "21", "COPY --from=builder app/pom.xml /pom.xml")],
+        [
+            (
+                "Dockerfile", 
+                "21",
+                "COPY --from=builder app/pom.xml /pom.xml",
+            )
+        ],
+        "-enable-internal-links"
     ),
     (
         "https://github.com/sqshq/piggymetrics",
         "fd5ee3c555ea9cd6067eacf3f2a3e8b85fe4fe77",
         [],
         [
-            ("config/Dockerfile", "9", "EXPOSE 8080"),
+            (
+                "config/Dockerfile",
+                "9", 
+                "EXPOSE 8080",
+            ),
             (
                 "config/pom.xml",
                 "6",
                 "<artifactId>configuration</artifactId>",
             ),
         ],
+        None,
     ),
     (
         "https://github.com/reljicd/spring-boot-blog",
         "ad754f162b0140cc1f81bea8c8cc9e8a35ce4001",
         [],
         [
-            ("pom.xml", "8", "<version>0.0.2</version>"),
+            (
+                "pom.xml", 
+                "8", 
+                "<version>0.0.2</version>",
+            ),
             (
                 "src/main/resources/application.properties",
                 "5",
                 "server.port=8000",
             ),
         ],
+        None,
     ),
     (
         "https://github.com/Oreste-Luci/netflix-oss-example",
@@ -85,7 +108,7 @@ TEST_REPOS = [
             (
                 "eureka-server/Dockerfile", 
                 "16", 
-                "ADD target/eureka-service.jar eureka-service.jar"
+                "ADD target/eureka-service.jar eureka.jar",
             ),
             (
                 "hystrix-dashboard/Dockerfile",
@@ -93,6 +116,7 @@ TEST_REPOS = [
                 "EXPOSE 7777",
             ),
         ],
+        "--enable-internal-links"
     ),
 ]
 
@@ -141,7 +165,7 @@ def inject_dependency_violation(violation, repo_folder):
     )
 
 
-def process_repo(url, commit, ignorelist, violations):
+def process_repo(url, commit, ignorelist, violations, enable_internal_links):
     """
     Analyze a repository with CfgNet.
 
@@ -156,6 +180,7 @@ def process_repo(url, commit, ignorelist, violations):
     repo_name = get_repo_name_from_url(url)
     repo_folder = EVALUATION_FOLDER + "/" + repo_name
     results_folder = EVALUATION_FOLDER + "/results/" + repo_name
+    abs_repo_path = os.path.abspath(repo_folder)
 
     print("$ git clone", url, repo_folder)
     print("$ cd", repo_folder)
@@ -166,16 +191,20 @@ def process_repo(url, commit, ignorelist, violations):
 
     create_ignore_file(ignorelist, repo_folder)
 
-    print("$ cfgnet init .")
-    subprocess.run("cfgnet init .", shell=True, cwd=repo_folder, check=True)
+    if enable_internal_links:
+        print(f"$ cfgnet init --enable-internal-links {abs_repo_path}")
+        subprocess.run(f"cfgnet init --enable-internal-links {abs_repo_path}", shell=True, cwd=repo_folder, check=True)
+    else:
+        print(f"$ cfgnet init {abs_repo_path}")
+        subprocess.run(f"cfgnet init  {abs_repo_path}", shell=True, cwd=repo_folder, check=True)
 
     for index, violation in enumerate(violations):
         inject_dependency_violation(violation, repo_folder)
 
-        print("$ cfgnet validate .")
+        print(f"$ cfgnet validate {abs_repo_path}")
         with open(results_folder + ".result" + str(index), "w") as outfile:
             subprocess.run(
-                "cfgnet validate . ",
+                f"cfgnet validate {abs_repo_path}",
                 shell=True,
                 stdout=outfile,
                 cwd=repo_folder,
@@ -205,8 +234,15 @@ def main():
     print("+------------+")
     print()
     for repo in TEST_REPOS:
-        process_repo(repo[0], repo[1], repo[2], repo[3])
+        process_repo(
+            url=repo[0], 
+            commit=repo[1], 
+            ignorelist=repo[2], 
+            violations=repo[3],
+            enable_internal_links=repo[4],
+        )
 
 
 if __name__ == "__main__":
     main()
+
