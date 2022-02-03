@@ -32,19 +32,21 @@ TEST_REPOS = [
                 "Dockerfile",
                 "2",
                 "COPY /target/taskManager-0.0.1-SNAPSHOT.jar taskManager.jar",
+                "--enable-internal-links",
             ),
             (
                 "pom.xml", 
                 "13", 
                 "<version>0.0.2-SNAPSHOT</version>",
+                None,
             ),
             (
                 "src/main/resources/application-dev.yml",
                 "4",
                 "\ \ \ \ username: prod_user",
+                None,
             ),
         ],
-        "--enable-internal-links"
     ),
     (
         "https://github.com/B-Software/Ward",
@@ -55,9 +57,9 @@ TEST_REPOS = [
                 "Dockerfile", 
                 "21",
                 "COPY --from=builder app/pom.xml /pom.xml",
+                None,
             )
         ],
-        "-enable-internal-links"
     ),
     (
         "https://github.com/sqshq/piggymetrics",
@@ -68,14 +70,15 @@ TEST_REPOS = [
                 "config/Dockerfile",
                 "9", 
                 "EXPOSE 8080",
+                None,
             ),
             (
                 "config/pom.xml",
                 "6",
                 "<artifactId>configuration</artifactId>",
+                None,
             ),
         ],
-        None,
     ),
     (
         "https://github.com/reljicd/spring-boot-blog",
@@ -86,14 +89,15 @@ TEST_REPOS = [
                 "pom.xml", 
                 "8", 
                 "<version>0.0.2</version>",
+                None,
             ),
             (
                 "src/main/resources/application.properties",
                 "5",
                 "server.port=8000",
+                None,
             ),
         ],
-        None,
     ),
     (
         "https://github.com/Oreste-Luci/netflix-oss-example",
@@ -101,22 +105,25 @@ TEST_REPOS = [
         [],
         [
             (
-                "config-service/pom.xml",
-                "6",
-                "<artifactId>config</artifactId>",
-            ),
-            (
                 "eureka-server/Dockerfile", 
                 "16", 
                 "ADD target/eureka-service.jar eureka.jar",
+                "--enable-internal-links",
+            ),
+            (
+                "config-service/pom.xml",
+                "8",
+                "<artifactId>config</artifactId>",
+                None,
+
             ),
             (
                 "hystrix-dashboard/Dockerfile",
                 "20",
                 "EXPOSE 7777",
+                None,
             ),
         ],
-        "--enable-internal-links"
     ),
 ]
 
@@ -165,7 +172,7 @@ def inject_dependency_violation(violation, repo_folder):
     )
 
 
-def process_repo(url, commit, ignorelist, violations, enable_internal_links):
+def process_repo(url, commit, ignorelist, violations):
     """
     Analyze a repository with CfgNet.
 
@@ -191,14 +198,16 @@ def process_repo(url, commit, ignorelist, violations, enable_internal_links):
 
     create_ignore_file(ignorelist, repo_folder)
 
-    if enable_internal_links:
-        print(f"$ cfgnet init --enable-internal-links {abs_repo_path}")
-        subprocess.run(f"cfgnet init --enable-internal-links {abs_repo_path}", shell=True, cwd=repo_folder, check=True)
-    else:
-        print(f"$ cfgnet init {abs_repo_path}")
-        subprocess.run(f"cfgnet init  {abs_repo_path}", shell=True, cwd=repo_folder, check=True)
-
     for index, violation in enumerate(violations):
+        enable_internal_links = violation[3]
+
+        if enable_internal_links:
+            print(f"$ cfgnet init --enable-internal-links {abs_repo_path}")
+            subprocess.run(f"cfgnet init --enable-internal-links {abs_repo_path}", shell=True, cwd=repo_folder, check=True)
+        else:
+            print(f"$ cfgnet init {abs_repo_path}")
+            subprocess.run(f"cfgnet init  {abs_repo_path}", shell=True, cwd=repo_folder, check=True)
+
         inject_dependency_violation(violation, repo_folder)
 
         print(f"$ cfgnet validate {abs_repo_path}")
@@ -239,9 +248,7 @@ def main():
             commit=repo[1], 
             ignorelist=repo[2], 
             violations=repo[3],
-            enable_internal_links=repo[4],
         )
-
 
 if __name__ == "__main__":
     main()
