@@ -1,6 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-98bb1d73c5672ea1eb5e73b744f6344b73d98c2a,MissingArtifactConflict,00f3c7b2d5649dac9532d8e32165c08d,awesome-go::::.travis.yml::::deploy::::on::::branch::::master <-> awesome-go::::tests.yaml::::on::::push::::branches::::master
-8c13f0112dffcb6fba6abe0f37e8804085a42cb2,MissingOptionConflict,44d0ade53da967819c91d6678bc211c6,awesome-go::::site-deploy.yaml::::jobs::::build::::needs::::tests <-> awesome-go::::tests.yaml::::name::::tests
-340743b823da58aa90a30de312dfc8eaf9e1fca0,ModifiedOptionConflict,6d7eec3a4c0474d01414cce1ded0d40a,awesome-go::::tests.yaml::::jobs::::build::::steps::::steps_2::::name::::Run tests <-> awesome-go::::tests.yaml::::name::::Run tests
-d64099f526b99ee0ee0bb1eac66c6ca184f697da,MissingArtifactConflict,3431eab588fded184113c8561804aa1c,awesome-go::::.codeclimate.yml::::engines::::duplication::::config::::languages::::go <-> awesome-go::::Dockerfile::::cmd::::param0::::go
-09ae7bf7aa9a3427df73d19908ae7a1ec7c32a0f,MissingOptionConflict,3ebc89ebc20c119596c11ab883c1a8c2,awesome-go::::run-check.yaml::::jobs::::build::::environment::::netlify <-> awesome-go::::tests.yaml::::jobs::::build::::environment::::netlify

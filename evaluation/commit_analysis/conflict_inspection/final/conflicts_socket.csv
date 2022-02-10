@@ -1,3 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-3bd5455b1aaff56edeb7f2c0e5c52d5ccb91fa46,ModifiedOptionConflict,29a64cc4c67a59ea155f5463c9fccb6d,socket::::package.json::::dependencies::::socket.io-client::::1.0.0 <-> socket::::package.json::::version::::1.0.0
-d17f5ce914a65169f7c86b6c61812d578d8b8423,ModifiedOptionConflict,0d4cbcbc33142bffb6ee21c18ed87fb1,socket::::package.json::::dependencies::::debug::::* <-> socket::::package.json::::devDependencies::::supertest::::*

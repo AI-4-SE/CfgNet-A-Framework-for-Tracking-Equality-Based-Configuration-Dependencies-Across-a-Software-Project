@@ -1,7 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-395356a0b144c8fc981d3464d986f8c3dcc80bfb,ModifiedOptionConflict,c4e21bf12c8fafb2e273fc55eedaa0de,reveal::::package.json::::devDependencies::::@babel/core::::^7.9.6 <-> reveal::::package.json::::devDependencies::::@babel/preset-env::::^7.9.6
-6831f6c17415c6c20269f3d61e673482442319b6,ModifiedOptionConflict,7fbb0e7e2e6e896817bf5334b32198ae,reveal::::package.json::::dependencies::::grunt-cli::::~1.2.0 <-> reveal::::package.json::::devDependencies::::grunt-contrib-qunit::::~1.2.0
-1e70d9fe46d1e58a8e30703ff920278e8ad44480,ModifiedOptionConflict,2c6f18375be46ef8326807327f809844,reveal::::package.json::::devDependencies::::gulp-sass::::^4.0.2 <-> reveal::::package.json::::devDependencies::::gulp::::^4.0.2
-ca9ce4b592d50bd84580daff48c16bc55f6ebd2b,ModifiedOptionConflict,93f80db8e5247303f13129adbd28dc0e,reveal::::package.json::::devDependencies::::gulp-clean-css::::^4.2.0 <-> reveal::::package.json::::devDependencies::::gulp-zip::::^4.2.0
-329ae0fd43871e7c03ca7f2aca0f5110ebba9ccd,ModifiedOptionConflict,d90b81e3377b0d02c84fe595a597e60a,reveal::::package.json::::dependencies::::mustache::::~0.4.0 <-> reveal::::package.json::::devDependencies::::grunt::::~0.4.0
-6831f6c17415c6c20269f3d61e673482442319b6,ModifiedOptionConflict,8fd772d83f2115269ef8685ec3a683c1,reveal::::package.json::::dependencies::::grunt-cli::::~1.2.0 <-> reveal::::package.json::::devDependencies::::grunt-sass::::~1.2.0

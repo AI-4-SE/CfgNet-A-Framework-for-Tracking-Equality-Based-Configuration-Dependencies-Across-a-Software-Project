@@ -1,3 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-0c5831793246a23e6b259a139773cff429ab5ba8,MissingArtifactConflict,c50a89465f0ebed2ac815af12c31bf03,thefuck::::.travis.yml::::language::::python <-> thefuck::::snapcraft.yaml::::parts::::thefuck::::plugin::::python
-ecee70f7745e2ccc83d438df2d28fdeabe008631,MissingOptionConflict,ed48025739f5b556473bda1a412d2fb6,thefuck::::.travis.yml::::matrix::::allow_failures::::python/3.6-dev::::python::::3.6-dev <-> thefuck::::.travis.yml::::matrix::::include::::os/linux::::python::::3.6-dev

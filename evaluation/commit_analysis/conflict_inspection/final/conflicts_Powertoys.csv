@@ -1,5 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-70b9c0f879c217db05e42763a308450125fe1550,ModifiedOptionConflict,f5151d2b6f0705318ecd1ec2766e7ebe,PowerToys::::feature_request.yml::::body::::body_1::::type::::markdown <-> PowerToys::::translation_issue.yml::::body::::body_0::::type::::markdown
-8a78e4e9f4b53740ef133b38e42ca7f852559d82,ModifiedOptionConflict,577bb72790d419bd8957946462e19d86,PowerToys::::appveyor.yml::::assembly_info::::assembly_file_version::::{version} <-> PowerToys::::appveyor.yml::::assembly_info::::assembly_informational_version::::{version}
-8a78e4e9f4b53740ef133b38e42ca7f852559d82,ModifiedOptionConflict,82c8232d751a96b68fc533dcf5e8c421,PowerToys::::appveyor.yml::::assembly_info::::assembly_file_version::::{version} <-> PowerToys::::appveyor.yml::::assembly_info::::assembly_version::::{version}
-a925d9e6e121b874d81978b1572a30fc2aa06e7d,ModifiedOptionConflict,eb683b773061c107788b988d7e22f6bf,PowerToys::::pipeline.user.windows.yml::::build::::commands::::commands_1::::artifacts::::artifacts_0::::to::::Symbols <-> PowerToys::::pipeline.user.windows.yml::::build::::commands::::commands_4::::artifacts::::artifacts_0::::to::::Symbols

@@ -1,3 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-2a1bc9ca89d493355f04cb5ccdcf6811eeb0bbcd,MissingOptionConflict,3fdf0a2eccd4a25a4db38a377d824e3f,tech-interview-handbook::::package.json::::dependencies::::@docusaurus/plugin-google-gtag::::^2.0.0-alpha.21 <-> tech-interview-handbook::::package.json::::dependencies::::@docusaurus/preset-classic::::^2.0.0-alpha.21
-ac78a5eb7195710abceaeeb792075cde086a6660,ModifiedOptionConflict,bfffe4a6c7b25edba0051e9b754934b9,tech-interview-handbook::::FUNDING.yml::::github::::yangshun <-> tech-interview-handbook::::FUNDING.yml::::open_collective::::yangshun

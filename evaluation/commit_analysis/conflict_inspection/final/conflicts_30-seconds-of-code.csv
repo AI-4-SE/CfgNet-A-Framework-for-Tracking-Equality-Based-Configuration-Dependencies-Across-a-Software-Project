@@ -1,4 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-937930bd09752fff92a14ba2c2b5a7d46f67e578,ModifiedOptionConflict,7abb8d8c54d47cdf844fcf667116f026,30-seconds-of-code::::.codeclimate.yml::::checks::::argument-count::::config::::threshold::::2 <-> 30-seconds-of-code::::.codeclimate.yml::::version::::2
-c850efa15893a5a46d1fd520e42eeb199a8be818,ModifiedOptionConflict,b5a11df303b2b004023159ce682c9c74,30-seconds-of-code::::.codeclimate.yml::::checks::::argument-count::::config::::threshold::::4 <-> 30-seconds-of-code::::.codeclimate.yml::::checks::::return-statements::::config::::threshold::::4
-2dac07aad2c6abc8e29ea32265b42a4766f7854b,ModifiedOptionConflict,1cf4f3de9bc9c0972e4db5f00503670b,30-seconds-of-code::::package.json::::devDependencies::::@babel/core::::^7.5.4 <-> 30-seconds-of-code::::package.json::::devDependencies::::@babel/preset-env::::^7.5.4

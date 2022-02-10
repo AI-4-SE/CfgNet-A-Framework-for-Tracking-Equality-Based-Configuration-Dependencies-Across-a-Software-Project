@@ -1,9 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-70a0aba3e423246be37462cfdaedd510c26c566e,MissingOptionConflict,f81ae20f540017ecc85126fc6c1c801e,gin::::.travis.yml::::go::::1.12.x <-> gin::::.travis.yml::::matrix::::include::::go/1.12.x::::go::::1.12.x
-0feaf8cbd80da13be634b13fd28bfb2d6e357839,MissingArtifactConflict,c54320658a6c15084956f3ad18971960,gin::::.travis.yml::::language::::go <-> gin::::app.yaml::::runtime::::go
-820090381719dc209584c3fc1044cd95ec520594,MissingOptionConflict,7886529bf1990fe9ba7390c3434af819,gin::::.golangci.yml::::issues::::exclude-rules::::exclude-rules_4::::linters::::revive <-> gin::::.golangci.yml::::linters::::enable::::revive
-0b96dd8ae554b8131de6b354e300ee6cf8e56f69,MissingOptionConflict,f78544bd8543195ce2860f76abe520da,gin::::.travis.yml::::matrix::::include::::go/1.11.x::::env::::GO111MODULE=on <-> gin::::.travis.yml::::matrix::::include::::go/master::::env::::GO111MODULE=on
-16cd8cdd4ef9257b1e86b5119df1536de71c6a87,MissingOptionConflict,bb31fe7a5cba8685e34f1fdb0fd280ac,gin::::.travis.yml::::matrix::::include::::go/1.11.x::::env::::GO111MODULE=on <-> gin::::.travis.yml::::matrix::::include::::go/1.12.x::::env::::GO111MODULE=on
-91a4459dd27a311c2b959708f328d60177fa4046,MissingOptionConflict,e706bb1500c414edcb84db3285017e42,gin::::.travis.yml::::go::::master <-> gin::::.travis.yml::::matrix::::allow_failures::::go/master::::go::::master
-435a76b735db28b6223b323d30503de51c637b89,ModifiedOptionConflict,4b235d63b7e670e6b0a4a1a32da86955,gin::::gin.yml::::jobs::::test::::steps::::steps_4::::name::::Run Tests <-> gin::::gin.yml::::name::::Run Tests
-8e7b8174602836e098f4290a6bc9bf501f6f853a,MissingArtifactConflict,dd03d7520d49467c5e5eeebefd1a7c94,gin::::.travis.yml::::language::::go <-> gin::::app.yaml::::runtime::::go
