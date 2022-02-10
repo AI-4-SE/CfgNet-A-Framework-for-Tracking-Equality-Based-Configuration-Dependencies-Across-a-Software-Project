@@ -89,8 +89,8 @@ TEST_REPOS = [
     "https://github.com/adam-p/markdown-here",
     "https://github.com/mui-org/material-ui",
     "https://github.com/moby/moby",
-    "https://github.com/tensorflow/models", 
-    "https://github.com/netdata/netdata", 
+    "https://github.com/tensorflow/models",
+    "https://github.com/netdata/netdata",
     "https://github.com/goldbergyoni/nodebestpractices",
     "https://github.com/nvm-sh/nvm",
     "https://github.com/ohmyzsh/ohmyzsh",
@@ -158,7 +158,7 @@ def process_repo(url):
     # linearize commit history
     # see https://stackoverflow.com/a/17994534
     subprocess.run(
-        "git filter-branch --parent-filter 'cut -f 2,3 -d " "'", shell=True,
+        "git filter-branch --parent-filter 'cut -f 2,3 -d \" \"'", shell=True,
         cwd=repo_folder, executable="/bin/bash", env=dict(os.environ, FILTER_BRANCH_SQUELCH_WARNING="1")
     )
 
