@@ -1,0 +1,15 @@
+
+MODIFIED OPTION CONFLICT (78e72b8017f18fecccecbdb41ecb0983)
+
+Modified Option: add::dest in artifact eureka-server/Dockerfile
+Value changed from eureka-service.jar to eureka.jar
+
+Conflicts:
+-----------------------------------------
+In file /tmp/stackoverflow/out/netflix-oss-example/eureka-server/Dockerfile:21
+Link with option cmd::param2 is missing
+Modify option cmd::param2:
+"eureka-service.jar" to "eureka.jar"
+
+
+
