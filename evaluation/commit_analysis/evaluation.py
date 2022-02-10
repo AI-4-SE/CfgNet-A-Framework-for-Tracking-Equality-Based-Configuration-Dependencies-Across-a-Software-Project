@@ -154,6 +154,12 @@ def process_repo(url):
     # Cloning repository
     Repo.clone_from(url, repo_folder)
 
+    # linearize commit history
+    # see https://stackoverflow.com/a/17994534
+    subprocess.run(
+        "git filter-branch --parent-filter 'cut -f 2,3 -d " "'", shell=True, cwd=repo_folder, executable="/bin/bash"
+    )
+
     # Create ignore file
     # create_ignore_file(ignorelist, repo_folder)
     subprocess.run(
