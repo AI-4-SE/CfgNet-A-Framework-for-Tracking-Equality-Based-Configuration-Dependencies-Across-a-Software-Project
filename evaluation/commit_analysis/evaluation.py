@@ -25,6 +25,16 @@ EVALUATION_FOLDER = "out"
 # have to adjust the array range in `array.sbatch`.
 
 TEST_REPOS = [
+    "https://github.com/sveltejs/svelte",
+    "https://github.com/shadowsocks/shadowsocks-windows",
+    "https://github.com/keras-team/keras",
+    "https://github.com/httpie/httpie",
+    "https://github.com/redis/redis",
+    "https://github.com/protocolbuffers/protobuf",
+    "https://github.com/josephmisiti/awesome-machine-learning",
+    "https://github.com/fatedier/frp",
+    "https://github.com/tailwindlabs/tailwindcss",
+    "https://github.com/chrislgarry/Apollo-11",
     "https://github.com/30-seconds/30-seconds-of-code",
     "https://github.com/996icu/996.ICU",
     "https://github.com/doocs/advanced-java",
@@ -79,8 +89,8 @@ TEST_REPOS = [
     "https://github.com/adam-p/markdown-here",
     "https://github.com/mui-org/material-ui",
     "https://github.com/moby/moby",
-    "https://github.com/tensorflow/models",
-    "https://github.com/netdata/netdata",
+    "https://github.com/tensorflow/models", 
+    "https://github.com/netdata/netdata", 
     "https://github.com/goldbergyoni/nodebestpractices",
     "https://github.com/nvm-sh/nvm",
     "https://github.com/ohmyzsh/ohmyzsh",
@@ -116,15 +126,6 @@ TEST_REPOS = [
     "https://github.com/ytdl-org/youtube-dl",
     "https://github.com/FortAwesome/Font-Awesome",
     "https://github.com/flutter/flutter",
-    "https://github.com/rust-lang/rust",
-    "https://github.com/microsoft/vscode",
-    "https://github.com/nodejs/node",
-    "https://github.com/spring-projects/spring-boot",
-    "https://github.com/vercel/next.js",
-    "https://github.com/kubernetes/kubernetes",
-    "https://github.com/elastic/elasticsearch",
-    "https://github.com/apple/swift", 
-    "https://github.com/torvalds/linux",
 ]
 
 
