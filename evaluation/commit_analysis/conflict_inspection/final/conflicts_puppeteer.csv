@@ -1,2 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-2d82e0891afdc3e8e836e2edcf8261e276fa49f3,ModifiedOptionConflict,88706f69dd9c124b89443c651c570245,puppeteer::::package.json::::devDependencies::::eslint::::^4.0.0 <-> puppeteer::::package.json::::devDependencies::::esprima::::^4.0.0

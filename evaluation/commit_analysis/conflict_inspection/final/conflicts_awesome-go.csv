@@ -1,2 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-340743b823da58aa90a30de312dfc8eaf9e1fca0,ModifiedOptionConflict,6d7eec3a4c0474d01414cce1ded0d40a,awesome-go::::tests.yaml::::jobs::::build::::steps::::steps_2::::name::::Run tests <-> awesome-go::::tests.yaml::::name::::Run tests

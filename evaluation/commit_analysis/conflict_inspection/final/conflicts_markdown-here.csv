@@ -1,2 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-ff5f1dbc98b00c09d27252f03007ddb34d6642fb,ModifiedOptionConflict,9781ad0f4585af67a28f1ad03fb2f44f,markdown-here::::package.json::::dependencies::::archiver::::* <-> markdown-here::::package.json::::dependencies::::file::::*

@@ -1,4 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-d0fc289f45763ab556936c2ce3d76fc1c3dd7c69,ModifiedOptionConflict,456343a61899a00e8ed501cbba461df8,youtube-dl::::ci.yml::::jobs::::flake8::::runs-on::::ubuntu-latest <-> youtube-dl::::ci.yml::::jobs::::tests::::strategy::::matrix::::include::::include_2::::os::::ubuntu-latest
-d0fc289f45763ab556936c2ce3d76fc1c3dd7c69,ModifiedOptionConflict,a5a32f36a2a356eb4ae4c14b44d484c6,youtube-dl::::ci.yml::::jobs::::flake8::::runs-on::::ubuntu-latest <-> youtube-dl::::ci.yml::::jobs::::tests::::strategy::::matrix::::os::::ubuntu-latest
-d0fc289f45763ab556936c2ce3d76fc1c3dd7c69,ModifiedOptionConflict,286fcf0c66e7bd29e4ed10e013d19b5c,youtube-dl::::ci.yml::::jobs::::flake8::::runs-on::::ubuntu-latest <-> youtube-dl::::ci.yml::::jobs::::tests::::strategy::::matrix::::include::::include_3::::os::::ubuntu-latest

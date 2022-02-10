@@ -1,8 +1,0 @@
-occurred_at,conflict_type,conflict_id,link
-19c4673d2c191101cd75dc60c988a6cbac2bcc00,MissingOptionConflict,d94c383e39b3ee55ef0f39f4417d9a8e,animate::::package.json::::dependencies::::gulp-rename::::^1.2.2 <-> animate::::package.json::::devDependencies::::gulp-minify-css::::^1.2.2
-1caaa6434aae5f2c20702ff20f89af6bf09f94b4,MissingOptionConflict,579df4297b3ac013dd759a7581daa43f,animate::::package.json::::spm::::main::::./animate.css <-> animate::::package.json::::style::::./animate.css
-010e06e11175840ae84ad9363f7269f03775d963,MissingOptionConflict,bc160c7f5f3f626dde1e1a4650462016,animate::::package.json::::devDependencies::::gulp-minify-css::::^1.2.2 <-> animate::::package.json::::devDependencies::::gulp-rename::::^1.2.2
-5a1c6b185b5567999645f3a20b875365b9068ef4,ModifiedOptionConflict,a78e9d8bcf47a0f1c7de403a422a042f,animate::::.travis.yml::::script::::gulp <-> animate::::package.json::::scripts::::start::::gulp
-0b1a1fd97ab17aa2b73c9067830cb86af5210cc3,ModifiedOptionConflict,7b8ae426db5f2a39398aa562fb4a2bc2,animate::::package.json::::devDependencies::::postcss-prefixer::::^2.1.2 <-> animate::::package.json::::devDependencies::::prettier::::^2.1.2
-f017ea59185cb0c251e4f312fb4703935253815e,MissingOptionConflict,e19dbca84d78ec209c50c89b1bd50410,animate::::package.json::::main::::animate.css <-> animate::::package.json::::name::::animate.css
-5a1c6b185b5567999645f3a20b875365b9068ef4,MissingOptionConflict,40ad142d57a79daa5c84742d4172cbcb,animate::::package.json::::spm::::main::::./animate.css <-> animate::::package.json::::style::::./animate.css
