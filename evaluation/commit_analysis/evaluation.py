@@ -157,7 +157,8 @@ def process_repo(url):
     # linearize commit history
     # see https://stackoverflow.com/a/17994534
     subprocess.run(
-        "git filter-branch --parent-filter 'cut -f 2,3 -d " "'", shell=True, cwd=repo_folder, executable="/bin/bash"
+        "git filter-branch --parent-filter 'cut -f 2,3 -d " "'", shell=True,
+        cwd=repo_folder, executable="/bin/bash", env=dict(os.environ, FILTER_BRANCH_SQUELCH_WARNING="1")
     )
 
     # Create ignore file
