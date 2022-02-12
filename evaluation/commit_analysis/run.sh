@@ -11,9 +11,10 @@ build_wheel() {
     rm -rf cfgnet
 }
 
-rm -rf error output out
+rm -rf error output results
 mkdir error
 mkdir output
+mkdir results
 
 if ! command -v poetry &> /dev/null
 then
