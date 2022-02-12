@@ -164,18 +164,15 @@ def process_repo(url):
 
     # Create ignore file
     # create_ignore_file(ignorelist, repo_folder)
+
+    # start analysis
     subprocess.run(
         f"cfgnet analyze  {abs_repo_path}", shell=True, cwd=repo_folder, executable="/bin/bash"
     )
 
-    # Clean up log file
-    # clean_up_log(repo_name, repo_folder)
-
     # Copy results into result folder
     subprocess.run(["cp", "-r", repo_folder + "/.cfgnet", results_folder])
 
-    # Remove repo folder
-    remove_repo_folder(repo_folder)
 
 
 def create_ignore_file(ignorelist, repo_folder):
