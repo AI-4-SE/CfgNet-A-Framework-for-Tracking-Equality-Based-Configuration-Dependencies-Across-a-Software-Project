@@ -1,4 +1,0 @@
-"id","creationdate","score","title","tags"
-38018283,2016-06-24 16:39:07,1,How to test laravel 5.2 projects with Travis CI,<php><database><laravel-5.2><travis-ci>
-39526592,2016-09-16 08:07:31,1,Can't access CakePHP fixture db when triggering test with Travis CI,<php><mysql><database><cakephp><travis-ci>
-44137028,2017-05-23 14:03:27,0,Docker container mounting a database from another container,<mongodb><docker><travis-ci><database>

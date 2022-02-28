@@ -1,0 +1,25 @@
+
+MODIFIED OPTION CONFLICT (79c1be37e8f76335de4580492a0c34dd)
+
+Modified Option: expose in artifact hystrix-dashboard/Dockerfile
+Value changed from 7979 to 7777
+
+Conflicts:
+-----------------------------------------
+In file /tmp/stackoverflow/out/netflix-oss-example/docker-compose/docker-compose.yml:17
+Link with option hystrixdashboard::ports::in is missing
+Modify option hystrixdashboard::ports::in:
+"7979" to "7777"
+-----------------------------------------
+In file /tmp/stackoverflow/out/netflix-oss-example/docker-compose/docker-compose.yml:17
+Link with option hystrixdashboard::ports::out is missing
+Modify option hystrixdashboard::ports::out:
+"7979" to "7777"
+-----------------------------------------
+In file /tmp/stackoverflow/out/netflix-oss-example/hystrix-dashboard/src/main/resources/application.yml:11
+Link with option server::port is missing
+Modify option server::port:
+"7979" to "7777"
+
+
+

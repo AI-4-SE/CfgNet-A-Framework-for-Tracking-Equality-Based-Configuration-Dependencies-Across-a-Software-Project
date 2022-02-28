@@ -1,0 +1,2 @@
+occurred_at;prev_commit;conflict_id;conflict_type;config_types;link;changed_artifact;changed_option;cmd;rating;note;category
+96c84e77c40bd3a9c93b6a9b583230b7903746d5;7444bb40e4ab3fb1daca2b147a0f1dda66e3ba16;8da2d022e25c8bfcfe392a3a9d887288;ModifiedOptionConflict;ConfigType.NAME<->ConfigType.UNKNOWN;express::::package.json::::name::::Express <-> express::::seed.yml::::name::::Express;package.json;express::::package.json::::name(location: 2);git show 96c84e77c40bd3a9c93b6a9b583230b7903746d5 -- package.json;no;name in yaml file;obvious no conflict

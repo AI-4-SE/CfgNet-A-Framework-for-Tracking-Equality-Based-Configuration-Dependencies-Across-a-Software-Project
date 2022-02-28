@@ -1,0 +1,40 @@
+
+MODIFIED OPTION CONFLICT (b5a6b1637cea0ee600ec6aa40ed4c516)
+
+Modified Option: spring::datasource::username in artifact src/main/resources/application-dev.yml
+Value changed from dev_user to prod_user
+
+Conflicts:
+-----------------------------------------
+In file /tmp/stackoverflow/out/taskManagement/docker-compose.dev.yml:7
+Link with option services::docker-mysql::environment::MYSQL_PASSWORD is missing
+Modify option services::docker-mysql::environment::MYSQL_PASSWORD:
+"dev_user" to "prod_user"
+-----------------------------------------
+In file /tmp/stackoverflow/out/taskManagement/docker-compose.dev.yml:6
+Link with option services::docker-mysql::environment::MYSQL_USER is missing
+Modify option services::docker-mysql::environment::MYSQL_USER:
+"dev_user" to "prod_user"
+-----------------------------------------
+In file /tmp/stackoverflow/out/taskManagement/docker-compose.yml:11
+Link with option services::docker-mysql::environment::MYSQL_PASSWORD is missing
+Modify option services::docker-mysql::environment::MYSQL_PASSWORD:
+"dev_user" to "prod_user"
+-----------------------------------------
+In file /tmp/stackoverflow/out/taskManagement/docker-compose.yml:10
+Link with option services::docker-mysql::environment::MYSQL_USER is missing
+Modify option services::docker-mysql::environment::MYSQL_USER:
+"dev_user" to "prod_user"
+-----------------------------------------
+In file /tmp/stackoverflow/out/taskManagement/src/main/resources/application.yml:5
+Link with option spring::datasource::username is missing
+Modify option spring::datasource::username:
+"dev_user" to "prod_user"
+-----------------------------------------
+In file /tmp/stackoverflow/out/taskManagement/src/main/resources/application.yml:6
+Link with option spring::datasource::password is missing
+Modify option spring::datasource::password:
+"dev_user" to "prod_user"
+
+
+

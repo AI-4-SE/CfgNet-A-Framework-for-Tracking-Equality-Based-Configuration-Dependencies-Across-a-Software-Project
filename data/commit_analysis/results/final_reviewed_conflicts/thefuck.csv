@@ -1,0 +1,2 @@
+occurred_at;prev_commit;conflict_id;conflict_type;config_types;link;changed_artifact;changed_option;cmd;rating;note;category
+8c123f7c6f886c6296e00e8992b10aefcc554418;3d954210aebfa040cb814c2c63f414a2df590be4;fa32b4e4f1ed175f84b8094c6319aee8;ModifiedOptionConflict;ConfigType.UNKNOWN<->ConfigType.UNKNOWN;thefuck::::.travis.yml::::script::::py.test <-> thefuck::::tox.ini::::testenv::::commands::::py.test;.travis.yml;thefuck::::.travis.yml::::script(location: 9);git show 8c123f7c6f886c6296e00e8992b10aefcc554418 -- .travis.yml;yes;value;different options

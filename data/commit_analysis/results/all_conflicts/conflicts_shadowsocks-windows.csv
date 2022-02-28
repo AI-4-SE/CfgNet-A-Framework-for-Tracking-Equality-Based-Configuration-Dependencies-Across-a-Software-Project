@@ -1,0 +1,2 @@
+occurred_at,prev_commit,conflict_id,conflict_type,config_types,link,changed_artifact,changed_option,cmd
+2a0433f8f50937468f58fe259e6109edd97eb116,6b4e4512293ce3b87283f402bece842f8cf33353,ddbf9102d21909402d55f92a0dd7cc98,MissingArtifactConflict,ConfigType.UNKNOWN<->ConfigType.UNKNOWN,shadowsocks-windows::::.github/workflows/release.yml::::name::::Release <-> shadowsocks-windows::::appveyor.yml::::environment::::matrix::::matrix_1::::configuration::::Release,,,

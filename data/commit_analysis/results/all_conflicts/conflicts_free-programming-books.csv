@@ -1,0 +1,2 @@
+occurred_at,prev_commit,conflict_id,conflict_type,config_types,link,changed_artifact,changed_option,cmd
+833721ab4f24e7c81ba4f2e7d739e126e900c533,84d8288fa4063105ba3b3e9defd0d449969a6be2,df1f4d7b80a0fbc5e800b963c33e0acf,MissingArtifactConflict,ConfigType.UNKNOWN<->ConfigType.UNKNOWN,free-programming-books::::.github/workflows/fpb-lint.yml::::jobs::::build::::steps::::steps_2::::run::::npm install -g free-programming-books-lint <-> free-programming-books::::.travis.yml::::jobs::::include::::language/node_js::::before_script::::npm install -g free-programming-books-lint,,,

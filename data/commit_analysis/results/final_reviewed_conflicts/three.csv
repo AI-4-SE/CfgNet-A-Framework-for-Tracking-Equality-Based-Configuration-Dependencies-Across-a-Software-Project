@@ -1,0 +1,2 @@
+occurred_at;prev_commit;conflict_id;conflict_type;config_types;link;changed_artifact;changed_option;cmd;rating;note;category
+8fe929122a509ea2f19d803e0c6129f72a3f0cb6;55f1d0dffaf21e4455989938a03923ebc239bd4b;5865e40a379352ea6c10e44bc6b67886;ModifiedOptionConflict;ConfigType.NAME<->ConfigType.NAME;three::::package.json::::name::::three.js <-> three::::utils/build/package.json::::name::::three.js;package.json;three::::package.json::::name(location: 2);git show 8fe929122a509ea2f19d803e0c6129f72a3f0cb6 -- package.json;no;name in package.json file;obvious no conflict

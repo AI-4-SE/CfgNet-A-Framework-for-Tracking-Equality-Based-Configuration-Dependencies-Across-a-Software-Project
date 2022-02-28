@@ -1,0 +1,9 @@
+
+MISSING OPTION CONFLICT (f3172f753cf7379e8e805d22f9a3e59b)
+
+Option src in artifact Dockerfile is missing
+
+In file /tmp/stackoverflow/out/Ward/Dockerfile
+Re-add option copy::src with value "pom.xml"
+
+

@@ -1,0 +1,2 @@
+occurred_at,prev_commit,conflict_id,conflict_type,config_types,link,changed_artifact,changed_option,cmd
+6d0484e82ed2f504228316708a617ff6148599fe,8d32f1d2b55451a30008bb478e6cd64981876c00,47e7358d84cd10df9ab94dab7cd8d948,MissingOptionConflict,ConfigType.UNKNOWN<->ConfigType.PATH,FiraCode::::.github/workflows/build.yml::::jobs::::build::::steps::::steps_3::::with::::path::::distr <-> FiraCode::::package.json::::files::::files/distr::::distr,,,
