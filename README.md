@@ -1,6 +1,6 @@
 # CfgNet: A Framework for Tracking Configuration Dependencies Across a Software Project
 
-Additional material for our paper *CfgNet: A Framework for Tracking Configuration Dependencies Across a Software Projects*.
+Additional material for our paper *CfgNet: A Framework for Tracking Configuration Dependencies Across a Software Project*.
 
 ## Evaluation: Dependency Violation
 
