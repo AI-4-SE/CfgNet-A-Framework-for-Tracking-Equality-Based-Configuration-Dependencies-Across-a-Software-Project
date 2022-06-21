@@ -1,0 +1,7 @@
+- 17.06.2022 data crawled
+- search via github rest api
+- search query: https://api.github.com/search/repositories?q=stars:%3E1&sort=stars&per_page=100&page=1
+- sorted by stars, 100 repos per page
+- 3 pages crawled
+
+

@@ -1,0 +1,209 @@
+,name,url,stars,technology_counter,technologies_seen
+0,freeCodeCamp,https://github.com/freeCodeCamp/freeCodeCamp,347613,4,"['cypress.json', 'package.json', 'tsconfig.json', 'Dockerfile']"
+1,996.ICU,https://github.com/996icu/996.ICU,262662,0,[]
+2,free-programming-books,https://github.com/EbookFoundation/free-programming-books,235639,0,[]
+3,coding-interview-university,https://github.com/jwasham/coding-interview-university,221855,0,[]
+4,awesome,https://github.com/sindresorhus/awesome,205152,0,[]
+5,developer-roadmap,https://github.com/kamranahmedse/developer-roadmap,197121,2,"['package.json', 'tsconfig.json']"
+6,vue,https://github.com/vuejs/vue,196915,2,"['package.json', 'tsconfig.json']"
+7,public-apis,https://github.com/public-apis/public-apis,196524,0,[]
+8,react,https://github.com/facebook/react,189872,1,['package.json']
+9,system-design-primer,https://github.com/donnemartin/system-design-primer,184085,0,[]
+10,tensorflow,https://github.com/tensorflow/tensorflow,165760,1,['Dockerfile']
+11,bootstrap,https://github.com/twbs/bootstrap,158006,1,['package.json']
+12,You-Dont-Know-JS,https://github.com/getify/You-Dont-Know-JS,154746,0,[]
+13,CS-Notes,https://github.com/CyC2018/CS-Notes,152719,2,"['.travis.yml', 'package.json']"
+14,ohmyzsh,https://github.com/ohmyzsh/ohmyzsh,146507,0,[]
+15,build-your-own-x,https://github.com/codecrafters-io/build-your-own-x,144555,0,[]
+16,javascript-algorithms,https://github.com/trekhleb/javascript-algorithms,143561,1,['package.json']
+17,flutter,https://github.com/flutter/flutter,141957,2,"['Dockerfile', 'package.json']"
+18,Python,https://github.com/TheAlgorithms/Python,138518,0,[]
+19,gitignore,https://github.com/github/gitignore,134248,0,[]
+20,linux,https://github.com/torvalds/linux,133263,0,[]
+21,vscode,https://github.com/microsoft/vscode,133014,3,"['package.json', 'tsconfig.json', 'Dockerfile']"
+22,awesome-python,https://github.com/vinta/awesome-python,130425,1,['.travis.yml']
+23,javascript,https://github.com/airbnb/javascript,124044,1,['package.json']
+24,JavaGuide,https://github.com/Snailclimb/JavaGuide,123306,1,['package.json']
+25,Python-100-Days,https://github.com/jackfrued/Python-100-Days,119857,0,[]
+26,computer-science,https://github.com/ossu/computer-science,117295,0,[]
+27,youtube-dl,https://github.com/ytdl-org/youtube-dl,110836,0,[]
+28,fucking-algorithm,https://github.com/labuladong/fucking-algorithm,107223,0,[]
+29,the-art-of-command-line,https://github.com/jlevy/the-art-of-command-line,106982,0,[]
+30,react-native,https://github.com/facebook/react-native,103315,1,['package.json']
+31,electron,https://github.com/electron/electron,102148,3,"['package.json', 'tsconfig.json', 'docker-compose.yml']"
+32,d3,https://github.com/d3/d3,101559,1,['package.json']
+33,go,https://github.com/golang/go,100716,2,"['package.json', 'Dockerfile']"
+34,30-seconds-of-code,https://github.com/30-seconds/30-seconds-of-code,96728,0,[]
+35,create-react-app,https://github.com/facebook/create-react-app,95548,2,"['package.json', 'tsconfig.json']"
+36,axios,https://github.com/axios/axios,94003,2,"['package.json', 'tsconfig.json']"
+37,free-programming-books-zh_CN,https://github.com/justjavac/free-programming-books-zh_CN,93367,1,['.travis.yml']
+38,awesome-selfhosted,https://github.com/awesome-selfhosted/awesome-selfhosted,91475,1,['.travis.yml']
+39,kubernetes,https://github.com/kubernetes/kubernetes,89361,2,"['Dockerfile', '.travis.yml']"
+40,node,https://github.com/nodejs/node,88275,4,"['tsconfig.json', 'package.json', '.travis.yml', 'Dockerfile']"
+41,next.js,https://github.com/vercel/next.js,88181,7,"['package.json', 'tsconfig.json', 'Dockerfile', 'cypress.json', 'docker-compose.dev.yml', 'docker-compose.prod.yml', 'docker-compose.yml']"
+42,terminal,https://github.com/microsoft/terminal,83662,0,[]
+43,deno,https://github.com/denoland/deno,82977,3,"['Dockerfile', 'package.json', 'tsconfig.json']"
+44,three.js,https://github.com/mrdoob/three.js,82826,1,['package.json']
+45,awesome-go,https://github.com/avelino/awesome-go,82315,0,[]
+46,angular,https://github.com/angular/angular,82032,4,"['package.json', 'tsconfig.json', 'Dockerfile', 'cypress.json']"
+47,TypeScript,https://github.com/microsoft/TypeScript,81523,3,"['Dockerfile', 'package.json', 'tsconfig.json']"
+48,ant-design,https://github.com/ant-design/ant-design,80721,3,"['docker-compose.yml', 'package.json', 'tsconfig.json']"
+49,material-ui,https://github.com/mui/material-ui,79127,2,"['package.json', 'tsconfig.json']"
+50,puppeteer,https://github.com/puppeteer/puppeteer,78506,2,"['package.json', 'tsconfig.json']"
+51,nodebestpractices,https://github.com/goldbergyoni/nodebestpractices,78444,2,"['package.json', 'Dockerfile']"
+52,vue-element-admin,https://github.com/PanJiaChen/vue-element-admin,76686,2,"['.travis.yml', 'package.json']"
+53,java-design-patterns,https://github.com/iluwatar/java-design-patterns,75409,3,"['pom.xml', 'application.properties', 'docker-compose.yml']"
+54,animate.css,https://github.com/animate-css/animate.css,74827,2,"['.travis.yml', 'package.json']"
+55,PowerToys,https://github.com/microsoft/PowerToys,74243,0,[]
+56,models,https://github.com/tensorflow/models,73842,1,['Dockerfile']
+57,tech-interview-handbook,https://github.com/yangshun/tech-interview-handbook,72102,1,['package.json']
+58,storybook,https://github.com/storybookjs/storybook,71702,4,"['cypress.json', 'package.json', 'tsconfig.json', 'pom.xml']"
+59,thefuck,https://github.com/nvbn/thefuck,71684,1,['Dockerfile']
+60,LeetCodeAnimation,https://github.com/MisterBooo/LeetCodeAnimation,70592,0,[]
+61,the-book-of-secret-knowledge,https://github.com/trimstray/the-book-of-secret-knowledge,70194,0,[]
+62,laravel,https://github.com/laravel/laravel,69977,1,['package.json']
+63,Font-Awesome,https://github.com/FortAwesome/Font-Awesome,69521,1,['package.json']
+64,project-based-learning,https://github.com/practical-tutorials/project-based-learning,68979,1,['.travis.yml']
+65,clean-code-javascript,https://github.com/ryanmcdermott/clean-code-javascript,68716,0,[]
+66,rust,https://github.com/rust-lang/rust,67678,2,"['Dockerfile', '.travis.yml']"
+67,scrcpy,https://github.com/Genymobile/scrcpy,66467,0,[]
+68,realworld,https://github.com/gothinkster/realworld,66444,1,['package.json']
+69,awesome-vue,https://github.com/vuejs/awesome-vue,65375,0,[]
+70,transformers,https://github.com/huggingface/transformers,65287,2,"['pyproject.toml', 'Dockerfile']"
+71,bitcoin,https://github.com/bitcoin/bitcoin,64702,1,['.travis.yml']
+72,django,https://github.com/django/django,64633,2,"['package.json', 'pyproject.toml']"
+73,FiraCode,https://github.com/tonsky/FiraCode,64441,2,"['Dockerfile', 'package.json']"
+74,advanced-java,https://github.com/doocs/advanced-java,63892,1,['package.json']
+75,moby,https://github.com/moby/moby,63286,2,"['Dockerfile', '.travis.yml']"
+76,opencv,https://github.com/opencv/opencv,62185,3,"['package.json', 'Dockerfile', 'pom.xml']"
+77,papers-we-love,https://github.com/papers-we-love/papers-we-love,61833,0,[]
+78,spring-boot,https://github.com/spring-projects/spring-boot,61723,6,"['Dockerfile', 'pom.xml', 'application.properties', 'application.yml', 'application-dev.properties', 'docker-compose.yml']"
+79,json-server,https://github.com/typicode/json-server,61706,1,['package.json']
+80,webpack,https://github.com/webpack/webpack,61241,2,"['package.json', 'tsconfig.json']"
+81,Front-End-Checklist,https://github.com/thedaviddias/Front-End-Checklist,60281,0,[]
+82,gin,https://github.com/gin-gonic/gin,60242,0,[]
+83,elasticsearch,https://github.com/elastic/elasticsearch,60032,2,"['docker-compose.yml', 'Dockerfile']"
+84,reveal.js,https://github.com/hakimel/reveal.js,60008,1,['package.json']
+85,swift,https://github.com/apple/swift,59880,0,[]
+86,netdata,https://github.com/netdata/netdata,59666,3,"['.travis.yml', 'Dockerfile', 'docker-compose.yml']"
+87,hugo,https://github.com/gohugoio/hugo,59587,2,"['Dockerfile', 'package.json']"
+88,svelte,https://github.com/sveltejs/svelte,59507,2,"['package.json', 'tsconfig.json']"
+89,angular.js,https://github.com/angular/angular.js,59427,1,['package.json']
+90,flask,https://github.com/pallets/flask,59278,0,[]
+91,mall,https://github.com/macrozheng/mall,59032,5,"['pom.xml', 'Dockerfile', 'application-dev.yml', 'application-prod.yml', 'application.yml']"
+92,nvm,https://github.com/nvm-sh/nvm,58593,3,"['.travis.yml', 'Dockerfile', 'package.json']"
+93,redux,https://github.com/reduxjs/redux,58201,2,"['package.json', 'tsconfig.json']"
+94,atom,https://github.com/atom/atom,58185,3,"['Dockerfile', 'package.json', '.travis.yml']"
+95,tailwindcss,https://github.com/tailwindlabs/tailwindcss,57898,1,['package.json']
+96,resume.github.com,https://github.com/resume/resume.github.com,57704,0,[]
+97,interviews,https://github.com/kdn251/interviews,57479,0,[]
+98,express,https://github.com/expressjs/express,57342,1,['package.json']
+99,Chart.js,https://github.com/chartjs/Chart.js,57265,2,"['package.json', 'tsconfig.json']"
+100,socket.io,https://github.com/socketio/socket.io,55976,4,"['package.json', 'tsconfig.json', 'docker-compose.yml', 'Dockerfile']"
+101,markdown-here,https://github.com/adam-p/markdown-here,55666,1,['package.json']
+102,redis,https://github.com/redis/redis,55567,1,['.travis.yml']
+103,keras,https://github.com/keras-team/keras,55450,1,['Dockerfile']
+104,protobuf,https://github.com/protocolbuffers/protobuf,54979,2,"['pom.xml', 'Dockerfile']"
+105,awesome-machine-learning,https://github.com/josephmisiti/awesome-machine-learning,54590,0,[]
+106,shadowsocks-windows,https://github.com/shadowsocks/shadowsocks-windows,54568,0,[]
+107,app-ideas,https://github.com/florinpop17/app-ideas,54515,0,[]
+108,neovim,https://github.com/neovim/neovim,54459,1,['.travis.yml']
+109,code-server,https://github.com/coder/code-server,54086,3,"['package.json', 'tsconfig.json', 'Dockerfile']"
+110,every-programmer-should-know,https://github.com/mtdvio/every-programmer-should-know,53822,0,[]
+111,ansible,https://github.com/ansible/ansible,53488,1,['pyproject.toml']
+112,lodash,https://github.com/lodash/lodash,53469,1,['package.json']
+113,core,https://github.com/home-assistant/core,53430,2,"['Dockerfile', 'pyproject.toml']"
+114,Front-end-Developer-Interview-Questions,https://github.com/h5bp/Front-end-Developer-Interview-Questions,53410,1,['package.json']
+115,Web-Dev-For-Beginners,https://github.com/microsoft/Web-Dev-For-Beginners,53220,1,['package.json']
+116,gatsby,https://github.com/gatsbyjs/gatsby,53088,5,"['package.json', 'tsconfig.json', 'Dockerfile', 'cypress.json', 'docker-compose.yml']"
+117,Apollo-11,https://github.com/chrislgarry/Apollo-11,52993,0,[]
+118,html5-boilerplate,https://github.com/h5bp/html5-boilerplate,52947,1,['package.json']
+119,iptv,https://github.com/iptv-org/iptv,52285,1,['package.json']
+120,element,https://github.com/ElemeFE/element,52239,2,"['.travis.yml', 'package.json']"
+121,Awesome-Hacking,https://github.com/Hack-with-Github/Awesome-Hacking,51477,0,[]
+122,echarts,https://github.com/apache/echarts,51402,2,"['package.json', 'tsconfig.json']"
+123,rails,https://github.com/rails/rails,50912,2,"['package.json', 'Dockerfile']"
+124,Semantic-UI,https://github.com/Semantic-Org/Semantic-UI,50065,1,['package.json']
+125,godot,https://github.com/godotengine/godot,49642,1,['package.json']
+126,33-js-concepts,https://github.com/leonardomso/33-js-concepts,49498,1,['package.json']
+127,leetcode,https://github.com/azl397985856/leetcode,48366,1,['package.json']
+128,DeepLearning-500-questions,https://github.com/scutan90/DeepLearning-500-questions,48255,0,[]
+129,spring-framework,https://github.com/spring-projects/spring-framework,48125,1,['Dockerfile']
+130,mermaid,https://github.com/mermaid-js/mermaid,47841,1,['package.json']
+131,nest,https://github.com/nestjs/nest,47812,3,"['package.json', 'tsconfig.json', 'docker-compose.yml']"
+132,normalize.css,https://github.com/necolas/normalize.css,47823,2,"['.travis.yml', 'package.json']"
+133,requests,https://github.com/psf/requests,47636,1,['pyproject.toml']
+134,ionic-framework,https://github.com/ionic-team/ionic-framework,47512,3,"['package.json', 'tsconfig.json', 'cypress.json']"
+135,Best-websites-a-programmer-should-visit,https://github.com/sdmg15/Best-websites-a-programmer-should-visit,46989,2,"['.travis.yml', 'package.json']"
+136,awesome-interview-questions,https://github.com/DopplerHQ/awesome-interview-questions,47003,0,[]
+137,superset,https://github.com/apache/superset,46631,5,"['docker-compose.yml', 'Dockerfile', 'package.json', 'tsconfig.json', 'cypress.json']"
+138,GitHub-Chinese-Top-Charts,https://github.com/GrowingGit/GitHub-Chinese-Top-Charts,46624,0,[]
+139,moment,https://github.com/moment/moment,46591,3,"['.travis.yml', 'package.json', 'tsconfig.json']"
+140,Java,https://github.com/TheAlgorithms/Java,46449,1,['pom.xml']
+141,fastapi,https://github.com/tiangolo/fastapi,46277,2,"['pyproject.toml', 'Dockerfile']"
+142,material-design-icons,https://github.com/google/material-design-icons,45966,0,[]
+143,strapi,https://github.com/strapi/strapi,45699,3,"['cypress.json', 'docker-compose.dev.yml', 'package.json']"
+144,bulma,https://github.com/jgthms/bulma,45664,4,"['.travis.yml', 'package.json', 'cypress.json', 'docker-compose.yml']"
+145,cpython,https://github.com/python/cpython,45627,1,['pyproject.toml']
+146,tesseract,https://github.com/tesseract-ocr/tesseract,45577,2,"['docker-compose.yml', 'Dockerfile']"
+147,manim,https://github.com/3b1b/manim,45221,1,['pyproject.toml']
+148,syncthing,https://github.com/syncthing/syncthing,45225,3,"['Dockerfile', 'package.json', 'tsconfig.json']"
+149,fzf,https://github.com/junegunn/fzf,45057,1,['Dockerfile']
+150,face_recognition,https://github.com/ageitgey/face_recognition,44906,3,"['docker-compose.yml', 'Dockerfile', 'pyproject.toml']"
+151,guava,https://github.com/google/guava,44892,1,['pom.xml']
+152,awesome-nodejs,https://github.com/sindresorhus/awesome-nodejs,44863,0,[]
+153,hacker-scripts,https://github.com/NARKOZ/hacker-scripts,44519,0,[]
+154,javascript-questions,https://github.com/lydiahallie/javascript-questions,44538,0,[]
+155,hoppscotch,https://github.com/hoppscotch/hoppscotch,44371,4,"['docker-compose.yml', 'Dockerfile', 'package.json', 'tsconfig.json']"
+156,you-get,https://github.com/soimort/you-get,44217,0,[]
+157,HowToCook,https://github.com/Anduin2017/HowToCook,43756,1,['package.json']
+158,scrapy,https://github.com/scrapy/scrapy,43759,0,[]
+159,vite,https://github.com/vitejs/vite,43078,2,"['package.json', 'tsconfig.json']"
+160,tauri,https://github.com/tauri-apps/tauri,43031,3,"['package.json', 'Dockerfile', 'tsconfig.json']"
+161,prometheus,https://github.com/prometheus/prometheus,42975,3,"['Dockerfile', 'package.json', 'tsconfig.json']"
+162,meteor,https://github.com/meteor/meteor,42919,3,"['.travis.yml', 'package.json', 'tsconfig.json']"
+163,serverless,https://github.com/serverless/serverless,42921,4,"['docker-compose.yml', 'Dockerfile', 'package.json', 'pom.xml']"
+164,awesome-android-ui,https://github.com/wasabeef/awesome-android-ui,42790,0,[]
+165,anime,https://github.com/juliangarnier/anime,42495,1,['package.json']
+166,big-list-of-naughty-strings,https://github.com/minimaxir/big-list-of-naughty-strings,42478,1,['package.json']
+167,git,https://github.com/git/git,42457,0,[]
+168,github-readme-stats,https://github.com/anuraghazra/github-readme-stats,42448,1,['package.json']
+169,okhttp,https://github.com/square/okhttp,42328,0,[]
+170,TensorFlow-Examples,https://github.com/aymericdamien/TensorFlow-Examples,41993,0,[]
+171,kotlin,https://github.com/JetBrains/kotlin,41790,4,"['Dockerfile', 'package.json', 'tsconfig.json', 'pom.xml']"
+172,localstack,https://github.com/localstack/localstack,41573,5,"['docker-compose.yml', 'Dockerfile', 'pyproject.toml', 'pom.xml', 'package.json']"
+173,funNLP,https://github.com/fighting41love/funNLP,41136,0,[]
+174,AdminLTE,https://github.com/ColorlibHQ/AdminLTE,41071,3,"['docker-compose.yml', 'Dockerfile', 'package.json']"
+175,awesome-flutter,https://github.com/Solido/awesome-flutter,41014,0,[]
+176,architecture-samples,https://github.com/android/architecture-samples,40996,0,[]
+177,babel,https://github.com/babel/babel,40983,2,"['package.json', 'tsconfig.json']"
+178,parcel,https://github.com/parcel-bundler/parcel,40869,2,"['package.json', 'tsconfig.json']"
+179,awesome-for-beginners,https://github.com/MunGell/awesome-for-beginners,40849,0,[]
+180,design-resources-for-developers,https://github.com/bradtraversy/design-resources-for-developers,40865,0,[]
+181,nuxt.js,https://github.com/nuxt/nuxt.js,40714,3,"['package.json', 'Dockerfile', 'tsconfig.json']"
+182,yarn,https://github.com/yarnpkg/yarn,40685,2,"['package.json', '.travis.yml']"
+183,Ghost,https://github.com/TryGhost/Ghost,40470,1,['package.json']
+184,awesome-courses,https://github.com/prakhar1989/awesome-courses,40475,0,[]
+185,build-web-application-with-golang,https://github.com/astaxie/build-web-application-with-golang,40406,0,[]
+186,gogs,https://github.com/gogs/gogs,40340,2,"['Dockerfile', '.travis.yml']"
+187,etcd,https://github.com/etcd-io/etcd,40224,1,['Dockerfile']
+188,retrofit,https://github.com/square/retrofit,40087,0,[]
+189,alacritty,https://github.com/alacritty/alacritty,39843,0,[]
+190,v2ray-core,https://github.com/v2ray/v2ray-core,39776,1,['Dockerfile']
+191,SecLists,https://github.com/danielmiessler/SecLists,39644,0,[]
+192,awesome-ios,https://github.com/vsouza/awesome-ios,39615,1,['.travis.yml']
+193,julia,https://github.com/JuliaLang/julia,39612,1,['Dockerfile']
+194,DefinitelyTyped,https://github.com/DefinitelyTyped/DefinitelyTyped,39570,2,"['package.json', 'tsconfig.json']"
+195,jest,https://github.com/facebook/jest,39376,2,"['package.json', 'tsconfig.json']"
+196,dayjs,https://github.com/iamkun/dayjs,39286,2,"['.travis.yml', 'package.json']"
+197,playwright,https://github.com/microsoft/playwright,39185,2,"['package.json', 'tsconfig.json']"
+198,imgui,https://github.com/ocornut/imgui,39117,0,[]
+199,obs-studio,https://github.com/obsproject/obs-studio,39031,2,"['.travis.yml', 'package.json']"
+200,fastlane,https://github.com/fastlane/fastlane,35075,1,['.travis.yml']
+201,hexo,https://github.com/hexojs/hexo,34935,1,['package.json']
+202,PythonDataScienceHandbook,https://github.com/jakevdp/PythonDataScienceHandbook,34922,0,[]
+203,openpilot,https://github.com/commaai/openpilot,34889,1,['Dockerfile']
+204,Leaflet,https://github.com/Leaflet/Leaflet,34771,1,['package.json']
+205,grpc,https://github.com/grpc/grpc,34657,3,"['.travis.yml', 'package.json', 'Dockerfile']"
+206,supabase,https://github.com/supabase/supabase,34495,6,"['package.json', 'tsconfig.json', 'docker-compose.yml', 'docker-compose.dev.yml', 'cypress.json', 'Dockerfile']"
+207,vuetify,https://github.com/vuetifyjs/vuetify,34499,3,"['Dockerfile', 'package.json', 'tsconfig.json']"
