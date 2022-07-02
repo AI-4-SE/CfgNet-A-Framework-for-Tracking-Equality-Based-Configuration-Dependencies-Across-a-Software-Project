@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --exclusive
-#SBATCH --array=0-99
+#SBATCH --array=0-49
 #SBATCH --partition=brown
 #SBATCH --job-name=cfgnet_evaluation
 #SBATCH --output=output/cfgnet-%a.out
