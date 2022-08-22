@@ -2,50 +2,50 @@
 0,freeCodeCamp,https://github.com/freeCodeCamp/freeCodeCamp,347613,4,"['cypress.json', 'package.json', 'tsconfig.json', 'Dockerfile']",TypeScript
 1,developer-roadmap,https://github.com/kamranahmedse/developer-roadmap,197121,2,"['package.json', 'tsconfig.json']",TypeScript
 2,vue,https://github.com/vuejs/vue,196915,2,"['package.json', 'tsconfig.json']",TypeScript
-3,CS-Notes,https://github.com/CyC2018/CS-Notes,152719,2,"['.travis.yml', 'package.json']",Unknown
-4,flutter,https://github.com/flutter/flutter,141957,2,"['Dockerfile', 'package.json']",Dart
-5,vscode,https://github.com/microsoft/vscode,133014,3,"['package.json', 'tsconfig.json', 'Dockerfile']",TypeScript
-6,electron,https://github.com/electron/electron,102148,3,"['package.json', 'tsconfig.json', 'docker-compose.yml']",C++
-7,go,https://github.com/golang/go,100716,2,"['package.json', 'Dockerfile']",Go
-8,create-react-app,https://github.com/facebook/create-react-app,95548,2,"['package.json', 'tsconfig.json']",JavaScript
-9,axios,https://github.com/axios/axios,94003,2,"['package.json', 'tsconfig.json']",JavaScript
-10,kubernetes,https://github.com/kubernetes/kubernetes,89361,2,"['Dockerfile', '.travis.yml']",Go
-11,node,https://github.com/nodejs/node,88275,4,"['tsconfig.json', 'package.json', '.travis.yml', 'Dockerfile']",JavaScript
-12,next.js,https://github.com/vercel/next.js,88181,7,"['package.json', 'tsconfig.json', 'Dockerfile', 'cypress.json', 'docker-compose.dev.yml', 'docker-compose.prod.yml', 'docker-compose.yml']",JavaScript
-13,deno,https://github.com/denoland/deno,82977,3,"['Dockerfile', 'package.json', 'tsconfig.json']",Rust
-14,angular,https://github.com/angular/angular,82032,4,"['package.json', 'tsconfig.json', 'Dockerfile', 'cypress.json']",TypeScript
-15,TypeScript,https://github.com/microsoft/TypeScript,81523,3,"['Dockerfile', 'package.json', 'tsconfig.json']",TypeScript
-16,ant-design,https://github.com/ant-design/ant-design,80721,3,"['docker-compose.yml', 'package.json', 'tsconfig.json']",TypeScript
-17,material-ui,https://github.com/mui/material-ui,79127,2,"['package.json', 'tsconfig.json']",JavaScript
-18,puppeteer,https://github.com/puppeteer/puppeteer,78506,2,"['package.json', 'tsconfig.json']",TypeScript
-19,nodebestpractices,https://github.com/goldbergyoni/nodebestpractices,78444,2,"['package.json', 'Dockerfile']",JavaScript
-20,vue-element-admin,https://github.com/PanJiaChen/vue-element-admin,76686,2,"['.travis.yml', 'package.json']",Vue
-21,java-design-patterns,https://github.com/iluwatar/java-design-patterns,75409,3,"['pom.xml', 'application.properties', 'docker-compose.yml']",Java
-22,animate.css,https://github.com/animate-css/animate.css,74827,2,"['.travis.yml', 'package.json']",CSS
-23,storybook,https://github.com/storybookjs/storybook,71702,4,"['cypress.json', 'package.json', 'tsconfig.json', 'pom.xml']",TypeScript
-24,rust,https://github.com/rust-lang/rust,67678,2,"['Dockerfile', '.travis.yml']",Rust
-25,transformers,https://github.com/huggingface/transformers,65287,2,"['pyproject.toml', 'Dockerfile']",Python
-26,django,https://github.com/django/django,64633,2,"['package.json', 'pyproject.toml']",Python
-27,FiraCode,https://github.com/tonsky/FiraCode,64441,2,"['Dockerfile', 'package.json']",Clojure
-28,moby,https://github.com/moby/moby,63286,2,"['Dockerfile', '.travis.yml']",Go
-29,opencv,https://github.com/opencv/opencv,62185,3,"['package.json', 'Dockerfile', 'pom.xml']",C++
-30,spring-boot,https://github.com/spring-projects/spring-boot,61723,6,"['Dockerfile', 'pom.xml', 'application.properties', 'application.yml', 'application-dev.properties', 'docker-compose.yml']",Java
-31,webpack,https://github.com/webpack/webpack,61241,2,"['package.json', 'tsconfig.json']",JavaScript
-32,elasticsearch,https://github.com/elastic/elasticsearch,60032,2,"['docker-compose.yml', 'Dockerfile']",Java
-33,netdata,https://github.com/netdata/netdata,59666,3,"['.travis.yml', 'Dockerfile', 'docker-compose.yml']",C
-34,hugo,https://github.com/gohugoio/hugo,59587,2,"['Dockerfile', 'package.json']",Go
-35,svelte,https://github.com/sveltejs/svelte,59507,2,"['package.json', 'tsconfig.json']",TypeScript
-36,mall,https://github.com/macrozheng/mall,59032,5,"['pom.xml', 'Dockerfile', 'application-dev.yml', 'application-prod.yml', 'application.yml']",Java
-37,nvm,https://github.com/nvm-sh/nvm,58593,3,"['.travis.yml', 'Dockerfile', 'package.json']",Shell
-38,redux,https://github.com/reduxjs/redux,58201,2,"['package.json', 'tsconfig.json']",TypeScript
-39,atom,https://github.com/atom/atom,58185,3,"['Dockerfile', 'package.json', '.travis.yml']",JavaScript
-40,Chart.js,https://github.com/chartjs/Chart.js,57265,2,"['package.json', 'tsconfig.json']",JavaScript
-41,socket.io,https://github.com/socketio/socket.io,55976,4,"['package.json', 'tsconfig.json', 'docker-compose.yml', 'Dockerfile']",TypeScript
-42,protobuf,https://github.com/protocolbuffers/protobuf,54979,2,"['pom.xml', 'Dockerfile']",C++
-43,code-server,https://github.com/coder/code-server,54086,3,"['package.json', 'tsconfig.json', 'Dockerfile']",TypeScript
-44,core,https://github.com/home-assistant/core,53430,2,"['Dockerfile', 'pyproject.toml']",Python
-45,gatsby,https://github.com/gatsbyjs/gatsby,53088,5,"['package.json', 'tsconfig.json', 'Dockerfile', 'cypress.json', 'docker-compose.yml']",JavaScript
-46,element,https://github.com/ElemeFE/element,52239,2,"['.travis.yml', 'package.json']",Vue
-47,echarts,https://github.com/apache/echarts,51402,2,"['package.json', 'tsconfig.json']",TypeScript
-48,rails,https://github.com/rails/rails,50912,2,"['package.json', 'Dockerfile']",Ruby
-49,nest,https://github.com/nestjs/nest,47812,3,"['package.json', 'tsconfig.json', 'docker-compose.yml']",TypeScript
+3,vscode,https://github.com/microsoft/vscode,133014,3,"['package.json', 'tsconfig.json', 'Dockerfile']",TypeScript
+4,electron,https://github.com/electron/electron,102148,3,"['package.json', 'tsconfig.json', 'docker-compose.yml']",C++
+5,go,https://github.com/golang/go,100716,2,"['package.json', 'Dockerfile']",Go
+6,create-react-app,https://github.com/facebook/create-react-app,95548,2,"['package.json', 'tsconfig.json']",JavaScript
+7,axios,https://github.com/axios/axios,94003,2,"['package.json', 'tsconfig.json']",JavaScript
+8,kubernetes,https://github.com/kubernetes/kubernetes,89361,2,"['Dockerfile', '.travis.yml']",Go
+9,node,https://github.com/nodejs/node,88275,4,"['tsconfig.json', 'package.json', '.travis.yml', 'Dockerfile']",JavaScript
+10,next.js,https://github.com/vercel/next.js,88181,7,"['package.json', 'tsconfig.json', 'Dockerfile', 'cypress.json', 'docker-compose.dev.yml', 'docker-compose.prod.yml', 'docker-compose.yml']",JavaScript
+11,deno,https://github.com/denoland/deno,82977,3,"['Dockerfile', 'package.json', 'tsconfig.json']",Rust
+12,angular,https://github.com/angular/angular,82032,4,"['package.json', 'tsconfig.json', 'Dockerfile', 'cypress.json']",TypeScript
+13,TypeScript,https://github.com/microsoft/TypeScript,81523,3,"['Dockerfile', 'package.json', 'tsconfig.json']",TypeScript
+14,ant-design,https://github.com/ant-design/ant-design,80721,3,"['docker-compose.yml', 'package.json', 'tsconfig.json']",TypeScript
+15,material-ui,https://github.com/mui/material-ui,79127,2,"['package.json', 'tsconfig.json']",JavaScript
+16,puppeteer,https://github.com/puppeteer/puppeteer,78506,2,"['package.json', 'tsconfig.json']",TypeScript
+17,vue-element-admin,https://github.com/PanJiaChen/vue-element-admin,76686,2,"['.travis.yml', 'package.json']",Vue
+18,animate.css,https://github.com/animate-css/animate.css,74827,2,"['.travis.yml', 'package.json']",CSS
+19,storybook,https://github.com/storybookjs/storybook,71702,4,"['cypress.json', 'package.json', 'tsconfig.json', 'pom.xml']",TypeScript
+20,rust,https://github.com/rust-lang/rust,67678,2,"['Dockerfile', '.travis.yml']",Rust
+21,transformers,https://github.com/huggingface/transformers,65287,2,"['pyproject.toml', 'Dockerfile']",Python
+22,django,https://github.com/django/django,64633,2,"['package.json', 'pyproject.toml']",Python
+23,FiraCode,https://github.com/tonsky/FiraCode,64441,2,"['Dockerfile', 'package.json']",Clojure
+24,moby,https://github.com/moby/moby,63286,2,"['Dockerfile', '.travis.yml']",Go
+25,opencv,https://github.com/opencv/opencv,62185,3,"['package.json', 'Dockerfile', 'pom.xml']",C++
+26,spring-boot,https://github.com/spring-projects/spring-boot,61723,6,"['Dockerfile', 'pom.xml', 'application.properties', 'application.yml', 'application-dev.properties', 'docker-compose.yml']",Java
+27,webpack,https://github.com/webpack/webpack,61241,2,"['package.json', 'tsconfig.json']",JavaScript
+28,elasticsearch,https://github.com/elastic/elasticsearch,60032,2,"['docker-compose.yml', 'Dockerfile']",Java
+29,netdata,https://github.com/netdata/netdata,59666,3,"['.travis.yml', 'Dockerfile', 'docker-compose.yml']",C
+30,hugo,https://github.com/gohugoio/hugo,59587,2,"['Dockerfile', 'package.json']",Go
+31,svelte,https://github.com/sveltejs/svelte,59507,2,"['package.json', 'tsconfig.json']",TypeScript
+32,mall,https://github.com/macrozheng/mall,59032,5,"['pom.xml', 'Dockerfile', 'application-dev.yml', 'application-prod.yml', 'application.yml']",Java
+33,nvm,https://github.com/nvm-sh/nvm,58593,3,"['.travis.yml', 'Dockerfile', 'package.json']",Shell
+34,redux,https://github.com/reduxjs/redux,58201,2,"['package.json', 'tsconfig.json']",TypeScript
+35,atom,https://github.com/atom/atom,58185,3,"['Dockerfile', 'package.json', '.travis.yml']",JavaScript
+36,Chart.js,https://github.com/chartjs/Chart.js,57265,2,"['package.json', 'tsconfig.json']",JavaScript
+37,socket.io,https://github.com/socketio/socket.io,55976,4,"['package.json', 'tsconfig.json', 'docker-compose.yml', 'Dockerfile']",TypeScript
+38,protobuf,https://github.com/protocolbuffers/protobuf,54979,2,"['pom.xml', 'Dockerfile']",C++
+39,code-server,https://github.com/coder/code-server,54086,3,"['package.json', 'tsconfig.json', 'Dockerfile']",TypeScript
+40,core,https://github.com/home-assistant/core,53430,2,"['Dockerfile', 'pyproject.toml']",Python
+41,gatsby,https://github.com/gatsbyjs/gatsby,53088,5,"['package.json', 'tsconfig.json', 'Dockerfile', 'cypress.json', 'docker-compose.yml']",JavaScript
+42,element,https://github.com/ElemeFE/element,52239,2,"['.travis.yml', 'package.json']",Vue
+43,echarts,https://github.com/apache/echarts,51402,2,"['package.json', 'tsconfig.json']",TypeScript
+44,rails,https://github.com/rails/rails,50912,2,"['package.json', 'Dockerfile']",Ruby
+45,nest,https://github.com/nestjs/nest,47812,3,"['package.json', 'tsconfig.json', 'docker-compose.yml']",TypeScript
+46,ionic-framework,https://github.com/ionic-team/ionic-framework,47512,3,"['package.json', 'tsconfig.json', 'cypress.json']"
+47,superset,https://github.com/apache/superset,46631,5,"['docker-compose.yml', 'Dockerfile', 'package.json', 'tsconfig.json', 'cypress.json']"
+48,moment,https://github.com/moment/moment,46591,3,"['.travis.yml', 'package.json', 'tsconfig.json']"
+49,fastapi,https://github.com/tiangolo/fastapi,46277,2,"['pyproject.toml', 'Dockerfile']"

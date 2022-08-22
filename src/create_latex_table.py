@@ -74,4 +74,11 @@ def main():
     print(urls)
 
 if __name__ == "__main__":
-    main()
+    df = pd.read_csv("final_repos.csv")
+
+    df = df.sort_values(by=["name"])
+
+    for name in df["name"].to_list():
+        print(name)
+
+    #main()

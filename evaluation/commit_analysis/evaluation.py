@@ -10,6 +10,7 @@ from pathlib import Path
 
 from git import Repo
 from joblib import Parallel, delayed
+from typing import List
 
 # The folder where we store our results.
 EVALUATION_FOLDER = "out"
@@ -25,25 +26,61 @@ EVALUATION_FOLDER = "out"
 # have to adjust the array range in `array.sbatch`.
 
 TEST_REPOS = [
-    'https://github.com/freeCodeCamp/freeCodeCamp', 'https://github.com/kamranahmedse/developer-roadmap', 'https://github.com/vuejs/vue',
-    'https://github.com/CyC2018/CS-Notes', 'https://github.com/flutter/flutter', 'https://github.com/microsoft/vscode', 
-    'https://github.com/electron/electron', 'https://github.com/golang/go', 'https://github.com/facebook/create-react-app',
-    'https://github.com/axios/axios', 'https://github.com/kubernetes/kubernetes', 'https://github.com/nodejs/node', 
-    'https://github.com/vercel/next.js', 'https://github.com/denoland/deno', 'https://github.com/angular/angular', 
-    'https://github.com/microsoft/TypeScript', 'https://github.com/ant-design/ant-design', 'https://github.com/mui/material-ui', 
-    'https://github.com/puppeteer/puppeteer', 'https://github.com/goldbergyoni/nodebestpractices', 'https://github.com/PanJiaChen/vue-element-admin',
-    'https://github.com/iluwatar/java-design-patterns', 'https://github.com/animate-css/animate.css', 'https://github.com/storybookjs/storybook', 
-    'https://github.com/rust-lang/rust', 'https://github.com/huggingface/transformers', 'https://github.com/django/django', 'https://github.com/tonsky/FiraCode', 
-    'https://github.com/moby/moby', 'https://github.com/opencv/opencv', 'https://github.com/spring-projects/spring-boot', 'https://github.com/webpack/webpack',
-    'https://github.com/elastic/elasticsearch', 'https://github.com/netdata/netdata', 'https://github.com/gohugoio/hugo', 'https://github.com/sveltejs/svelte',
-    'https://github.com/macrozheng/mall', 'https://github.com/nvm-sh/nvm', 'https://github.com/reduxjs/redux', 'https://github.com/atom/atom', 
-    'https://github.com/chartjs/Chart.js', 'https://github.com/socketio/socket.io', 'https://github.com/protocolbuffers/protobuf', 'https://github.com/coder/code-server',
-    'https://github.com/home-assistant/core', 'https://github.com/gatsbyjs/gatsby', 'https://github.com/ElemeFE/element', 'https://github.com/apache/echarts', 
-    'https://github.com/rails/rails', 'https://github.com/nestjs/nest'
+    ('https://github.com/freeCodeCamp/freeCodeCamp', []),
+    ('https://github.com/kamranahmedse/developer-roadmap', []),
+    ('https://github.com/vuejs/vue', ["*test/", "examples/", "benchmark/"]),
+    ('https://github.com/microsoft/vscode', ["*test", "*tests"]),
+    ('https://github.com/electron/electron',  []),
+    ('https://github.com/golang/go',  []),
+    ('https://github.com/facebook/create-react-app', []),
+    ('https://github.com/axios/axios', []),
+    ('https://github.com/kubernetes/kubernetes', ["*test", "*tests", "vendor/", "third_party/", "staging/"]), 
+    ('https://github.com/nodejs/node', ["*test", "*tests", "benchmark/", "deps/"]), 
+    ('https://github.com/vercel/next.js', ["*test"]),
+    ('https://github.com/denoland/deno', []), 
+    ('https://github.com/angular/angular', []),
+    ('https://github.com/microsoft/TypeScript', []),
+    ('https://github.com/ant-design/ant-design', []),
+    ('https://github.com/mui/material-ui', ["*test", "examples/", "benchmark/"]),
+    ('https://github.com/puppeteer/puppeteer', []),
+    ('https://github.com/PanJiaChen/vue-element-admin', []),
+    ('https://github.com/animate-css/animate.css', []),
+    ('https://github.com/storybookjs/storybook', []),
+    ('https://github.com/rust-lang/rust', []),
+    ('https://github.com/huggingface/transformers', []),
+    ('https://github.com/django/django', []),
+    ('https://github.com/tonsky/FiraCode', []),
+    ('https://github.com/moby/moby', []), 
+    ('https://github.com/opencv/opencv', []),
+    ('https://github.com/spring-projects/spring-boot', ["*test", "*tests", "*Test/"]),
+    ('https://github.com/webpack/webpack', []),
+    ('https://github.com/elastic/elasticsearch', ["*test", "*tests", "benchmarks/"]),
+    ('https://github.com/netdata/netdata', []), 
+    ('https://github.com/gohugoio/hugo', []), 
+    ('https://github.com/sveltejs/svelte', []),
+    ('https://github.com/macrozheng/mall', []),
+    ('https://github.com/nvm-sh/nvm', []), 
+    ('https://github.com/reduxjs/redux', ["examples/"]),
+    ('https://github.com/atom/atom', []), 
+    ('https://github.com/chartjs/Chart.js', ["*test"]),
+    ('https://github.com/socketio/socket.io', []), 
+    ('https://github.com/protocolbuffers/protobuf', []),
+    ('https://github.com/coder/code-server', []),
+    ('https://github.com/home-assistant/core', []), 
+    ('https://github.com/gatsbyjs/gatsby', ["*test", "*tests", "benchmarks/", "examples/", "deprecated-packages/", ".github/"]), 
+    ('https://github.com/ElemeFE/element', []), 
+    ('https://github.com/apache/echarts', []), 
+    ('https://github.com/rails/rails', []), 
+    ('https://github.com/nestjs/nest', ["*test", "*tests", "benchamrks/", "sample/", "tools/"]), 
+    ('https://github.com/ionic-team/ionic-framework', ["test-app/"]),
+    ('https://github.com/apache/superset', []),
+    ('https://github.com/moment/moment', []),
+    ('https://github.com/tiangolo/fastapi', [])
 ]
 
 
-def get_repo_name_from_url(url):
+
+def get_repo_name_from_url(url: str) -> str:
     """
     Analyze a repository with CfgNet.
     :param url: URL to the repository
@@ -54,13 +91,16 @@ def get_repo_name_from_url(url):
     return repo_name
 
 
-def process_repo(url):
+def process_repo(test_repo: List) -> None:
     """
     Analyze a repository with CfgNet.
     :param url: URL to the repository
     :param commit: Hash of the lastest commit that should be analyzed
     :param ignorelist: List of file paths to ignore in the analysis
     """
+    url = test_repo[0]
+    ignore_list = test_repo[1]
+
     repo_name = get_repo_name_from_url(url)
     repo_folder = EVALUATION_FOLDER + "/" + repo_name
     results_folder = EVALUATION_FOLDER + "/results/" + repo_name
@@ -75,9 +115,10 @@ def process_repo(url):
         "git filter-branch --parent-filter 'cut -f 2,3 -d \" \"'", shell=True,
         cwd=repo_folder, executable="/bin/bash", env=dict(os.environ, FILTER_BRANCH_SQUELCH_WARNING="1")
     )
-
+    
     # Create ignore file
-    # create_ignore_file(ignorelist, repo_folder)
+    if ignore_list:
+        create_ignore_file(ignore_list, repo_folder)
 
     # start analysis
     subprocess.run(
@@ -89,7 +130,7 @@ def process_repo(url):
 
 
 
-def create_ignore_file(ignorelist, repo_folder):
+def create_ignore_file(ignorelist: List[str], repo_folder: str):
     """
     Create a CfgNet ignore file.
     :param ignorelist: List of file paths to be added to the ignore list.
@@ -123,6 +164,7 @@ def main():
 
     index = int(sys.argv[1])
     process_repo(TEST_REPOS[index])
+
 
 if __name__ == "__main__":
     main()
