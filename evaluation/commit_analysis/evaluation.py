@@ -38,7 +38,7 @@ TEST_REPOS = [
     ('https://github.com/nodejs/node', ["*test", "*tests", "benchmark/", "deps/"]), 
     ('https://github.com/vercel/next.js', ["*test"]),
     ('https://github.com/denoland/deno', []), 
-    ('https://github.com/angular/angular', []),
+    ('https://github.com/angular/angular', ["tools/", "modules/"]),
     ('https://github.com/microsoft/TypeScript', []),
     ('https://github.com/ant-design/ant-design', []),
     ('https://github.com/mui/material-ui', ["*test", "examples/", "benchmark/"]),

@@ -2,7 +2,9 @@ EVALUATION=results
 
 LOCALPATH=/tmp/$USER/analysis/$1
 
-python3 -m venv $LOCALPATH/venv
+# python3.10 is required for running the scripts on the tesla machines
+# python3 can be used brown machines
+python3.10 -m venv $LOCALPATH/venv
 source $LOCALPATH/venv/bin/activate
 
 wheel="$(find $2 -type f -iname "*.whl")"
@@ -19,7 +21,7 @@ echo "======================="
 echo "Start commit history analysis!"
 
 cp $2/evaluation.py .
-python3 evaluation.py $1
+python3.10 evaluation.py $1
 
 echo "======================="
 echo "Commit History Analysis done!"
