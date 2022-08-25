@@ -1,0 +1,4 @@
+id;creationdate;score;title;tags;notes
+46755568;15.10.2017 13:32;2;Adding cypress test framework to Maven pom.xml;<maven><cypress>;nothing found
+49158414;2018-03-07 17:56:18.090;1;Using Cypress.io to test React in a Maven project;<reactjs><maven><testing><frontend><cypress>;nothing found
+64403571;2020-10-17 14:31:08.007;1;Can't download Cypress in gitlab CI/CD pipelin with maven docker image;<maven><proxy><gitlab-ci><cypress><frontend-maven-plugin>;nothing found

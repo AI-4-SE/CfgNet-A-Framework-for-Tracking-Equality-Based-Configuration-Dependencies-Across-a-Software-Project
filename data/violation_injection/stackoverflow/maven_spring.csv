@@ -1,0 +1,51 @@
+id;creationdate;score;title;tags;notes
+23217002;22.04.2014 10:31;196;How do I tell Spring Boot which main class to use for the executable jar?;<java><spring><maven><executable-jar><spring-boot>;nothing found
+36151421;22.03.2016 10:08;140;Could not autowire field:RestTemplate in Spring boot application;<spring><maven><spring-boot><resttemplate>;nothing found
+33483697;02.11.2015 17:45;130;Re-run Spring Boot Configuration Annotation Processor to update generated metadata;<java><spring><maven><intellij-idea>;nothing found
+13533700;23.11.2012 17:45;112;Maven dependency spring-web vs spring-webmvc;<spring><maven><spring-mvc>;nothing found
+19537396;23.10.2013 09:03;107;Missing artifact com.microsoft.sqlserver:sqljdbc4:jar:4.0;<sql-server><spring><maven><pom.xml>;nothing found
+22063533;2014-02-27 08:57:14.090;104;intellij - spring is not being recognized (Unmapped Spring configuration);<spring><maven><intellij-idea>;nothing found
+20735205;22.12.2013 23:31;103;Launching Spring application Address already in use;<java><spring><maven><tomcat><spring-mvc>;port dependency
+11227395;27.06.2012 13:30;92;java.lang.ClassNotFoundException: org.springframework.web.servlet.DispatcherServlet;<spring><maven><spring-mvc><maven-2>;nothing found
+30855864;15.06.2015 22:14;90;Maven- No plugin found for prefix 'spring-boot' in the current project and in the plugin groups;<java><spring><maven><spring-mvc>;nothing found
+46999940;29.10.2017 12:02;87;Spring Boot: How to specify the PasswordEncoder?;<spring><maven><spring-boot><spring-security>;nothing found
+28466207;11.02.2015 22:58;85;"""Could not find acceptable representation"" using spring-boot-starter-web";<java><json><spring><maven><spring-mvc>;nothing found
+44718345;23.06.2017 09:49;80;Java.lang.NoClassDefFoundError: com/fasterxml/jackson/databind/exc/InvalidDefinitionException;<java><spring><maven>;nothing found
+19489720;21.10.2013 08:39;78;maven... Failed to clean project: Failed to delete ..\org.ow2.util.asm-asm-tree-3.1.jar;<java><eclipse><spring><maven><spring-tool-suite>;nothing found
+27904594;12.01.2015 14:44;75;Spring Boot War deployed to Tomcat;<spring><maven><tomcat><spring-boot>;nothing found
+2553654;31.03.2010 14:15;72;what are good blogs to read relating java, spring, hibernate, maven?;<java><spring><hibernate><maven>;nothing found
+33430487;30.10.2015 07:07;70;How to use Gitlab CI to build a Java Maven project?;<java><spring><maven><gitlab-ci><gitlab-omnibus>;nothing found
+31740785;31.07.2015 07:45;65;Why order of Maven dependencies matter?;<spring><maven><jersey>;nothing found
+25420745;21.08.2014 07:37;64;How to set spring active profiles with maven profiles;<java><spring><maven><spring-profiles>;nothing found
+50486314;23.05.2018 10:41;62;How to Solve 403 Error in Spring Boot Post Request;<spring><rest><maven><spring-boot>;db credentials
+50661648;02.06.2018 22:21;62;Spring Boot fails to run maven-surefire-plugin ClassNotFoundException org.apache.maven.surefire.booter.ForkedBooter;<spring><maven><spring-boot><maven-surefire-plugin>;nothing found
+29571304;10.04.2015 21:57;61;How can I @Autowire a spring bean that was created from an external jar?;<java><spring><maven><spring-mvc>;nothing found
+19620342;27.10.2013 16:20;59;Failed to load Main-Class manifest attribute while running java -jar;<java><spring><maven><spring-mvc>;nothing found
+42390860;22.02.2017 12:01;58;Configure active profile in SpringBoot via Maven;<java><spring><maven><spring-boot>;nothing found
+52980064;25.10.2018 01:28;57;Maven + Spring Boot: Found multiple occurrences of org.json.JSONObject on the class path:;<java><spring><maven><spring-boot><build-dependencies>;nothing found
+17584495;11.07.2013 03:20;56;Unable to complete the scan for annotations for web application [/app] due to a StackOverflowError;<java><eclipse><spring><maven><spring-mvc>;nothing found
+4377699;07.12.2010 14:29;55;Spring @ContextConfiguration how to put the right location for the xml;<java><unit-testing><spring><annotations><maven>;nothing found
+36217949;25.03.2016 10:12;53;Maven spring boot run debug with arguments;<java><spring><maven><spring-boot><maven-3>;nothing found
+37708145;2016-06-08 16:33:42.023;52;Spring boot - disable Liquibase at startup;<java><spring><maven><spring-boot><liquibase>;nothing found
+20740703;23.12.2013 09:38;52;java.lang.ClassNotFoundException: org.springframework.boot.SpringApplication Maven;<java><spring><maven>;nothing found
+27223917;01.12.2014 07:53;51;How to configure annotations processing in IntelliJ IDEA 14 for current project work?;<java><spring><maven><spring-mvc><intellij-idea>;nothing found
+23432651;02.05.2014 16:19;50;Terminating mvn spring-boot:run doesn't stop tomcat;<java><spring><maven><tomcat><spring-boot>;nothing found
+36819277;24.04.2016 04:25;50;Issue With Spring: There was an unexpected error (type=Not Found, status=404);<java><spring><maven><spring-mvc><endpoint>;nothing found
+42840576;16.03.2017 17:09;49;SpringBoot: Unable to find a single main class from the following candidates;<spring><maven><spring-mvc><spring-boot><spring-profiles>;nothing found
+19661135;29.10.2013 14:31;49;Dynamic Web Module 3.0 -- 3.1;<eclipse><spring><maven><spring-mvc>;nothing found
+28273543;02.02.2015 08:20;48;What are `spring-boot-starter` jars?;<java><spring><maven><spring-boot>;nothing found
+32368328;03.09.2015 06:24;47;Unable to find a suitable main class, please add a 'mainClass' property, Spring boot;<java><spring><maven>;nothing found
+54467287;31.01.2019 18:44;46;How to specify Java 11 version in Spring/Spring Boot pom.xml?;<java><spring><maven><spring-boot><pom.xml>;nothing found
+50104172;30.04.2018 16:01;45;Could not find or load main class org.apache.maven.wrapper.MavenWrapperMain;<java><spring><maven><spring-boot><travis-ci>;nothing found
+35417086;15.02.2016 19:00;45;Maven Resource Filtering with Spring Boot: Could not resolve placeholder;<java><spring><maven><spring-boot>;db credentials
+23138494;17.04.2014 16:21;44;Spring boot application.properties maven multi-module projects;<spring><hibernate><maven><spring-boot>;nothing found
+23488093;06.05.2014 07:08;43;Execution default of goal org.springframework.boot:spring-boot-maven-plugin:1.0.2.RELEASE:repackage failed: Source must refer to an existing file;<java><spring><maven>;nothing found
+63154787;29.07.2020 13:31;43;Maven is not using Java 11 - Fatal error compiling: invalid target release: 11;<java><spring><spring-boot><maven>;nothing found
+53707080;2018-12-10 13:50:04.073;42;What is the spring-boot-configuration-processor ? Why do people exclude libraries from it? Why is it invisible in dependency tree?;<java><spring><maven><spring-boot><gradle>;nothing found
+30237768;14.05.2015 12:46;41;Run Spring-boot's main using IDE;<java><spring><maven><spring-boot>;nothing found
+29949423;29.04.2015 16:25;40;Spring mvc Ambiguous mapping found. Cannot map controller bean method;<java><spring><maven><mv><request-mapping>;nothing found
+47240546;11.11.2017 17:04;40;Should the mvnw files be added to the repository?;<java><spring><git><maven><spring-boot>;nothing found
+28192761;28.01.2015 12:52;39;"Spring Maven clean error - The requested profile ""pom.xml"" could not be activated because it does not exist";<java><spring><maven>;nothing found
+21274732;22.01.2014 05:15;38;The container 'Maven Dependencies' references non existing library - STS;<java><eclipse><spring><maven>;nothing found
+66801256;2021-03-25 14:10:21.043;38;java.lang.IllegalAccessError: class lombok.javac.apt.LombokProcessor cannot access class com.sun.tools.javac.processing.JavacProcessingEnvironment;<java><spring><maven><lombok><intellij-lombok-plugin>;nothing found
+36703499;18.04.2016 20:16;38;Using Maven properties in application.properties in Spring Boot;<spring><maven><spring-boot><spring-boot-maven-plugin>;nothing found

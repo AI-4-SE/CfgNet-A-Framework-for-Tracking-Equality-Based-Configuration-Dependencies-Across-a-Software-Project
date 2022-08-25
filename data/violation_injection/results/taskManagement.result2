@@ -1,0 +1,25 @@
+
+MODIFIED OPTION CONFLICT (a00f6b7e97cc57dfe185cd8eacc96b6c)
+
+Modified Option: spring.datasource.username in artifact src/main/resources/application-dev.yml
+Value changed from dev_user to prod_user
+
+Conflicts:
+-----------------------------------------
+In file /tmp/stackoverflow/out/taskManagement/docker-compose.dev.yml:6
+Link with option services::docker-mysql::environment::MYSQL_USER is missing
+Modify option services::docker-mysql::environment::MYSQL_USER:
+"dev_user" to "prod_user"
+-----------------------------------------
+In file /tmp/stackoverflow/out/taskManagement/docker-compose.yml:10
+Link with option services::docker-mysql::environment::MYSQL_USER is missing
+Modify option services::docker-mysql::environment::MYSQL_USER:
+"dev_user" to "prod_user"
+-----------------------------------------
+In file /tmp/stackoverflow/out/taskManagement/src/main/resources/application.yml:5
+Link with option spring.datasource.username is missing
+Modify option spring.datasource.username:
+"dev_user" to "prod_user"
+
+
+

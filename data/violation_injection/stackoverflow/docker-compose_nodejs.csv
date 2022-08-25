@@ -1,0 +1,101 @@
+id;creationdate;score;title;tags;notes
+30043872;05.05.2015 03:40;224;Docker-compose: node_modules not present in a volume after npm install succeeds;<node.js><docker><ubuntu-14.04><docker-compose>;copying files, internal port docker-compose
+47615495;03.12.2017 05:15;66;Docker: Uses an image, skipping (docker-compose);<node.js><mongodb><docker><docker-compose>;internal port docker-compose
+42040317;2017-02-04 12:24:17.017;50;Cannot find module for a node js app running in a docker compose environment;<node.js><docker><npm><docker-compose>;port dependency, internal port docker-compose, copying files
+47816702;14.12.2017 15:17;28;Docker: Error response from daemon: OCI runtime create failed: container_linux.go:296:;<node.js><docker><docker-compose><dockerfile>;nothing found
+41986066;01.02.2017 17:34;23;Performance and reliability when using multiple Docker containers VS standard Node cluster;<node.js><express><nginx><docker><docker-compose>;nothing found
+38425996;17.07.2016 21:15;20;docker-compose volume on node_modules but is empty;<node.js><docker><docker-compose><docker-volume>;copying files, internal port docker-compose
+45471730;02.08.2017 22:01;20;How do I run a webpack build from a docker container?;<node.js><docker><webpack><docker-compose><devops>;port dependency, internal port docker-compose, copying files
+51011552;24.06.2018 15:53;20;"MongoDB on with Docker ""failed to connect to server [localhost:27017] on first connect """;<node.js><mongodb><docker><docker-compose>;internal port docker-compose
+55926705;30.04.2019 18:20;20;"Docker - ""Error: EACCES: permission denied, mkdir '/project/node_modules/.cache/@babel'""";<node.js><docker><docker-compose><yarnpkg>;nothing found
+41942769;30.01.2017 18:17;18;Issue to node-sass and Docker;<node.js><docker><sass><docker-compose><node-sass>;port dependency, internal port docker-compose, copying files
+55378420;27.03.2019 13:29;16;OCI runtime exec failed: exec failed: container_linux.go:344: starting container process;<node.js><docker><docker-compose><dockerfile><docker-machine>;nothing found
+52650775;04.10.2018 15:45;15;How to pass environment variables from docker-compose into the NodeJS project?;<node.js><docker><docker-compose><dockerfile><docker-image>;copying files, internal port docker-compose
+33663496;12.11.2015 02:40;15;Docker /bin/bash: nodemon: command not found;<node.js><docker><makefile><docker-compose><nodemon>;internal port docker-compose
+61663848;07.05.2020 17:19;14;Sequelize.authenticate() do not working (no success or error response) for google cloud sql connection inside Docker;<node.js><google-cloud-platform><docker-compose><sequelize.js><google-cloud-sql>;port dependency, internal port docker-compose, copying files
+40167298;21.10.2016 02:13;14;docker-compose up can't find module, but running from bash works;<node.js><docker><docker-compose>;nothing found
+56927609;08.07.2019 02:09;13;Could not find a required file. Name: index.html in react with docker compose;<node.js><reactjs><docker><deployment><docker-compose>;internal port docker-compose
+47069540;02.11.2017 07:11;13;Docker-Compose Postgres 5432 Bind: Address already in use error;<node.js><postgresql><docker><docker-compose><ports>;internal port docker-compose
+48192863;10.01.2018 17:22;13;Puppeteer in docker container: Chromium revision is not downloaded;<node.js><docker><docker-compose><puppeteer>;copying files
+41861908;25.01.2017 21:23;12;Cant connect to docker mongodb;<node.js><mongodb><docker><docker-compose>;internal port docker-compose
+55386246;27.03.2019 20:51;12;W: Failed to fetch http://deb.debian.org/debian/dists/jessie-updates/main/binary-amd64/Packages 404 Not Found [IP: 151.101.140.204 80];<node.js><docker><docker-compose><debian><apt>;nothing found
+32360615;02.09.2015 18:30;12;Docker Compose : NodeJS + MongoDB;<node.js><mongodb><docker><docker-compose>;copying files, internal port docker-compose
+46223173;14.09.2017 15:35;12;Reloading code in a dockerized node.js app with docker-compose;<node.js><docker><docker-compose><dockerfile>;internal port docker-compose, port dependency
+45712262;16.08.2017 11:24;12;nginx-proxy for more than one node app docker;<node.js><docker><proxy><docker-compose>;internal port docker-compose
+45399941;30.07.2017 12:43;12;Node.js connect to MySQL Docker container ECONNREFUSED;<mysql><node.js><docker><docker-compose>;copying files, internal port docker-compose
+59556554;01.01.2020 22:19;11;Clean AND practical way to handle node_modules in a Dockerized Node.js dev environment?;<node.js><docker><docker-compose><node-modules>;port dependency, internal port docker-compose, copying files
+62345581;12.06.2020 13:47;10;Node.js + Puppeteer on Docker, No usable sandbox;<node.js><docker><google-chrome><docker-compose><puppeteer>;copying files
+49999920;24.04.2018 10:55;10;Docker compose, heroku, hostname links and production deployment;<node.js><docker><heroku><docker-compose>;nothing found
+48015477;28.12.2017 23:04;9;Docker and Rabbitmq: ECONNREFUSED between containers;<node.js><docker><docker-compose><seneca>;internal port docker-compose
+44938344;06.07.2017 01:20;9;Cannot connect to MongoDB via node.js in Docker;<node.js><mongodb><docker><docker-compose><dockerfile>;port dependency, internal port docker-compose, copying files
+44288504;31.05.2017 15:12;9;Why is my docker node container exiting;<node.js><docker><docker-compose>;internal port docker-compose, port dependency
+43121897;30.03.2017 15:16;9;how to add --auth for mongodb image when using docker-compose?;<node.js><mongodb><nginx><docker><docker-compose>;internal port
+49491940;26.03.2018 12:52;8;How to get docker mapped ports from node.js application?;<node.js><docker><docker-compose>;internal port
+53413361;21.11.2018 13:40;8;docker compose connecting mongodb container with node js container;<javascript><node.js><mongodb><docker><docker-compose>;nothing found
+45893555;26.08.2017 08:35;8;How can I have linting features available on my IDE despite the project being on a docker container?;<node.js><docker><visual-studio-code><docker-compose><eslint>;copying files, internal port docker-compose
+34441975;23.12.2015 18:52;8;SIGTERM does not reach node script when docker runs it with `/bin/sh -c`;<linux><node.js><docker><docker-compose>;nothing found
+56374921;30.05.2019 08:58;8;How to address backend host with axios, when frontend and backend are in virtual docker network;<node.js><docker><vue.js><docker-compose><axios>;internal port
+54639183;11.02.2019 21:07;8;Sequelize cannot sync to MySQL in a docker container from Node/express app (ECONNREFUSED);<mysql><node.js><docker><docker-compose><sequelize.js>;db credentials, internal port
+62377316;14.06.2020 19:33;8;Docker Hostnames not resolving in next.js prod but working in dev mode (Error: getaddrinfo ENOTFOUND);<node.js><docker><docker-compose><next.js>;nothing found
+55317195;23.03.2019 18:44;8;Run command from one container to another;<python><node.js><python-3.x><docker><docker-compose>;nothing found
+32503116;10.09.2015 13:21;8;NodeJS Mongodb in docker compose = ECONNREFUSED;<node.js><mongodb><docker><docker-compose>;copying files
+39581438;19.09.2016 20:19;8;NodeJS + Mysql with Docker Compose 2;<mysql><node.js><docker><docker-compose>;copying files
+44157039;24.05.2017 11:26;8;How to configure spring interceptor to get called with every request;<java><node.js><docker><spring-boot><docker-compose>;nothing found
+43538187;21.04.2017 08:54;7;Docker compose v3 named volume & node_modules from npm install;<node.js><docker-compose><npm-install>;nothing found
+60192208;12.02.2020 15:51;7;Node.js docker container not updating to changes in volume;<node.js><docker><docker-compose>;port dependency, internal port docker-compose, copying files
+62122006;31.05.2020 20:19;7;Node + Docker Compose: Development and production setup;<node.js><docker><docker-compose><development-environment><production-environment>;internl port, port dependency
+49941708;20.04.2018 12:30;7;How to keep node_modules inside container while using docker-compose and a non-root user?;<node.js><docker><docker-compose>;internal port
+45001168;09.07.2017 21:25;7;npm ERR! missing script: start error with Docker;<node.js><docker><npm><docker-compose>;port dependency, internal port docker-compose, copying files
+46916101;24.10.2017 16:57;7;Keeping node_modules up to date in docker;<node.js><docker><docker-compose><dockerfile><node-modules>;copying files
+48960320;24.02.2018 07:10;7;Locked package.json files in Docker container using docker-compose;<node.js><docker><docker-compose><dockerfile><package.json>;copying files
+61103653;08.04.2020 14:53;7;docker-compose & pm2: container exiting immediately;<node.js><docker><amazon-ec2><docker-compose><pm2>;copying files
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;
+;;;;;

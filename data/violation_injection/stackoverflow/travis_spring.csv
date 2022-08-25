@@ -1,0 +1,15 @@
+id;creationdate;score;title;tags;notes
+50104172;30.04.2018 16:01;45;Could not find or load main class org.apache.maven.wrapper.MavenWrapperMain;<java><spring><maven><spring-boot><travis-ci>;nothing found
+47244991;12.11.2017 02:52;3;"How to set the ""api_key"" value in Travis CI";<java><spring><heroku><continuous-integration><travis-ci>;nothing found
+53220276;09.11.2018 05:21;2;Selenium Chrome driver and Travis CI don't work together;<java><spring><selenium><travis-ci>;nothing found
+38912714;12.08.2016 07:52;1;Travis failing JUnit Tests for Spring;<java><spring><junit><travis-ci>;nothing found
+56699832;21.06.2019 08:42;1;Spring Boot Test Fails on Travis CLI with an exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure;<java><spring><spring-boot><travis-ci>;nothing found
+58968306;21.11.2019 06:08;1;Travis CI using the wrong version of Java;<java><spring><maven><spring-boot><travis-ci>;nothing found
+61735168;11.05.2020 17:01;1;Spring Boot Application test build fails on Travis CI;<java><spring><mongodb><spring-boot><travis-ci>;nothing found
+30284900;17.05.2015 08:29;0;Use ActiveMQ in Travis CI;<spring><spring-mvc><activemq><travis-ci>;nothing found
+40873001;2016-11-29 18:20:10.033;0;File cannot be opened because it does not exist;<spring><travis-ci>;nothing found
+62129519;01.06.2020 09:44;0;Travis CI - Test fail on Travis (401 and 400) but works locally Java Spring Boot;<java><spring><spring-boot><travis-ci>;nothing found
+63416551;14.08.2020 16:24;0;The goal you specified requires a project to execute but there is no POM in this directory with travis build;<java><spring><spring-boot><maven><travis-ci>;nothing found
+45852588;24.08.2017 03:44;0;Travis CI Database with Spring Boot Application;<java><spring><postgresql><travis-ci>;nothing found
+69051250;2021-09-03 22:54:22.057;0;java.net.ConnectException: Connection refused error while building on Travis;<java><spring><testing><travis-ci>;nothing found
+58393867;15.10.2019 11:42;0;Travis CI Spring Boot Error (Gradle Error);<java><spring><spring-boot><gradle><travis-ci>;nothing found

@@ -1,0 +1,29 @@
+
+MODIFIED OPTION CONFLICT (2f965573db013c346c4a6fb65e611674)
+
+Modified Option: project::artifactId in artifact config-service/pom.xml
+Value changed from config-service to config
+
+Conflicts:
+-----------------------------------------
+In file /tmp/stackoverflow/out/netflix-oss-example/pom.xml:18
+Link with option project::modules::module is missing
+Modify option project::modules::module:
+"config-service" to "config"
+
+
+
+MODIFIED OPTION CONFLICT (60fd0cfa2f2a72ff1e57e89ce1e908da)
+
+Modified Option: ExecutableNameNoVersion in artifact config-service/pom.xml
+Value changed from target/config-service.jar to target/config.jar
+
+Conflicts:
+-----------------------------------------
+In file /tmp/stackoverflow/out/netflix-oss-example/config-service/Dockerfile:16
+Link with option add::src is missing
+Modify option add::src:
+"target/config-service.jar" to "target/config.jar"
+
+
+

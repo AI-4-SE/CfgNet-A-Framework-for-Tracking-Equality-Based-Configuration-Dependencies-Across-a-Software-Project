@@ -1,0 +1,51 @@
+id;creationdate;score;title;tags;notes
+51634361;01.08.2018 13:18;131;How to force tsc to ignore node_modules folder?;<node.js><typescript><tsc><tsconfig>;nothing found
+40635956;16.11.2016 15:29;64;Overriding `tsconfig.json` for ts-node in mocha;<node.js><mocha.js><tsconfig>;nothing found
+63720450;03.09.2020 09:12;31;node_modules/@types/node/index.d.ts(20,1): error TS1084: Invalid 'reference' directive syntax;<node.js><typescript><compilation><tsconfig>;nothing found
+54232428;17.01.2019 09:11;11;Cannot find type definition file for 'node' in Typescript/React app;<javascript><node.js><reactjs><typescript><tsconfig>;nothing found
+42269301;16.02.2017 09:05;10;Configure local typescript compiler inside package.json;<node.js><typescript><npm><visual-studio-code><tsconfig>;nothing found
+47876790;18.12.2017 21:39;8;How to use a compiled TypeScript class in Javascript;<javascript><node.js><typescript><tsc><tsconfig>;nothing found
+55440006;2019-03-31 10:31:53.080;6;Import local npm package using scope;<node.js><typescript><npm><package.json><tsconfig>;nothing found
+52870334;18.10.2018 08:51;5;tsconfig.json compile problem when running mocha tests with overwritten global interfaces;<node.js><typescript><testing><mocha.js><tsconfig>;nothing found
+55383929;27.03.2019 18:10;5;Typescript paths not resolving;<javascript><node.js><typescript><tsconfig>;nothing found
+49397736;21.03.2018 03:37;4;express with typescript failed to lookup views directory;<node.js><typescript><express><tsconfig>;nothing found
+59733065;14.01.2020 11:41;4;Including a shared project in create-react-app;<node.js><typescript><react-hooks><create-react-app><tsconfig>;nothing found
+60545539;05.03.2020 12:34;4;How to use absolute path with Typescript?;<javascript><node.js><typescript><import><tsconfig>;nothing found
+40479782;08.11.2016 05:42;4;How to Target ES6 for Server and ES5 for Client;<node.js><angular><typescript><ecmascript-6><tsconfig>;nothing found
+63927178;16.09.2020 19:59;4;How to resolve relative path hell (node with typescript);<node.js><typescript><relative-path><tsconfig><tsconfig-paths>;nothing found
+48847182;2018-02-18 00:10:16.083;3;Why does `allowJS` cause an unwanted `src` subdirectory in my compiled output?;<node.js><typescript><express><tsconfig>;nothing found
+33292726;22.10.2015 23:54;3;How to use tsconfig.json file in Visual Studio 2015 Community?;<node.js><visual-studio><typescript><tsconfig>;nothing found
+58758731;08.11.2019 00:23;3;Cannot get node or ts-node/register to use es2020 anymore (flatMap is not a function);<node.js><typescript><visual-studio-code><mocha.js><tsconfig>;nothing found
+45756888;18.08.2017 12:39;2;How do I generate TypeScript definition files that are picked up automatically by VS Code?;<javascript><node.js><typescript><tsconfig>;nothing found
+66722368;20.03.2021 13:51;2;ESLint: Parsing error: Unknown compiler option 'noUncheckedIndexedAccess';<node.js><typescript><eslint><tsconfig>;nothing found
+62955240;17.07.2020 13:41;2;cannot run compiled typescript prog using module resolution;<node.js><typescript><tsconfig><tsconfig-paths>;nothing found
+63522275;21.08.2020 11:42;2;Typescript folder structure in a project with client, server and shared code;<node.js><typescript><directory-structure><tsconfig><typescript-compiler-api>;nothing found
+45455711;02.08.2017 08:38;2;Multiple tsconfig.json issue with commonJS for node.js and es6 for reactjs;<node.js><reactjs><typescript><typescript2.0><tsconfig>;nothing found
+64752770;09.11.2020 13:39;2;Disable noUnusedLocals and noUnusedParameters for specific files in typescript;<javascript><node.js><typescript><sequelize.js><tsconfig>;nothing found
+58919012;18.11.2019 16:29;2;Typescript will not exclude folder in the 'excludes' array of tsconfig no matter what (TS 3.7.2);<node.js><typescript><tsconfig>;nothing found
+53339613;16.11.2018 14:17;2;Unable to include .key file in typescript build;<node.js><typescript><express><typescript-typings><tsconfig>;nothing found
+66131332;10.02.2021 05:24;2;Typescript development environment;<javascript><node.js><typescript><tsconfig>;nothing found
+48097648;04.01.2018 14:43;2;"""typescript unexpected token import"" on GDAX-tt - tried to follow other fixes for other software to no avail";<node.js><typescript><tsconfig><gdax-api><unexpected-token>;nothing found
+68012117;17.06.2021 02:28;1;How to get intellisense in VSCode from node_modules in unusual place?;<node.js><typescript><node-modules><tsconfig>;nothing found
+41905596;28.01.2017 01:46;1;How do I figure out all the global imports and from where are those imported?;<node.js><typescript><visual-studio-code><tsconfig>;nothing found
+45380003;28.07.2017 18:18;1;Typescript error TS2339;<node.js><typescript><tsconfig>;nothing found
+47816471;14.12.2017 15:05;1;Join files in the single bundle file but avoiding emit Commonjs file in bundle;<javascript><node.js><typescript><webpack><tsconfig>;nothing found
+52265758;10.09.2018 21:31;1;Should VSCode report errors for TS files that are excluded from compilation?;<javascript><node.js><typescript><visual-studio-code><tsconfig>;nothing found
+53140597;04.11.2018 11:59;1;Unable to use super to call inherited class function;<javascript><node.js><typescript><express><tsconfig>;nothing found
+59700730;12.01.2020 03:40;1;Typescript non-relative import with node js and ES modules does not work;<node.js><typescript><tsconfig><es6-modules>;nothing found
+61459764;27.04.2020 13:15;1;Is it a good practices to add tests files in the tsconfig.json exclude field?;<node.js><typescript><testing><tsconfig>;nothing found
+62520387;22.06.2020 17:41;1;Add .js extension on TypeScript build;<javascript><node.js><typescript><module><tsconfig>;nothing found
+62879355;13.07.2020 15:38;1;"Executing typescript code using ts-node gives ""Cannot use import statement outside a module"" error";<node.js><typescript><compilation><tsconfig><ts-node>;nothing found
+63820638;09.09.2020 23:03;1;Creating and importing private package of hand-written type definitions;<node.js><typescript><npm><tsconfig><type-definition>;nothing found
+65794203;19.01.2021 15:08;1;paths in tsconfig cannot import the type;<node.js><typescript><express><tsconfig><type-declaration>;nothing found
+67806963;02.06.2021 14:20;1;@types/eslint Error: ChainExpression and ImportExpression members of ESTree not exported;<node.js><angular><typescript><eslint><tsconfig>;nothing found
+39659016;23.09.2016 10:53;1;NPM INSTALL does not recreates .js files from .ts files;<node.js><angular><tsconfig>;nothing found
+60223415;14.02.2020 09:25;0;tsconfig not working with commonjs as mondule setting for node;<javascript><node.js><typescript><koa><tsconfig>;nothing found
+58295148;08.10.2019 23:22;0;Wrong build in dist/ folder when server imports module from external folder;<node.js><typescript><nestjs><tsc><tsconfig>;nothing found
+63744943;04.09.2020 16:31;0;absolute path in the tsconfig dose not work;<node.js><typescript><tsconfig><tsconfig-paths>;nothing found
+68960179;27.08.2021 23:14;0;"jest.config.ts: ""registerer.enabled is not a function"" error when running jest from Github Actions";<node.js><jestjs><github-actions><tsconfig><ts-jest>;nothing found
+56169044;16.05.2019 12:51;0;How to access document/window in typescript using es2017?;<node.js><typescript><dom><tsconfig><ecmascript-2017>;nothing found
+64022825;23.09.2020 07:12;0;How to improve module alias tsconfig rootDirs, baseURL and path?;<node.js><typescript><koa><tsconfig>;nothing found
+64445434;20.10.2020 12:44;0;heremaps ReferenceError H: is not defined;<node.js><typescript><npm><here-api><tsconfig>;nothing found
+64530884;26.10.2020 02:41;0;Create-React-App while attempting to run a Typescript mock api server (module loading error);<node.js><typescript><create-react-app><tsconfig><json-server>;nothing found
+55901598;29.04.2019 10:36;0;How to add subdirectory module aliases in tsconfig?;<node.js><typescript><tsconfig><typescript3.0><module-alias>;nothing found
