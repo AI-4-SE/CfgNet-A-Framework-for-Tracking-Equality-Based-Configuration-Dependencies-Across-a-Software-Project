@@ -1,0 +1,51 @@
+titel;author;classification;notes
+NetPrints: Diagnosing Home Network Misconfigurations Using Shared Knowledge;Aggarwal et. Al.;Value, Control;Firewall, NAT, DHCP, DNS
+AutoBash: Improving configuration management with operating system causality analysis;Attariyan et. Al.;Control, Constraints;Linux, GCC, Apache, CVS
+Using causality to diagnose configuration bugs;Attariyan, Flinn;Value;GCC, CVS, Apache
+A Quantitative Study of Firewall Configuration Errors;Avishai Wool;Human-Config;Firewall
+A Model of Configuration Complexity and its Application to a Change Management System;Brown et. Al.;Value;Java
+Understanding and Discovering Software Configuration Dependencies in Cloud and Datacenter Systems;Chen et. Al.;Control, Value, Behavioral;Hadoop and Openstack
+Determine Configuration Entry Correlations for Web Application Systems;Chen, Wu, et. Al.;Value, Constraints, Data type;Cloudshare, Adventure (MySQL, PHP, Redis, Nginx,..)
+Practical and Accurate Pinpointing of Configuration Errors using Static Analysis;Dong et. Al.;Value, Control, Path;Jchord, Randoop, Hadoop, Hbase, ConfDoctor
+Managing the Configuration Complexity of Distributed Applications in Internet Data Centers;Eilam et. Al.;Value, Constraints;Java
+Using Feature Locality: Can We Leverage History to Avoid Failures During Reconfiguration?;Garvin et. Al.;Value, Constraints;GCC
+Discovering Dynamic Dependencies in Enterprise Environments for Problem Determination;Gupta et. Al.;Sonstiges;URL, SQL, Servlet, EJB
+ConfValley: A Systematic Configuration Validation Framework for Cloud Services;Huang et. Al.;Value, Datatype, Constraints, Path;Azure, OpenStack, CloudStack
+A User Survey of Configuration Challenges in Linux and Ecos;Hubaux et. Al.;Constraints;Linux, Ecos
+Configurations Everywhere: Implications for Testing and Debugging in Practice;Jin et. Al.;Value;LibreOffice, ABB, Firefox
+Classification and Computation of Dependencies for Distributed Management;Keller et. Al.;Intra-System, Inter-System;Distributed Management, ODM, other repositories
+ConfErr: A Tool for Assessing Resilience to Human Configuration Errors;Keller et. Al.;Value, Constraints, Human-Config;MySQL, Postgres, Apache, djbdns, BIND
+Dependence Management in Component Based Distributed Systems;Kon, Campbell;Value, Path, Datatype;JVM, Java, C++
+ConfTest: Generating Comprehensive Misconfiguration for System Reaction Ability Evaluation;Li et. Al.;Value, Constraints, Path;httpd, Yum, PostgreSQL, MySQL
+Understanding BGP Misconfiguration;Mahajan et. Al.;Value, Constraints;BGP
+On Essential Configuration Complexity: Measuring Interactions in Highly-Configurable Systems;Meinicke et. Al.;Value;Java
+Preventing Bugs and Misconfiguration in Lage Services Using Correlated Change Analysis;Metha et. Al.;Value, Control;Microsoft Services (Azure, Office 365,�)
+Automating configuration troubleshooting with dynamic information flow analysis;Mona Attariyan, Jason Flinn;Value, Path;OpenSSH, Apache, Postfix
+Mining Configuration Constraints: Static Analyses and Empirical Results;Nadi et. Al.;Constraints, Human-Config, Hardware;Busybox, FreeBSD, uClibc, eCos, Linux Kernel
+Why Do Internet Services Fail, and What Can Be Done About It?;Oppenheimer et. Al.;Value, Hardware;Internet services (Online, Content, ReadMostly)
+ConfSeer: Leveraging Customer Support Knowledge Bases for Automated Misconfiguration Detection;Potharaju et. Al.;Value, Path;Microsoft Serivces
+Misconfiguration Discovery with Principal Component Analysis for Cloud-Native Services;Pranata et. Al.;Value, Human-Config;Streaming Services, GCP
+Static Extraction of Program Configuration Options;Rabkin, Katz;Value, Control;Hadoop, Java
+Precomputing Possible Configuration Error Diagnoses;Rabkin, Katz;Value;Hadoop, Java
+How Hadoop Clusters Break;Rabkin, Katz;Value, Control, Hardware;Hadoop, Java, MySQL
+Determining Configuration Parameter Dependencies via Analysis of Configuration Data from Multi-tiered Enterprise Applications;Ramachandran et. Al.;Value;Multi-tiered enterprises, general
+Predicting Hadoop misconfigurations using machine learning;Robert et. Al.;Value;Hadoop, YARN
+ConfDiagnoser: An Automated Configuration Error Diagnosis Tool for Java Software;Sai Zhang;Value;Randoop, Weka, Jchord, Synoptic, Soot
+Software Configuration Engineering in Practice Interviews, Survey and Systematic Literature Review;Sayagh et. Al.;Value, Constraints, Datatype;Java
+On Cross-stack Configuration Errors;Sayagh et. Al.;Cross Stack Dependencies;MEAN, LAMP, PHP
+Can We use programmer�s Knowledge? Fixing Parameter Configuration Errors in Hadoop through Analyzing Q&A sites;Tong et. Al.;Value;Hadoop
+Automatic Misconfiguration Troubleshooting with PeerPressure;Wang et. Al.;Value;PeerPressure, windows registry
+A Survey on Tackling Software Configuration Faults;Wang et. Al.;Value, Datatype;summary of other researchers automatic config tools
+MisconfDoctor: Diagnosing Misconfiguration via Log-based Configuration Testing;Wang et. Al.;Value, Constraints;MisconfDoctor Httpd, MySQL, PostgreSQL, Redis, Nginx, OpenSSH
+Strider: a black-box, state-based approach to change and configuration management and support;Wang et. Al.;Value;Strider, Windows Registry
+SmartFixer: Fixing Software Configurations based on Dynamic Priorities;Wang et. Al.;Value, Constraints;SmartFixer, eCos based projects 
+Generating Range Fixes for Software Configuration;Xiong et. Al.;Constraints;ReconOS, redboot, Talktic, PSAS
+Do not blame users for Misconfigurations;Xu et. Al.;Value, Constraints, Control;OpenLDAP, open source server software, Storage-A, Apache, MySQL,PostgreSQL,VSFTP,Squid
+Hey, You Have Given Me Too Many Knobs! Understanding and Dealing with Over-Designed Configuration in System Software;Xu et. Al.;Value, Control;PHP, MySQL, OS, Java, Apache
+An HCI View of Configuration Problems;Xu et. Al.;Value, Constraints, Human-Config;Storage-A, Apache, MySQL, Hadoop
+An Empirical Study on Configuration Errors in Commercial and Open Source Systems;Yin et. Al.;Value, Constraints;Commercial Storage System, CentOS, MySQL, Apache HTTP Server, OpenLDAP
+Context-based Online Configuration-Error Detection;Yuan et. Al.;Value;Windows Registry
+EnCore: Exploiting System Environment and Correlation Information for Misconfiguration Detection;Zhang et. Al.;Value, Datatype, Path;EnCore, Apache, MySQL, PHP
+Automated Diagnosis of Software Configuration Errors;Zhang, Ernst;Value, Path;Java, Randoop, Weka, Jchord, Synoptic, Soot, MySQL
+Which Configuration Option Should I Change?;Zhang, Ernst;Value, Constraints, Datatype;ConfDiagDetector, Java
+Proactive Detection of Inadequate Diagnostic Messages for Software Configuration Errors;Zhang, Ernst;Value;ConfSuggester, Java
