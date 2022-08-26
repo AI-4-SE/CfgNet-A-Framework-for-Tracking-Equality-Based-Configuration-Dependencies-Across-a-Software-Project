@@ -1,0 +1,2 @@
+occurred_at,prev_commit,conflict_id,conflict_type,config_types,link,changed_artifact,changed_option,cmd
+a278c407631866f9bf33ea3f713eb3afc74cb1dd,7397696cf4a9f4424f54b716cebabc99c6c2546c,4881ec94b34355c8f2521e39893a19d2,ModifiedOptionConflict,ConfigType.UNKNOWN<->ConfigType.UNKNOWN,ant-design::::package.json::::ava::::babel::::presets::::presets/react::::react <-> ant-design::::tsconfig.json::::compilerOptions::::jsx::::react,tsconfig.json,ant-design::::tsconfig.json::::compilerOptions::::jsx(location: 4),git show a278c407631866f9bf33ea3f713eb3afc74cb1dd -- tsconfig.json

@@ -1,0 +1,2 @@
+occurred_at,prev_commit,conflict_id,conflict_type,config_types,link,changed_artifact,changed_option,cmd
+d108f89766d267008e625ec76761222edc4e96ab,fde64ad5e78c64d602ede8c3344e4cb0f86ca32a,5977c83251b62e651d83c388c6ec4f70,MissingArtifactConflict,ConfigType.PATH<->ConfigType.PATH,moby::::Dockerfile::::add::::src::::. <-> moby::::hack/dockerbuilder/Dockerfile::::add::::src::::.,,,

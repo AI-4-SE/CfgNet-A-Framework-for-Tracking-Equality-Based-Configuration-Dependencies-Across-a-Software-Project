@@ -1,0 +1,2 @@
+occurred_at,prev_commit,conflict_id,conflict_type,config_types,link,changed_artifact,changed_option,cmd
+862ad11ba7eddf093782fffed87d26b7094138b7,89e2ec8901daf258e777d0620bad272956245005,11e16fe93c244038141a9d2649787da1,MissingArtifactConflict,ConfigType.PATH<->ConfigType.PATH,webpack::::test/cases/mjs/cjs-import-default/package.json::::main::::index.mjs <-> webpack::::test/cases/mjs/esm-by-default/package.json::::main::::index.mjs,,,
