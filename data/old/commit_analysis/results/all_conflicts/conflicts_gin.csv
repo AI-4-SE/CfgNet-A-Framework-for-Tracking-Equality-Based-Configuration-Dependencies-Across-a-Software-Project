@@ -1,2 +1,0 @@
-occurred_at,prev_commit,conflict_id,conflict_type,config_types,link,changed_artifact,changed_option,cmd
-3e72702bb4946523a121dfb2d2f87753349e26db,2c6a96c19671e65183f81463cdd2ba663b12b792,54362632c341acd3b51d9a2b92f72310,MissingArtifactConflict,ConfigType.UNKNOWN<->ConfigType.UNKNOWN,gin::::.travis.yml::::language::::go <-> gin::::examples/app-engine/app.yaml::::runtime::::go,,,

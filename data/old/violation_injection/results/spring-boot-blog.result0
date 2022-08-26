@@ -1,9 +1,0 @@
-
-MISSING OPTION CONFLICT (8ff5a2d7f4d114b758191a5043b09d1d)
-
-Option server.port in artifact src/main/resources/application.properties is missing
-
-In file /tmp/stackoverflow/out/spring-boot-blog/src/main/resources/application.properties
-Re-add option server.port with value "8090"
-
-

@@ -1,2 +1,0 @@
-occurred_at,prev_commit,conflict_id,conflict_type,config_types,link,changed_artifact,changed_option,cmd
-ca41df3e67d26aff5b27c3b02f09a244a51a5fc0,f51af54de00f007d8da7a4ded222bf6b4891447f,eb2f1ce52e33cbdd28730e0468bb5eef,MissingArtifactConflict,ConfigType.UNKNOWN<->ConfigType.UNKNOWN,advanced-java::::.github/workflows/branch-merge.yml::::jobs::::merge-branch::::steps::::steps_1::::with::::target_branch::::main <-> advanced-java::::.github/workflows/sync.yml::::jobs::::build::::steps::::steps_1::::with::::branch::::main,,,

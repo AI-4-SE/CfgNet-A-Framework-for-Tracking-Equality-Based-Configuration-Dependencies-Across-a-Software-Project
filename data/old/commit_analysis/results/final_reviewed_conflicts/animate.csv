@@ -1,2 +1,0 @@
-occurred_at;prev_commit;conflict_id;conflict_type;config_types;link;changed_artifact;changed_option;cmd;rating;note;category
-01c44fedfa6a4caad6eba3ce7965baf106da2ff1;bd0bba28e1f1910b2f3bd7f1ca54225b3deb161a;a78e9d8bcf47a0f1c7de403a422a042f;ModifiedOptionConflict;ConfigType.UNKNOWN<->ConfigType.COMMAND;animate::::.travis.yml::::script::::gulp <-> animate::::package.json::::scripts::::start::::gulp;package.json;animate::::package.json::::scripts::::start(location: 18);git show 01c44fedfa6a4caad6eba3ce7965baf106da2ff1 -- package.json;yes;value;different option but equal values

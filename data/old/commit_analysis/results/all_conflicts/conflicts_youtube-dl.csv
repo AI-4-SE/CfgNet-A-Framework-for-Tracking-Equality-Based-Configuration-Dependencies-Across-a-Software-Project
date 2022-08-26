@@ -1,2 +1,0 @@
-occurred_at,prev_commit,conflict_id,conflict_type,config_types,link,changed_artifact,changed_option,cmd
-acb623e5d5933956a13743b3ab4e1d066d59b793,343b080b68d358febf993593ee34a35a3278c10f,ddf81de0bc98e46c901134e44d6c7bde,MissingArtifactConflict,ConfigType.UNKNOWN<->ConfigType.UNKNOWN,youtube-dl::::.github/workflows/ci.yml::::jobs::::tests::::strategy::::matrix::::python-version::::3.8 <-> youtube-dl::::.travis.yml::::jobs::::include::::name/flake8::::python::::3.8,,,
