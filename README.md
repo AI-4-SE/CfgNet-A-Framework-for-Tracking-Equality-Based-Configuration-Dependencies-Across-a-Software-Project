@@ -90,10 +90,10 @@ We also showed how CFGNET helps to prevent possible configuration dependency con
 
 ## Evaluation: Commit History
 
-To demonstrate that cross-technology configuration dependencies occur and matter in practice, we analyzed the commit history of the top [50 repositories](data/commit_analysis/repositories.csv) with the most stars from GitHub (June 2022) that incoporate at least two technologies we cover with out implementation.
+To demonstrate that cross-technology configuration dependencies occur and matter in practice, we analyzed the commit history of the top [50 software repositories](data/commit_analysis/repositories.csv) with the most stars from GitHub (June 2022) that incoporate at least two technologies we cover with out implementation.
 We replaced repositories that could not be analyzed due to errors caused by third-party libraries and that did not represent real software systems, such auch collections of best practices, link hubs, or frameworks.
 We analyzed the commit history of the subject systems in an automated manner and tracked all detected dependency conflicts for each commit.
-The results of applying CfgNet to the commit history of 100 software repositories can be found [here](data/commit_analysis/analysis_statistics.csv).
+The results of applying CfgNet to the commit history of 50 software repositories can be found [here](data/commit_analysis/analysis_statistics.csv).
 
 We found dependency conflicts only for 39 of these repositories, whereas only 32 repositories contained Modified Option Conflicts.
 From each of the 32 repositories, we sampled 50 Modified Option Conflicts and reviewed them. 
