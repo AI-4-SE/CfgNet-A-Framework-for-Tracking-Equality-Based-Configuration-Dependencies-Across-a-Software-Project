@@ -107,7 +107,7 @@ This confirms that plugins are the key success factor for our approach, as they 
 ### Evaluation Scripts
 
 
-You can find the corresponding evaluation scripts either in [`evaluation/violation_injection`](evaluation/violation_injection/) or in [`evaluation/commit_analysis`](evaluation/commit_analysis/).
+You can find the corresponding evaluation scripts either in [evaluation/violation_injection](evaluation/violation_injection/) or in [evaluation/commit_analysis](evaluation/commit_analysis/).
 You can start a evaluation by running `run.sh`.
 It takes an optional parameter which is a Git tree-ish (e.g. `master`) that can be used to get a certain version of CfgNet.
 The result files will be in `results/`.
