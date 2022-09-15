@@ -106,10 +106,10 @@ This confirms that plugins are the key success factor for our approach, as they 
 
 ### Evaluation Scripts
 
-
+We ran our evaluation scripts on a cluster that uses multiple compute nodes with 256~GB RAM, 2 x AMD EPYC 7302 á 16 x 3.0~GHz CPU, running Debian GNU/Linux 10 (buster).
 You can find the corresponding evaluation scripts either in [evaluation/violation_injection](evaluation/violation_injection/) or in [evaluation/commit_analysis](evaluation/commit_analysis/).
 You can start a evaluation by running `run.sh`.
-It takes an optional parameter which is a Git tree-ish (e.g. `master`) that can be used to get a certain version of CfgNet.
+It takes an optional parameter which is a Git tree-ish (e.g. `main` or `eval`) that can be used to get a certain version of CfgNet.
 The result files will be in `results/`.
 You can find the modified repositories in `out/`.
 
