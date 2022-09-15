@@ -12,13 +12,13 @@ Modify option server.port:
 "8888" to "8080"
 -----------------------------------------
 In file /tmp/stackoverflow/out/piggymetrics/docker-compose.dev.yml:10
-Link with option services::config::ports::out is missing
-Modify option services::config::ports::out:
+Link with option services::config::ports::in is missing
+Modify option services::config::ports::in:
 "8888" to "8080"
 -----------------------------------------
 In file /tmp/stackoverflow/out/piggymetrics/docker-compose.dev.yml:10
-Link with option services::config::ports::in is missing
-Modify option services::config::ports::in:
+Link with option services::config::ports::out is missing
+Modify option services::config::ports::out:
 "8888" to "8080"
 
 

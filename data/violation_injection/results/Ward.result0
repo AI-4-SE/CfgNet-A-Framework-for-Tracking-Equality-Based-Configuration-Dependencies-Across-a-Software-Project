@@ -1,9 +1,15 @@
 
-MISSING OPTION CONFLICT (f3172f753cf7379e8e805d22f9a3e59b)
+MODIFIED OPTION CONFLICT (3e01343842528dff71bf67a7ca625aee)
 
-Option src in artifact Dockerfile is missing
+Modified Option: copy::src in artifact Dockerfile
+Value changed from pom.xml to app/pom.xml
 
-In file /tmp/stackoverflow/out/Ward/Dockerfile
-Re-add option copy::src with value "pom.xml"
+Conflicts:
+-----------------------------------------
+In file /tmp/stackoverflow/out/Ward/pom.xml:file_path
+Link with option file is missing
+Modify option file:
+"pom.xml" to "app/pom.xml"
+
 
 

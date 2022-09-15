@@ -1,9 +1,15 @@
 
-MISSING OPTION CONFLICT (8ff5a2d7f4d114b758191a5043b09d1d)
+MODIFIED OPTION CONFLICT (bd6cf4afe5dc4b32795a0134cd61be21)
 
-Option server.port in artifact src/main/resources/application.properties is missing
+Modified Option: server.port in artifact src/main/resources/application.properties
+Value changed from 8090 to 8000
 
-In file /tmp/stackoverflow/out/spring-boot-blog/src/main/resources/application.properties
-Re-add option server.port with value "8090"
+Conflicts:
+-----------------------------------------
+In file /tmp/stackoverflow/out/spring-boot-blog/docker/Dockerfile:3
+Link with option expose is missing
+Modify option expose:
+"8090" to "8000"
+
 
 
