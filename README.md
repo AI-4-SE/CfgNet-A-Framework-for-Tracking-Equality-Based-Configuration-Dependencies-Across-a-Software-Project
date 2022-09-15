@@ -82,10 +82,10 @@ The problem here is that the project incorporates different Spring environment c
 
 
 In total, we injected 15 known dependency violations into five subject systems selected from GitHub. 
-All known dependency violation were reliably detected by CfgNet. 
-Inaddition, CFGNET detected four dependency conflicts caused by changing a certain service name and database credentials.
+We found all injected dependency conflicts and even four more. 
+Those conflicts were caused by changing a certain service name and database credentials.
 With this evaluation, we demonstrated CfgNet's main application scenario and its potential for daily use.
-We also showed how CFGNET helps to prevent possible configuration dependency conflicts during software development and maintenance.
+We also showed how CfgNet helps to prevent possible configuration dependency conflicts during software development and maintenance.
 
 
 ## Evaluation: Commit History
@@ -95,12 +95,13 @@ We replaced repositories that could not be analyzed due to errors caused by thir
 We analyzed the commit history of the subject systems in an automated manner and tracked all detected dependency conflicts for each commit.
 The results of applying CfgNet to the commit history of 50 software repositories can be found [here](data/commit_analysis/analysis_statistics.csv).
 
-We found dependency conflicts only for 39 of these repositories, whereas only 32 repositories contained Modified Option Conflicts.
+We found dependency conflicts in 39 of these repositories, whereas 32 repositories contained Modified Option Conflicts.
 From each of the 32 repositories, we sampled 50 Modified Option Conflicts and reviewed them. 
 If there were less than 50 conflicts, we reviewed all of them.
 In total, we manually inspected [883 Modified Option Conflicts](data/commit_analysis/conflict_inspection/reviewed/), annotated 785 (89 %) conflicts with yes, 98 (11 %) with no, and classified the conflicts into different categories based on their ratings and the involved configuration types.
 
 Our results demonstrate our current implementation, which includes nine technology plugins and a general linker, can find hundreds of potential configuration conflicts in software projects, showing that configuration dependencies occur and matter in practice.
+Especially, the high number of afftected software projects and the manual analysis with about 89~% true positives indicate not only the relevance of our approach for real-world software projects, but also its applicability already in its current state.
 In addition, we found that the false positives can be mainly traced back to the implementation of plugins due to a lack of domain knowledge and tracking of unnecessary options. 
 This confirms that plugins are the key success factor for our approach, as they not only determine how much information a network contain, but also support the linking process by providing type information for configuration options.
 
