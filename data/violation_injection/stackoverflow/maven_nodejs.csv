@@ -1,4 +1,4 @@
-id;creationdate;score;title;tags;note
+id;creationdate;score;title;tags;notes
 47928735;2017-12-21 16:11:44.057;161;'react-scripts' is not recognized as an internal or external command;<javascript><node.js><reactjs><maven>;nothing found
 38388824;15.07.2016 05:59;98;Is Maven similar to npm?;<java><json><node.js><maven><npm>;nothing found
 17103748;14.06.2013 07:57;52;How to deploy a node.js app with maven?;<java><node.js><maven><continuous-integration><npm>;nothing found
@@ -49,53 +49,3 @@ id;creationdate;score;title;tags;note
 34253118;2015-12-13 16:05:36.030;2;Grunt integration with Maven;<node.js><maven><gruntjs><npm>;nothing found
 37574934;01.06.2016 17:10;2;Maven frontend build runs twice for generate-sources phase;<node.js><maven>;nothing found
 39355547;06.09.2016 18:25;2;Zeppelin: web Application failure while building zeppelin;<node.js><maven><apache-zeppelin>;nothing found
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;

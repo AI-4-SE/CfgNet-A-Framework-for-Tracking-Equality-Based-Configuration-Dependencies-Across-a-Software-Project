@@ -3,9 +3,9 @@ id;creationdate;score;title;tags;notes
 48324493;18.01.2018 15:12;16;Cypress failed to start on Windows;<node.js><windows><cypress>;nothing found
 63667880;31.08.2020 09:05;8;Cypress verification timed out after 30000 milliseconds;<node.js><npm><cypress>;nothing found
 47631821;2017-12-04 10:59:45.077;8;mocking server for SSR react app e2e tests with cypress.io;<node.js><testing><nock><server-side-rendering><cypress>;nothing found
-56006940;2019-05-06 14:11:58.080;7;Executing a task after all test are launch cypress;<node.js><cypress>;cypress command
+56006940;2019-05-06 14:11:58.080;7;Executing a task after all test are launch cypress;<node.js><cypress>;nothing found
 50685393;04.06.2018 16:54;7;Avoid using cy.wait() to wait for a page to load due to aborted get request cypress;<node.js><timeout><cypress>;nothing found
-61973532;2020-05-23 14:29:43.047;7;Cypress Parallelisation Without Cypress Dashboard;<node.js><continuous-integration><dependencies><cypress><offline>;internal port
+61973532;2020-05-23 14:29:43.047;7;Cypress Parallelisation Without Cypress Dashboard;<node.js><continuous-integration><dependencies><cypress><offline>;internal docker-compose network
 64115257;29.09.2020 07:59;6;Is being covered by another element Cypress;<javascript><node.js><cypress>;nothing found
 56431316;03.06.2019 16:33;6;Set local storage in Cypress;<javascript><node.js><cypress>;nothing found
 55138378;13.03.2019 09:29;6;Got TypeError: Cannot read property 'passes' of undefined using Cypress when generating mochawesome report;<javascript><node.js><testing><mocha.js><cypress>;nothing found
@@ -15,7 +15,7 @@ id;creationdate;score;title;tags;notes
 54308788;2019-01-22 12:56:16.053;5;How to test login to GSuite calendar using Cypress;<node.js><selenium><cypress>;nothing found
 48634725;06.02.2018 02:51;5;Cypress CLI console output not very readable;<node.js><testing><end-to-end><cypress>;nothing found
 55229120;18.03.2019 19:56;5;Mock network requests in Cypress;<node.js><request><cypress>;nothing found
-57431439;09.08.2019 13:45;5;"How to set an environment variable to be used during ""npm install""?";<node.js><npm><environment-variables><npm-install><cypress>;cypress command
+57431439;09.08.2019 13:45;5;"How to set an environment variable to be used during ""npm install""?";<node.js><npm><environment-variables><npm-install><cypress>;nothing found
 51990729;23.08.2018 16:50;4;Cypress Cucumber - How do I make my steps run in order?;<javascript><node.js><cucumber><cucumberjs><cypress>;nothing found
 54417335;29.01.2019 09:09;4;How to change property of a record in db with cypress.io;<node.js><database><cypress>;nothing found
 61262881;17.04.2020 01:51;4;Cypress never get past loading screen on Ubuntu;<node.js><linux><testing><automated-tests><cypress>;nothing found
@@ -39,7 +39,7 @@ id;creationdate;score;title;tags;notes
 65736979;15.01.2021 13:30;2;Cypress assertion fails but test passes;<javascript><node.js><integration-testing><cypress>;nothing found
 57323653;02.08.2019 09:31;2;How to fix cy.route() data type response issue?;<javascript><jquery><node.js><cypress>;nothing found
 50708295;05.06.2018 20:17;2;Cypress Select Specific Child of HTML <select>;<node.js><unit-testing><testing><cypress>;nothing found
-51168642;04.07.2018 08:01;2;How to run cypress e2e tests on localhost on Travis CI;<node.js><travis-ci><cypress>;cypress command
+51168642;04.07.2018 08:01;2;How to run cypress e2e tests on localhost on Travis CI;<node.js><travis-ci><cypress>;nothing found
 58147131;28.09.2019 14:10;2;cypress retrieve JWToken and set as header for further requests;<node.js><express><cypress>;nothing found
 58423725;17.10.2019 01:39;2;Github actions not working after npm start;<node.js><continuous-integration><next.js><cypress><github-actions>;nothing found
 66224409;16.02.2021 12:34;2;Module not found: Error: Can't resolve 'cypress-react-selector';<node.js><reactjs><cypress>;nothing found
@@ -49,151 +49,3 @@ id;creationdate;score;title;tags;notes
 59511868;28.12.2019 14:40;2;Can we add screenshots as an attachment to the test result in Azure pipeline;<node.js><azure-devops><azure-pipelines><cypress>;nothing found
 67019220;2021-04-09 10:13:47.077;2;Cypress: Module not found: Error: Can't resolve 'cypress/types/lodash;<javascript><node.js><npm><lodash><cypress>;nothing found
 59987169;30.01.2020 13:28;2;How to simulate event of barcode scanning;<javascript><node.js><reactjs><cypress>;nothing found
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;

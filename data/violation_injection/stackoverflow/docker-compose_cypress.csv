@@ -1,11 +1,11 @@
 id;creationdate;score;title;tags;notes
-59296801;12.12.2019 02:21;22;Docker-compose exit code is 137 when there is no OOM exception;<docker><docker-compose><cypress>;port dependency, copyinf files, internal port docker-compose
-63732523;03.09.2020 22:35;7;Docker refuses to work on my localhost:3000 port;<docker><docker-compose><cypress>;baseurl-port cypress docker-compose
-54030974;03.01.2019 23:00;6;Cypress and Docker - Can't run because no spec files were found;<docker-compose><cypress>;coyping files
+59296801;12.12.2019 02:21;22;Docker-compose exit code is 137 when there is no OOM exception;<docker><docker-compose><cypress>;port, config artifact, internal docker-compose network, internal docker
+63732523;03.09.2020 22:35;7;Docker refuses to work on my localhost:3000 port;<docker><docker-compose><cypress>;cypress baseurl
+54030974;03.01.2019 23:00;6;Cypress and Docker - Can't run because no spec files were found;<docker-compose><cypress>;config artifact
 56258653;22.05.2019 14:01;6;How i can run parallel test in docker on gitlab without dashboard?;<docker-compose><continuous-integration><cypress>;nothing found
-49103766;05.03.2018 05:03;4;How to add cypress into my current docker?;<docker><vue.js><docker-compose><cypress>;copying files, internal port docker-compose, baseurl-port cypress docker-compose
+49103766;05.03.2018 05:03;4;How to add cypress into my current docker?;<docker><vue.js><docker-compose><cypress>;config artifact, cypress baseurl
 51654328;02.08.2018 12:59;4;docker-compose can't connect to adjacent service via service name;<docker><docker-compose><cypress><docker-network>;nothing found
-58709659;05.11.2019 10:43;4;Cypress could not verify that this server is running when using Docker and Docker Compose;<docker><testing><docker-compose><dockerfile><cypress>;copying files, 
+58709659;05.11.2019 10:43;4;Cypress could not verify that this server is running when using Docker and Docker Compose;<docker><testing><docker-compose><dockerfile><cypress>;config artifact, internal docker-compose network
 57413739;2019-08-08 13:26:26.053;3;First Cypress test always fails no matter what in CircleCI;<docker-compose><continuous-integration><cypress><circleci>;nothing found
 67178624;20.04.2021 12:07;2;problems running Docker container in Cypress;<docker><docker-compose><continuous-integration><automated-tests><cypress>;nothing found
 63172855;30.07.2020 12:07;2;How to setup TeamCity to work with Cypress without installation of node, xvfb, cypress for each test execution;<docker><docker-compose><teamcity><cypress>;nothing found
@@ -13,18 +13,18 @@ id;creationdate;score;title;tags;notes
 54727898;16.02.2019 21:37;1;How to launch cypress e2e tests with docker-compose for a vuejs project created with vue-cli 3?;<docker><docker-compose><cypress><vue-cli-3>;deleted
 61131739;09.04.2020 23:18;1;"Unable to connect to docker container in Jenkins pipeline when using ""Docker outside of Docker"" setup";<docker><jenkins><docker-compose><cypress><docker-in-docker>;nothing found
 63206788;2020-08-01 15:14:26.017;1;Using a GitLab CI/CD pipeline, how can I run Cypress tests on the Front-End of a Docker-hosted Database?;<npm><docker-compose><continuous-integration><gitlab><cypress>;nothing found
-63329097;2020-08-09 17:00:57.003;1;Two SIMILAR docker-compose files are not giving the same result;<docker><docker-compose><dockerfile><cypress>;copying files, internal port docker-compose, baseurl-port cypress docker-compose
+63329097;2020-08-09 17:00:57.003;1;Two SIMILAR docker-compose files are not giving the same result;<docker><docker-compose><dockerfile><cypress>;config artifact, cypress baseurl
 66091890;07.02.2021 18:57;0;How can I run cypress tests inside a docker container against an external application;<docker><docker-compose><cypress>;nothing found
-66464545;03.03.2021 20:35;0;Cypress not connecting to localhost;<docker><docker-compose><localhost><integration-testing><cypress>;internal port docker-compose, baseurl-port cypress docker-compose
+66464545;03.03.2021 20:35;0;Cypress not connecting to localhost;<docker><docker-compose><localhost><integration-testing><cypress>;cypress baseurl, internal docker-compose network
 66466416;03.03.2021 23:22;0;Cypress can't see rails server output from within the same docker container;<ruby-on-rails><docker><docker-compose><cypress>;nothing found
 66612149;13.03.2021 10:00;0;Run specific spec files on cypress docker-compose setup;<docker-compose><cypress>;nothing found
-67097717;14.04.2021 19:07;0;Share image contents from external url docker images in a container;<docker><docker-compose><dockerfile><cypress>;internal port docker-compose
+67097717;14.04.2021 19:07;0;Share image contents from external url docker images in a container;<docker><docker-compose><dockerfile><cypress>;nothing found
 65396117;21.12.2020 16:08;0;Why e2e database tests failing within CI but not locally?;<docker><docker-compose><gitlab-ci><cypress>;nothing found
 67280307;27.04.2021 09:21;0;Cypress with Docker and Jenkins pipeline. String does not match pattern error message;<docker><docker-compose><automated-tests><cypress>;nothing found
 67595162;18.05.2021 23:33;0;How to suppress cypress headless chrome logs?;<docker-compose><continuous-integration><cypress>;nothing found
 67751378;29.05.2021 12:29;0;Javascript on Github Actions with cypress not executed;<javascript><docker-compose><cypress><github-actions>;deleted
-68020314;17.06.2021 13:24;0;Docker compose - How can I stop all my containers only when they have all exited?;<image><docker><docker-compose><cypress>;internal port docker-compose
-68100390;2021-06-23 13:03:55.063;0;Error: Cannot find module '@vue/cli-plugin-babel/preset';<typescript><docker><vue.js><docker-compose><cypress>;internal port docker-compose, baseurl-port cypress docker-compose
-68430851;18.07.2021 16:03;0;How can I get Cypress access other routes besides root within CI?;<docker><docker-compose><gitlab-ci><cypress>;internal port docker-compose
-68458169;20.07.2021 16:15;0;How do I make a fallback route for e2e testing?;<reactjs><flask><docker-compose><gitlab-ci><cypress>;nothing found
+68020314;17.06.2021 13:24;0;Docker compose - How can I stop all my containers only when they have all exited?;<image><docker><docker-compose><cypress>;deleted
+68100390;2021-06-23 13:03:55.063;0;Error: Cannot find module '@vue/cli-plugin-babel/preset';<typescript><docker><vue.js><docker-compose><cypress>;cypress baseurl
+68430851;18.07.2021 16:03;0;How can I get Cypress access other routes besides root within CI?;<docker><docker-compose><gitlab-ci><cypress>;nothing found
+68458169;20.07.2021 16:15;0;How do I make a fallback route for e2e testing?;<reactjs><flask><docker-compose><gitlab-ci><cypress>;deleted
 64989558;24.11.2020 15:25;0;Buildkite Docker Cypress - artifacts delete rights;<docker><docker-compose><cypress><buildkite>;deleted

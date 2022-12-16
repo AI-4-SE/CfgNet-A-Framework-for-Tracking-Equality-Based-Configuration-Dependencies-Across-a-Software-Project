@@ -1,29 +1,29 @@
-id;creationdate;score;title;tags;note
-27767264;04.01.2015 15:48;113;How to dockerize maven project? and how many ways to accomplish it?;<java><maven><docker>;copying files in dockerfile, executable name, internal docker dependency, port dependency docker and spring boot
-42208442;2017-02-13 16:06:04.087;53;Maven docker cache dependencies;<java><docker><maven><caching><dockerfile>;copying files in dockerfile, exectubale name
-31696439;29.07.2015 09:28;51;How to build a docker container for a Java application;<java><maven><gradle><docker><dockerfile>;executable name, internal docker dependency, port dependency
-27749193;2015-01-02 22:08:43.030;31;How to build Docker Images with Dockerfile behind HTTP_PROXY by Jenkins?;<git><maven><npm><docker><dockerfile>;copying files in dockerfile
+id;creationdate;score;title;tags;notes
+27767264;04.01.2015 15:48;113;How to dockerize maven project? and how many ways to accomplish it?;<java><maven><docker>;config artifact, executable name, internal docker, port
+42208442;2017-02-13 16:06:04.087;53;Maven docker cache dependencies;<java><docker><maven><caching><dockerfile>;config artifact
+31696439;29.07.2015 09:28;51;How to build a docker container for a Java application;<java><maven><gradle><docker><dockerfile>;executable name, internal docker
+27749193;2015-01-02 22:08:43.030;31;How to build Docker Images with Dockerfile behind HTTP_PROXY by Jenkins?;<git><maven><npm><docker><dockerfile>;config artifact, internal docker
 30252532;15.05.2015 05:59;27;Correct way to deploy WAR files in docker image;<java><maven><jetty><docker><dockerfile>;executable name
 35549854;22.02.2016 09:22;19;maven package docker:build - connection refused;<java><maven><docker>;nothing found
 34748584;2016-01-12 16:15:16.093;18;What is happening when docker-maven plugin tries to build image?;<maven><plugins><jenkins><permissions><docker>;nothing found
-36234088;26.03.2016 10:13;16;How do I point a docker image to my .m2 directory for running maven in docker on a mac?;<linux><macos><maven><docker><vagrant>;exectuable name, port dependency, internal port dependency docker-compose
+36234088;26.03.2016 10:13;16;How do I point a docker image to my .m2 directory for running maven in docker on a mac?;<linux><macos><maven><docker><vagrant>;port, config artifact
 46831762;19.10.2017 14:02;16;Maven build and maven-failsafe-plugin - The forked VM terminated without properly saying goodbye;<java><maven><docker><windows-10><maven-surefire-plugin>;nothing found
 39487399;14.09.2016 09:49;15;DOCKER_HOST environment variable on windows;<java><windows><maven><docker>;nothing found
 27342154;07.12.2014 11:25;15;Using Docker in development for Java EE applications;<java><maven><jakarta-ee><jboss><docker>;nothing found
 46670582;10.10.2017 15:30;14;"Docker->Maven->Failsafe->Surefire starting fork fails with ""The forked VM terminated without properly saying goodbye. VM crash or System.exit called?""";<java><maven><docker><containers><maven-surefire-plugin>;nothing found
-34203179;10.12.2015 13:28;12;fetch all maven dependencies including plugin dependencies;<maven><docker>;copying files in dockerfile
+34203179;10.12.2015 13:28;12;fetch all maven dependencies including plugin dependencies;<maven><docker>;config artifact
 49578847;30.03.2018 17:37;11;Maven error occurred in starting fork, check output in log;<maven><docker><spring-boot><windows-10><maven-surefire-plugin>;nothing found
 46052711;05.09.2017 10:25;11;extend jenkins image to install maven;<maven><docker><jenkins><dockerfile><docker-container>;nothing found
-53691781;2018-12-09 11:21:04.030;10;How to cache maven dependencies in Docker;<java><maven><docker>;excetuable name, copying files in dockerfile
+53691781;2018-12-09 11:21:04.030;10;How to cache maven dependencies in Docker;<java><maven><docker>;config artifact, executable name, internal docker
 31079375;26.06.2015 17:58;9;Unable to run docker image - no main manifest attribute, in app.jar;<java><maven><docker>;nothing found
 46713288;12.10.2017 15:19;9;Maven inside docker container horribly slow;<macos><performance><maven><docker>;nothing found
 46940191;25.10.2017 19:02;9;docker.exe: invalid reference format;<windows><maven><docker>;nothing found
-57581943;20.08.2019 21:48;9;mount=type=cache in buildkit;<maven><docker><dockerfile><docker-build>;copying files in dockerfile
-47969389;25.12.2017 14:12;9;How can I cache Maven dependencies and plugins in a Docker Multi Stage Build Layer?;<maven><docker><build><dockerfile><docker-multi-stage-build>;nothing found
-35132568;2016-02-01 14:06:42.070;9;Caching Jar dependencies for Maven-based Docker builds;<maven><docker><dependencies><dockerfile>;nothing found
+57581943;20.08.2019 21:48;9;mount=type=cache in buildkit;<maven><docker><dockerfile><docker-build>;config artifact, executable name
+47969389;25.12.2017 14:12;9;How can I cache Maven dependencies and plugins in a Docker Multi Stage Build Layer?;<maven><docker><build><dockerfile><docker-multi-stage-build>;config artifact
+35132568;2016-02-01 14:06:42.070;9;Caching Jar dependencies for Maven-based Docker builds;<maven><docker><dependencies><dockerfile>;config artifact
 39331665;05.09.2016 13:27;8;Permission denied for protoc on maven build in Teamcity;<maven><ubuntu><docker><teamcity><docker-compose>;nothing found
-44919972;05.07.2017 07:44;8;Deploying Spring WAR to Tomcat-based docker;<java><spring><maven><tomcat><docker>;execetuable name
-42278216;16.02.2017 15:31;8;Run a maven webapp in a docker container;<maven><docker><tomcat7>;copying files in dockerfile
+44919972;05.07.2017 07:44;8;Deploying Spring WAR to Tomcat-based docker;<java><spring><maven><tomcat><docker>;executable name
+42278216;16.02.2017 15:31;8;Run a maven webapp in a docker container;<maven><docker><tomcat7>;config artifact
 55353804;26.03.2019 09:35;8;How to automate Maven and Java JDK8 installation with groovy for Jenkins?;<java><maven><docker><jenkins><groovy>;nothing found
 47708983;08.12.2017 06:37;8;Build docker image without docker installed;<maven><docker><build>;nothing found
 34815411;15.01.2016 16:19;8;Docker maven plugin ClientProtocolException (Windows 10 using Docker Toolbox);<java><maven><docker><spotify><docker-toolbox>;nothing found
@@ -31,21 +31,21 @@ id;creationdate;score;title;tags;note
 39924530;07.10.2016 19:27;7;Spotify docker-maven-plugin unauthorized: authentication required public repo;<maven><docker><maven-plugin><spotify><docker-registry>;nothing found
 36389982;2016-04-03 19:18:02.020;7;Docker Maven Spotify plugin - Possible to switch to non-secure registry;<maven><docker><maven-plugin><spotify><docker-registry>;nothing found
 55104543;11.03.2019 14:50;7;How to cache local Maven repository using Docker with Pipelines?;<maven><docker><jenkins><jenkins-pipeline>;nothing found
-52120845;2018-08-31 18:16:34.017;7;Docker-compose - build with maven that re-uses the maven repository;<maven><docker><docker-compose>;executable name, port dependency docker and docker-compose, Docker-Compose specifies Dockerfile
-49395983;20.03.2018 23:53;7;Downloading all dependencies for Maven test;<maven><docker>;copying files in dockerfile
-50948581;20.06.2018 12:43;7;Access to outside of context in Dockerfile;<java><maven><docker>;internal port dependency docker and docker compose, port dependency docker and docker-compose
-59747862;15.01.2020 08:54;7;"Docker build fails ""COPY failed: no source files were specified""";<maven><docker>;exectuable name, copying files in dockerfile
-33381235;28.10.2015 01:08;7;Download all dependencies, plugin dependencies, compilers, etc. with Maven?;<maven><docker><gatling>;copying files in dockerfile
+52120845;2018-08-31 18:16:34.017;7;Docker-compose - build with maven that re-uses the maven repository;<maven><docker><docker-compose>;executable name, port, internal docker, config artifact
+49395983;20.03.2018 23:53;7;Downloading all dependencies for Maven test;<maven><docker>;config artifact
+50948581;20.06.2018 12:43;7;Access to outside of context in Dockerfile;<java><maven><docker>;port, executable name
+59747862;15.01.2020 08:54;7;"Docker build fails ""COPY failed: no source files were specified""";<maven><docker>;executable name, config artifact, internal docker
+33381235;28.10.2015 01:08;7;Download all dependencies, plugin dependencies, compilers, etc. with Maven?;<maven><docker><gatling>;config artifact
 47776984;12.12.2017 16:13;7;Error pushing docker hub using spotify/dockerfile-maven-plugin;<java><maven><docker><dockerhub><maven-docker-plugin>;nothing found
 39527236;16.09.2016 08:46;7;Jenkins pipeline script exit status -1 for docker maven image;<maven><docker><jenkins><jenkins-pipeline>;nothing found
 52188457;05.09.2018 15:11;7;GitLab-CI get pom version in pipeline;<maven><docker><gitlab><gitlab-ci>;nothing found
 56284845;24.05.2019 01:42;7;Skip maven deploy for one module;<java><maven><spring-boot><docker><spotify-docker-client>;nothing found
 32614762;16.09.2015 17:12;7;Installing maven in a docker build overrides JAVA 8 with JAVA 7(!);<maven><docker><dockerfile>;nothing found
 38179626;04.07.2016 08:04;7;Cannot (apt-get) install packages inside docker;<maven><docker><apt-get>;nothing found
-58402441;15.10.2019 20:47;6;Docker Multimodule Maven Build - Copy All POM Files to Appropriate Directories;<java><maven><docker>;copying files in dockerfile
-51679363;03.08.2018 19:57;6;multi-module Maven project on Dockers;<java><maven><docker><pom.xml><microservices>;executable name, copying files in dockerfile, port dependency docker and docker-compose
+58402441;15.10.2019 20:47;6;Docker Multimodule Maven Build - Copy All POM Files to Appropriate Directories;<java><maven><docker>;config artifact
+51679363;03.08.2018 19:57;6;multi-module Maven project on Dockers;<java><maven><docker><pom.xml><microservices>;executable name, config artifact, port, artifact-module name, internal docker
 45660774;13.08.2017 13:18;6;Mounting Maven Repository to Docker;<java><maven><docker><dockerfile><docker-build>;nothing found
 63492180;19.08.2020 17:33;6;spring-boot-maven-plugin:build-image fails with 400 Bad Request;<spring-boot><docker><maven>;nothing found
-28078524;21.01.2015 23:03;6;Docker - maven connect to specific repository in runtime;<java><xml><maven><docker>;copying files in dockerfile
+28078524;21.01.2015 23:03;6;Docker - maven connect to specific repository in runtime;<java><xml><maven><docker>;config artifact
 45685232;15.08.2017 01:20;6;Dynamically get JAR filename in DockerFile;<maven><docker><jar><dockerfile>;nothing found
 35450248;17.02.2016 07:19;6;Can't connect to mySql docker container with JDBC;<java><mysql><maven><jdbc><docker>;nothing found

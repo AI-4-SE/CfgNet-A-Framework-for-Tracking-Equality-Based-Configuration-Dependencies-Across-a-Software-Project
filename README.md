@@ -6,9 +6,11 @@ Additional material for our paper *CfgNet: A Framework for Tracking Configuratio
 
 To evaluate CfgNet's ability to model the configuration landscape of a software project and detect dependency conflicts in it, we followed state of the art practice by violating configuration dependencies in five software projects. You can find the results of the dependency violations [here](data/violation_injection/results/).
 
-Since there was no readily available data set of cross-technology configuration dependencies, we first analyzed Stack Overflow (SO) posts and extracted [five reoccurring configuration dependencies](data/violation_injection/dependencies.pdf).
+Since there was no readily available data set of cross-technology configuration dependencies, we first analyzed Stack Overflow (SO) posts and extracted [ten reoccurring configuration dependencies](data/violation_injection/all_dependencies.pdf).
+For the dependency violation injection, we selected the four most common cross-technology configuration dependencies and the top most common internal configuration dependencies.
+The selected configuration dependencies can be found [here](data/violation_injection/selected_dependencies.pdf)
 
-In the following, we present the subject sysems and the changes (i.e., the file, line number, old value, and new value) that we made to violate the dependencies.
+In the following, we present the subject systems and the changes (i.e., the file, line number, old value, and new value) that we made to violate the dependencies.
 
 ### **spring-boot-blog**
 This blogging application uses Maven, Docker, a database, and many Spring Technologies, such as Spring Boot, Spring Security, and Spring Data.
@@ -90,8 +92,8 @@ We also showed how CfgNet helps to prevent possible configuration dependency con
 
 ## Evaluation: Commit History
 
-To demonstrate that cross-technology configuration dependencies occur and matter in practice, we analyzed the commit history of the top [50 software repositories](data/commit_analysis/repositories.csv) with the most stars from GitHub (June 2022) that incoporate at least two technologies we cover with out implementation.
-We replaced repositories that could not be analyzed due to errors caused by third-party libraries and that did not represent real software systems, such auch collections of best practices, link hubs, or frameworks.
+To demonstrate that cross-technology configuration dependencies occur and matter in practice, we analyzed the commit history of the top [50 software repositories](data/commit_analysis/repositories.csv) with the most stars from GitHub (June 2022) that incoporated at least two technologies we cover with our implementation.
+We replaced repositories that could not be analyzed due to errors caused by third-party libraries and that did not represent real software systems, such as collections of best practices, link hubs, or frameworks.
 We analyzed the commit history of the subject systems in an automated manner and tracked all detected dependency conflicts for each commit.
 The results of applying CfgNet to the commit history of 50 software repositories can be found [here](data/commit_analysis/analysis_statistics.csv).
 
@@ -101,7 +103,7 @@ If there were less than 50 conflicts, we reviewed all of them.
 In total, we manually inspected [883 Modified Option Conflicts](data/commit_analysis/conflict_inspection/reviewed/), annotated 785 (89 %) conflicts with yes, 98 (11 %) with no, and classified the conflicts into different categories based on their ratings and the involved configuration types.
 
 Our results demonstrate our current implementation, which includes nine technology plugins and a general linker, can find hundreds of potential configuration conflicts in software projects, showing that configuration dependencies occur and matter in practice.
-Especially, the high number of afftected software projects and the manual analysis with about 89~% true positives indicate not only the relevance of our approach for real-world software projects, but also its applicability already in its current state.
+Especially, the high number of affected software projects and the manual analysis with about 89~% true positives indicate not only the relevance of our approach for real-world software projects, but also its applicability already in its current state.
 In addition, we found that the false positives can be mainly traced back to the implementation of plugins due to a lack of domain knowledge and tracking of unnecessary options. 
 This confirms that plugins are the key success factor for our approach, as they not only determine how much information a network contain, but also support the linking process by providing type information for configuration options.
 

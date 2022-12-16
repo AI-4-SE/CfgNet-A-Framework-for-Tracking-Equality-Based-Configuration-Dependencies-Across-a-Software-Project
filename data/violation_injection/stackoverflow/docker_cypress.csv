@@ -1,25 +1,25 @@
 id;creationdate;score;title;tags;notes
-59296801;12.12.2019 02:21;22;Docker-compose exit code is 137 when there is no OOM exception;<docker><docker-compose><cypress>;port dependency, copying files, internal port docker-compose
+59296801;12.12.2019 02:21;22;Docker-compose exit code is 137 when there is no OOM exception;<docker><docker-compose><cypress>;port, config artifact, internal docker-compose network
 62319657;2020-06-11 07:58:13.047;9;"How to resolve ""The cypress npm package is installed, but the Cypress binary is missing.""";<docker><npm><gitlab-ci><cypress>;nothing found
-63732523;03.09.2020 22:35;7;Docker refuses to work on my localhost:3000 port;<docker><docker-compose><cypress>;internal port docker-compose
+63732523;03.09.2020 22:35;7;Docker refuses to work on my localhost:3000 port;<docker><docker-compose><cypress>;cypress baseurl
 53959995;28.12.2018 14:23;6;Cypress could not verify that the server set as your 'baseUrl' is running:;<docker><mocha.js><cypress>;nothing found
-59514234;28.12.2019 19:33;5;Viewing The Interactive Cypress Test Runner In Docker On Linux;<linux><docker><cypress>;nothing found
-49103766;05.03.2018 05:03;4;How to add cypress into my current docker?;<docker><vue.js><docker-compose><cypress>;copying files, internal port docker-compose
+59514234;28.12.2019 19:33;5;Viewing The Interactive Cypress Test Runner In Docker On Linux;<linux><docker><cypress>;cypress baseurl
+49103766;05.03.2018 05:03;4;How to add cypress into my current docker?;<docker><vue.js><docker-compose><cypress>;config artifact, cypress baseurl
 51654328;02.08.2018 12:59;4;docker-compose can't connect to adjacent service via service name;<docker><docker-compose><cypress><docker-network>;nothing found
-58709659;05.11.2019 10:43;4;Cypress could not verify that this server is running when using Docker and Docker Compose;<docker><testing><docker-compose><dockerfile><cypress>;copying files, internal port docker-compose, url-port cypress and docker-compose
+58709659;05.11.2019 10:43;4;Cypress could not verify that this server is running when using Docker and Docker Compose;<docker><testing><docker-compose><dockerfile><cypress>;config artifact, internal docker-compose network
 64013383;2020-09-22 15:54:09.037;4;How to run Jenkins parallel cypress on different agents?;<docker><jenkins><testing><frontend><cypress>;nothing found
 66064976;05.02.2021 14:23;4;Cypress Error: Failed to get 'appData' path;<docker><jenkins><cypress>;nothing found
 58947967;20.11.2019 06:22;3;"Cypress error ""The automation client disconnected. Cannot continue running tests."" when running in Docker";<reactjs><docker><testing><cypress><end-to-end>;nothing found
 59109247;29.11.2019 17:54;3;"Cypress (Electron) error on OpenShift ""Failed to get 'appData' path"" during End-to-end tests";<docker><npm><electron><openshift><cypress>;nothing found
 54795383;20.02.2019 21:17;2;cypress ci missing libgtk-x11-2.0.so.0;<docker><circleci><cypress>;nothing found
 56295439;24.05.2019 15:19;2;Uncaught TypeError: handler.apply is not a function (webpack-internal) with Vue/Rails/Cypress;<docker><vue.js><cypress>;nothing found
-57796853;04.09.2019 23:53;2;Reduce Cypress docker image size;<reactjs><docker><testing><yarnpkg><cypress>;copying files
+57796853;04.09.2019 23:53;2;Reduce Cypress docker image size;<reactjs><docker><testing><yarnpkg><cypress>;config artifact
 58101245;25.09.2019 14:53;2;Can't save the cypress screenshots in higher resolution in jenkins pipelines;<docker><jenkins><automated-tests><screenshot><cypress>;nothing found
 58920377;18.11.2019 17:55;2;How do I fix console log encoding issues on Azure CI?;<azure><docker><continuous-integration><cypress><console.log>;nothing found
 59647804;08.01.2020 14:18;2;How to edit pass a flag (--ipc=host) to docker run -d -p in azure pipeline?;<azure><docker><azure-pipelines><cypress>;nothing found
 60872885;26.03.2020 17:27;2;Cypress in Docker failing to load first page;<docker><google-chrome><cypress>;nothing found
 61597390;04.05.2020 16:48;2;Cypress uploadfile failed with 100MB video file in docker cypress/included:4.4.0 but successful locally;<docker><file-upload><cypress>;nothing found
-62756973;06.07.2020 13:18;2;Cypress fails to verify the server is running;<docker><cypress>;internal port docker-compose
+62756973;06.07.2020 13:18;2;Cypress fails to verify the server is running;<docker><cypress>;nothing found
 63172855;30.07.2020 12:07;2;How to setup TeamCity to work with Cypress without installation of node, xvfb, cypress for each test execution;<docker><docker-compose><teamcity><cypress>;nothing found
 67178624;20.04.2021 12:07;2;problems running Docker container in Cypress;<docker><docker-compose><continuous-integration><automated-tests><cypress>;nothing found
 68783509;14.08.2021 12:58;2;How to configure Multiple reporters in Cypress Docker container?;<docker><junit><cypress><mochawesome>;nothing found
@@ -30,20 +30,20 @@ id;creationdate;score;title;tags;notes
 61131739;09.04.2020 23:18;1;"Unable to connect to docker container in Jenkins pipeline when using ""Docker outside of Docker"" setup";<docker><jenkins><docker-compose><cypress><docker-in-docker>;nothing found
 61249792;16.04.2020 12:04;1;Running cypress tests in parallel using docker;<docker><automation><cypress>;nothing found
 61284940;18.04.2020 06:13;1;"Cypress test failing with ""out of memory"" error in docker";<docker><cypress><aws-fargate>;nothing found
-61405597;24.04.2020 09:50;1;Access a Docker Container via Alias behind a reverse proxy from another container;<docker><gitlab><reverse-proxy><alias><cypress>;internal port docker-compose
+61405597;24.04.2020 09:50;1;Access a Docker Container via Alias behind a reverse proxy from another container;<docker><gitlab><reverse-proxy><alias><cypress>;nothing found
 62365375;13.06.2020 20:46;1;How to specify where to look for cypress.json file in Cypress container?;<docker><cypress>;nothing found
 62397467;15.06.2020 21:40;1;How to run Cypress tests from a container with opening browser (non-headlessly)?;<docker><cypress>;nothing found
-62597087;26.06.2020 14:36;1;How to run Cypress from Docker?;<docker><cypress>;nothing found
+62597087;26.06.2020 14:36;1;How to run Cypress from Docker?;<docker><cypress>;config artifact
 63250024;04.08.2020 15:20;1;Why Cypress is unable to determine if server is running?;<docker><cypress>;nothing found
-63329097;2020-08-09 17:00:57.003;1;Two SIMILAR docker-compose files are not giving the same result;<docker><docker-compose><dockerfile><cypress>;copying files, internal port docker-compose
+63329097;2020-08-09 17:00:57.003;1;Two SIMILAR docker-compose files are not giving the same result;<docker><docker-compose><dockerfile><cypress>;config artifact, cypress baseurl
 63428121;15.08.2020 16:04;1;Why tests failing headlessly but not when browser is opened?;<docker><cypress>;nothing found
 63499364;20.08.2020 06:19;1;Unable to run cypress test in circleci with docker image;<docker><continuous-integration><pipeline><cypress><circleci>;nothing found
 63627940;28.08.2020 05:26;1;How to specify IP to use in gitlab-ci file?;<docker><gitlab-ci><cypress>;nothing found
 63638778;28.08.2020 17:56;1;Dockerfile - Which option to use the target?;<docker><cypress>;nothing found
 64122011;29.09.2020 14:43;1;Is it possible to mount host machine folder when run process in docker container on the remote machine;<node.js><docker><jenkins><npm><cypress>;nothing found
-65482132;28.12.2020 18:13;1;ddev: Call the endpoint of a certain port of the web container from another container;<docker><cypress><shopware><ddev>;nothing found
+65482132;28.12.2020 18:13;1;ddev: Call the endpoint of a certain port of the web container from another container;<docker><cypress><shopware><ddev>;cypress baseurl
 66119635;09.02.2021 13:08;1;Problems cleaning up after cypress run;<docker><npm><cypress>;nothing found
-67880200;08.06.2021 00:57;1;How do we install npm pdf-parse library in jenkins docker container;<docker><jenkins><cypress><docker-container>;copying files
+67880200;08.06.2021 00:57;1;How do we install npm pdf-parse library in jenkins docker container;<docker><jenkins><cypress><docker-container>;config artifact
 68452283;2021-07-20 09:08:25.077;1;Using Docker and Cypress in Same Docker Image;<docker><cypress>;nothing found
 68500448;23.07.2021 14:01;1;Docker/Cypress Container Failing Due to Qemu Error on M1 Chip;<docker><cypress><apple-m1>;nothing found
 68780234;14.08.2021 04:04;1;How to covert rm command for Windows environment?;<linux><windows><docker><command-line><cypress>;nothing found

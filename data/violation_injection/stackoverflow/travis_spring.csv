@@ -4,7 +4,7 @@ id;creationdate;score;title;tags;notes
 53220276;09.11.2018 05:21;2;Selenium Chrome driver and Travis CI don't work together;<java><spring><selenium><travis-ci>;nothing found
 38912714;12.08.2016 07:52;1;Travis failing JUnit Tests for Spring;<java><spring><junit><travis-ci>;nothing found
 56699832;21.06.2019 08:42;1;Spring Boot Test Fails on Travis CLI with an exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure;<java><spring><spring-boot><travis-ci>;nothing found
-58968306;21.11.2019 06:08;1;Travis CI using the wrong version of Java;<java><spring><maven><spring-boot><travis-ci>;nothing found
+58968306;21.11.2019 06:08;1;Travis CI using the wrong version of Java;<java><spring><maven><spring-boot><travis-ci>;java version
 61735168;11.05.2020 17:01;1;Spring Boot Application test build fails on Travis CI;<java><spring><mongodb><spring-boot><travis-ci>;nothing found
 30284900;17.05.2015 08:29;0;Use ActiveMQ in Travis CI;<spring><spring-mvc><activemq><travis-ci>;nothing found
 40873001;2016-11-29 18:20:10.033;0;File cannot be opened because it does not exist;<spring><travis-ci>;nothing found

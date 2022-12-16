@@ -1,51 +1,51 @@
 id;creationdate;score;title;tags;notes
-44790923;27.06.2017 22:28;20;Docker Compose + Spring Boot + Postgres connection;<spring><postgresql><docker><docker-compose><dockerfile>;db credentials, excutable name, internal port, port dependency
-27612209;2014-12-22 23:50:07.063;18;Spring-boot application won't boot at startup inside docker;<java><spring><docker><spring-boot><digital-ocean>;executable name, internal docker dependency
-31070671;26.06.2015 10:18;15;debug spring-boot in docker;<java><spring><docker><spring-boot>;internal port, executable name, internal docker dependency
-55752013;18.04.2019 18:39;15;How can I start spring boot application in docker with profile?;<java><spring><spring-boot><docker><dockerfile>;executable name, internal docker dependency, internal port, port dependency
-51171289;04.07.2018 10:17;13;Unable to acquire JDBC Connection on integration test when using Docker bridge network;<java><mysql><spring><docker><jenkins>;db credentials
-46715072;12.10.2017 16:55;13;Passing env variables to DOCKER Spring Boot;<spring><docker><spring-boot><environment-variables><dockerfile>;executable name, internal docker dependency
-57739617;31.08.2019 16:05;10;Spring Config server not reachable with docker-compose until client is restarted;<spring><spring-boot><docker><docker-compose><netflix-eureka>;internal port, executable name, internal docker dependency
-41428013;02.01.2017 13:44;10;Why does wildcard for jar execution not work in docker CMD?;<java><spring><docker><spring-boot>;nothing found
-41998862;02.02.2017 09:47;9;Redeploy spring-boot application in docker container?;<java><spring><docker><spring-boot>;executable name, internal docker dependency
+44790923;27.06.2017 22:28;20;Docker Compose + Spring Boot + Postgres connection;<spring><postgresql><docker><docker-compose><dockerfile>;database credentials, executable name, port, internal docker
+27612209;2014-12-22 23:50:07.063;18;Spring-boot application won't boot at startup inside docker;<java><spring><docker><spring-boot><digital-ocean>;executable name, internal docker
+31070671;26.06.2015 10:18;15;debug spring-boot in docker;<java><spring><docker><spring-boot>;executable name, internal docker, port
+55752013;18.04.2019 18:39;15;How can I start spring boot application in docker with profile?;<java><spring><spring-boot><docker><dockerfile>;executable name, internal docker, port
+51171289;04.07.2018 10:17;13;Unable to acquire JDBC Connection on integration test when using Docker bridge network;<java><mysql><spring><docker><jenkins>;database credentials
+46715072;12.10.2017 16:55;13;Passing env variables to DOCKER Spring Boot;<spring><docker><spring-boot><environment-variables><dockerfile>;executable name, internal docker
+57739617;31.08.2019 16:05;10;Spring Config server not reachable with docker-compose until client is restarted;<spring><spring-boot><docker><docker-compose><netflix-eureka>;executable name, internal docker
+41428013;02.01.2017 13:44;10;Why does wildcard for jar execution not work in docker CMD?;<java><spring><docker><spring-boot>;executable name, internal docker
+41998862;02.02.2017 09:47;9;Redeploy spring-boot application in docker container?;<java><spring><docker><spring-boot>;executable name, internal docker
 58549130;24.10.2019 21:06;9;How to 'docker plugin install' for json-based plugin;<java><spring><docker>;nothing found
-43235946;05.04.2017 15:47;8;Spring Boot can't read application.properties in Docker;<spring><docker><intellij-idea><spring-boot><dockerfile>;port dependency, executable name, internal docker dependency
-39217402;2016-08-30 01:12:30.090;8;Unable to access jarfile when running Docker image;<spring><docker><spring-boot>;executable name, internal docker dependency
+43235946;05.04.2017 15:47;8;Spring Boot can't read application.properties in Docker;<spring><docker><intellij-idea><spring-boot><dockerfile>;port, executable name, internal docker
+39217402;2016-08-30 01:12:30.090;8;Unable to access jarfile when running Docker image;<spring><docker><spring-boot>;executable name, internal docker
 55346431;2019-03-25 21:08:13.040;8;How to fix JAVAX runtime error on JDK11 Tomcat9 Spring Application;<java><spring><maven><docker><tomcat>;nothing found
-61019493;03.04.2020 19:55;8;Spring boot 1.5.9, 404 error while accessing resources images within Docker container;<spring><spring-boot><docker><spring-mvc><spring-security>;executable name, internal docker dependency
-51527683;2018-07-25 21:08:54.010;8;java.net.UnknownHostException dockerized mysql from spring boot application;<java><mysql><spring><docker><spring-boot>;db credentials
-41804297;23.01.2017 10:37;8;What Docker base image (`FROM`) for Java Spring Boot?;<java><spring><docker><spring-boot><dockerfile>;executable name, internal docker dependency
+61019493;03.04.2020 19:55;8;Spring boot 1.5.9, 404 error while accessing resources images within Docker container;<spring><spring-boot><docker><spring-mvc><spring-security>;executable name, internal docker
+51527683;2018-07-25 21:08:54.010;8;java.net.UnknownHostException dockerized mysql from spring boot application;<java><mysql><spring><docker><spring-boot>;database credentials
+41804297;23.01.2017 10:37;8;What Docker base image (`FROM`) for Java Spring Boot?;<java><spring><docker><spring-boot><dockerfile>;executable name, internal docker
 57319678;02.08.2019 03:50;8;spring boot cloud eurka windows 10 eurkea returns host.docker.internal for client host name after latest docker upgrade;<spring><spring-boot><docker><netflix-eureka><spring-cloud-netflix>;nothing found
 44919972;05.07.2017 07:44;8;Deploying Spring WAR to Tomcat-based docker;<java><spring><maven><tomcat><docker>;executable name
 54773058;19.02.2019 18:48;8;spring.config.additional-location as environmental variable;<java><spring><spring-boot><docker>;nothing found
 40938088;02.12.2016 17:44;8;Microservices in practice;<spring><docker><cloud><microservices><docker-swarm>;nothing found
 52997270;25.10.2018 20:05;7;What is the right method for storing files in a microservice architecture?;<spring><docker><kubernetes><persistence><microservices>;nothing found
-52069406;29.08.2018 04:17;7;Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration' when run on Docker container;<java><spring><docker><spring-boot>;db credentials, excutable name, internal port
-48359972;20.01.2018 19:01;7;Spring Boot, PostgreSQL, and Docker - Connection Refused whil Running in Container;<spring><postgresql><docker><spring-boot><docker-compose>;internal port, executable name, internal docker dependency
-51200107;05.07.2018 21:23;7;Spring Kafka SSL setup in Spring boot application.yml;<java><spring><docker><spring-boot><apache-kafka>;executable name, internal docker dependency
-58853372;14.11.2019 09:27;7;"What exactly does ""-Djava.security.egd=file:/dev/./urandom"" do when containerizing a Spring Boot application";<spring><spring-boot><docker><spring-security><dockerfile>;executable name, internal docker dependency
-55562381;07.04.2019 18:34;7;Not able to connect to docker image with a spring boot application;<java><spring><spring-boot><docker><containers>;executable name, internal docker dependency
+52069406;29.08.2018 04:17;7;Error creating bean with name 'org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration' when run on Docker container;<java><spring><docker><spring-boot>;database credentials, executable name
+48359972;20.01.2018 19:01;7;Spring Boot, PostgreSQL, and Docker - Connection Refused whil Running in Container;<spring><postgresql><docker><spring-boot><docker-compose>;executable name, internal docker, internal docker-compose network
+51200107;05.07.2018 21:23;7;Spring Kafka SSL setup in Spring boot application.yml;<java><spring><docker><spring-boot><apache-kafka>;executable name, internal docker
+58853372;14.11.2019 09:27;7;"What exactly does ""-Djava.security.egd=file:/dev/./urandom"" do when containerizing a Spring Boot application";<spring><spring-boot><docker><spring-security><dockerfile>;executable name, internal docker
+55562381;07.04.2019 18:34;7;Not able to connect to docker image with a spring boot application;<java><spring><spring-boot><docker><containers>;executable name, internal docker
 51076698;28.06.2018 07:07;7;Multi-WAR tomcat vs Docker containers;<java><spring><performance><docker><tomcat>;nothing found
-56441497;04.06.2019 09:52;7;Docker MySQL - can't connect from Spring Boot app to MySQL database;<mysql><spring><spring-boot><docker><docker-compose>;db credentials, port dependency, internal port
-58880998;15.11.2019 16:21;7;Communications link failure , Spring Boot + MySql +Docker + Hibernate;<mysql><spring><spring-boot><docker><docker-compose>;db credentials
+56441497;04.06.2019 09:52;7;Docker MySQL - can't connect from Spring Boot app to MySQL database;<mysql><spring><spring-boot><docker><docker-compose>;database credentials, port
+58880998;15.11.2019 16:21;7;Communications link failure , Spring Boot + MySql +Docker + Hibernate;<mysql><spring><spring-boot><docker><docker-compose>;database credentials
 41810839;23.01.2017 16:18;6;Get debug informations from docker container which runs a tomcat server;<spring><debugging><tomcat><intellij-idea><docker>;nothing found
 52099768;30.08.2018 14:41;6;"Run ""apereo/cas"" docker image prints ""Failed to start connector"" error";<spring><docker><tomcat><cas><catalina>;nothing found
 57213611;26.07.2019 05:23;6;Keycloak and Spring Boot web app in dockerized environment;<spring><spring-boot><docker><oauth-2.0><keycloak>;nothing found
-37976796;22.06.2016 19:34;6;spring-boot cannot start in docker;<java><spring><shell><docker><spring-boot>;executable name, internal docker dependency
+37976796;22.06.2016 19:34;6;spring-boot cannot start in docker;<java><spring><shell><docker><spring-boot>;executable name, internal docker
 61855229;17.05.2020 16:36;6;How to set JVM arguments when running mvn spring-boot:build-image command in Spring Boot 2.3.0 to generate a docker image?;<spring><spring-boot><docker><jvm>;nothing found
-42759587;13.03.2017 08:52;6;Intellij, Spring dev tools remote, Docker, error Unexpected 404 response uploading class files;<spring><docker><intellij-idea><spring-boot><spring-tool-suite>;executable name, internal docker dependency
+42759587;13.03.2017 08:52;6;Intellij, Spring dev tools remote, Docker, error Unexpected 404 response uploading class files;<spring><docker><intellij-idea><spring-boot><spring-tool-suite>;executable name, internal docker
 63614788;2020-08-27 11:13:58.060;6;How to resolve org.testcontainers.containers.ContainerFetchException on Spring Boot?;<java><spring><spring-boot><docker><integration-testing>;nothing found
-49453397;23.03.2018 15:37;6;Run eureka service in a docker container;<java><spring><docker><netflix-eureka><netflix>;executable name, internal docker dependency
-61044111;05.04.2020 14:24;6;cors issue when throwing a runtime exception with spring and docker;<angular><spring><docker><cors><digital-ocean>;internal port
-39392285;08.09.2016 13:28;6;Docker. Spring application. set & get environment variable;<java><spring><docker><dockerfile>;executable name, internal docker dependency
+49453397;23.03.2018 15:37;6;Run eureka service in a docker container;<java><spring><docker><netflix-eureka><netflix>;executable name, internal docker
+61044111;05.04.2020 14:24;6;cors issue when throwing a runtime exception with spring and docker;<angular><spring><docker><cors><digital-ocean>;nothing found
+39392285;08.09.2016 13:28;6;Docker. Spring application. set & get environment variable;<java><spring><docker><dockerfile>;executable name, internal docker
 49231645;12.03.2018 09:17;5;File between backend a front end (full example);<java><html><spring><spring-mvc><docker>;nothing found
 52366847;17.09.2018 11:36;5;Spring Boot Security: works in Windows but not Docker/Alpine;<java><spring><docker><spring-boot>;nothing found
 49751863;10.04.2018 10:56;5;Is it possible to pass the spring.cloud.config.uri along with the docker run command?;<java><spring><docker>;nothing found
-56286104;24.05.2019 04:58;5;Spring Boot Application gets stuck on “Hikari-Pool-1 - Starting…”;<spring><postgresql><docker>;db credentials
-44667063;21.06.2017 04:49;5;Docker and Eureka with Spring Boot failing to register clients;<java><spring><maven><docker><spring-boot>;internal port
+56286104;24.05.2019 04:58;5;Spring Boot Application gets stuck on “Hikari-Pool-1 - Starting…”;<spring><postgresql><docker>;database credentials
+44667063;21.06.2017 04:49;5;Docker and Eureka with Spring Boot failing to register clients;<java><spring><maven><docker><spring-boot>;nothing found
 45959815;30.08.2017 11:57;5;Docker Kerberos WebHDFS AuthenticationException: Unauthorized;<spring><docker><hdfs><kerberos><webhdfs>;nothing found
-63928330;16.09.2020 21:42;5;Error when trying to run the docker compose;<java><spring><docker><docker-compose><devops>;internal port
-41181159;16.12.2016 09:31;5;passing command line parameters to spring boot services inside docker container;<spring><docker><spring-boot>;executable name, internal docker dependency
+63928330;16.09.2020 21:42;5;Error when trying to run the docker compose;<java><spring><docker><docker-compose><devops>;nothing found
+41181159;16.12.2016 09:31;5;passing command line parameters to spring boot services inside docker container;<spring><docker><spring-boot>;executable name, internal docker
 48211884;2018-01-11 16:35:33.033;5;rabbitmq docker spring o.s.a.r.l.SimpleMessageListenerContainer : Failed to check/redeclare auto-delete queue(s);<spring><ssl><docker><rabbitmq>;nothing found
-48620107;05.02.2018 10:11;5;Trouble communicating between two docker containers;<java><mysql><spring><docker><spring-boot>;internal port
-41983989;01.02.2017 15:48;5;Spring boot connection reset after a few minutes in docker container;<java><spring><docker><spring-boot><datasource>;db credentials
+48620107;05.02.2018 10:11;5;Trouble communicating between two docker containers;<java><mysql><spring><docker><spring-boot>;port, internal docker-compose network, database credentials
+41983989;01.02.2017 15:48;5;Spring boot connection reset after a few minutes in docker container;<java><spring><docker><spring-boot><datasource>;database credentials

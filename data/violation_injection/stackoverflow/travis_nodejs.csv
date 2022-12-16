@@ -6,7 +6,7 @@ id;creationdate;score;title;tags;notes
 44249044;29.05.2017 19:05;10;How can I install a specific node.js version on a PHP container on Travis CI?;<php><node.js><travis-ci>;node version
 12336566;09.09.2012 04:44;10;Travis-CI with jasmine-node;<node.js><travis-ci><jasmine-node>;node version
 45192449;2017-07-19 13:43:07.057;9;Cross-platform install of npm package sqlite3;<node.js><npm><cross-platform><travis-ci><node-sqlite3>;nothing found
-37168209;11.05.2016 16:19;8;Travis CI: Karma testing passing but always get errored build;<node.js><karma-runner><travis-ci>;nothing found
+37168209;11.05.2016 16:19;8;Travis CI: Karma testing passing but always get errored build;<node.js><karma-runner><travis-ci>;node version
 32319074;31.08.2015 20:04;8;Grunticon & TravisCI;<ruby-on-rails><node.js><npm><travis-ci>;nothing found
 42473384;26.02.2017 19:49;8;Travis CI not using correct node.js version;<node.js><testing><travis-ci>;node version
 33572756;2015-11-06 17:52:59.077;7;Travis CI cache: ignore specific folder/file from cache;<node.js><caching><travis-ci>;node version
@@ -49,53 +49,3 @@ id;creationdate;score;title;tags;notes
 48250235;14.01.2018 13:48;4;How to setup travis to skip script on particular nodejs version;<node.js><travis-ci>;node version
 40192994;2016-10-22 13:56:05.017;4;Build webpack on travis ci;<node.js><travis-ci><yarnpkg>;node version
 44830835;29.06.2017 16:45;4;Stop a node server in Travis CI;<node.js><travis-ci>;node version
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
