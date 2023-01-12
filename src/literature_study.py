@@ -42,6 +42,15 @@ def calculate_annotator_agreement_initial_set():
 def calculate_annotatore_agreement_snowballing_sample():
     pass
 
+
+def create_final_set():
+    df = pd.read_csv("../data/literature_study/snowballing.csv")
+    df_final = df[df["Annotator 1"] == "relevant"]
+
+    df_final.to_csv("../data/literature_study/final_set.csv", index=False)
+
+
 if __name__ == "__main__":
-    calculate_annotator_agreement_initial_set()  
-    create_snowballing_sample()
+    #calculate_annotator_agreement_initial_set()  
+    #create_snowballing_sample()
+    create_final_set()
