@@ -1,185 +1,189 @@
-Snowballing: Backward/Forward,Method,Annotator 1,Annotator 2,Origin Paper,Unnamed: 5,Unnamed: 6
-Early Detection of Configuration Errors to Reduce Failure Damage,Backward,relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-Finding heterogeneous-unsafe configuration parameters in cloud systems,Forward,relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-White-box Analysis for Modeling and Debugging the Performance of Configurable Systems,Forward,relevant,,Do not blame users for misconfigurations,,
-Managing Application Services over Service Provider Networks: Architecture and Dependency Analysis,Backward,relevant,,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications,,
-Developer mistakes in writing android manifests: An empirical study of configuration errors,Forward,relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Which configuration option should I change?,Forward,relevant,,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications,,
-Detecting Operator Errors In Cloud Computing Using Anti-Patterns,Forward,relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Inferring and applying def-use like configuration couplings in deployment descriptors,Forward,relevant,,Automated diagnosis of software configuration errors,,
-Using Feature Selection to Identify Chains of Insecure Software Configuration Parameters,Forward,relevant,,Do not blame users for misconfigurations,,
-Discovering correctness constraints for self-management of system configuration,Backward,relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Configuration tools: Working together,Backward,relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Balancing Soundness and Efficiency for Practical Testing of Configurable Systems,Backward,relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-New applications of software synthesis: Verification of configuration files and firewall repair,Forward,relevant,,Do not blame users for misconfigurations,,
-Precomputing Possible Configuration Error Diagnosis,Backward,relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-Varxplorer: Reasoning about feature interactions,Forward,relevant,,Mining configuration constraints: static analyses and empirical results,,
-Structuring the modeling space and supporting evolution in software product line engineering,Backward,relevant,,Managing emerging configuration dependencies in multi product lines,,
-Machine Learning for Feature Constraints Discovery,Forward,relevant,,Mining configuration constraints: static analyses and empirical results,,
-iGen: Dynamic Interaction Inference for Configurable Software,Backward,relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-Feature model extraction from large collections of informal product descriptions,Backward,relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Propagating configuration decisions with modal implication graphs,Forward ,relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Multi-layer software configuration: Empirical study on wordpress,Forward,relevant,,ConfDiagnoser: an automated configuration error diagnosis tool for Java software,,
-Online Detection of Operator Errors in Cloud Computing Using Anti-patterns,Forward,relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Co-diagnosing configuration failures in co-robotic systems,Forward,relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Do# ifdef-based Variation Points Realize Feature Model Constraints?,Forward,relevant,,Mining configuration constraints: static analyses and empirical results,,
-Constructing Interaction Test Suites for Highly-Configurable Systems in the Presence of Constraints: A Greedy Approach,Backward,relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-CHeSS: A Configuration Health Scoring System and Its Application to Network Devices,Forward,relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-A study of variability models and languages in the systems software domain,Backward,relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-A classification and survey of analysis strategies for software product lines,Backward,relevant,,Configuration-dependent fault localization,,
-Fixing Software Vulnerabilities and Configuration Errors,Forward,relevant,,Do not blame users for misconfigurations,,
-Detecting and Measuring Misconfigured Manifests in Android Apps,Forward,relevant,,Do not blame users for misconfigurations,,
-Variability Anomalies in Software Product Lines,Forward,relevant,,Automated diagnosis of software configuration errors,,
-Recommending Faulty Configurations for Interacting Systems Under Test Using Multi-objective Search,Forward ,relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-MAVERICK: Proactively detecting network control plane bugs using structural outlierness,Forward,relevant,,Do not blame users for misconfigurations,,
-Configuration-aware change impact analysis,Forward,relevant,,Do not blame users for misconfigurations,,
-Characterizing and Detecting Configuration Compatibility Issues in Android Apps,Forward,relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-Holistic Configuration Management at Facebook,Backward,relevant,,Understanding configuration dependencies of file systems,,
-Mining Container Image Repositories for Software Configuration and Beyond,Backward,relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-Ocasta: Clustering configuration settings for error recovery,Forward,relevant,,Automated diagnosis of software configuration errors,,
-Employing Multi-Objective Search and Machine Learning to Mine Cross Product Line Rules: A Technical Report,Forward ,relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Automatic type inference for proactive misconfiguration prevention,Backward,relevant,,ConfigFile++: Automatic comment enhancement for misconfiguration prevention,,
-Towards quality assurance of software product lines with adversarial configurations,Forward,relevant,,Mining configuration constraints: static analyses and empirical results,,
-Pinpointing Crash-Consistency Bugs in the HPC I/O Stack: A Cross-layer Approach,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-Automatic detection and removal of conformance faults in feature models,Forward,not-relevant,,Mining configuration constraints: static analyses and empirical results,,
-GuyDance: guiding configuration updates for product-line evolution,Forward,not-relevant,,Do not blame users for misconfigurations,,
-H5Prov: I/O Performance Analysis of Science Applications Using HDF5 File-level Provenance,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-A scheme for X-ray medical image denoising using sparse representations,Forward,not-relevant,,Encore: Exploiting system environment and correlation information for misconfiguration detection,,
-Spllift-Statically analyzing software product lines in minutes instead of years,Backward,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Localizing configurations in highly-configurable systems,Forward ,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Leveraging Artificial Intelligence Capabilities for Real-Time Monitoring of Cybersecurity Threats,Forward,not-relevant,,Early detection of security misconfiguration vulnerabilities in web applications,,
-Cp-detector: Using configuration-related performance properties to expose performance bugs,Forward,not-relevant,,Do not blame users for misconfigurations,,
-"CONFPROFITT: A CONFIGURATION-AWARE PERFORMANCE PROFILING, TESTING, AND TUNING FRAMEWORK",Forward,not-relevant,,Automated diagnosis of software configuration errors,,
-Why does your data leak? uncovering the data leakage in cloud from mobile apps,Forward,not-relevant,,Do not blame users for misconfigurations,,
-Fragment retrieval on models for model maintenance: Applying a multi-objective perspective to an industrial case study,Forward,not-relevant,,Mining configuration constraints: static analyses and empirical results,,
-Maintaining feature traceability with embedded annotations,Forward ,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-"The first decade of gui ripping: Extensions, applications, and broader impacts",Forward,not-relevant,,Automated diagnosis of software configuration errors,,
-Interactive program synthesis by augmented examples,Forward,not-relevant,,Synthesizing configuration file specifications with association rule learning,,
-A Study of Failure Recovery and Logging of High-Performance Parallel File Systems,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-Verifying File System Consistency at Runtime,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-Monitoring system-of-systems requirements in multi product lines,Forward,not-relevant,,Managing emerging configuration dependencies in multi product lines,,
-Above the Clouds: A Berkeley View of Cloud Computing,Backward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-See it to believe it? the role of visualisation in systems research,Forward,not-relevant,,Rex: Preventing bugs and misconfiguration in large services using correlated change analysis,,
-Rationalizing neural predictions,Backward,not-relevant,,Synthesizing configuration file specifications with association rule learning,,
-Pollution Attacks and Defense in Cloud-like Networks,Forward,not-relevant,,Synthesizing configuration file specifications with association rule learning,,
-General Attacks and Approaches in Cloud-Scale Networks,Forward,not-relevant,,Synthesizing configuration file specifications with association rule learning,,
-A view of 20th and 21st century software engineering,Backward,not-relevant,,Managing emerging configuration dependencies in multi product lines,,
-Preprocessor conditional removal by simple partial evaluation,Backward,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Flight data recorder: Monitoring persistent-state interactions to improve systems management,Backward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-ConfigMiner: Identifying the appropriate configuration options for config-related user questions by mining online forums,Forward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Poster: Re-Testing Configured Instances in the Production Environment-A Method for Reducing the Test Suite,Forward,not-relevant,,Automated diagnosis of software configuration errors,,
-Assessing and Comparing Security of Web Servers,Backward,not-relevant,,Early detection of security misconfiguration vulnerabilities in web applications,,
-Configuration Debugging as Search: Finding the Needle in the Haystack,Backward,not-relevant,,Do not blame users for misconfigurations,,
-A Novel Vehicle Tracking Algorithm Using Video Image Processing,Forward,not-relevant,,Mining configuration constraints: static analyses and empirical results,,
-A Generic Framework for Testing Parallel File Systems,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-An Empirical Study of the Reliability of UNIX Utilities,Backward ,not-relevant,,Challenges and opportunities: an in-depth empirical study on configuration error injection testing,,
-Attack surface reduction in contemporary operating systems via practical kernel debloating,Forward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Snitch: Interactive Decision Trees for Troubleshooting Misconfigurations,Backward,not-relevant,,Do not blame users for misconfigurations,,
-Nomen est omen: Exploring and exploiting similarities between argument and parameter names,Backward,not-relevant,,Do you really know how to configure your software? configuration constraints in source code may help,,
-Gaining Cyber Security Insight Through an Analysis of Open Source Intelligence Data: An East African Case Study,Forward,not-relevant,,Early detection of security misconfiguration vulnerabilities in web applications,,
-Forensic analysis of configuration-based attacks,Forward,not-relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-Some Trends in Web Application Development,Backward,not-relevant,,Early detection of security misconfiguration vulnerabilities in web applications,,
-Discovering Dependencies for Network Management,Backward,not-relevant,,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications,,
-A Component-based software configuration management model and its supporting system,Backward,not-relevant,,Encore: Exploiting system environment and correlation information for misconfiguration detection,,
-Bootstrapping an Infrastructure,Backward,not-relevant,,Encore: Exploiting system environment and correlation information for misconfiguration detection,,
-On Failure Diagnosis of the Storage Stack,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-A qualitative study of application-level caching,Forward ,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Synthesis of attributed feature models from product descriptions: Foundations,Forward,not-relevant,,Mining configuration constraints: static analyses and empirical results,,
-Effective identification of failureinducing changes: a hybrid approach,Backward,not-relevant,,Automated diagnosis of software configuration errors,,
-Exploring Information Technology Professional's Perspectives on Controlling Security Misconfigurations in the United States: A Generic Qualitative Inquiry,Forward,not-relevant,,Early detection of security misconfiguration vulnerabilities in web applications,,
-Fault Tolerance Performance Evaluation of Large-Scale Distributed Storage Systems HDFS and Ceph Case Study,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-"Profiling, what-if analysis, and cost-based optimization of mapreduce programs",Backward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Datasize-aware high dimensional configurations auto-tuning of in-memory cluster computing,Forward,not-relevant,,Do not blame users for misconfigurations,,
-Network monitoring: Present and future,Forward,not-relevant,,Tracking configuration changes proactively in large IT environments,,
-A Hybrid Analysis Framework for Detecting Web Application Vulnerabilities,Backward,not-relevant,,Early detection of security misconfiguration vulnerabilities in web applications,,
-Software fault interactions and implications for software testing,Backward,not-relevant,,Configuration-dependent fault localization,,
-Anti-unification and the theory of semirings,Forward,not-relevant,,Rex: Preventing bugs and misconfiguration in large services using correlated change analysis,,
-Facilitating Feature-Oriented Quality Assurance in Low-Maturity Variant-Rich Systems,Forward ,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Morpheus: Variability-aware refactoring in the wild,Forward,not-relevant,,Mining configuration constraints: static analyses and empirical results,,
-Understanding software provisioning: An ontological view,Forward,not-relevant,,ConfDiagnoser: an automated configuration error diagnosis tool for Java software,,
-A Survey on Security Issues in Service Delivery Models of Cloud Computing,Backward,not-relevant,,Early detection of security misconfiguration vulnerabilities in web applications,,
-Fine-grained access-control for the puppet configuration language,Backward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Understanding issue correlations: a case study of the hadoop system,Forward,not-relevant,,Do not blame users for misconfigurations,,
-A Large-Scale Analysis of the Security of Embedded Firmwares,Forward,not-relevant,,Early detection of security misconfiguration vulnerabilities in web applications,,
-LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation,Backward,not-relevant,,Do not blame users for misconfigurations,,
-Multi-intention-aware configuration selection for performance tuning,Forward,not-relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-Heuristic evaluation of user interfaces,Backward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-"Computing resource transformation, consolidation and decomposition in hybrid clouds",Forward,not-relevant,,Encore: Exploiting system environment and correlation information for misconfiguration detection,,
-Preventive Measures for Digital Learning Spaces' Security Issues,Forward,not-relevant,,Early detection of security misconfiguration vulnerabilities in web applications,,
-Tool choice matters: JavaScript quality assurance tools and usage outcomes in GitHub projects,Forward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Are ultra-large systems systems of systems?,Backward,not-relevant,,Managing emerging configuration dependencies in multi product lines,,
-Test confessions: A study of testing practices for plug-in systems,Backward,not-relevant,,Configuration-dependent fault localization,,
-Bugs as Deviant Behavior: A General Approach to Inferring Errors in Systems Code,Backward,not-relevant,,Do not blame users for misconfigurations,,
-Natural Language is a Programming Language: Applying Natural Language Processing to Software Development,Forward,not-relevant,,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications,,
-A survey on software fault localization,Backward,not-relevant,,Configuration-dependent fault localization,,
-"Recent Progress in Software Testing, Debugging and Analysis: A Survey",Forward,not-relevant,,Automated diagnosis of software configuration errors,,
-The vision of autonomic computing,Backward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-The present and future of event correlation: A need for end-to-end service fault localization,Backward,not-relevant,,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications,,
-File Systems are Hard to Test—Learning from Xfstests,Forward,not-relevant,,Encore: Exploiting system environment and correlation information for misconfiguration detection,,
-Privacy-Preserving Friends Troubleshooting Network,Backward,not-relevant,,Encore: Exploiting system environment and correlation information for misconfiguration detection,,
-All You Ever Wanted to Know about Dynamic Taint Analysis and Forward Symbolic Execution (but Might Have Been Afraid to Ask),Backward,not-relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-"Dependable computing: Concepts, limits, challenges",Backward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Integrated Event Management: Event Correlation using Dependency Graphs,Backward,not-relevant,,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications,,
-A Decision-Theoretic Approach to Network Fault Diagnosis and Follow-up Action,Forward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Understanding Variability-Aware Analysis in Low-Maturity Variant-Rich Systems,Forward ,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Semantic Fuzzing with Zest,Backward ,not-relevant,,Challenges and opportunities: an in-depth empirical study on configuration error injection testing,,
-Multivariable control design for a boiler furnace,Forward,not-relevant,,Do not blame users for misconfigurations,,
-On Improving (Non) Functional Testing,Forward,not-relevant,,Automated diagnosis of software configuration errors,,
-Explaining inference queries with bayesian optimization,Forward,not-relevant,,Encore: Exploiting system environment and correlation information for misconfiguration detection,,
-FHistorian: Locating features in version histories,Forward,not-relevant,,Mining configuration constraints: static analyses and empirical results,,
-Praxi: cloud software discovery that learns from practice,Forward,not-relevant,,Encore: Exploiting system environment and correlation information for misconfiguration detection,,
-Configuration Modeling and Diagnosis in Data Centers,Forward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Sequential pattern mining using a bitmap representation,Backward,not-relevant,,Synthesizing configuration file specifications with association rule learning,,
-PFault: A General Framework for Analyzing the Reliability of High-Performance Parallel File Systems,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-Users Beware: Preference Inconsistencies Ahead,Backward,not-relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-Configuration-Aware Regression Testing: An Empirical Study of Sampling and Prioritization,Backward,not-relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-Humanaware computer system design,Backward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Mining feature revisions in highly-configurable software systems,Forward ,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Induction of Decision Trees,Backward,not-relevant,,Misconfiguration detection for cloud datacenters using decision tree analysis,,
-Grand research challenges in information systems,Backward,not-relevant,,ConfVD: System Reactions Analysis and Evaluation Through Misconfiguration Injection,,
-A Feature-Oriented Method for Extracting a Product Line Asset from a Family of Legacy Applications,Forward,not-relevant,,Mining configuration constraints: static analyses and empirical results,,
-The Reliability of Modern File Systems in the face of SSD Errors,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-Improving Function Coverage with Munch: A Hybrid Fuzzing and Directed Symbolic Execution Approach,Backward ,not-relevant,,Challenges and opportunities: an in-depth empirical study on configuration error injection testing,,
-An empirical study on the developers’ perception of software coupling,Backward,not-relevant,,Rex: Preventing bugs and misconfiguration in large services using correlated change analysis,,
-Approaches to building self healing systems using dependency analysis,Backward,not-relevant,,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications,,
-Mining Quantative Association Rules in Large Relational Tables,Backward,not-relevant,,Encore: Exploiting system environment and correlation information for misconfiguration detection,,
-Automatically generating predicates and solutions for configuration troubleshooting,Backward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Stigmergic interoperability for autonomic systems: Managing complex interactions in multi-manager scenarios,Forward,not-relevant,,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications,,
-Configurations Everywhere: Implications for Testing and Debugging in Practice,Backward,not-relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-On compression of encrypted video,Forward ,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-IT troubleshooting with drift analysis in the DevOps era,Forward,not-relevant,,Encore: Exploiting system environment and correlation information for misconfiguration detection,,
-Secure expandable communication framework for POCT system development and deployment,Forward,not-relevant,,Managing emerging configuration dependencies in multi product lines,,
-Comparing the Intensity of Variability Changes in Software Product Line Evolution,Forward ,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Guest Editorial: A Retrospective of Special Sections on Software Testing and Program Analysis,Forward,not-relevant,,Do you really know how to configure your software? configuration constraints in source code may help,,
-Security Threat Landscape,Forward,not-relevant,,Early detection of security misconfiguration vulnerabilities in web applications,,
-Finding semantic bugs in file systems with an extensible fuzzing framework,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-Confprof: White-box performance profiling of configuration options,Forward,not-relevant,,Automated diagnosis of software configuration errors,,
-"Generative Programming: Methods, Tools, and Applications",Backward,not-relevant,,Mining configuration constraints: static analyses and empirical results,,
-Simulating the evolution of clone-and-own projects with VEVOS,Forward ,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Fail-slow fault tolerance needs programming support,Forward,not-relevant,,Do not blame users for misconfigurations,,
-Visualizing distributed system executions,Forward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Managing Gigabytes: Compressing and Indexing Documents and Images,Backward,not-relevant,,Automated diagnosis of software configuration errors,,
-Leveraging feature location to extract the clone-and-own relationships of a family of software products,Forward,not-relevant,,Mining configuration constraints: static analyses and empirical results,,
-Understanding and Finding Crash-Consistency Bugs in Parallel File Systems,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-Traceability link recovery between requirements and models using an evolutionary algorithm guided by a learning to rank algorithm: Train control and management case,Forward,not-relevant,,Mining configuration constraints: static analyses and empirical results,,
-Coevolution of variability models and related artifacts: A case study from the Linux kernel,Backward,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,,
-Dexter: faster troubleshooting of misconfiguration cases using system logs,Forward,not-relevant,,Do not blame users for misconfigurations,,
-Facilitating Connector Evolution With Architecture-Centric Development,Forward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Impact Analysis of Configuration Changes for Test Case Selection,Backward,not-relevant,,Understanding and discovering software configuration dependencies in cloud and datacenter systems,,
-What is All the FaaS About?-Remote Exploitation of FPGA-as-a-Service Platforms,Forward,not-relevant,,Encore: Exploiting system environment and correlation information for misconfiguration detection,,
-What have we learnt in 20 years of L4 microkernels?,Backward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-"A framework for approximate generalization in quantitative theories: RISC Report Series, 22-04",Forward,not-relevant,,Rex: Preventing bugs and misconfiguration in large services using correlated change analysis,,
-Finding broken Linux configuration specifications by statically analyzing the Kconfig language,Forward ,not-relevant,,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study,configuration language,
-Penetration testing for the inexperienced ethical hacker: A baseline methodology for detecting and mitigating web application vulnerabilities,Forward,not-relevant,,Early detection of security misconfiguration vulnerabilities in web applications,,
-You can't debug what you can't see: Expanding observability with the OmniTable,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-"Operationalization of the Metadata Element"" Difficulty""",Forward,not-relevant,,Misconfiguration detection for cloud datacenters using decision tree analysis,,
-Field studies of computer system administrators: Analysis of system management tools and practices,Backward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Performance Health Index for Complex Cyber Infrastructures,Forward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Actor in Multi Product Line,Forward,not-relevant,,Managing emerging configuration dependencies in multi product lines,,
-Puppet: A Declarative Subset of the Puppet Configuration Language,Forward,not-relevant,,Systems Approaches to Tackling Configuration Errors: A Survey,,
-Provenance in Collaborative in Silico Scientific Research,Backward,not-relevant,,Understanding configuration dependencies of file systems,,
-Declarative power sequencing,Forward,not-relevant,,Do not blame users for misconfigurations,,
-Improving awareness during product derivation in multi-user multi product line environments,Backward,not-relevant,,Managing emerging configuration dependencies in multi product lines,,
-There's a hole in that bucket! a large-scale analysis of misconfigured s3 buckets,Forward,not-relevant,,Early detection of security misconfiguration vulnerabilities in web applications,,
-Libsvm: A library for support vector machines,Backward,not-relevant,,ConfigFile++: Automatic comment enhancement for misconfiguration prevention,,
-Optimizing the performance-related configurations of object-relational mapping frameworks using a multi-objective genetic algorithm,Forward,not-relevant,,Do not blame users for misconfigurations,,
+Number,Snowballing: Backward/Forward,Method,Annotator 1,Annotator 2,Origin Paper
+1,Early Detection of Configuration Errors to Reduce Failure Damage,Backward,relevant,relevant,Understanding and discovering software configuration dependencies in cloud and datacenter systems
+2,Finding heterogeneous-unsafe configuration parameters in cloud systems,Forward,relevant,relevant,Understanding and discovering software configuration dependencies in cloud and datacenter systems
+3,Developer mistakes in writing android manifests: An empirical study of configuration errors,Forward,relevant,relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+4,Which configuration option should I change?,Forward,relevant,relevant,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications
+5,Inferring and applying def-use like configuration couplings in deployment descriptors,Forward,relevant,relevant,Automated diagnosis of software configuration errors
+6,Using Feature Selection to Identify Chains of Insecure Software Configuration Parameters,Forward,relevant,relevant,Do not blame users for misconfigurations
+7,Discovering correctness constraints for self-management of system configuration,Backward,relevant,relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+8,Configuration tools: Working together,Backward,relevant,relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+9,Balancing Soundness and Efficiency for Practical Testing of Configurable Systems,Backward,relevant,relevant,Understanding and discovering software configuration dependencies in cloud and datacenter systems
+10,New applications of software synthesis: Verification of configuration files and firewall repair,Forward,relevant,relevant,Do not blame users for misconfigurations
+11,Precomputing Possible Configuration Error Diagnosis,Backward,relevant,relevant,Understanding and discovering software configuration dependencies in cloud and datacenter systems
+12,On Cross-stack Configuration Errors,Backward,relevant,relevant,Understanding and discovering software configuration dependencies in cloud and datacenter systems
+13,iGen: Dynamic Interaction Inference for Configurable Software,Backward,relevant,relevant,Understanding and discovering software configuration dependencies in cloud and datacenter systems
+14,Feature model extraction from large collections of informal product descriptions,Backward,relevant,relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+15,Propagating configuration decisions with modal implication graphs,Forward,relevant,relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+16,Multi-layer software configuration: Empirical study on wordpress,Forward,relevant,relevant,ConfDiagnoser: an automated configuration error diagnosis tool for Java software
+1,Pinpointing Crash-Consistency Bugs in the HPC I/O Stack: A Cross-layer Approach,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+2,Automatic detection and removal of conformance faults in feature models,Forward,not relevant,not relevant,Mining configuration constraints: static analyses and empirical results
+3,GuyDance: guiding configuration updates for product-line evolution,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+4,H5Prov: I/O Performance Analysis of Science Applications Using HDF5 File-level Provenance,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+5,A scheme for X-ray medical image denoising using sparse representations,Forward,not relevant,not relevant,Encore: Exploiting system environment and correlation information for misconfiguration detection
+6,Spllift-Statically analyzing software product lines in minutes instead of years,Backward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+7,Localizing configurations in highly-configurable systems,Forward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+8,Leveraging Artificial Intelligence Capabilities for Real-Time Monitoring of Cybersecurity Threats,Forward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+9,Cp-detector: Using configuration-related performance properties to expose performance bugs,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+10,"CONFPROFITT: A CONFIGURATION-AWARE PERFORMANCE PROFILING, TESTING, AND TUNING FRAMEWORK",Forward,not relevant,not relevant,Automated diagnosis of software configuration errors
+11,Why does your data leak? uncovering the data leakage in cloud from mobile apps,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+12,Fragment retrieval on models for model maintenance: Applying a multi-objective perspective to an industrial case study,Forward,not relevant,not relevant,Mining configuration constraints: static analyses and empirical results
+13,Maintaining feature traceability with embedded annotations,Forward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+14,"The first decade of gui ripping: Extensions, applications, and broader impacts",Forward,not relevant,not relevant,Automated diagnosis of software configuration errors
+15,Interactive program synthesis by augmented examples,Forward,not relevant,not relevant,Synthesizing configuration file specifications with association rule learning
+16,A Study of Failure Recovery and Logging of High-Performance Parallel File Systems,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+17,Verifying File System Consistency at Runtime,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+18,Monitoring system-of-systems requirements in multi product lines,Forward,not relevant,not relevant,Managing emerging configuration dependencies in multi product lines
+19,Above the Clouds: A Berkeley View of Cloud Computing,Backward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+20,See it to believe it? the role of visualisation in systems research,Forward,not relevant,not relevant,Rex: Preventing bugs and misconfiguration in large services using correlated change analysis
+21,Rationalizing neural predictions,Backward,not relevant,not relevant,Synthesizing configuration file specifications with association rule learning
+22,Pollution Attacks and Defense in Cloud-like Networks,Forward,not relevant,not relevant,Synthesizing configuration file specifications with association rule learning
+23,General Attacks and Approaches in Cloud-Scale Networks,Forward,not relevant,not relevant,Synthesizing configuration file specifications with association rule learning
+24,A view of 20th and 21st century software engineering,Backward,not relevant,not relevant,Managing emerging configuration dependencies in multi product lines
+25,Preprocessor conditional removal by simple partial evaluation,Backward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+26,Flight data recorder: Monitoring persistent-state interactions to improve systems management,Backward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+27,ConfigMiner: Identifying the appropriate configuration options for config-related user questions by mining online forums,Forward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+28,Poster: Re-Testing Configured Instances in the Production Environment-A Method for Reducing the Test Suite,Forward,not relevant,not relevant,Automated diagnosis of software configuration errors
+29,Assessing and Comparing Security of Web Servers,Backward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+30,Configuration Debugging as Search: Finding the Needle in the Haystack,Backward,not relevant,not relevant,Do not blame users for misconfigurations
+31,A Novel Vehicle Tracking Algorithm Using Video Image Processing,Forward,not relevant,not relevant,Mining configuration constraints: static analyses and empirical results
+32,A Generic Framework for Testing Parallel File Systems,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+33,An Empirical Study of the Reliability of UNIX Utilities,Backward,not relevant,not relevant,Challenges and opportunities: an in-depth empirical study on configuration error injection testing
+34,Attack surface reduction in contemporary operating systems via practical kernel debloating,Forward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+35,Snitch: Interactive Decision Trees for Troubleshooting Misconfigurations,Backward,not relevant,not relevant,Do not blame users for misconfigurations
+36,Nomen est omen: Exploring and exploiting similarities between argument and parameter names,Backward,not relevant,not relevant,Do you really know how to configure your software? configuration constraints in source code may help
+37,Gaining Cyber Security Insight Through an Analysis of Open Source Intelligence Data: An East African Case Study,Forward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+38,Forensic analysis of configuration-based attacks,Forward,not relevant,not relevant,Understanding and discovering software configuration dependencies in cloud and datacenter systems
+39,Some Trends in Web Application Development,Backward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+40,Discovering Dependencies for Network Management,Backward,not relevant,not relevant,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications
+41,A Component-based software configuration management model and its supporting system,Backward,not relevant,not relevant,Encore: Exploiting system environment and correlation information for misconfiguration detection
+42,Bootstrapping an Infrastructure,Backward,not relevant,not relevant,Encore: Exploiting system environment and correlation information for misconfiguration detection
+43,On Failure Diagnosis of the Storage Stack,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+44,A qualitative study of application-level caching,Forward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+45,Synthesis of attributed feature models from product descriptions: Foundations,Forward,not relevant,not relevant,Mining configuration constraints: static analyses and empirical results
+46,Effective identification of failureinducing changes: a hybrid approach,Backward,not relevant,not relevant,Automated diagnosis of software configuration errors
+47,Exploring Information Technology Professional's Perspectives on Controlling Security Misconfigurations in the United States: A Generic Qualitative Inquiry,Forward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+48,Fault Tolerance Performance Evaluation of Large-Scale Distributed Storage Systems HDFS and Ceph Case Study,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+49,"Profiling, what-if analysis, and cost-based optimization of mapreduce programs",Backward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+50,Datasize-aware high dimensional configurations auto-tuning of in-memory cluster computing,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+51,Network monitoring: Present and future,Forward,not relevant,not relevant,Tracking configuration changes proactively in large IT environments
+52,A Hybrid Analysis Framework for Detecting Web Application Vulnerabilities,Backward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+53,Software fault interactions and implications for software testing,Backward,not relevant,not relevant,Configuration-dependent fault localization
+54,Anti-unification and the theory of semirings,Forward,not relevant,not relevant,Rex: Preventing bugs and misconfiguration in large services using correlated change analysis
+55,Facilitating Feature-Oriented Quality Assurance in Low-Maturity Variant-Rich Systems,Forward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+56,Morpheus: Variability-aware refactoring in the wild,Forward,not relevant,not relevant,Mining configuration constraints: static analyses and empirical results
+57,Understanding software provisioning: An ontological view,Forward,not relevant,not relevant,ConfDiagnoser: an automated configuration error diagnosis tool for Java software
+58,A Survey on Security Issues in Service Delivery Models of Cloud Computing,Backward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+59,Fine-grained access-control for the puppet configuration language,Backward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+60,Understanding issue correlations: a case study of the hadoop system,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+61,A Large-Scale Analysis of the Security of Embedded Firmwares,Forward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+62,LLVM: A Compilation Framework for Lifelong Program Analysis & Transformation,Backward,not relevant,not relevant,Do not blame users for misconfigurations
+63,Multi-intention-aware configuration selection for performance tuning,Forward,not relevant,not relevant,Understanding and discovering software configuration dependencies in cloud and datacenter systems
+64,Heuristic evaluation of user interfaces,Backward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+65,"Computing resource transformation, consolidation and decomposition in hybrid clouds",Forward,not relevant,not relevant,Encore: Exploiting system environment and correlation information for misconfiguration detection
+66,Preventive Measures for Digital Learning Spaces' Security Issues,Forward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+67,Tool choice matters: JavaScript quality assurance tools and usage outcomes in GitHub projects,Forward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+68,Are ultra-large systems systems of systems?,Backward,not relevant,not relevant,Managing emerging configuration dependencies in multi product lines
+69,Test confessions: A study of testing practices for plug-in systems,Backward,not relevant,not relevant,Configuration-dependent fault localization
+70,Bugs as Deviant Behavior: A General Approach to Inferring Errors in Systems Code,Backward,not relevant,not relevant,Do not blame users for misconfigurations
+71,Natural Language is a Programming Language: Applying Natural Language Processing to Software Development,Forward,not relevant,not relevant,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications
+72,A survey on software fault localization,Backward,not relevant,not relevant,Configuration-dependent fault localization
+73,"Recent Progress in Software Testing, Debugging and Analysis: A Survey",Forward,not relevant,not relevant,Automated diagnosis of software configuration errors
+74,The vision of autonomic computing,Backward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+75,The present and future of event correlation: A need for end-to-end service fault localization,Backward,not relevant,not relevant,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications
+76,File Systems are Hard to Test—Learning from Xfstests,Forward,not relevant,not relevant,Encore: Exploiting system environment and correlation information for misconfiguration detection
+77,Privacy-Preserving Friends Troubleshooting Network,Backward,not relevant,not relevant,Encore: Exploiting system environment and correlation information for misconfiguration detection
+78,All You Ever Wanted to Know about Dynamic Taint Analysis and Forward Symbolic Execution (but Might Have Been Afraid to Ask),Backward,not relevant,not relevant,Understanding and discovering software configuration dependencies in cloud and datacenter systems
+79,"Dependable computing: Concepts, limits, challenges",Backward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+80,Integrated Event Management: Event Correlation using Dependency Graphs,Backward,not relevant,not relevant,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications
+81,A Decision-Theoretic Approach to Network Fault Diagnosis and Follow-up Action,Forward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+82,Understanding Variability-Aware Analysis in Low-Maturity Variant-Rich Systems,Forward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+83,Semantic Fuzzing with Zest,Backward,not relevant,not relevant,Challenges and opportunities: an in-depth empirical study on configuration error injection testing
+84,Multivariable control design for a boiler furnace,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+85,On Improving (Non) Functional Testing,Forward,not relevant,not relevant,Automated diagnosis of software configuration errors
+86,Explaining inference queries with bayesian optimization,Forward,not relevant,not relevant,Encore: Exploiting system environment and correlation information for misconfiguration detection
+87,FHistorian: Locating features in version histories,Forward,not relevant,not relevant,Mining configuration constraints: static analyses and empirical results
+88,Praxi: cloud software discovery that learns from practice,Forward,not relevant,not relevant,Encore: Exploiting system environment and correlation information for misconfiguration detection
+89,Configuration Modeling and Diagnosis in Data Centers,Forward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+90,Sequential pattern mining using a bitmap representation,Backward,not relevant,not relevant,Synthesizing configuration file specifications with association rule learning
+91,PFault: A General Framework for Analyzing the Reliability of High-Performance Parallel File Systems,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+92,Configuration-Aware Regression Testing: An Empirical Study of Sampling and Prioritization,Backward,not relevant,not relevant,Understanding and discovering software configuration dependencies in cloud and datacenter systems
+93,Humanaware computer system design,Backward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+94,Mining feature revisions in highly-configurable software systems,Forward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+95,Induction of Decision Trees,Backward,not relevant,not relevant,Misconfiguration detection for cloud datacenters using decision tree analysis
+96,Grand research challenges in information systems,Backward,not relevant,not relevant,ConfVD: System Reactions Analysis and Evaluation Through Misconfiguration Injection
+97,A Feature-Oriented Method for Extracting a Product Line Asset from a Family of Legacy Applications,Forward,not relevant,not relevant,Mining configuration constraints: static analyses and empirical results
+98,The Reliability of Modern File Systems in the face of SSD Errors,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+99,Improving Function Coverage with Munch: A Hybrid Fuzzing and Directed Symbolic Execution Approach,Backward,not relevant,not relevant,Challenges and opportunities: an in-depth empirical study on configuration error injection testing
+100,An empirical study on the developers’ perception of software coupling,Backward,not relevant,not relevant,Rex: Preventing bugs and misconfiguration in large services using correlated change analysis
+101,Approaches to building self healing systems using dependency analysis,Backward,not relevant,not relevant,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications
+102,Mining Quantative Association Rules in Large Relational Tables,Backward,not relevant,not relevant,Encore: Exploiting system environment and correlation information for misconfiguration detection
+103,Automatically generating predicates and solutions for configuration troubleshooting,Backward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+104,Stigmergic interoperability for autonomic systems: Managing complex interactions in multi-manager scenarios,Forward,not relevant,not relevant,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications
+105,Configurations Everywhere: Implications for Testing and Debugging in Practice,Backward,not relevant,not relevant,Understanding and discovering software configuration dependencies in cloud and datacenter systems
+106,On compression of encrypted video,Forward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+107,IT troubleshooting with drift analysis in the DevOps era,Forward,not relevant,not relevant,Encore: Exploiting system environment and correlation information for misconfiguration detection
+108,Secure expandable communication framework for POCT system development and deployment,Forward,not relevant,not relevant,Managing emerging configuration dependencies in multi product lines
+109,Comparing the Intensity of Variability Changes in Software Product Line Evolution,Forward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+110,Guest Editorial: A Retrospective of Special Sections on Software Testing and Program Analysis,Forward,not relevant,not relevant,Do you really know how to configure your software? configuration constraints in source code may help
+111,Security Threat Landscape,Forward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+112,Finding semantic bugs in file systems with an extensible fuzzing framework,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+113,Confprof: White-box performance profiling of configuration options,Forward,not relevant,not relevant,Automated diagnosis of software configuration errors
+114,"Generative Programming: Methods, Tools, and Applications",Backward,not relevant,not relevant,Mining configuration constraints: static analyses and empirical results
+115,Simulating the evolution of clone-and-own projects with VEVOS,Forward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+116,Fail-slow fault tolerance needs programming support,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+117,Visualizing distributed system executions,Forward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+118,Managing Gigabytes: Compressing and Indexing Documents and Images,Backward,not relevant,not relevant,Automated diagnosis of software configuration errors
+119,Leveraging feature location to extract the clone-and-own relationships of a family of software products,Forward,not relevant,not relevant,Mining configuration constraints: static analyses and empirical results
+120,Understanding and Finding Crash-Consistency Bugs in Parallel File Systems,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+121,Traceability link recovery between requirements and models using an evolutionary algorithm guided by a learning to rank algorithm: Train control and management case,Forward,not relevant,not relevant,Mining configuration constraints: static analyses and empirical results
+122,Coevolution of variability models and related artifacts: A case study from the Linux kernel,Backward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+123,Dexter: faster troubleshooting of misconfiguration cases using system logs,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+124,Facilitating Connector Evolution With Architecture-Centric Development,Forward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+125,Impact Analysis of Configuration Changes for Test Case Selection,Backward,not relevant,not relevant,Understanding and discovering software configuration dependencies in cloud and datacenter systems
+126,What is All the FaaS About?-Remote Exploitation of FPGA-as-a-Service Platforms,Forward,not relevant,not relevant,Encore: Exploiting system environment and correlation information for misconfiguration detection
+127,What have we learnt in 20 years of L4 microkernels?,Backward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+128,"A framework for approximate generalization in quantitative theories: RISC Report Series, 22-04",Forward,not relevant,not relevant,Rex: Preventing bugs and misconfiguration in large services using correlated change analysis
+129,Finding broken Linux configuration specifications by statically analyzing the Kconfig language,Forward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+130,Penetration testing for the inexperienced ethical hacker: A baseline methodology for detecting and mitigating web application vulnerabilities,Forward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+131,You can't debug what you can't see: Expanding observability with the OmniTable,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+132,"Operationalization of the Metadata Element"" Difficulty""",Forward,not relevant,not relevant,Misconfiguration detection for cloud datacenters using decision tree analysis
+133,Field studies of computer system administrators: Analysis of system management tools and practices,Backward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+134,Performance Health Index for Complex Cyber Infrastructures,Forward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+135,Actor in Multi Product Line,Forward,not relevant,not relevant,Managing emerging configuration dependencies in multi product lines
+136,Puppet: A Declarative Subset of the Puppet Configuration Language,Forward,not relevant,not relevant,Systems Approaches to Tackling Configuration Errors: A Survey
+137,Provenance in Collaborative in Silico Scientific Research,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+138,Declarative power sequencing,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+139,Improving awareness during product derivation in multi-user multi product line environments,Backward,not relevant,not relevant,Managing emerging configuration dependencies in multi product lines
+140,There's a hole in that bucket! a large-scale analysis of misconfigured s3 buckets,Forward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+141,Libsvm: A library for support vector machines,Backward,not relevant,not relevant,ConfigFile++: Automatic comment enhancement for misconfiguration prevention
+142,Optimizing the performance-related configurations of object-relational mapping frameworks using a multi-objective genetic algorithm,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+143,A Performance Study of Lustre File System Checker: Bottlenecks and Potentials,Backward,not relevant,not relevant,Understanding configuration dependencies of file systems
+144,Methods and systems for migrating networked systems across administrative domains,Forward,not relevant,not relevant,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications
+145,An experiment comparing lifted and delayed variability-aware program analysis,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+146,Approaches for Service Deployment,Backward,not relevant,not relevant,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications
+147,Automated configuration bug report prediction using text mining,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+148,Beauty and the Beast: The Theory and Practice of Information Integration,Backward,not relevant,not relevant,Determining configuration parameter dependencies via analysis of configuration data from multi-tiered enterprise applications
+149,Web Application Security Assessment Tools,Backward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+150,Parsing of configuration files,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+151,Reducing Total Cost of Ownership,Backward,not relevant,not relevant,Do not blame users for misconfigurations
+152,Fuzz Revisited: A Reexamination of the Reliability of UNIX Utilities and Services,Backward ,not relevant,not relevant,Challenges and opportunities: an in-depth empirical study on configuration error injection testing
+153,@tcomment: Testing javadoc comments to detect comment-code inconsistencies,Backward,not relevant,not relevant,ConfigFile++: Automatic comment enhancement for misconfiguration prevention
+154,Kmax: Finding all configurations of kbuild makefiles statically,Forward ,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+155,Going through the Life Cycle of Faults in Clouds: Guidelines on Fault Handling,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+156,The Top Cyber Security Risks,Backward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+157,Learning to Adapt: Analyses for Configurable Software,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+158,DevSecOps: Enabling Security by Design in Rapid Software Development,Forward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+159,Harmonics extraction based on higher order statistics spectrum decomposition for a unified texture model,Forward,not relevant,not relevant,Mining configuration constraints: static analyses and empirical results
+160,Formal semantics of the CDL language,Backward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+161,FuzzFactory: Domain-Specific Fuzzing with Waypoints,Backward ,not relevant,not relevant,Challenges and opportunities: an in-depth empirical study on configuration error injection testing
+162,Dip-coating of Superhydrophobic Surface on Irregular Substrates for Dropwise Condensation,Forward ,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+163,GRASShopper - Complete Heap Verification with Mixed Specifications,Backward,not relevant,not relevant,Synthesizing configuration file specifications with association rule learning
+164,Testing and Comparing Web Vulnerability Scanning Tools for SQL Injection and XSS Attacks,Backward,not relevant,not relevant,Early detection of security misconfiguration vulnerabilities in web applications
+165,Grammar filtering for syntax-guided synthesis,Forward,not relevant,not relevant,Synthesizing configuration file specifications with association rule learning
+166,Comprehensive assessment of 3D visual images,Forward,not relevant,not relevant,Automated diagnosis of software configuration errors
+167,Evolution of the Linux kernel variability model,Backward,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+168,Mixsets: Combining Annotative and Compositional Approaches to Variability and Product Lines,Forward,not relevant,not relevant,Do you really know how to configure your software? configuration constraints in source code may help
+169,A lightweight IoT firmware vulnerability detection scheme based on homology detection,Forward,not relevant,not relevant,Automated diagnosis of software configuration errors
+170,Leveraging Virtual Machine Introspection for {Hot-Hardening} of Arbitrary {Cloud-User} Applications,Forward,not relevant,not relevant,Do not blame users for misconfigurations
+171,Interpretability of configurable software in the biosciences,Forward ,not relevant,not relevant,Where Do Configuration Constraints Stem From? An Extraction Approach and an Empirical Study
+172,Early and efficient quality assurance of risky technical parameters in a mechatronic design process,Forward,not relevant,not relevant,Managing emerging configuration dependencies in multi product lines
