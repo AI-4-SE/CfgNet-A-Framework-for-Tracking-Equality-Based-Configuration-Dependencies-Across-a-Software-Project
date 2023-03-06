@@ -92,7 +92,7 @@ We also showed how CfgNet helps to prevent possible configuration dependency con
 
 ## Evaluation: Commit History
 
-To demonstrate that cross-technology configuration dependencies occur and matter in practice, we analyzed the commit history of the top [50 software repositories](data/commit_analysis/repositories.csv) with the most stars from GitHub (June 2022) that incoporated at least two technologies we cover with our implementation.
+To demonstrate the need to efficiently track cross-technology configuration dependencies, we analyzed the commit history of the top [50 software repositories](data/commit_analysis/repositories.csv) with the most stars from GitHub (June 2022) that incoporated at least two technologies that we cover with our implementation.
 We replaced repositories that could not be analyzed due to errors caused by third-party libraries and that did not represent real software systems, such as collections of best practices, link hubs, or frameworks.
 We analyzed the commit history of the subject systems in an automated manner and tracked all detected dependency conflicts for each commit.
 The results of applying CfgNet to the commit history of 50 software repositories can be found [here](data/commit_analysis/analysis_statistics.csv).
@@ -100,7 +100,7 @@ The results of applying CfgNet to the commit history of 50 software repositories
 We found dependency conflicts in 39 of these repositories, whereas 32 repositories contained Modified Option Conflicts.
 From each of the 32 repositories, we sampled 50 Modified Option Conflicts and reviewed them. 
 If there were less than 50 conflicts, we reviewed all of them.
-In total, we manually inspected [883 Modified Option Conflicts](data/commit_analysis/conflict_inspection/reviewed/), annotated 785 (89 %) conflicts with yes, 98 (11 %) with no, and classified the conflicts into different categories based on their ratings and the involved configuration types.
+In total, we manually inspected [883 Modified Option Conflicts](data/commit_analysis/conflict_inspection/reviewed/), annotated 785 (89 %) conflicts with yes (i.e., true positives), 98 (11 %) with no, and classified the conflicts into different categories based on their ratings and the involved configuration types.
 
 Our results demonstrate our current implementation, which includes nine technology plugins and a general linker, can find hundreds of potential configuration conflicts in software projects, showing that configuration dependencies occur and matter in practice.
 Especially, the high number of affected software projects and the manual analysis with about 89~% true positives indicate not only the relevance of our approach for real-world software projects, but also its applicability already in its current state.
